@@ -1,0 +1,14 @@
+/home/sysprog/glibc/build/dummy.o: /home/sysprog/glibc/build/dummy.c \
+ ../include/stdc-predef.h /home/sysprog/glibc/build/libc-modules.h \
+ ../include/libc-symbols.h /home/sysprog/glibc/build/config.h \
+ ../sysdeps/generic/symbol-hacks.h
+
+../include/stdc-predef.h:
+
+/home/sysprog/glibc/build/libc-modules.h:
+
+../include/libc-symbols.h:
+
+/home/sysprog/glibc/build/config.h:
+
+../sysdeps/generic/symbol-hacks.h:

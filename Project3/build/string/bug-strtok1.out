@@ -1,0 +1,10 @@
+[LeeDoYuJae]test strtok
+[LeeDoYuJae]cp = 0x7ffd8d340a80, len = 6
+[LeeDoYuJae]token: x (0)
+[LeeDoYuJae]token: NULL (0)
+[LeeDoYuJae]token: NULL (0)
+[LeeDoYuJae]test strtok_r
+[LeeDoYuJae]cp = 0x7ffd8d340a60, len = 6
+[LeeDoYuJae]token: x, next = 0x7ffd8d340a63 (0)
+[LeeDoYuJae]token: NULL, next = 0x7ffd8d340a66 (0)
+[LeeDoYuJae]token: NULL,  next = 0x7ffd8d340a66 (0)

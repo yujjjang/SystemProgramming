@@ -1,0 +1,2 @@
+tst-rwlock9: allocatestack.c:504: allocate_stack: Assertion `size != 0' failed.
+[LeeDoYuJae]Didn't expect signal from child: got `Aborted'

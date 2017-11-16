@@ -1,0 +1,3 @@
+[LeeDoYuJae]PASS: NULL buffer returns -1 and sets errno to EINVAL.
+[LeeDoYuJae]FAIL: Did not read even one password line given a uid.
+[LeeDoYuJae]FAIL: Did not find even one invalid uid.

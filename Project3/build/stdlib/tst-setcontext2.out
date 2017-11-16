@@ -1,0 +1,5 @@
+[LeeDoYuJae]after getcontext
+[LeeDoYuJae]after setcontext
+[LeeDoYuJae]after swapcontext
+[LeeDoYuJae]after returned from swapcontext
+[LeeDoYuJae]test succeeded

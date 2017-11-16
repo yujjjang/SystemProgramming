@@ -1,0 +1,4 @@
+PASS: shadow/check-installed-headers-c
+PASS: shadow/check-installed-headers-cxx
+PASS: shadow/tst-putspent
+PASS: shadow/tst-shadow

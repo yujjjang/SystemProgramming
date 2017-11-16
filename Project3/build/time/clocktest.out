@@ -1,0 +1,2 @@
+[LeeDoYuJae]885910 clock ticks per second (start=621,stop=886531)
+[LeeDoYuJae]CLOCKS_PER_SEC=1000000, sysconf(_SC_CLK_TCK)=100

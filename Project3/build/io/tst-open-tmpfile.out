@@ -1,0 +1,12 @@
+[LeeDoYuJae]info: testing open at: .
+[LeeDoYuJae]info: testing openat at: .
+[LeeDoYuJae]info: testing open64 at: .
+[LeeDoYuJae]info: testing openat64 at: .
+[LeeDoYuJae]info: testing open at: /dev/shm
+[LeeDoYuJae]info: testing openat at: /dev/shm
+[LeeDoYuJae]info: testing open64 at: /dev/shm
+[LeeDoYuJae]info: testing openat64 at: /dev/shm
+[LeeDoYuJae]info: testing open at: /tmp
+[LeeDoYuJae]info: testing openat at: /tmp
+[LeeDoYuJae]info: testing open64 at: /tmp
+[LeeDoYuJae]info: testing openat64 at: /tmp

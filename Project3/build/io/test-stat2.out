@@ -1,0 +1,42 @@
+[LeeDoYuJae]
+Name: Makefile
+[LeeDoYuJae]st_dev: 2049 vs 2049  OK
+[LeeDoYuJae]st_ino: 3159322 vs 3159322  OK
+[LeeDoYuJae]st_mode: 33204 vs 33204  OK
+[LeeDoYuJae]st_nlink: 1 vs 1  OK
+[LeeDoYuJae]st_uid: 1000 vs 1000  OK
+[LeeDoYuJae]st_gid: 1000 vs 1000  OK
+[LeeDoYuJae]st_rdev: 0 vs 0  OK
+[LeeDoYuJae]st_blksize: 4096 vs 4096  OK
+[LeeDoYuJae]st_blocks: 16 vs 16  OK
+[LeeDoYuJae]st_atime: 1509350838 vs 1509350838  OK
+[LeeDoYuJae]st_mtime: 1508596401 vs 1508596401  OK
+[LeeDoYuJae]st_ctime: 1508596401 vs 1508596401  OK
+[LeeDoYuJae]
+Name: .
+[LeeDoYuJae]st_dev: 2049 vs 2049  OK
+[LeeDoYuJae]st_ino: 3159321 vs 3159321  OK
+[LeeDoYuJae]st_mode: 16893 vs 16893  OK
+[LeeDoYuJae]st_nlink: 4 vs 4  OK
+[LeeDoYuJae]st_uid: 1000 vs 1000  OK
+[LeeDoYuJae]st_gid: 1000 vs 1000  OK
+[LeeDoYuJae]st_rdev: 0 vs 0  OK
+[LeeDoYuJae]st_blksize: 4096 vs 4096  OK
+[LeeDoYuJae]st_blocks: 8 vs 8  OK
+[LeeDoYuJae]st_atime: 1509350838 vs 1509350838  OK
+[LeeDoYuJae]st_mtime: 1508596567 vs 1508596567  OK
+[LeeDoYuJae]st_ctime: 1508596567 vs 1508596567  OK
+[LeeDoYuJae]
+Name: /home/sysprog/glibc/build/io/test-stat2
+[LeeDoYuJae]st_dev: 2049 vs 2049  OK
+[LeeDoYuJae]st_ino: 3028419 vs 3028419  OK
+[LeeDoYuJae]st_mode: 33277 vs 33277  OK
+[LeeDoYuJae]st_nlink: 1 vs 1  OK
+[LeeDoYuJae]st_uid: 1000 vs 1000  OK
+[LeeDoYuJae]st_gid: 1000 vs 1000  OK
+[LeeDoYuJae]st_rdev: 0 vs 0  OK
+[LeeDoYuJae]st_blksize: 4096 vs 4096  OK
+[LeeDoYuJae]st_blocks: 40 vs 40  OK
+[LeeDoYuJae]st_atime: 1509363489 vs 1509363489  OK
+[LeeDoYuJae]st_mtime: 1509363489 vs 1509363489  OK
+[LeeDoYuJae]st_ctime: 1509363489 vs 1509363489  OK

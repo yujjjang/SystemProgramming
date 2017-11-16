@@ -1,0 +1,8 @@
+PASS: iconv/check-installed-headers-c
+PASS: iconv/check-installed-headers-cxx
+PASS: iconv/tst-iconv1
+PASS: iconv/tst-iconv2
+PASS: iconv/tst-iconv3
+PASS: iconv/tst-iconv4
+PASS: iconv/tst-iconv5
+PASS: iconv/tst-iconv6

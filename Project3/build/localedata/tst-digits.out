@@ -1,0 +1,43 @@
+[LeeDoYuJae]CODESET = "UTF-8"
+[LeeDoYuJae]  0: got "       ₀", expected "       ₀"[LeeDoYuJae]  -> OK
+[LeeDoYuJae]  1: got "       ₁", expected "       ₁"[LeeDoYuJae]  -> OK
+[LeeDoYuJae]  2: got "       ₂", expected "       ₂"[LeeDoYuJae]  -> OK
+[LeeDoYuJae]  3: got "       ₃", expected "       ₃"[LeeDoYuJae]  -> OK
+[LeeDoYuJae]  4: got "       ₄", expected "       ₄"[LeeDoYuJae]  -> OK
+[LeeDoYuJae]  5: got "       ₅", expected "       ₅"[LeeDoYuJae]  -> OK
+[LeeDoYuJae]  6: got "       ₆", expected "       ₆"[LeeDoYuJae]  -> OK
+[LeeDoYuJae]  7: got "       ₇", expected "       ₇"[LeeDoYuJae]  -> OK
+[LeeDoYuJae]  8: got "       ₈", expected "       ₈"[LeeDoYuJae]  -> OK
+[LeeDoYuJae]  9: got "       ₉", expected "       ₉"[LeeDoYuJae]  -> OK
+[LeeDoYuJae] 10: got "    ₁₁", expected "    ₁₁"[LeeDoYuJae]  -> OK
+[LeeDoYuJae] 11: got "    ₁₂", expected "    ₁₂"[LeeDoYuJae]  -> OK
+[LeeDoYuJae] 12: got " ₁₂₃", expected " ₁₂₃"[LeeDoYuJae]  -> OK
+[LeeDoYuJae] 13: got " ₁₂₃", expected " ₁₂₃"[LeeDoYuJae]  -> OK
+[LeeDoYuJae] 14: got "₁₂₃₄", expected "₁₂₃₄"[LeeDoYuJae]  -> OK
+[LeeDoYuJae] 15: got "₁,₂₃₄", expected "₁,₂₃₄"[LeeDoYuJae]  -> OK
+[LeeDoYuJae] 16: got "₁₂,₃₄₅", expected "₁₂,₃₄₅"[LeeDoYuJae]  -> OK
+[LeeDoYuJae] 17: got "₁₂₃,₄₅₆", expected "₁₂₃,₄₅₆"[LeeDoYuJae]  -> OK
+[LeeDoYuJae] 18: got "₁,₂₃₄,₅₆₇", expected "₁,₂₃₄,₅₆₇"[LeeDoYuJae]  -> OK
+[LeeDoYuJae]0 failures in printf tests
+[LeeDoYuJae]  0: got "         ₀", expected "         ₀"[LeeDoYuJae]  -> OK
+[LeeDoYuJae]  1: got "         ₁", expected "         ₁"[LeeDoYuJae]  -> OK
+[LeeDoYuJae]  2: got "         ₂", expected "         ₂"[LeeDoYuJae]  -> OK
+[LeeDoYuJae]  3: got "         ₃", expected "         ₃"[LeeDoYuJae]  -> OK
+[LeeDoYuJae]  4: got "         ₄", expected "         ₄"[LeeDoYuJae]  -> OK
+[LeeDoYuJae]  5: got "         ₅", expected "         ₅"[LeeDoYuJae]  -> OK
+[LeeDoYuJae]  6: got "         ₆", expected "         ₆"[LeeDoYuJae]  -> OK
+[LeeDoYuJae]  7: got "         ₇", expected "         ₇"[LeeDoYuJae]  -> OK
+[LeeDoYuJae]  8: got "         ₈", expected "         ₈"[LeeDoYuJae]  -> OK
+[LeeDoYuJae]  9: got "         ₉", expected "         ₉"[LeeDoYuJae]  -> OK
+[LeeDoYuJae] 10: got "        ₁₁", expected "        ₁₁"[LeeDoYuJae]  -> OK
+[LeeDoYuJae] 11: got "        ₁₂", expected "        ₁₂"[LeeDoYuJae]  -> OK
+[LeeDoYuJae] 12: got "       ₁₂₃", expected "       ₁₂₃"[LeeDoYuJae]  -> OK
+[LeeDoYuJae] 13: got "       ₁₂₃", expected "       ₁₂₃"[LeeDoYuJae]  -> OK
+[LeeDoYuJae] 14: got "      ₁₂₃₄", expected "      ₁₂₃₄"[LeeDoYuJae]  -> OK
+[LeeDoYuJae] 15: got "     ₁,₂₃₄", expected "     ₁,₂₃₄"[LeeDoYuJae]  -> OK
+[LeeDoYuJae] 16: got "    ₁₂,₃₄₅", expected "    ₁₂,₃₄₅"[LeeDoYuJae]  -> OK
+[LeeDoYuJae] 17: got "   ₁₂₃,₄₅₆", expected "   ₁₂₃,₄₅₆"[LeeDoYuJae]  -> OK
+[LeeDoYuJae] 18: got " ₁,₂₃₄,₅₆₇", expected " ₁,₂₃₄,₅₆₇"[LeeDoYuJae]  -> OK
+[LeeDoYuJae]0 failures in wprintf tests
+[LeeDoYuJae]0 failures in ctype tests
+[LeeDoYuJae]0 failures in wctype tests

@@ -1,0 +1,4 @@
+[LeeDoYuJae]Result of fscanf %n = 0
+[LeeDoYuJae]Scanned format = 0
+[LeeDoYuJae]Result of fscanf "" = 0
+[LeeDoYuJae]Result of fscanf "BLURB" = -1

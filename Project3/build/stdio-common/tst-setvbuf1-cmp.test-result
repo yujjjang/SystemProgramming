@@ -1,0 +1,2 @@
+FAIL: stdio-common/tst-setvbuf1-cmp
+original exit status 1

@@ -1,0 +1,16 @@
+= Start
+@ /home/sysprog/glibc/build/libc.so.6:(fmemopen+0x24)[0x7f14f007e924] + 0x7f14f22ae6a0 0x28
+@ /home/sysprog/glibc/build/libc.so.6:(fopencookie+0x4f)[0x7f14f0074e9f] + 0x7f14f22ae6d0 0x118
+@ /home/sysprog/glibc/build/libc.so.6:(_IO_file_doallocate+0x79)[0x7f14f00740b9] + 0x7f14f22ae7f0 0x2000
+@ /home/sysprog/glibc/build/libc.so.6:[0x7f14f007e7bb] - 0x7f14f22ae6a0
+@ /home/sysprog/glibc/build/libc.so.6:(_IO_setb+0x53)[0x7f14f00824c3] - 0x7f14f22ae7f0
+@ /home/sysprog/glibc/build/libc.so.6:(fclose+0x125)[0x7f14f0074295] - 0x7f14f22ae6d0
+@ /home/sysprog/glibc/build/libc.so.6:(fmemopen+0x24)[0x7f14f007e924] + 0x7f14f22ae6a0 0x28
+@ /home/sysprog/glibc/build/libc.so.6:(fmemopen+0x157)[0x7f14f007ea57] - 0x7f14f22ae6a0
+@ /home/sysprog/glibc/build/libc.so.6:(fmemopen+0x24)[0x7f14f007e924] + 0x7f14f22ae6a0 0x28
+@ /home/sysprog/glibc/build/libc.so.6:(fmemopen+0x88)[0x7f14f007e988] + 0x7f14f22ae7f0 0x2a
+@ /home/sysprog/glibc/build/libc.so.6:(fmemopen+0x14f)[0x7f14f007ea4f] - 0x7f14f22ae7f0
+@ /home/sysprog/glibc/build/libc.so.6:(fmemopen+0x157)[0x7f14f007ea57] - 0x7f14f22ae6a0
+@ /home/sysprog/glibc/build/libc.so.6:(fmemopen+0x24)[0x7f14f007e924] + 0x7f14f22ae6a0 0x28
+@ /home/sysprog/glibc/build/libc.so.6:(fmemopen+0x88)[0x7f14f007e988] + (nil) 0xffffffffffffffff
+@ /home/sysprog/glibc/build/libc.so.6:(fmemopen+0x157)[0x7f14f007ea57] - 0x7f14f22ae6a0

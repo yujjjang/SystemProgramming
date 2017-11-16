@@ -1,0 +1,32 @@
+[LeeDoYuJae]Testing fesetenv FZ restoration: mxcsr = 1f80
+[LeeDoYuJae]PASS: fesetenv FZ restoration
+[LeeDoYuJae]Testing fesetenv FZ restoration 2: mxcsr = 9f80
+[LeeDoYuJae]PASS: fesetenv FZ restoration 2
+[LeeDoYuJae]Testing fesetenv (FE_NOMASK_ENV) FZ restoration: mxcsr = 100
+[LeeDoYuJae]PASS: fesetenv (FE_NOMASK_ENV) FZ restoration
+[LeeDoYuJae]Testing fesetenv (FE_DFL_ENV) FZ restoration: mxcsr = 1f80
+[LeeDoYuJae]PASS: fesetenv (FE_DFL_ENV) FZ restoration
+[LeeDoYuJae]Testing fesetenv DAZ restoration: mxcsr = 1f80
+[LeeDoYuJae]PASS: fesetenv DAZ restoration
+[LeeDoYuJae]Testing fesetenv DAZ restoration 2: mxcsr = 1fc0
+[LeeDoYuJae]PASS: fesetenv DAZ restoration 2
+[LeeDoYuJae]Testing fesetenv (FE_NOMASK_ENV) DAZ restoration: mxcsr = 100
+[LeeDoYuJae]PASS: fesetenv (FE_NOMASK_ENV) DAZ restoration
+[LeeDoYuJae]Testing fesetenv (FE_DFL_ENV) DAZ restoration: mxcsr = 1f80
+[LeeDoYuJae]PASS: fesetenv (FE_DFL_ENV) DAZ restoration
+[LeeDoYuJae]Testing fesetenv DM restoration: mxcsr = 1f80
+[LeeDoYuJae]PASS: fesetenv DM restoration
+[LeeDoYuJae]Testing fesetenv DM restoration 2: mxcsr = 1e80
+[LeeDoYuJae]PASS: fesetenv DM restoration 2
+[LeeDoYuJae]Testing fesetenv (FE_NOMASK_ENV) DM restoration: mxcsr = 100
+[LeeDoYuJae]PASS: fesetenv (FE_NOMASK_ENV) DM restoration
+[LeeDoYuJae]Testing fesetenv (FE_DFL_ENV) DM restoration: mxcsr = 1f80
+[LeeDoYuJae]PASS: fesetenv (FE_DFL_ENV) DM restoration
+[LeeDoYuJae]Testing fesetenv DE restoration: mxcsr = 1f80
+[LeeDoYuJae]PASS: fesetenv DE restoration
+[LeeDoYuJae]Testing fesetenv DE restoration 2: mxcsr = 1f82
+[LeeDoYuJae]PASS: fesetenv DE restoration 2
+[LeeDoYuJae]Testing fesetenv (FE_NOMASK_ENV) DE restoration: mxcsr = 100
+[LeeDoYuJae]PASS: fesetenv (FE_NOMASK_ENV) DE restoration
+[LeeDoYuJae]Testing fesetenv (FE_DFL_ENV) DE restoration: mxcsr = 1f80
+[LeeDoYuJae]PASS: fesetenv (FE_DFL_ENV) DE restoration

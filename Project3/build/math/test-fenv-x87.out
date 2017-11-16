@@ -1,0 +1,24 @@
+[LeeDoYuJae]Testing fesetenv precision restoration: cw = 37f
+[LeeDoYuJae]PASS: fesetenv precision restoration
+[LeeDoYuJae]Testing fesetenv precision restoration 2: cw = 7f
+[LeeDoYuJae]PASS: fesetenv precision restoration 2
+[LeeDoYuJae]Testing fesetenv (FE_NOMASK_ENV) precision restoration: cw = 342
+[LeeDoYuJae]PASS: fesetenv (FE_NOMASK_ENV) precision restoration
+[LeeDoYuJae]Testing fesetenv (FE_DFL_ENV) precision restoration: cw = 37f
+[LeeDoYuJae]PASS: fesetenv (FE_DFL_ENV) precision restoration
+[LeeDoYuJae]Testing fesetenv denormal mask restoration: cw = 37f
+[LeeDoYuJae]PASS: fesetenv denormal mask restoration
+[LeeDoYuJae]Testing fesetenv denormal mask restoration 2: cw = 37d
+[LeeDoYuJae]PASS: fesetenv denormal mask restoration 2
+[LeeDoYuJae]Testing fesetenv (FE_NOMASK_ENV) denormal mask restoration: cw = 342
+[LeeDoYuJae]PASS: fesetenv (FE_NOMASK_ENV) denormal mask restoration
+[LeeDoYuJae]Testing fesetenv (FE_DFL_ENV) denormal mask restoration: cw = 37f
+[LeeDoYuJae]PASS: fesetenv (FE_DFL_ENV) denormal mask restoration
+[LeeDoYuJae]Testing fesetenv denormal exception restoration: sw = 0
+[LeeDoYuJae]PASS: fesetenv denormal exception restoration
+[LeeDoYuJae]Testing fesetenv denormal exception restoration 2: sw = 2
+[LeeDoYuJae]PASS: fesetenv denormal exception restoration 2
+[LeeDoYuJae]Testing fesetenv (FE_NOMASK_ENV) exception restoration: sw = 0
+[LeeDoYuJae]PASS: fesetenv (FE_NOMASK_ENV) exception restoration
+[LeeDoYuJae]Testing fesetenv (FE_DFL_ENV) exception restoration: sw = 0
+[LeeDoYuJae]PASS: fesetenv (FE_DFL_ENV) exception restoration

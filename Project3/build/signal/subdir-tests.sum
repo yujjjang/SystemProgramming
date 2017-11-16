@@ -1,0 +1,8 @@
+PASS: signal/check-installed-headers-c
+PASS: signal/check-installed-headers-cxx
+PASS: signal/tst-raise
+PASS: signal/tst-signal
+PASS: signal/tst-signal-numbers
+PASS: signal/tst-sigset
+PASS: signal/tst-sigset2
+PASS: signal/tst-sigsimple

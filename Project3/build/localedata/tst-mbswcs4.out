@@ -1,0 +1,4 @@
+[LeeDoYuJae]used locale: "de_DE.UTF-8"
+[LeeDoYuJae]mbsrtowcs (&wc, &src, 1, &state) -> 1[LeeDoYuJae], wc = 37, src = buf+1
+[LeeDoYuJae]mbsrtowcs (&wc, &src, 1, &state) -> 1[LeeDoYuJae], wc = 8364, src = buf+4
+[LeeDoYuJae]mbsrtowcs (&wc, &src, 1, &state) -> 1[LeeDoYuJae], wc = 955, src = buf+6

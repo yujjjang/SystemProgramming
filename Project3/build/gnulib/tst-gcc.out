@@ -1,0 +1,6 @@
+[LeeDoYuJae]integer         is 1: OK
+[LeeDoYuJae]pointer         is 5: OK
+[LeeDoYuJae]real            is 8: OK
+[LeeDoYuJae]complex         is 9: OK
+[LeeDoYuJae]record          is 12: OK
+[LeeDoYuJae]union           is 13: OK

@@ -1,0 +1,15 @@
+[LeeDoYuJae]limit RLIMIT_CORE OK
+[LeeDoYuJae]limit RLIMIT_CPU OK
+[LeeDoYuJae]limit RLIMIT_DATA OK
+[LeeDoYuJae]limit RLIMIT_FSIZE OK
+[LeeDoYuJae]limit RLIMIT_NOFILE OK
+[LeeDoYuJae]limit RLIMIT_STACK OK
+[LeeDoYuJae]limit RLIMIT_AS OK
+[LeeDoYuJae]limit RLIMIT_RSS OK
+[LeeDoYuJae]limit RLIMIT_NPROC OK
+[LeeDoYuJae]limit RLIMIT_MEMLOCK OK
+[LeeDoYuJae]limit RLIMIT_LOCKS OK
+[LeeDoYuJae]limit RLIMIT_SIGPENDING OK
+[LeeDoYuJae]limit RLIMIT_MSGQUEUE OK
+[LeeDoYuJae]limit RLIMIT_NICE OK
+[LeeDoYuJae]limit RLIMIT_RTPRIO OK

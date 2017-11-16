@@ -1,0 +1,14 @@
+[LeeDoYuJae]Testing 0
+[LeeDoYuJae]fesetexcept (0) succeeded
+[LeeDoYuJae]Testing FE_ALL_EXCEPT
+[LeeDoYuJae]fesetexcept (FE_ALL_EXCEPT) succeeded
+[LeeDoYuJae]Testing FE_DIVBYZERO
+[LeeDoYuJae]fesetexcept (FE_DIVBYZERO) succeeded
+[LeeDoYuJae]Testing FE_INEXACT
+[LeeDoYuJae]fesetexcept (FE_INEXACT) succeeded
+[LeeDoYuJae]Testing FE_INVALID
+[LeeDoYuJae]fesetexcept (FE_INVALID) succeeded
+[LeeDoYuJae]Testing FE_OVERFLOW
+[LeeDoYuJae]fesetexcept (FE_OVERFLOW) succeeded
+[LeeDoYuJae]Testing FE_UNDERFLOW
+[LeeDoYuJae]fesetexcept (FE_UNDERFLOW) succeeded

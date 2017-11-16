@@ -1,0 +1,1248 @@
+[LeeDoYuJae]C: wcstol (L"A") == 10
+[LeeDoYuJae]PASS: C: wcstol (L"A")
+[LeeDoYuJae]C: wcstoul (L"A") == 10
+[LeeDoYuJae]PASS: C: wcstoul (L"A")
+[LeeDoYuJae]C: wcstoll (L"A") == 10
+[LeeDoYuJae]PASS: C: wcstoll (L"A")
+[LeeDoYuJae]C: wcstoull (L"A") == 10
+[LeeDoYuJae]PASS: C: wcstoull (L"A")
+[LeeDoYuJae]C: wcstol (L"a") == 10
+[LeeDoYuJae]PASS: C: wcstol (L"a")
+[LeeDoYuJae]C: wcstoul (L"a") == 10
+[LeeDoYuJae]PASS: C: wcstoul (L"a")
+[LeeDoYuJae]C: wcstoll (L"a") == 10
+[LeeDoYuJae]PASS: C: wcstoll (L"a")
+[LeeDoYuJae]C: wcstoull (L"a") == 10
+[LeeDoYuJae]PASS: C: wcstoull (L"a")
+[LeeDoYuJae]C: wcstol (L"B") == 11
+[LeeDoYuJae]PASS: C: wcstol (L"B")
+[LeeDoYuJae]C: wcstoul (L"B") == 11
+[LeeDoYuJae]PASS: C: wcstoul (L"B")
+[LeeDoYuJae]C: wcstoll (L"B") == 11
+[LeeDoYuJae]PASS: C: wcstoll (L"B")
+[LeeDoYuJae]C: wcstoull (L"B") == 11
+[LeeDoYuJae]PASS: C: wcstoull (L"B")
+[LeeDoYuJae]C: wcstol (L"b") == 11
+[LeeDoYuJae]PASS: C: wcstol (L"b")
+[LeeDoYuJae]C: wcstoul (L"b") == 11
+[LeeDoYuJae]PASS: C: wcstoul (L"b")
+[LeeDoYuJae]C: wcstoll (L"b") == 11
+[LeeDoYuJae]PASS: C: wcstoll (L"b")
+[LeeDoYuJae]C: wcstoull (L"b") == 11
+[LeeDoYuJae]PASS: C: wcstoull (L"b")
+[LeeDoYuJae]C: wcstol (L"C") == 12
+[LeeDoYuJae]PASS: C: wcstol (L"C")
+[LeeDoYuJae]C: wcstoul (L"C") == 12
+[LeeDoYuJae]PASS: C: wcstoul (L"C")
+[LeeDoYuJae]C: wcstoll (L"C") == 12
+[LeeDoYuJae]PASS: C: wcstoll (L"C")
+[LeeDoYuJae]C: wcstoull (L"C") == 12
+[LeeDoYuJae]PASS: C: wcstoull (L"C")
+[LeeDoYuJae]C: wcstol (L"c") == 12
+[LeeDoYuJae]PASS: C: wcstol (L"c")
+[LeeDoYuJae]C: wcstoul (L"c") == 12
+[LeeDoYuJae]PASS: C: wcstoul (L"c")
+[LeeDoYuJae]C: wcstoll (L"c") == 12
+[LeeDoYuJae]PASS: C: wcstoll (L"c")
+[LeeDoYuJae]C: wcstoull (L"c") == 12
+[LeeDoYuJae]PASS: C: wcstoull (L"c")
+[LeeDoYuJae]C: wcstol (L"D") == 13
+[LeeDoYuJae]PASS: C: wcstol (L"D")
+[LeeDoYuJae]C: wcstoul (L"D") == 13
+[LeeDoYuJae]PASS: C: wcstoul (L"D")
+[LeeDoYuJae]C: wcstoll (L"D") == 13
+[LeeDoYuJae]PASS: C: wcstoll (L"D")
+[LeeDoYuJae]C: wcstoull (L"D") == 13
+[LeeDoYuJae]PASS: C: wcstoull (L"D")
+[LeeDoYuJae]C: wcstol (L"d") == 13
+[LeeDoYuJae]PASS: C: wcstol (L"d")
+[LeeDoYuJae]C: wcstoul (L"d") == 13
+[LeeDoYuJae]PASS: C: wcstoul (L"d")
+[LeeDoYuJae]C: wcstoll (L"d") == 13
+[LeeDoYuJae]PASS: C: wcstoll (L"d")
+[LeeDoYuJae]C: wcstoull (L"d") == 13
+[LeeDoYuJae]PASS: C: wcstoull (L"d")
+[LeeDoYuJae]C: wcstol (L"E") == 14
+[LeeDoYuJae]PASS: C: wcstol (L"E")
+[LeeDoYuJae]C: wcstoul (L"E") == 14
+[LeeDoYuJae]PASS: C: wcstoul (L"E")
+[LeeDoYuJae]C: wcstoll (L"E") == 14
+[LeeDoYuJae]PASS: C: wcstoll (L"E")
+[LeeDoYuJae]C: wcstoull (L"E") == 14
+[LeeDoYuJae]PASS: C: wcstoull (L"E")
+[LeeDoYuJae]C: wcstol (L"e") == 14
+[LeeDoYuJae]PASS: C: wcstol (L"e")
+[LeeDoYuJae]C: wcstoul (L"e") == 14
+[LeeDoYuJae]PASS: C: wcstoul (L"e")
+[LeeDoYuJae]C: wcstoll (L"e") == 14
+[LeeDoYuJae]PASS: C: wcstoll (L"e")
+[LeeDoYuJae]C: wcstoull (L"e") == 14
+[LeeDoYuJae]PASS: C: wcstoull (L"e")
+[LeeDoYuJae]C: wcstol (L"F") == 15
+[LeeDoYuJae]PASS: C: wcstol (L"F")
+[LeeDoYuJae]C: wcstoul (L"F") == 15
+[LeeDoYuJae]PASS: C: wcstoul (L"F")
+[LeeDoYuJae]C: wcstoll (L"F") == 15
+[LeeDoYuJae]PASS: C: wcstoll (L"F")
+[LeeDoYuJae]C: wcstoull (L"F") == 15
+[LeeDoYuJae]PASS: C: wcstoull (L"F")
+[LeeDoYuJae]C: wcstol (L"f") == 15
+[LeeDoYuJae]PASS: C: wcstol (L"f")
+[LeeDoYuJae]C: wcstoul (L"f") == 15
+[LeeDoYuJae]PASS: C: wcstoul (L"f")
+[LeeDoYuJae]C: wcstoll (L"f") == 15
+[LeeDoYuJae]PASS: C: wcstoll (L"f")
+[LeeDoYuJae]C: wcstoull (L"f") == 15
+[LeeDoYuJae]PASS: C: wcstoull (L"f")
+[LeeDoYuJae]C: wcstol (L"G") == 16
+[LeeDoYuJae]PASS: C: wcstol (L"G")
+[LeeDoYuJae]C: wcstoul (L"G") == 16
+[LeeDoYuJae]PASS: C: wcstoul (L"G")
+[LeeDoYuJae]C: wcstoll (L"G") == 16
+[LeeDoYuJae]PASS: C: wcstoll (L"G")
+[LeeDoYuJae]C: wcstoull (L"G") == 16
+[LeeDoYuJae]PASS: C: wcstoull (L"G")
+[LeeDoYuJae]C: wcstol (L"g") == 16
+[LeeDoYuJae]PASS: C: wcstol (L"g")
+[LeeDoYuJae]C: wcstoul (L"g") == 16
+[LeeDoYuJae]PASS: C: wcstoul (L"g")
+[LeeDoYuJae]C: wcstoll (L"g") == 16
+[LeeDoYuJae]PASS: C: wcstoll (L"g")
+[LeeDoYuJae]C: wcstoull (L"g") == 16
+[LeeDoYuJae]PASS: C: wcstoull (L"g")
+[LeeDoYuJae]C: wcstol (L"H") == 17
+[LeeDoYuJae]PASS: C: wcstol (L"H")
+[LeeDoYuJae]C: wcstoul (L"H") == 17
+[LeeDoYuJae]PASS: C: wcstoul (L"H")
+[LeeDoYuJae]C: wcstoll (L"H") == 17
+[LeeDoYuJae]PASS: C: wcstoll (L"H")
+[LeeDoYuJae]C: wcstoull (L"H") == 17
+[LeeDoYuJae]PASS: C: wcstoull (L"H")
+[LeeDoYuJae]C: wcstol (L"h") == 17
+[LeeDoYuJae]PASS: C: wcstol (L"h")
+[LeeDoYuJae]C: wcstoul (L"h") == 17
+[LeeDoYuJae]PASS: C: wcstoul (L"h")
+[LeeDoYuJae]C: wcstoll (L"h") == 17
+[LeeDoYuJae]PASS: C: wcstoll (L"h")
+[LeeDoYuJae]C: wcstoull (L"h") == 17
+[LeeDoYuJae]PASS: C: wcstoull (L"h")
+[LeeDoYuJae]C: wcstol (L"I") == 18
+[LeeDoYuJae]PASS: C: wcstol (L"I")
+[LeeDoYuJae]C: wcstoul (L"I") == 18
+[LeeDoYuJae]PASS: C: wcstoul (L"I")
+[LeeDoYuJae]C: wcstoll (L"I") == 18
+[LeeDoYuJae]PASS: C: wcstoll (L"I")
+[LeeDoYuJae]C: wcstoull (L"I") == 18
+[LeeDoYuJae]PASS: C: wcstoull (L"I")
+[LeeDoYuJae]C: wcstol (L"i") == 18
+[LeeDoYuJae]PASS: C: wcstol (L"i")
+[LeeDoYuJae]C: wcstoul (L"i") == 18
+[LeeDoYuJae]PASS: C: wcstoul (L"i")
+[LeeDoYuJae]C: wcstoll (L"i") == 18
+[LeeDoYuJae]PASS: C: wcstoll (L"i")
+[LeeDoYuJae]C: wcstoull (L"i") == 18
+[LeeDoYuJae]PASS: C: wcstoull (L"i")
+[LeeDoYuJae]C: wcstol (L"J") == 19
+[LeeDoYuJae]PASS: C: wcstol (L"J")
+[LeeDoYuJae]C: wcstoul (L"J") == 19
+[LeeDoYuJae]PASS: C: wcstoul (L"J")
+[LeeDoYuJae]C: wcstoll (L"J") == 19
+[LeeDoYuJae]PASS: C: wcstoll (L"J")
+[LeeDoYuJae]C: wcstoull (L"J") == 19
+[LeeDoYuJae]PASS: C: wcstoull (L"J")
+[LeeDoYuJae]C: wcstol (L"j") == 19
+[LeeDoYuJae]PASS: C: wcstol (L"j")
+[LeeDoYuJae]C: wcstoul (L"j") == 19
+[LeeDoYuJae]PASS: C: wcstoul (L"j")
+[LeeDoYuJae]C: wcstoll (L"j") == 19
+[LeeDoYuJae]PASS: C: wcstoll (L"j")
+[LeeDoYuJae]C: wcstoull (L"j") == 19
+[LeeDoYuJae]PASS: C: wcstoull (L"j")
+[LeeDoYuJae]C: wcstol (L"K") == 20
+[LeeDoYuJae]PASS: C: wcstol (L"K")
+[LeeDoYuJae]C: wcstoul (L"K") == 20
+[LeeDoYuJae]PASS: C: wcstoul (L"K")
+[LeeDoYuJae]C: wcstoll (L"K") == 20
+[LeeDoYuJae]PASS: C: wcstoll (L"K")
+[LeeDoYuJae]C: wcstoull (L"K") == 20
+[LeeDoYuJae]PASS: C: wcstoull (L"K")
+[LeeDoYuJae]C: wcstol (L"k") == 20
+[LeeDoYuJae]PASS: C: wcstol (L"k")
+[LeeDoYuJae]C: wcstoul (L"k") == 20
+[LeeDoYuJae]PASS: C: wcstoul (L"k")
+[LeeDoYuJae]C: wcstoll (L"k") == 20
+[LeeDoYuJae]PASS: C: wcstoll (L"k")
+[LeeDoYuJae]C: wcstoull (L"k") == 20
+[LeeDoYuJae]PASS: C: wcstoull (L"k")
+[LeeDoYuJae]C: wcstol (L"L") == 21
+[LeeDoYuJae]PASS: C: wcstol (L"L")
+[LeeDoYuJae]C: wcstoul (L"L") == 21
+[LeeDoYuJae]PASS: C: wcstoul (L"L")
+[LeeDoYuJae]C: wcstoll (L"L") == 21
+[LeeDoYuJae]PASS: C: wcstoll (L"L")
+[LeeDoYuJae]C: wcstoull (L"L") == 21
+[LeeDoYuJae]PASS: C: wcstoull (L"L")
+[LeeDoYuJae]C: wcstol (L"l") == 21
+[LeeDoYuJae]PASS: C: wcstol (L"l")
+[LeeDoYuJae]C: wcstoul (L"l") == 21
+[LeeDoYuJae]PASS: C: wcstoul (L"l")
+[LeeDoYuJae]C: wcstoll (L"l") == 21
+[LeeDoYuJae]PASS: C: wcstoll (L"l")
+[LeeDoYuJae]C: wcstoull (L"l") == 21
+[LeeDoYuJae]PASS: C: wcstoull (L"l")
+[LeeDoYuJae]C: wcstol (L"M") == 22
+[LeeDoYuJae]PASS: C: wcstol (L"M")
+[LeeDoYuJae]C: wcstoul (L"M") == 22
+[LeeDoYuJae]PASS: C: wcstoul (L"M")
+[LeeDoYuJae]C: wcstoll (L"M") == 22
+[LeeDoYuJae]PASS: C: wcstoll (L"M")
+[LeeDoYuJae]C: wcstoull (L"M") == 22
+[LeeDoYuJae]PASS: C: wcstoull (L"M")
+[LeeDoYuJae]C: wcstol (L"m") == 22
+[LeeDoYuJae]PASS: C: wcstol (L"m")
+[LeeDoYuJae]C: wcstoul (L"m") == 22
+[LeeDoYuJae]PASS: C: wcstoul (L"m")
+[LeeDoYuJae]C: wcstoll (L"m") == 22
+[LeeDoYuJae]PASS: C: wcstoll (L"m")
+[LeeDoYuJae]C: wcstoull (L"m") == 22
+[LeeDoYuJae]PASS: C: wcstoull (L"m")
+[LeeDoYuJae]C: wcstol (L"N") == 23
+[LeeDoYuJae]PASS: C: wcstol (L"N")
+[LeeDoYuJae]C: wcstoul (L"N") == 23
+[LeeDoYuJae]PASS: C: wcstoul (L"N")
+[LeeDoYuJae]C: wcstoll (L"N") == 23
+[LeeDoYuJae]PASS: C: wcstoll (L"N")
+[LeeDoYuJae]C: wcstoull (L"N") == 23
+[LeeDoYuJae]PASS: C: wcstoull (L"N")
+[LeeDoYuJae]C: wcstol (L"n") == 23
+[LeeDoYuJae]PASS: C: wcstol (L"n")
+[LeeDoYuJae]C: wcstoul (L"n") == 23
+[LeeDoYuJae]PASS: C: wcstoul (L"n")
+[LeeDoYuJae]C: wcstoll (L"n") == 23
+[LeeDoYuJae]PASS: C: wcstoll (L"n")
+[LeeDoYuJae]C: wcstoull (L"n") == 23
+[LeeDoYuJae]PASS: C: wcstoull (L"n")
+[LeeDoYuJae]C: wcstol (L"O") == 24
+[LeeDoYuJae]PASS: C: wcstol (L"O")
+[LeeDoYuJae]C: wcstoul (L"O") == 24
+[LeeDoYuJae]PASS: C: wcstoul (L"O")
+[LeeDoYuJae]C: wcstoll (L"O") == 24
+[LeeDoYuJae]PASS: C: wcstoll (L"O")
+[LeeDoYuJae]C: wcstoull (L"O") == 24
+[LeeDoYuJae]PASS: C: wcstoull (L"O")
+[LeeDoYuJae]C: wcstol (L"o") == 24
+[LeeDoYuJae]PASS: C: wcstol (L"o")
+[LeeDoYuJae]C: wcstoul (L"o") == 24
+[LeeDoYuJae]PASS: C: wcstoul (L"o")
+[LeeDoYuJae]C: wcstoll (L"o") == 24
+[LeeDoYuJae]PASS: C: wcstoll (L"o")
+[LeeDoYuJae]C: wcstoull (L"o") == 24
+[LeeDoYuJae]PASS: C: wcstoull (L"o")
+[LeeDoYuJae]C: wcstol (L"P") == 25
+[LeeDoYuJae]PASS: C: wcstol (L"P")
+[LeeDoYuJae]C: wcstoul (L"P") == 25
+[LeeDoYuJae]PASS: C: wcstoul (L"P")
+[LeeDoYuJae]C: wcstoll (L"P") == 25
+[LeeDoYuJae]PASS: C: wcstoll (L"P")
+[LeeDoYuJae]C: wcstoull (L"P") == 25
+[LeeDoYuJae]PASS: C: wcstoull (L"P")
+[LeeDoYuJae]C: wcstol (L"p") == 25
+[LeeDoYuJae]PASS: C: wcstol (L"p")
+[LeeDoYuJae]C: wcstoul (L"p") == 25
+[LeeDoYuJae]PASS: C: wcstoul (L"p")
+[LeeDoYuJae]C: wcstoll (L"p") == 25
+[LeeDoYuJae]PASS: C: wcstoll (L"p")
+[LeeDoYuJae]C: wcstoull (L"p") == 25
+[LeeDoYuJae]PASS: C: wcstoull (L"p")
+[LeeDoYuJae]C: wcstol (L"Q") == 26
+[LeeDoYuJae]PASS: C: wcstol (L"Q")
+[LeeDoYuJae]C: wcstoul (L"Q") == 26
+[LeeDoYuJae]PASS: C: wcstoul (L"Q")
+[LeeDoYuJae]C: wcstoll (L"Q") == 26
+[LeeDoYuJae]PASS: C: wcstoll (L"Q")
+[LeeDoYuJae]C: wcstoull (L"Q") == 26
+[LeeDoYuJae]PASS: C: wcstoull (L"Q")
+[LeeDoYuJae]C: wcstol (L"q") == 26
+[LeeDoYuJae]PASS: C: wcstol (L"q")
+[LeeDoYuJae]C: wcstoul (L"q") == 26
+[LeeDoYuJae]PASS: C: wcstoul (L"q")
+[LeeDoYuJae]C: wcstoll (L"q") == 26
+[LeeDoYuJae]PASS: C: wcstoll (L"q")
+[LeeDoYuJae]C: wcstoull (L"q") == 26
+[LeeDoYuJae]PASS: C: wcstoull (L"q")
+[LeeDoYuJae]C: wcstol (L"R") == 27
+[LeeDoYuJae]PASS: C: wcstol (L"R")
+[LeeDoYuJae]C: wcstoul (L"R") == 27
+[LeeDoYuJae]PASS: C: wcstoul (L"R")
+[LeeDoYuJae]C: wcstoll (L"R") == 27
+[LeeDoYuJae]PASS: C: wcstoll (L"R")
+[LeeDoYuJae]C: wcstoull (L"R") == 27
+[LeeDoYuJae]PASS: C: wcstoull (L"R")
+[LeeDoYuJae]C: wcstol (L"r") == 27
+[LeeDoYuJae]PASS: C: wcstol (L"r")
+[LeeDoYuJae]C: wcstoul (L"r") == 27
+[LeeDoYuJae]PASS: C: wcstoul (L"r")
+[LeeDoYuJae]C: wcstoll (L"r") == 27
+[LeeDoYuJae]PASS: C: wcstoll (L"r")
+[LeeDoYuJae]C: wcstoull (L"r") == 27
+[LeeDoYuJae]PASS: C: wcstoull (L"r")
+[LeeDoYuJae]C: wcstol (L"S") == 28
+[LeeDoYuJae]PASS: C: wcstol (L"S")
+[LeeDoYuJae]C: wcstoul (L"S") == 28
+[LeeDoYuJae]PASS: C: wcstoul (L"S")
+[LeeDoYuJae]C: wcstoll (L"S") == 28
+[LeeDoYuJae]PASS: C: wcstoll (L"S")
+[LeeDoYuJae]C: wcstoull (L"S") == 28
+[LeeDoYuJae]PASS: C: wcstoull (L"S")
+[LeeDoYuJae]C: wcstol (L"s") == 28
+[LeeDoYuJae]PASS: C: wcstol (L"s")
+[LeeDoYuJae]C: wcstoul (L"s") == 28
+[LeeDoYuJae]PASS: C: wcstoul (L"s")
+[LeeDoYuJae]C: wcstoll (L"s") == 28
+[LeeDoYuJae]PASS: C: wcstoll (L"s")
+[LeeDoYuJae]C: wcstoull (L"s") == 28
+[LeeDoYuJae]PASS: C: wcstoull (L"s")
+[LeeDoYuJae]C: wcstol (L"T") == 29
+[LeeDoYuJae]PASS: C: wcstol (L"T")
+[LeeDoYuJae]C: wcstoul (L"T") == 29
+[LeeDoYuJae]PASS: C: wcstoul (L"T")
+[LeeDoYuJae]C: wcstoll (L"T") == 29
+[LeeDoYuJae]PASS: C: wcstoll (L"T")
+[LeeDoYuJae]C: wcstoull (L"T") == 29
+[LeeDoYuJae]PASS: C: wcstoull (L"T")
+[LeeDoYuJae]C: wcstol (L"t") == 29
+[LeeDoYuJae]PASS: C: wcstol (L"t")
+[LeeDoYuJae]C: wcstoul (L"t") == 29
+[LeeDoYuJae]PASS: C: wcstoul (L"t")
+[LeeDoYuJae]C: wcstoll (L"t") == 29
+[LeeDoYuJae]PASS: C: wcstoll (L"t")
+[LeeDoYuJae]C: wcstoull (L"t") == 29
+[LeeDoYuJae]PASS: C: wcstoull (L"t")
+[LeeDoYuJae]C: wcstol (L"U") == 30
+[LeeDoYuJae]PASS: C: wcstol (L"U")
+[LeeDoYuJae]C: wcstoul (L"U") == 30
+[LeeDoYuJae]PASS: C: wcstoul (L"U")
+[LeeDoYuJae]C: wcstoll (L"U") == 30
+[LeeDoYuJae]PASS: C: wcstoll (L"U")
+[LeeDoYuJae]C: wcstoull (L"U") == 30
+[LeeDoYuJae]PASS: C: wcstoull (L"U")
+[LeeDoYuJae]C: wcstol (L"u") == 30
+[LeeDoYuJae]PASS: C: wcstol (L"u")
+[LeeDoYuJae]C: wcstoul (L"u") == 30
+[LeeDoYuJae]PASS: C: wcstoul (L"u")
+[LeeDoYuJae]C: wcstoll (L"u") == 30
+[LeeDoYuJae]PASS: C: wcstoll (L"u")
+[LeeDoYuJae]C: wcstoull (L"u") == 30
+[LeeDoYuJae]PASS: C: wcstoull (L"u")
+[LeeDoYuJae]C: wcstol (L"V") == 31
+[LeeDoYuJae]PASS: C: wcstol (L"V")
+[LeeDoYuJae]C: wcstoul (L"V") == 31
+[LeeDoYuJae]PASS: C: wcstoul (L"V")
+[LeeDoYuJae]C: wcstoll (L"V") == 31
+[LeeDoYuJae]PASS: C: wcstoll (L"V")
+[LeeDoYuJae]C: wcstoull (L"V") == 31
+[LeeDoYuJae]PASS: C: wcstoull (L"V")
+[LeeDoYuJae]C: wcstol (L"v") == 31
+[LeeDoYuJae]PASS: C: wcstol (L"v")
+[LeeDoYuJae]C: wcstoul (L"v") == 31
+[LeeDoYuJae]PASS: C: wcstoul (L"v")
+[LeeDoYuJae]C: wcstoll (L"v") == 31
+[LeeDoYuJae]PASS: C: wcstoll (L"v")
+[LeeDoYuJae]C: wcstoull (L"v") == 31
+[LeeDoYuJae]PASS: C: wcstoull (L"v")
+[LeeDoYuJae]C: wcstol (L"W") == 32
+[LeeDoYuJae]PASS: C: wcstol (L"W")
+[LeeDoYuJae]C: wcstoul (L"W") == 32
+[LeeDoYuJae]PASS: C: wcstoul (L"W")
+[LeeDoYuJae]C: wcstoll (L"W") == 32
+[LeeDoYuJae]PASS: C: wcstoll (L"W")
+[LeeDoYuJae]C: wcstoull (L"W") == 32
+[LeeDoYuJae]PASS: C: wcstoull (L"W")
+[LeeDoYuJae]C: wcstol (L"w") == 32
+[LeeDoYuJae]PASS: C: wcstol (L"w")
+[LeeDoYuJae]C: wcstoul (L"w") == 32
+[LeeDoYuJae]PASS: C: wcstoul (L"w")
+[LeeDoYuJae]C: wcstoll (L"w") == 32
+[LeeDoYuJae]PASS: C: wcstoll (L"w")
+[LeeDoYuJae]C: wcstoull (L"w") == 32
+[LeeDoYuJae]PASS: C: wcstoull (L"w")
+[LeeDoYuJae]C: wcstol (L"X") == 33
+[LeeDoYuJae]PASS: C: wcstol (L"X")
+[LeeDoYuJae]C: wcstoul (L"X") == 33
+[LeeDoYuJae]PASS: C: wcstoul (L"X")
+[LeeDoYuJae]C: wcstoll (L"X") == 33
+[LeeDoYuJae]PASS: C: wcstoll (L"X")
+[LeeDoYuJae]C: wcstoull (L"X") == 33
+[LeeDoYuJae]PASS: C: wcstoull (L"X")
+[LeeDoYuJae]C: wcstol (L"x") == 33
+[LeeDoYuJae]PASS: C: wcstol (L"x")
+[LeeDoYuJae]C: wcstoul (L"x") == 33
+[LeeDoYuJae]PASS: C: wcstoul (L"x")
+[LeeDoYuJae]C: wcstoll (L"x") == 33
+[LeeDoYuJae]PASS: C: wcstoll (L"x")
+[LeeDoYuJae]C: wcstoull (L"x") == 33
+[LeeDoYuJae]PASS: C: wcstoull (L"x")
+[LeeDoYuJae]C: wcstol (L"Y") == 34
+[LeeDoYuJae]PASS: C: wcstol (L"Y")
+[LeeDoYuJae]C: wcstoul (L"Y") == 34
+[LeeDoYuJae]PASS: C: wcstoul (L"Y")
+[LeeDoYuJae]C: wcstoll (L"Y") == 34
+[LeeDoYuJae]PASS: C: wcstoll (L"Y")
+[LeeDoYuJae]C: wcstoull (L"Y") == 34
+[LeeDoYuJae]PASS: C: wcstoull (L"Y")
+[LeeDoYuJae]C: wcstol (L"y") == 34
+[LeeDoYuJae]PASS: C: wcstol (L"y")
+[LeeDoYuJae]C: wcstoul (L"y") == 34
+[LeeDoYuJae]PASS: C: wcstoul (L"y")
+[LeeDoYuJae]C: wcstoll (L"y") == 34
+[LeeDoYuJae]PASS: C: wcstoll (L"y")
+[LeeDoYuJae]C: wcstoull (L"y") == 34
+[LeeDoYuJae]PASS: C: wcstoull (L"y")
+[LeeDoYuJae]C: wcstol (L"Z") == 35
+[LeeDoYuJae]PASS: C: wcstol (L"Z")
+[LeeDoYuJae]C: wcstoul (L"Z") == 35
+[LeeDoYuJae]PASS: C: wcstoul (L"Z")
+[LeeDoYuJae]C: wcstoll (L"Z") == 35
+[LeeDoYuJae]PASS: C: wcstoll (L"Z")
+[LeeDoYuJae]C: wcstoull (L"Z") == 35
+[LeeDoYuJae]PASS: C: wcstoull (L"Z")
+[LeeDoYuJae]C: wcstol (L"z") == 35
+[LeeDoYuJae]PASS: C: wcstol (L"z")
+[LeeDoYuJae]C: wcstoul (L"z") == 35
+[LeeDoYuJae]PASS: C: wcstoul (L"z")
+[LeeDoYuJae]C: wcstoll (L"z") == 35
+[LeeDoYuJae]PASS: C: wcstoll (L"z")
+[LeeDoYuJae]C: wcstoull (L"z") == 35
+[LeeDoYuJae]PASS: C: wcstoull (L"z")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"A") == 10
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"A")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"A") == 10
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"A")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"A") == 10
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"A")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"A") == 10
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"A")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"a") == 10
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"a")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"a") == 10
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"a")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"a") == 10
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"a")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"a") == 10
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"a")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"B") == 11
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"B")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"B") == 11
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"B")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"B") == 11
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"B")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"B") == 11
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"B")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"b") == 11
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"b")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"b") == 11
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"b")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"b") == 11
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"b")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"b") == 11
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"b")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"C") == 12
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"C")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"C") == 12
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"C")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"C") == 12
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"C")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"C") == 12
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"C")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"c") == 12
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"c")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"c") == 12
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"c")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"c") == 12
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"c")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"c") == 12
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"c")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"D") == 13
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"D")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"D") == 13
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"D")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"D") == 13
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"D")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"D") == 13
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"D")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"d") == 13
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"d")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"d") == 13
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"d")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"d") == 13
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"d")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"d") == 13
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"d")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"E") == 14
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"E")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"E") == 14
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"E")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"E") == 14
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"E")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"E") == 14
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"E")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"e") == 14
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"e")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"e") == 14
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"e")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"e") == 14
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"e")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"e") == 14
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"e")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"F") == 15
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"F")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"F") == 15
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"F")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"F") == 15
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"F")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"F") == 15
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"F")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"f") == 15
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"f")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"f") == 15
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"f")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"f") == 15
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"f")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"f") == 15
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"f")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"G") == 16
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"G")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"G") == 16
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"G")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"G") == 16
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"G")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"G") == 16
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"G")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"g") == 16
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"g")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"g") == 16
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"g")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"g") == 16
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"g")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"g") == 16
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"g")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"H") == 17
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"H")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"H") == 17
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"H")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"H") == 17
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"H")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"H") == 17
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"H")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"h") == 17
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"h")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"h") == 17
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"h")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"h") == 17
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"h")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"h") == 17
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"h")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"I") == 18
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"I")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"I") == 18
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"I")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"I") == 18
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"I")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"I") == 18
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"I")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"i") == 18
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"i")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"i") == 18
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"i")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"i") == 18
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"i")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"i") == 18
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"i")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"J") == 19
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"J")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"J") == 19
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"J")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"J") == 19
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"J")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"J") == 19
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"J")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"j") == 19
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"j")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"j") == 19
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"j")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"j") == 19
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"j")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"j") == 19
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"j")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"K") == 20
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"K")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"K") == 20
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"K")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"K") == 20
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"K")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"K") == 20
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"K")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"k") == 20
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"k")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"k") == 20
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"k")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"k") == 20
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"k")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"k") == 20
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"k")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"L") == 21
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"L")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"L") == 21
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"L")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"L") == 21
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"L")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"L") == 21
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"L")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"l") == 21
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"l")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"l") == 21
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"l")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"l") == 21
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"l")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"l") == 21
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"l")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"M") == 22
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"M")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"M") == 22
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"M")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"M") == 22
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"M")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"M") == 22
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"M")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"m") == 22
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"m")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"m") == 22
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"m")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"m") == 22
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"m")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"m") == 22
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"m")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"N") == 23
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"N")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"N") == 23
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"N")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"N") == 23
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"N")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"N") == 23
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"N")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"n") == 23
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"n")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"n") == 23
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"n")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"n") == 23
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"n")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"n") == 23
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"n")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"O") == 24
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"O")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"O") == 24
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"O")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"O") == 24
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"O")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"O") == 24
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"O")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"o") == 24
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"o")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"o") == 24
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"o")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"o") == 24
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"o")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"o") == 24
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"o")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"P") == 25
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"P")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"P") == 25
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"P")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"P") == 25
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"P")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"P") == 25
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"P")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"p") == 25
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"p")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"p") == 25
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"p")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"p") == 25
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"p")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"p") == 25
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"p")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"Q") == 26
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"Q")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"Q") == 26
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"Q")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"Q") == 26
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"Q")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"Q") == 26
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"Q")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"q") == 26
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"q")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"q") == 26
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"q")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"q") == 26
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"q")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"q") == 26
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"q")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"R") == 27
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"R")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"R") == 27
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"R")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"R") == 27
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"R")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"R") == 27
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"R")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"r") == 27
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"r")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"r") == 27
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"r")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"r") == 27
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"r")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"r") == 27
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"r")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"S") == 28
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"S")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"S") == 28
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"S")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"S") == 28
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"S")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"S") == 28
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"S")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"s") == 28
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"s")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"s") == 28
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"s")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"s") == 28
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"s")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"s") == 28
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"s")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"T") == 29
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"T")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"T") == 29
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"T")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"T") == 29
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"T")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"T") == 29
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"T")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"t") == 29
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"t")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"t") == 29
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"t")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"t") == 29
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"t")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"t") == 29
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"t")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"U") == 30
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"U")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"U") == 30
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"U")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"U") == 30
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"U")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"U") == 30
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"U")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"u") == 30
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"u")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"u") == 30
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"u")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"u") == 30
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"u")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"u") == 30
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"u")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"V") == 31
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"V")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"V") == 31
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"V")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"V") == 31
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"V")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"V") == 31
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"V")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"v") == 31
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"v")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"v") == 31
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"v")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"v") == 31
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"v")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"v") == 31
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"v")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"W") == 32
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"W")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"W") == 32
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"W")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"W") == 32
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"W")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"W") == 32
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"W")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"w") == 32
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"w")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"w") == 32
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"w")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"w") == 32
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"w")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"w") == 32
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"w")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"X") == 33
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"X")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"X") == 33
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"X")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"X") == 33
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"X")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"X") == 33
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"X")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"x") == 33
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"x")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"x") == 33
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"x")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"x") == 33
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"x")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"x") == 33
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"x")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"Y") == 34
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"Y")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"Y") == 34
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"Y")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"Y") == 34
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"Y")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"Y") == 34
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"Y")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"y") == 34
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"y")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"y") == 34
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"y")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"y") == 34
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"y")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"y") == 34
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"y")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"Z") == 35
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"Z")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"Z") == 35
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"Z")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"Z") == 35
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"Z")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"Z") == 35
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"Z")
+[LeeDoYuJae]tr_TR.UTF-8: wcstol (L"z") == 35
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstol (L"z")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoul (L"z") == 35
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoul (L"z")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoll (L"z") == 35
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoll (L"z")
+[LeeDoYuJae]tr_TR.UTF-8: wcstoull (L"z") == 35
+[LeeDoYuJae]PASS: tr_TR.UTF-8: wcstoull (L"z")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"A") == 10
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"A")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"A") == 10
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"A")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"A") == 10
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"A")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"A") == 10
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"A")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"a") == 10
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"a")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"a") == 10
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"a")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"a") == 10
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"a")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"a") == 10
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"a")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"B") == 11
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"B")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"B") == 11
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"B")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"B") == 11
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"B")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"B") == 11
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"B")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"b") == 11
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"b")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"b") == 11
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"b")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"b") == 11
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"b")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"b") == 11
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"b")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"C") == 12
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"C")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"C") == 12
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"C")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"C") == 12
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"C")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"C") == 12
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"C")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"c") == 12
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"c")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"c") == 12
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"c")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"c") == 12
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"c")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"c") == 12
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"c")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"D") == 13
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"D")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"D") == 13
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"D")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"D") == 13
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"D")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"D") == 13
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"D")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"d") == 13
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"d")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"d") == 13
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"d")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"d") == 13
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"d")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"d") == 13
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"d")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"E") == 14
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"E")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"E") == 14
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"E")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"E") == 14
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"E")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"E") == 14
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"E")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"e") == 14
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"e")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"e") == 14
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"e")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"e") == 14
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"e")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"e") == 14
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"e")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"F") == 15
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"F")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"F") == 15
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"F")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"F") == 15
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"F")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"F") == 15
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"F")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"f") == 15
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"f")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"f") == 15
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"f")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"f") == 15
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"f")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"f") == 15
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"f")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"G") == 16
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"G")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"G") == 16
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"G")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"G") == 16
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"G")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"G") == 16
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"G")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"g") == 16
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"g")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"g") == 16
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"g")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"g") == 16
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"g")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"g") == 16
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"g")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"H") == 17
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"H")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"H") == 17
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"H")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"H") == 17
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"H")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"H") == 17
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"H")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"h") == 17
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"h")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"h") == 17
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"h")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"h") == 17
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"h")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"h") == 17
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"h")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"I") == 18
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"I")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"I") == 18
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"I")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"I") == 18
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"I")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"I") == 18
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"I")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"i") == 18
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"i")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"i") == 18
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"i")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"i") == 18
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"i")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"i") == 18
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"i")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"J") == 19
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"J")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"J") == 19
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"J")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"J") == 19
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"J")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"J") == 19
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"J")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"j") == 19
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"j")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"j") == 19
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"j")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"j") == 19
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"j")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"j") == 19
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"j")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"K") == 20
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"K")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"K") == 20
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"K")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"K") == 20
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"K")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"K") == 20
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"K")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"k") == 20
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"k")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"k") == 20
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"k")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"k") == 20
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"k")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"k") == 20
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"k")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"L") == 21
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"L")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"L") == 21
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"L")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"L") == 21
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"L")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"L") == 21
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"L")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"l") == 21
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"l")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"l") == 21
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"l")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"l") == 21
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"l")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"l") == 21
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"l")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"M") == 22
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"M")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"M") == 22
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"M")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"M") == 22
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"M")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"M") == 22
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"M")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"m") == 22
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"m")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"m") == 22
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"m")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"m") == 22
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"m")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"m") == 22
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"m")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"N") == 23
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"N")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"N") == 23
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"N")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"N") == 23
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"N")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"N") == 23
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"N")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"n") == 23
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"n")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"n") == 23
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"n")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"n") == 23
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"n")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"n") == 23
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"n")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"O") == 24
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"O")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"O") == 24
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"O")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"O") == 24
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"O")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"O") == 24
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"O")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"o") == 24
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"o")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"o") == 24
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"o")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"o") == 24
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"o")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"o") == 24
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"o")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"P") == 25
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"P")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"P") == 25
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"P")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"P") == 25
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"P")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"P") == 25
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"P")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"p") == 25
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"p")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"p") == 25
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"p")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"p") == 25
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"p")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"p") == 25
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"p")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"Q") == 26
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"Q")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"Q") == 26
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"Q")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"Q") == 26
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"Q")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"Q") == 26
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"Q")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"q") == 26
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"q")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"q") == 26
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"q")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"q") == 26
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"q")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"q") == 26
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"q")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"R") == 27
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"R")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"R") == 27
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"R")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"R") == 27
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"R")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"R") == 27
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"R")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"r") == 27
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"r")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"r") == 27
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"r")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"r") == 27
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"r")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"r") == 27
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"r")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"S") == 28
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"S")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"S") == 28
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"S")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"S") == 28
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"S")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"S") == 28
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"S")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"s") == 28
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"s")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"s") == 28
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"s")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"s") == 28
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"s")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"s") == 28
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"s")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"T") == 29
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"T")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"T") == 29
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"T")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"T") == 29
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"T")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"T") == 29
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"T")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"t") == 29
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"t")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"t") == 29
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"t")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"t") == 29
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"t")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"t") == 29
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"t")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"U") == 30
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"U")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"U") == 30
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"U")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"U") == 30
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"U")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"U") == 30
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"U")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"u") == 30
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"u")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"u") == 30
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"u")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"u") == 30
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"u")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"u") == 30
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"u")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"V") == 31
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"V")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"V") == 31
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"V")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"V") == 31
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"V")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"V") == 31
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"V")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"v") == 31
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"v")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"v") == 31
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"v")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"v") == 31
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"v")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"v") == 31
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"v")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"W") == 32
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"W")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"W") == 32
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"W")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"W") == 32
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"W")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"W") == 32
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"W")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"w") == 32
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"w")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"w") == 32
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"w")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"w") == 32
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"w")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"w") == 32
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"w")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"X") == 33
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"X")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"X") == 33
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"X")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"X") == 33
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"X")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"X") == 33
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"X")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"x") == 33
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"x")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"x") == 33
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"x")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"x") == 33
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"x")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"x") == 33
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"x")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"Y") == 34
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"Y")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"Y") == 34
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"Y")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"Y") == 34
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"Y")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"Y") == 34
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"Y")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"y") == 34
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"y")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"y") == 34
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"y")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"y") == 34
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"y")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"y") == 34
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"y")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"Z") == 35
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"Z")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"Z") == 35
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"Z")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"Z") == 35
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"Z")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"Z") == 35
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"Z")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstol (L"z") == 35
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstol (L"z")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoul (L"z") == 35
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoul (L"z")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoll (L"z") == 35
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoll (L"z")
+[LeeDoYuJae]tr_TR.ISO-8859-9: wcstoull (L"z") == 35
+[LeeDoYuJae]PASS: tr_TR.ISO-8859-9: wcstoull (L"z")

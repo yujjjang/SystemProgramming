@@ -1,0 +1,420 @@
+[LeeDoYuJae]
+2.8.2  Regular Expression General Requirement
+---------------------------------------------
+[LeeDoYuJae]regexp: "bb*", string: "abbbc" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "bb*", string: "ababbbc" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "A#*::", string: "A:A#:qA::qA#::qA##::q" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "A#*::", string: "A##::A#::qA::qA#:q" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]
+2.8.3.1.2  BRE Special Characters
+---------------------------------
+[LeeDoYuJae]
+GA108
+-----
+[LeeDoYuJae]regexp: "\.", string: "a.c" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "\[", string: "a[c" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "\\", string: "a\c" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "\*", string: "a*c" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "\^", string: "a^c" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "\$", string: "a$c" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "X\*Y\*8", string: "Y*8X*8X*Y*8" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]
+GA109
+-----
+[LeeDoYuJae]regexp: "[.]", string: "a.c" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[[]", string: "a[c" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[[]", string: "ac" -> [LeeDoYuJae]no match, OK
+[LeeDoYuJae]regexp: "[\]", string: "a\c" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[\a]", string: "abc" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[\.]", string: "a\.c" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[\.]", string: "a.\c" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[*]", string: "a*c" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[$]", string: "a$c" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[X*Y8]", string: "7*8YX" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]
+GA110
+-----
+[LeeDoYuJae]regexp: "*", string: "a*c" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "*a", string: "*b*a*c" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "**9=", string: "***9=9" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]
+GA111
+-----
+[LeeDoYuJae]regexp: "^*", string: "*bc" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "^*", string: "a*c" -> [LeeDoYuJae]no match, OK
+[LeeDoYuJae]regexp: "^*", string: "^*ab" -> [LeeDoYuJae]no match, OK
+[LeeDoYuJae]regexp: "^**9=", string: "***9=" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "^*5<*9", string: "5<9*5<*9" -> [LeeDoYuJae]no match, OK
+[LeeDoYuJae]
+GA112
+-----
+[LeeDoYuJae]regexp: "\(*b\)", string: "a*b" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "\(*b\)", string: "ac" -> [LeeDoYuJae]no match, OK
+[LeeDoYuJae]regexp: "A\(**9\)=", string: "A***9=79" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]
+GA113(1)
+--------
+[LeeDoYuJae]regexp: "\(^*ab\)", string: "*ab" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "\(^*ab\)", string: "^*ab" -> [LeeDoYuJae]no match, OK
+[LeeDoYuJae]regexp: "\(^*b\)", string: "a*b" -> [LeeDoYuJae]no match, OK
+[LeeDoYuJae]regexp: "\(^*b\)", string: "^*b" -> [LeeDoYuJae]no match, OK
+[LeeDoYuJae]
+GA114
+-----
+[LeeDoYuJae]regexp: "a^b", string: "a^b" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "a\^b", string: "a^b" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "^^", string: "^bc" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "\^", string: "a^c" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[c^b]", string: "^abc" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[\^ab]", string: "^ab" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[\^ab]", string: "c\d" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[^^]", string: "^" -> [LeeDoYuJae]no match, OK
+[LeeDoYuJae]regexp: "\(a^b\)", string: "a^b" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "\(a\^b\)", string: "a^b" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "\(\^\)", string: "a^b" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]
+GA115
+-----
+[LeeDoYuJae]regexp: "$$", string: "ab$" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "$$", string: "$ab" -> [LeeDoYuJae]no match, OK
+[LeeDoYuJae]regexp: "$c", string: "a$c" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[$]", string: "a$c" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "\$a", string: "$a" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "\$$", string: "ab$" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "A\([34]$[34]\)B", string: "XA4$3BY" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]
+2.8.3.1.3  Periods in BREs
+--------------------------
+[LeeDoYuJae]
+GA116
+-----
+[LeeDoYuJae]regexp: ".", string: "abc" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: ".ab", string: "abc" -> [LeeDoYuJae]no match, OK
+[LeeDoYuJae]regexp: "ab.", string: "abc" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "a.b", string: "a,b" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: ".......", string: "PqRs6" -> [LeeDoYuJae]no match, OK
+[LeeDoYuJae]regexp: ".......", string: "PqRs6T8" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]
+2.8.3.2  RE Bracket Expression
+------------------------------
+[LeeDoYuJae]
+GA118
+-----
+[LeeDoYuJae]regexp: "[abc]", string: "xbyz" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[abc]", string: "xyz" -> [LeeDoYuJae]no match, OK
+[LeeDoYuJae]regexp: "[abc]", string: "xbay" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]
+GA119
+-----
+[LeeDoYuJae]regexp: "[^a]", string: "abc" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[^]cd]", string: "cd]ef" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[^abc]", string: "axyz" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[^abc]", string: "abc" -> [LeeDoYuJae]no match, OK
+[LeeDoYuJae]regexp: "[^[.a.]b]", string: "abc" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[^[=a=]b]", string: "abc" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[^-ac]", string: "abcde-" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[^ac-]", string: "abcde-" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[^a-b]", string: "abcde" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[^a-bd-e]", string: "dec" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[^---]", string: "-ab" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[^a-zA-Z0-9]", string: "pqrstVWXYZ23579#" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]
+GA120(1)
+--------
+[LeeDoYuJae]regexp: "[]a]", string: "cd]ef" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[]-a]", string: "a_b" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[][.-.]-0]", string: "ab0-]" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[]^a-z]", string: "string" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]
+GA120(2)
+--------
+[LeeDoYuJae]regexp: "[^]cd]", string: "cd]ef" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[^]]*", string: "]]]]]]]]X" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[^]]*", string: "]]]]]]]]" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[^]]\{1,\}", string: "]]]]]]]]X" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[^]]\{1,\}", string: "]]]]]]]]" -> [LeeDoYuJae]no match, OK
+[LeeDoYuJae]
+GA120(3)
+--------
+[LeeDoYuJae]regexp: "[c[.].]d]", string: "ab]cd" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[a-z]*[[.].]][A-Z]*", string: "Abcd]DEFg" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]
+GA121
+-----
+[LeeDoYuJae]regexp: "[[.a.]b]", string: "Abc" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[[.a.]b]", string: "aBc" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[[.a.]b]", string: "ABc" -> [LeeDoYuJae]no match, OK
+[LeeDoYuJae]regexp: "[^[.a.]b]", string: "abc" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[][.-.]-0]", string: "ab0-]" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[A-[.].]c]", string: "ab]!" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]
+GA122
+-----
+[LeeDoYuJae]regexp: "[[.ch.]]", string: "abc" -> [LeeDoYuJae]compiling failed, OK
+[LeeDoYuJae]regexp: "[[.ab.][.CD.][.EF.]]", string: "yZabCDEFQ9" -> [LeeDoYuJae]compiling failed, OK
+[LeeDoYuJae]
+GA125
+-----
+[LeeDoYuJae]regexp: "[[=a=]b]", string: "Abc" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[[=a=]b]", string: "aBc" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[[=a=]b]", string: "ABc" -> [LeeDoYuJae]no match, OK
+[LeeDoYuJae]regexp: "[^[=a=]b]", string: "abc" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]
+GA126
+-----
+[LeeDoYuJae]!!! the expected result for [[:alnum:]]* is 2-7 which is wrong
+[LeeDoYuJae]regexp: "[[:alnum:]]*", string: " aB28gH" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[[:alnum:]][[:alnum:]]*", string: " aB28gH" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]!!! the expected result for [^[:alnum:]]* is 2-5 which is wrong
+[LeeDoYuJae]regexp: "[^[:alnum:]]*", string: "2 	,a" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[^[:alnum:]][^[:alnum:]]*", string: "2 	,a" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]!!! the expected result for [[:alpha:]]* is 2-5 which is wrong
+[LeeDoYuJae]regexp: "[[:alpha:]]*", string: " aBgH2" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[[:alpha:]][[:alpha:]]*", string: " aBgH2" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[^[:alpha:]]*", string: "2 	8,a" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[[:blank:]]*", string: " 	" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[^[:blank:]]*", string: "aB28gH, " -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[[:cntrl:]]*", string: "	 " -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[^[:cntrl:]]*", string: "aB2 8gh," -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]!!! the expected result for [[:digit:]]* is 2-3 which is wrong
+[LeeDoYuJae]regexp: "[[:digit:]]*", string: "a28" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[[:digit:]][[:digit:]]*", string: "a28" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[^[:digit:]]*", string: "aB 	gH," -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[[:graph:]]*", string: "aB28gH, " -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[^[:graph:]]*", string: " 	," -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[[:lower:]]*", string: "agB" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[^[:lower:]]*", string: "B2 	8H,a" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[[:print:]]*", string: "aB2 8gH,	" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[^[:print:]]*", string: "	 " -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]!!! the expected result for [[:punct:]]* is 2-2 which is wrong
+[LeeDoYuJae]regexp: "[[:punct:]]*", string: "a,2" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[[:punct:]][[:punct:]]*", string: "a,,2" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[^[:punct:]]*", string: "aB2 	8gH" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[[:space:]]*", string: " 	" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]!!! the expected result for [^[:space:]]* is 2-9 which is wrong
+[LeeDoYuJae]regexp: "[^[:space:]]*", string: " aB28gH,	" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[^[:space:]][^[:space:]]*", string: " aB28gH,	" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]!!! the expected result for [[:upper:]]* is 2-3 which is wrong
+[LeeDoYuJae]regexp: "[[:upper:]]*", string: "aBH2" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[[:upper:]][[:upper:]]*", string: "aBH2" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[^[:upper:]]*", string: "a2 	8g,B" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]!!! the expected result for [[:xdigit:]]* is 2-5 which is wrong
+[LeeDoYuJae]regexp: "[[:xdigit:]]*", string: "gaB28h" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[[:xdigit:]][[:xdigit:]]*", string: "gaB28h" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]!!! the expected result for [^[:xdigit:]]* is 2-7 which is wrong
+[LeeDoYuJae]regexp: "[^[:xdigit:]][^[:xdigit:]]*", string: "a 	gH,2" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]
+GA127
+-----
+[LeeDoYuJae]regexp: "[b-a]", string: "abc" -> [LeeDoYuJae]compiling failed, OK
+[LeeDoYuJae]regexp: "[a-c]", string: "bbccde" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[a-b]", string: "-bc" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[a-z0-9]", string: "AB0" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[^a-b]", string: "abcde" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[^a-bd-e]", string: "dec" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[]-a]", string: "a_b" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[+--]", string: "a,b" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[--/]", string: "a.b" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[^---]", string: "-ab" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[][.-.]-0]", string: "ab0-]" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[A-[.].]c]", string: "ab]!" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "bc[d-w]xy", string: "abchxyz" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]
+GA129
+-----
+[LeeDoYuJae]regexp: "[a-cd-f]", string: "dbccde" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[a-ce-f]", string: "dBCCdE" -> [LeeDoYuJae]no match, OK
+[LeeDoYuJae]regexp: "b[n-zA-M]Y", string: "absY9Z" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "b[n-zA-M]Y", string: "abGY9Z" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]
+GA130
+-----
+[LeeDoYuJae]regexp: "[-xy]", string: "ac-" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "c[-xy]D", string: "ac-D+" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[--/]", string: "a.b" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "c[--/]D", string: "ac.D+b" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[^-ac]", string: "abcde-" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "a[^-ac]c", string: "abcde-" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[xy-]", string: "zc-" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "c[xy-]7", string: "zc-786" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[^ac-]", string: "abcde-" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "a[^ac-]c", string: "5abcde-" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[+--]", string: "a,b" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "a[+--]B", string: "Xa,By" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[^---]", string: "-ab" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "X[^---]Y", string: "X-YXaYXbY" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]
+2.8.3.3  BREs Matching Multiple Characters
+------------------------------------------
+[LeeDoYuJae]
+GA131
+-----
+[LeeDoYuJae]regexp: "cd", string: "abcdeabcde" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "ag*b", string: "abcde" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[a-c][e-f]", string: "abcdef" -> [LeeDoYuJae]no match, OK
+[LeeDoYuJae]regexp: "[a-c][e-f]", string: "acbedf" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "abc*XYZ", string: "890abXYZ#*" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "abc*XYZ", string: "890abcXYZ#*" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "abc*XYZ", string: "890abcccccccXYZ#*" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "abc*XYZ", string: "890abc*XYZ#*" -> [LeeDoYuJae]no match, OK
+[LeeDoYuJae]
+GA132
+-----
+[LeeDoYuJae]regexp: "\(*bc\)", string: "a*bc" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "\(ab\)", string: "abcde" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "\(a\(b\(c\(d\(e\(f\(g\)h\(i\(j\)\)\)\)\)\)\)\)", string: "abcdefghijk" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "43\(2\(6\)*0\)AB", string: "654320ABCD" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "43\(2\(7\)*0\)AB", string: "6543270ABCD" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "43\(2\(7\)*0\)AB", string: "6543277770ABCD" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]
+GA133
+-----
+[LeeDoYuJae]regexp: "\(a\(b\(c\(d\(e\(f\(g\)h\(i\(j\)\)\)\)\)\)\)\)", string: "abcdefghijk" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "\(a\(b\(c\(d\(e\(f\(g\)h\(i\(k\)\)\)\)\)\)\)\)", string: "abcdefghijk" -> [LeeDoYuJae]no match, OK
+[LeeDoYuJae]
+GA134
+-----
+[LeeDoYuJae]regexp: "\(bb*\)", string: "abbbc" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "\(bb*\)", string: "ababbbc" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "a\(.*b\)", string: "ababbbc" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "a\(b*\)", string: "ababbbc" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "a\(.*b\)c", string: "axcaxbbbcsxbbbbbbbbc" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]
+GA135
+-----
+[LeeDoYuJae]regexp: "\(a\(b\(c\(d\(e\)\)\)\)\)\4", string: "abcdededede" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]!!! POSIX does not really specify whether a\(b\)*c\1 matches acb.
+[LeeDoYuJae]!!! back references are supposed to expand to the last match, but what
+[LeeDoYuJae]!!! if there never was a match as in this case?
+[LeeDoYuJae]regexp: "a\(b\)*c\1", string: "acb" -> [LeeDoYuJae]no match, OK
+[LeeDoYuJae]regexp: "\(a\(b\(c\(d\(e\(f\(g\)h\(i\(j\)\)\)\)\)\)\)\)\9", string: "abcdefghijjk" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]
+GA136
+-----
+[LeeDoYuJae]!!! These two tests have the same problem as the test in GA135.  No match
+[LeeDoYuJae]!!! of a subexpression, why should the back reference be usable?
+[LeeDoYuJae]!!! 1 2 a\(b\)*c\1 acb
+[LeeDoYuJae]!!! 4 7 a\(b\(c\(d\(f\)*\)\)\)\4¦xYzabcdePQRST
+[LeeDoYuJae]regexp: "a\(b\)*c\1", string: "acb" -> [LeeDoYuJae]no match, OK
+[LeeDoYuJae]regexp: "a\(b\(c\(d\(f\)*\)\)\)\4", string: "xYzabcdePQRST" -> [LeeDoYuJae]no match, OK
+[LeeDoYuJae]
+GA137
+-----
+[LeeDoYuJae]regexp: "\(a\(b\)\)\3", string: "foo" -> [LeeDoYuJae]compiling failed, OK
+[LeeDoYuJae]regexp: "\(a\(b\)\)\(a\(b\)\)\5", string: "foo" -> [LeeDoYuJae]compiling failed, OK
+[LeeDoYuJae]
+GA138
+-----
+[LeeDoYuJae]regexp: "ag*b", string: "abcde" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "a.*b", string: "abababvbabc" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "b*c", string: "abbbcdeabbbbbbcde" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "bbb*c", string: "abbbcdeabbbbbbcde" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "a\(b\)*c\1", string: "abbcbbb" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "a\(b\)*c\1", string: "abbdbd" -> [LeeDoYuJae]no match, OK
+[LeeDoYuJae]regexp: "\([a-c]*\)\1", string: "abcacdef" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "\([a-c]*\)\1", string: "abcabcabcd" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "a^*b", string: "ab" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "a^*b", string: "a^^^b" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]
+GA139
+-----
+[LeeDoYuJae]regexp: "a\{2\}", string: "aaaa" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "\([a-c]*\)\{0,\}", string: "aabcaab" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "\(a\)\1\{1,2\}", string: "aabc" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "\(a\)\1\{1,2\}", string: "aaaabc" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]!!! the expression \(\(a\)\1\)\{1,2\} is ill-formed, using \2
+[LeeDoYuJae]regexp: "\(\(a\)\2\)\{1,2\}", string: "aaaabc" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]
+GA140
+-----
+[LeeDoYuJae]regexp: "a\{2\}", string: "aaaa" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "a\{2\}", string: "abcd" -> [LeeDoYuJae]no match, OK
+[LeeDoYuJae]regexp: "a\{0\}", string: "aaaa" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "a\{64\}", string: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]
+GA141
+-----
+[LeeDoYuJae]regexp: "\([a-c]*\)\{0,\}", string: "aabcaab" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]!!! the expected result for \([a-c]*\)\{2,\} is failure which isn't correct
+[LeeDoYuJae]regexp: "\([a-c]*\)\{2,\}", string: "abcdefg" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "\([a-c]*\)\{1,\}", string: "abcdefg" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "a\{64,\}", string: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" -> [LeeDoYuJae]no match, OK
+[LeeDoYuJae]
+GA142
+-----
+[LeeDoYuJae]regexp: "a\{2,3\}", string: "aaaa" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "a\{2,3\}", string: "abcd" -> [LeeDoYuJae]no match, OK
+[LeeDoYuJae]regexp: "\([a-c]*\)\{0,0\}", string: "foo" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "a\{1,63\}", string: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]
+2.8.3.4  BRE Precedence
+-----------------------
+[LeeDoYuJae]
+GA143
+-----
+[LeeDoYuJae]!!! There are numerous bugs in the original version.
+[LeeDoYuJae]regexp: "\^\[[[.].]]\\(\\1\\)\*\\{1,2\\}\$", string: "a^[]\(\1\)*\{1,2\}$b" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[[=*=]][[=\=]][[=]=]][[===]][[...]][[:punct:]]", string: "*\]=.;" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[$\(*\)^]*", string: "$\()*^" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[\1]", string: "1" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "[\{1,2\}]", string: "{" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]!!! the expected result for \(*\)*\1* is 2-2 which isn't correct
+[LeeDoYuJae]regexp: "\(*\)*\1*", string: "a*b*11" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "\(*\)*\1*b", string: "a*b*11" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]!!! the expected result for \(a\(b\{1,2\}\)\{1,2\}\) is 1-5 which isn't correct
+[LeeDoYuJae]regexp: "\(a\(b\{1,2\}\)\{1,2\}\)", string: "abbab" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "\(a\(b\{1,2\}\)\)\{1,2\}", string: "abbab" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "^\(^\(^a$\)$\)$", string: "a" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "\(a\)\1$", string: "aa" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "ab*", string: "abb" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "ab\{2,4\}", string: "abbbc" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]
+2.8.3.5  BRE Expression Anchoring
+---------------------------------
+[LeeDoYuJae]
+GA144
+-----
+[LeeDoYuJae]regexp: "^a", string: "abc" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "^b", string: "abc" -> [LeeDoYuJae]no match, OK
+[LeeDoYuJae]regexp: "^[a-zA-Z]", string: "99Nine" -> [LeeDoYuJae]no match, OK
+[LeeDoYuJae]regexp: "^[a-zA-Z]*", string: "Nine99" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]
+GA145(1)
+--------
+[LeeDoYuJae]regexp: "\(^a\)\1", string: "aabc" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "\(^a\)\1", string: "^a^abc" -> [LeeDoYuJae]no match, OK
+[LeeDoYuJae]regexp: "\(^^a\)", string: "^a" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "\(^^\)", string: "^^" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "\(^abc\)", string: "abcdef" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "\(^def\)", string: "abcdef" -> [LeeDoYuJae]no match, OK
+[LeeDoYuJae]
+GA146
+-----
+[LeeDoYuJae]regexp: "a$", string: "cba" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "a$", string: "abc" -> [LeeDoYuJae]no match, OK
+[LeeDoYuJae]regexp: "[a-z]*$", string: "99ZZxyz" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]!!! the expected result for [a-z]*$ is failure which isn't correct
+[LeeDoYuJae]regexp: "[a-z]*$", string: "99ZZxyz99" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "$$", string: "ab$" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "$$", string: "$ab" -> [LeeDoYuJae]no match, OK
+[LeeDoYuJae]regexp: "\$$", string: "ab$" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]
+GA147(1)
+--------
+[LeeDoYuJae]regexp: "\(a$\)\1", string: "bcaa" -> [LeeDoYuJae]no match, OK
+[LeeDoYuJae]regexp: "\(a$\)\1", string: "ba$" -> [LeeDoYuJae]no match, OK
+[LeeDoYuJae]regexp: "\(ab$\)", string: "ab$" -> [LeeDoYuJae]no match, OK
+[LeeDoYuJae]regexp: "\(ab$\)", string: "ab" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "\(def$\)", string: "abcdef" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "\(abc$\)", string: "abcdef" -> [LeeDoYuJae]no match, OK
+[LeeDoYuJae]
+GA148
+-----
+[LeeDoYuJae]regexp: "^$", string: "" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "^abc$", string: "abc" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "^xyz$", string: "^xyz^" -> [LeeDoYuJae]no match, OK
+[LeeDoYuJae]regexp: "^234$", string: "^234$" -> [LeeDoYuJae]no match, OK
+[LeeDoYuJae]regexp: "^[a-zA-Z0-9]*$", string: "2aA3bB9zZ" -> [LeeDoYuJae]match, OK
+[LeeDoYuJae]regexp: "^[a-z0-9]*$", string: "2aA3b#B9zZ" -> [LeeDoYuJae]no match, OK
+[LeeDoYuJae]
+326 tests, 0 errors

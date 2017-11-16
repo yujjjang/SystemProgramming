@@ -1,0 +1,76 @@
+[LeeDoYuJae]results for glob ("*/*/*", GLOB_ALTDIRFUNC)
+[LeeDoYuJae]  dir1lev1/dir2lev2/dir1lev3
+[LeeDoYuJae]  dir1lev1/dir2lev2/file1lev3
+[LeeDoYuJae]  dir1lev1/dir2lev2/file2lev3
+[LeeDoYuJae]  dir1lev1/dir3lev2/file3lev3
+[LeeDoYuJae]  dir1lev1/dir3lev2/file4lev3
+[LeeDoYuJae]
+[LeeDoYuJae]results for glob ("*/*/*", GLOB_PERIOD|GLOB_ALTDIRFUNC)
+[LeeDoYuJae]  dir1lev1/dir1lev2/.
+[LeeDoYuJae]  dir1lev1/dir1lev2/..
+[LeeDoYuJae]  dir1lev1/dir2lev2/.
+[LeeDoYuJae]  dir1lev1/dir2lev2/..
+[LeeDoYuJae]  dir1lev1/dir2lev2/.foo
+[LeeDoYuJae]  dir1lev1/dir2lev2/dir1lev3
+[LeeDoYuJae]  dir1lev1/dir2lev2/file1lev3
+[LeeDoYuJae]  dir1lev1/dir2lev2/file2lev3
+[LeeDoYuJae]  dir1lev1/dir3lev2/.
+[LeeDoYuJae]  dir1lev1/dir3lev2/..
+[LeeDoYuJae]  dir1lev1/dir3lev2/file3lev3
+[LeeDoYuJae]  dir1lev1/dir3lev2/file4lev3
+[LeeDoYuJae]  dir2lev1/dir1lev2/.
+[LeeDoYuJae]  dir2lev1/dir1lev2/..
+[LeeDoYuJae]  dir2lev1/dir1lev2/.dir
+[LeeDoYuJae]  dir2lev1/dir1lev2/.foo
+[LeeDoYuJae]
+[LeeDoYuJae]results for glob ("*/*/.*", GLOB_ALTDIRFUNC)
+[LeeDoYuJae]  dir1lev1/dir1lev2/.
+[LeeDoYuJae]  dir1lev1/dir1lev2/..
+[LeeDoYuJae]  dir1lev1/dir2lev2/.
+[LeeDoYuJae]  dir1lev1/dir2lev2/..
+[LeeDoYuJae]  dir1lev1/dir2lev2/.foo
+[LeeDoYuJae]  dir1lev1/dir3lev2/.
+[LeeDoYuJae]  dir1lev1/dir3lev2/..
+[LeeDoYuJae]  dir2lev1/dir1lev2/.
+[LeeDoYuJae]  dir2lev1/dir1lev2/..
+[LeeDoYuJae]  dir2lev1/dir1lev2/.dir
+[LeeDoYuJae]  dir2lev1/dir1lev2/.foo
+[LeeDoYuJae]
+[LeeDoYuJae]results for glob ("*1*/*2*/.*", GLOB_ALTDIRFUNC)
+[LeeDoYuJae]  dir1lev1/dir1lev2/.
+[LeeDoYuJae]  dir1lev1/dir1lev2/..
+[LeeDoYuJae]  dir1lev1/dir2lev2/.
+[LeeDoYuJae]  dir1lev1/dir2lev2/..
+[LeeDoYuJae]  dir1lev1/dir2lev2/.foo
+[LeeDoYuJae]  dir1lev1/dir3lev2/.
+[LeeDoYuJae]  dir1lev1/dir3lev2/..
+[LeeDoYuJae]  dir2lev1/dir1lev2/.
+[LeeDoYuJae]  dir2lev1/dir1lev2/..
+[LeeDoYuJae]  dir2lev1/dir1lev2/.dir
+[LeeDoYuJae]  dir2lev1/dir1lev2/.foo
+[LeeDoYuJae]
+[LeeDoYuJae]results for glob ("*1*/*1*/.*", GLOB_ALTDIRFUNC)
+[LeeDoYuJae]  dir1lev1/dir1lev2/.
+[LeeDoYuJae]  dir1lev1/dir1lev2/..
+[LeeDoYuJae]  dir2lev1/dir1lev2/.
+[LeeDoYuJae]  dir2lev1/dir1lev2/..
+[LeeDoYuJae]  dir2lev1/dir1lev2/.dir
+[LeeDoYuJae]  dir2lev1/dir1lev2/.foo
+[LeeDoYuJae]
+[LeeDoYuJae]results for glob ("\/*", GLOB_ALTDIRFUNC)
+[LeeDoYuJae]  /dir1lev1
+[LeeDoYuJae]  /dir2lev1
+[LeeDoYuJae]  /file1lev1
+[LeeDoYuJae]  /file2lev1
+[LeeDoYuJae]
+[LeeDoYuJae]results for glob ("*/*/", GLOB_ALTDIRFUNC)
+[LeeDoYuJae]  dir1lev1/dir1lev2/
+[LeeDoYuJae]  dir1lev1/dir2lev2/
+[LeeDoYuJae]  dir1lev1/dir3lev2/
+[LeeDoYuJae]  dir2lev1/dir1lev2/
+[LeeDoYuJae]
+[LeeDoYuJae]result for glob ("", GLOB_ALTDIRFUNC) = GLOB_NOMATCH
+
+[LeeDoYuJae]results for glob ("", GLOB_NOCHECK|GLOB_ALTDIRFUNC)
+[LeeDoYuJae]  
+[LeeDoYuJae]

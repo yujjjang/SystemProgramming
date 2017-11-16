@@ -1,0 +1,9 @@
+[LeeDoYuJae]sin:
+[LeeDoYuJae]0 failures; 0 errors; error rate 0.00%
+maximum error:   000000000000003ffffe9cd0401960140
+error in sin(1): 000000000000000000000012713da512a
+
+cos:
+[LeeDoYuJae]0 failures; 0 errors; error rate 0.00%
+maximum error:   000000000000003ffffc936e8ad824228
+error in cos(1): 00000000000000000000001cb8e2f6306

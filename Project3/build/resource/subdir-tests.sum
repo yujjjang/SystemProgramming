@@ -1,0 +1,4 @@
+PASS: resource/bug-ulimit1
+PASS: resource/check-installed-headers-c
+PASS: resource/check-installed-headers-cxx
+PASS: resource/tst-getrlimit

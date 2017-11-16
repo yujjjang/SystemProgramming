@@ -1,0 +1,3 @@
+[LeeDoYuJae]PASS: fesetenv (FE_DFL_ENV)
+[LeeDoYuJae]PASS: fesetenv (FE_DFL_ENV) clearing exceptions
+[LeeDoYuJae]PASS: fesetenv (FE_NOMASK_ENV) clearing exceptions

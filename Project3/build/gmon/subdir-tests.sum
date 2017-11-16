@@ -1,0 +1,3 @@
+PASS: gmon/check-installed-headers-c
+PASS: gmon/check-installed-headers-cxx
+PASS: gmon/tst-sprofil

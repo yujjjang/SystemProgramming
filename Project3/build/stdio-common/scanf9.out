@@ -1,0 +1,4 @@
+[LeeDoYuJae]Matches = 1, string str = "x".
+[LeeDoYuJae]str should be "x".
+[LeeDoYuJae]Matches = 1, string str = " ] ".
+[LeeDoYuJae]str should be " ] ".

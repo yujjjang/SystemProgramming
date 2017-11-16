@@ -1,0 +1,10 @@
+[LeeDoYuJae]
+strcasecmp_l ("TRANSLIT", "translit", loc)
+[LeeDoYuJae]
+strcasecmp_l ("TRANSLIT", "translit", loc)
+[LeeDoYuJae]
+strcasecmp_l ("TRANSLIT", "trÄnslit", loc)
+[LeeDoYuJae]
+strcasecmp_l ("TRANSLIT", "translit", loc)
+[LeeDoYuJae]
+strcasecmp_l ("ä", "Ä", loc)

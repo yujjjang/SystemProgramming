@@ -1,0 +1,12 @@
+[LeeDoYuJae]rwlock_init succeeded
+[LeeDoYuJae]1st rwlock_rdlock succeeded
+[LeeDoYuJae]2nd rwlock_rdlock succeeded
+[LeeDoYuJae]1st rwlock_unlock succeeded
+[LeeDoYuJae]2nd rwlock_unlock succeeded
+[LeeDoYuJae]1st rwlock_wrlock succeeded
+[LeeDoYuJae]3rd rwlock_unlock succeeded
+[LeeDoYuJae]2nd rwlock_wrlock succeeded
+[LeeDoYuJae]4th rwlock_unlock succeeded
+[LeeDoYuJae]3rd rwlock_rdlock succeeded
+[LeeDoYuJae]5th rwlock_unlock succeeded
+[LeeDoYuJae]rwlock_destroy succeeded

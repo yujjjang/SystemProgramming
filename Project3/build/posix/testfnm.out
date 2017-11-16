@@ -1,0 +1,49 @@
+[LeeDoYuJae][ 0]  *LIB* does not match lib  -> OK
+[LeeDoYuJae][ 1]  *LIB* matches lib  -> OK
+[LeeDoYuJae][ 2]  a[/]b matches a/b  -> OK
+[LeeDoYuJae][ 3]  a[/]b does not match a/b  -> OK
+[LeeDoYuJae][ 4]  [a-z]/[a-z] matches a/b  -> OK
+[LeeDoYuJae][ 5]  * does not match a/b  -> OK
+[LeeDoYuJae][ 6]  *[/]b does not match a/b  -> OK
+[LeeDoYuJae][ 7]  *[b] does not match a/b  -> OK
+[LeeDoYuJae][ 8]  [*]/b does not match a/b  -> OK
+[LeeDoYuJae][ 9]  [*]/b matches */b  -> OK
+[LeeDoYuJae][10]  [?]/b does not match a/b  -> OK
+[LeeDoYuJae][11]  [?]/b matches ?/b  -> OK
+[LeeDoYuJae][12]  [[a]/b matches a/b  -> OK
+[LeeDoYuJae][13]  [[a]/b matches [/b  -> OK
+[LeeDoYuJae][14]  \*/b does not match a/b  -> OK
+[LeeDoYuJae][15]  \*/b matches */b  -> OK
+[LeeDoYuJae][16]  \?/b does not match a/b  -> OK
+[LeeDoYuJae][17]  \?/b matches ?/b  -> OK
+[LeeDoYuJae][18]  [/b matches [/b  -> OK
+[LeeDoYuJae][19]  \[/b matches [/b  -> OK
+[LeeDoYuJae][20]  ??/b matches aa/b  -> OK
+[LeeDoYuJae][21]  ???b matches aa/b  -> OK
+[LeeDoYuJae][22]  ???b does not match aa/b  -> OK
+[LeeDoYuJae][23]  ?a/b does not match .a/b  -> OK
+[LeeDoYuJae][24]  a/?b does not match a/.b  -> OK
+[LeeDoYuJae][25]  *a/b does not match .a/b  -> OK
+[LeeDoYuJae][26]  a/*b does not match a/.b  -> OK
+[LeeDoYuJae][27]  [.]a/b does not match .a/b  -> OK
+[LeeDoYuJae][28]  a/[.]b does not match a/.b  -> OK
+[LeeDoYuJae][29]  */? matches a/b  -> OK
+[LeeDoYuJae][30]  ?/* matches a/b  -> OK
+[LeeDoYuJae][31]  .*/? matches .a/b  -> OK
+[LeeDoYuJae][32]  */.? matches a/.b  -> OK
+[LeeDoYuJae][33]  */* does not match a/.b  -> OK
+[LeeDoYuJae][34]  *?*/* matches a/.b  -> OK
+[LeeDoYuJae][35]  *[.]/b matches a./b  -> OK
+[LeeDoYuJae][36]  *[[:alpha:]]/*[[:alnum:]] matches a/b  -> OK
+[LeeDoYuJae][37]  *[![:digit:]]*/[![:d-d] matches a/b  -> OK
+[LeeDoYuJae][38]  *[![:digit:]]*/[[:d-d] matches a/[  -> OK
+[LeeDoYuJae][39]  *[![:digit:]]*/[![:d-d] does not match a/[  -> OK
+[LeeDoYuJae][40]  a?b matches a.b  -> OK
+[LeeDoYuJae][41]  a*b matches a.b  -> OK
+[LeeDoYuJae][42]  a[.]b matches a.b  -> OK
+[LeeDoYuJae][43]  *a* matches a/b  -> OK
+[LeeDoYuJae][44]  *a? matches ab/c  -> OK
+[LeeDoYuJae][45]  a? matches ab/c  -> OK
+[LeeDoYuJae][46]  ?*/? matches a/b  -> OK
+[LeeDoYuJae][47]  */? matches /b  -> OK
+[LeeDoYuJae][48]  **/? matches /b  -> OK

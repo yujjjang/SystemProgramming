@@ -1,0 +1,3 @@
+[LeeDoYuJae]in='123,abc,321' format='%d,%[^,],%d'
+[LeeDoYuJae]in='123,abc,321' format='%d,%[^,],%d'
+[LeeDoYuJae]out_d1=123 out_s='abc' out_d2=321

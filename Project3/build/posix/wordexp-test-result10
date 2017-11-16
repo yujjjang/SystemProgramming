@@ -1,0 +1,9 @@
+[LeeDoYuJae]wordexp returned 0
+[LeeDoYuJae]we_wordv[0] = "4"
+[LeeDoYuJae]we_wordv[1] = "3"
+[LeeDoYuJae]we_wordv[2] = "*${#@}"
+[LeeDoYuJae]we_wordv[3] = "${#2}"
+[LeeDoYuJae]we_wordv[4] = "*$**"
+[LeeDoYuJae]we_wordv[5] = "two"
+[LeeDoYuJae]we_wordv[6] = "3"
+[LeeDoYuJae]we_wordv[7] = "4*"

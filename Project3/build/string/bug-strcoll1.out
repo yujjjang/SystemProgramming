@@ -1,0 +1,2 @@
+[LeeDoYuJae]strcoll ("0-0-0-0-0-0-0-0-0-0.COM", "00000-00000.COM") = -1
+[LeeDoYuJae]strcoll ("00000-00000.COM", "0-0-0-0-0-0-0-0-0-0.COM") = 1

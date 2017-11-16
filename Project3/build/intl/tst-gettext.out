@@ -1,0 +1,15 @@
+[LeeDoYuJae]test `gettext' with LANGUAGE set
+[LeeDoYuJae]test `gettext' with LANGUAGE set
+[LeeDoYuJae]test `dgettext' with LANGUAGE set
+[LeeDoYuJae]test `gettext' with LC_ALL set
+[LeeDoYuJae]test `gettext' with LC_ALL deciding
+[LeeDoYuJae]test `dgettext' with LC_ALL deciding
+[LeeDoYuJae]test `gettext' with LC_MESSAGES set
+[LeeDoYuJae]test `gettext' with LC_MESSAGES deciding
+[LeeDoYuJae]test `dgettext' with LC_MESSAGES deciding
+[LeeDoYuJae]test `dcgettext' with category == LC_MESSAGES
+[LeeDoYuJae]test `dcgettext' with LANGUAGE == LC_TIME
+[LeeDoYuJae]test `dcgettext' with LANGUAGE == LC_NUMERIC
+[LeeDoYuJae]test `gettext' with LANG set
+[LeeDoYuJae]test `gettext' with LANG set
+[LeeDoYuJae]test `dgettext' with LANG set

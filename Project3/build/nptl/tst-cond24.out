@@ -1,0 +1,3 @@
+[LeeDoYuJae]Testing pthread_cond_wait
+[LeeDoYuJae]Starting test
+[LeeDoYuJae]Didn't expect signal from child: got `Aborted'

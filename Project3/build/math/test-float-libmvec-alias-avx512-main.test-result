@@ -1,0 +1,2 @@
+UNSUPPORTED: math/test-float-libmvec-alias-avx512-main
+original exit status 77

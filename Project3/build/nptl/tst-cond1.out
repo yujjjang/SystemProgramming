@@ -1,0 +1,5 @@
+[LeeDoYuJae]&cond = 0x6031a0
+&mut = 0x603160
+[LeeDoYuJae]parent: get mutex
+[LeeDoYuJae]parent: create child
+[LeeDoYuJae]Didn't expect signal from child: got `Aborted'

@@ -1,0 +1,5 @@
+[LeeDoYuJae]fread 6: "hello
+"
+[LeeDoYuJae]ftell 2048
+[LeeDoYuJae]fread after rewind 6: "hello
+"

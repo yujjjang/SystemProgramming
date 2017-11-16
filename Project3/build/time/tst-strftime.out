@@ -1,0 +1,4 @@
+[LeeDoYuJae]0: %2000Y: size == 2500: OK
+[LeeDoYuJae]1: %02000Y: size == 2500: OK
+[LeeDoYuJae]2: %_2000Y: size == 2500: OK
+[LeeDoYuJae]3: %-2000Y: size == 2500: OK

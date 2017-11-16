@@ -1,0 +1,15 @@
+[LeeDoYuJae]tst-fts.uqmya5 =>
+[LeeDoYuJae]  12
+[LeeDoYuJae]  345
+[LeeDoYuJae]  6789
+[LeeDoYuJae]  aaa =>
+[LeeDoYuJae]    1234
+[LeeDoYuJae]    5678
+[LeeDoYuJae]  <= aaa
+[LeeDoYuJae]  bbb =>
+[LeeDoYuJae]    1234
+[LeeDoYuJae]    5678
+[LeeDoYuJae]    90ab
+[LeeDoYuJae]  <= bbb
+[LeeDoYuJae]<= tst-fts.uqmya5
+[LeeDoYuJae]PASS

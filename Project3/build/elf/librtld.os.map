@@ -1,0 +1,1335 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/sysprog/glibc/build/elf/rtld-libc.a(rtld-check_fds.os)
+                              /home/sysprog/glibc/build/elf/dl-allobjs.os (__libc_check_standard_fds)
+/home/sysprog/glibc/build/elf/rtld-libc.a(rtld-errno.os)
+                              /home/sysprog/glibc/build/elf/dl-allobjs.os (rtld_errno)
+/home/sysprog/glibc/build/elf/rtld-libc.a(rtld-closedir.os)
+                              /home/sysprog/glibc/build/elf/dl-allobjs.os (__closedir)
+/home/sysprog/glibc/build/elf/rtld-libc.a(rtld-readdir.os)
+                              /home/sysprog/glibc/build/elf/dl-allobjs.os (__readdir)
+/home/sysprog/glibc/build/elf/rtld-libc.a(rtld-rewinddir.os)
+                              /home/sysprog/glibc/build/elf/dl-allobjs.os (__rewinddir)
+/home/sysprog/glibc/build/elf/rtld-libc.a(rtld-getdents.os)
+                              /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-readdir.os) (__getdents)
+/home/sysprog/glibc/build/elf/rtld-libc.a(rtld-fdopendir.os)
+                              /home/sysprog/glibc/build/elf/dl-allobjs.os (__fdopendir)
+/home/sysprog/glibc/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+                              /home/sysprog/glibc/build/elf/dl-allobjs.os (_dl_addr_inside_object)
+/home/sysprog/glibc/build/elf/rtld-libc.a(rtld-profil.os)
+                              /home/sysprog/glibc/build/elf/dl-allobjs.os (__profil)
+/home/sysprog/glibc/build/elf/rtld-libc.a(rtld-prof-freq.os)
+                              /home/sysprog/glibc/build/elf/dl-allobjs.os (__profile_frequency)
+/home/sysprog/glibc/build/elf/rtld-libc.a(rtld-xstat.os)
+                              /home/sysprog/glibc/build/elf/dl-allobjs.os (__GI___xstat64)
+/home/sysprog/glibc/build/elf/rtld-libc.a(rtld-fxstat.os)
+                              /home/sysprog/glibc/build/elf/dl-allobjs.os (__GI___fxstat64)
+/home/sysprog/glibc/build/elf/rtld-libc.a(rtld-lxstat.os)
+                              /home/sysprog/glibc/build/elf/dl-allobjs.os (__GI___lxstat64)
+/home/sysprog/glibc/build/elf/rtld-libc.a(rtld-open64.os)
+                              /home/sysprog/glibc/build/elf/dl-allobjs.os (__open)
+/home/sysprog/glibc/build/elf/rtld-libc.a(rtld-read.os)
+                              /home/sysprog/glibc/build/elf/dl-allobjs.os (__libc_read)
+/home/sysprog/glibc/build/elf/rtld-libc.a(rtld-write.os)
+                              /home/sysprog/glibc/build/elf/dl-allobjs.os (__libc_write)
+/home/sysprog/glibc/build/elf/rtld-libc.a(rtld-lseek64.os)
+                              /home/sysprog/glibc/build/elf/dl-allobjs.os (__lseek)
+/home/sysprog/glibc/build/elf/rtld-libc.a(rtld-access.os)
+                              /home/sysprog/glibc/build/elf/dl-allobjs.os (__access)
+/home/sysprog/glibc/build/elf/rtld-libc.a(rtld-fcntl.os)
+                              /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-check_fds.os) (__libc_fcntl)
+/home/sysprog/glibc/build/elf/rtld-libc.a(rtld-close.os)
+                              /home/sysprog/glibc/build/elf/dl-allobjs.os (__close)
+/home/sysprog/glibc/build/elf/rtld-libc.a(rtld-mmap64.os)
+                              /home/sysprog/glibc/build/elf/dl-allobjs.os (__mmap)
+/home/sysprog/glibc/build/elf/rtld-libc.a(rtld-munmap.os)
+                              /home/sysprog/glibc/build/elf/dl-allobjs.os (__munmap)
+/home/sysprog/glibc/build/elf/rtld-libc.a(rtld-mprotect.os)
+                              /home/sysprog/glibc/build/elf/dl-allobjs.os (__mprotect)
+/home/sysprog/glibc/build/elf/rtld-libc.a(rtld-uname.os)
+                              /home/sysprog/glibc/build/elf/dl-allobjs.os (__uname)
+/home/sysprog/glibc/build/elf/rtld-libc.a(rtld-_exit.os)
+                              /home/sysprog/glibc/build/elf/dl-allobjs.os (__GI__exit)
+/home/sysprog/glibc/build/elf/rtld-libc.a(rtld-getpid.os)
+                              /home/sysprog/glibc/build/elf/dl-allobjs.os (__getpid)
+/home/sysprog/glibc/build/elf/rtld-libc.a(rtld-environ.os)
+                              /home/sysprog/glibc/build/elf/dl-allobjs.os (__environ)
+/home/sysprog/glibc/build/elf/rtld-libc.a(rtld-setjmp.os)
+                              /home/sysprog/glibc/build/elf/dl-allobjs.os (__sigsetjmp)
+/home/sysprog/glibc/build/elf/rtld-libc.a(rtld-__longjmp.os)
+                              /home/sysprog/glibc/build/elf/dl-allobjs.os (__longjmp)
+/home/sysprog/glibc/build/elf/rtld-libc.a(rtld-sigaction.os)
+                              /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-profil.os) (__sigaction)
+/home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strdup.os)
+                              /home/sysprog/glibc/build/elf/dl-allobjs.os (__strdup)
+/home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strcmp-sse2.os)
+                              /home/sysprog/glibc/build/elf/dl-allobjs.os (strcmp)
+/home/sysprog/glibc/build/elf/rtld-libc.a(rtld-memchr-sse2.os)
+                              /home/sysprog/glibc/build/elf/dl-allobjs.os (memchr)
+/home/sysprog/glibc/build/elf/rtld-libc.a(rtld-rawmemchr-sse2.os)
+                              /home/sysprog/glibc/build/elf/dl-allobjs.os (rawmemchr)
+/home/sysprog/glibc/build/elf/rtld-libc.a(rtld-memcmp-sse2.os)
+                              /home/sysprog/glibc/build/elf/dl-allobjs.os (memcmp)
+/home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strchr-sse2.os)
+                              /home/sysprog/glibc/build/elf/dl-allobjs.os (strchr)
+/home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strlen-sse2.os)
+                              /home/sysprog/glibc/build/elf/dl-allobjs.os (strlen)
+/home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strnlen-sse2.os)
+                              /home/sysprog/glibc/build/elf/dl-allobjs.os (strnlen)
+/home/sysprog/glibc/build/elf/rtld-libc.a(rtld-stpcpy-sse2.os)
+                              /home/sysprog/glibc/build/elf/dl-allobjs.os (__stpcpy)
+/home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strcspn-sse2.os)
+                              /home/sysprog/glibc/build/elf/dl-allobjs.os (strcspn)
+/home/sysprog/glibc/build/elf/rtld-libc.a(rtld-memmove-sse2-unaligned-erms.os)
+                              /home/sysprog/glibc/build/elf/dl-allobjs.os (__mempcpy)
+/home/sysprog/glibc/build/elf/rtld-libc.a(rtld-memset-sse2-unaligned-erms.os)
+                              /home/sysprog/glibc/build/elf/dl-allobjs.os (memset)
+/home/sysprog/glibc/build/elf/rtld-libc.a(rtld-setitimer.os)
+                              /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-profil.os) (__setitimer)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+START GROUP
+LOAD /home/sysprog/glibc/build/elf/dl-allobjs.os
+LOAD /home/sysprog/glibc/build/elf/rtld-libc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/libgcc.a
+END GROUP
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rela.init
+ *(.rela.init)
+
+.rela.text
+ *(.rela.text)
+
+.rela.fini
+ *(.rela.fini)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rela.data
+ *(.rela.data)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rela.got
+ *(.rela.got)
+
+.rela.bss
+ *(.rela.bss)
+
+.rela.ldata
+ *(.rela.ldata)
+
+.rela.lbss
+ *(.rela.lbss)
+
+.rela.lrodata
+ *(.rela.lrodata)
+
+.rela.ifunc
+ *(.rela.ifunc)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(SORT(.init))
+
+.plt
+ *(.plt)
+ *(.iplt)
+
+.plt.got
+ *(.plt.got)
+
+.plt.bnd
+ *(.plt.bnd)
+
+.text           0x0000000000000000    0x1c780
+ *(.text .stub)
+ .text          0x0000000000000000    0x19340 /home/sysprog/glibc/build/elf/dl-allobjs.os
+                0x0000000000000000                _start
+                0x0000000000000008                _dl_start_user
+                0x0000000000001240                handle_ld_preload
+                0x0000000000006900                _dl_dst_count
+                0x00000000000069b0                _dl_dst_substitute
+                0x00000000000072c0                _dl_init_paths
+                0x0000000000007700                _dl_map_object
+                0x0000000000008100                _dl_rtld_di_serinfo
+                0x0000000000009060                _dl_lookup_symbol_x
+                0x000000000000a120                _dl_setup_hash
+                0x000000000000a1d0                _dl_add_to_namespace_list
+                0x000000000000a260                _dl_new_object
+                0x000000000000a600                _dl_try_allocate_static_tls
+                0x000000000000a6e0                _dl_allocate_static_tls
+                0x000000000000a710                _dl_nothread_init_static_tls
+                0x000000000000a750                _dl_protect_relro
+                0x000000000000a7b0                _dl_reloc_bad_type
+                0x000000000000a880                _dl_relocate_object
+                0x000000000000c290                _dl_map_object_deps
+                0x000000000000d530                _dl_important_hwcaps
+                0x000000000000dcf0                _dl_fixup
+                0x000000000000dec0                _dl_profile_fixup
+                0x000000000000e4c0                _dl_call_pltexit
+                0x000000000000e6f0                _dl_init
+                0x000000000000e820                _dl_sort_fini
+                0x000000000000ea60                _dl_fini
+                0x000000000000edf0                _dl_debug_state
+                0x000000000000edf0                __GI__dl_debug_state
+                0x000000000000ee00                _dl_debug_initialize
+                0x000000000000f470                _dl_sysdep_read_whole_file
+                0x000000000000f500                _dl_debug_printf
+                0x000000000000f5b0                _dl_debug_printf_c
+                0x000000000000f660                _dl_dprintf
+                0x000000000000f700                _dl_name_match_p
+                0x000000000000f770                _dl_higher_prime_number
+                0x000000000000f7f0                _dl_strtoul
+                0x000000000000fd50                _dl_check_map_versions
+                0x0000000000010210                _dl_check_all_versions
+                0x0000000000010280                _dl_start_profile
+                0x0000000000010a60                __GI__dl_mcount
+                0x0000000000010a60                _dl_mcount
+                0x0000000000010fd0                _dl_next_tls_modid
+                0x00000000000110d0                _dl_count_modids
+                0x0000000000011130                _dl_determine_tlsoffset
+                0x0000000000011300                _dl_get_tls_static_info
+                0x0000000000011320                _dl_allocate_tls_storage
+                0x00000000000113e0                __GI__dl_allocate_tls_init
+                0x00000000000113e0                _dl_allocate_tls_init
+                0x0000000000011680                __GI__dl_allocate_tls
+                0x0000000000011680                _dl_allocate_tls
+                0x00000000000116c0                _dl_deallocate_tls
+                0x00000000000116c0                __GI__dl_deallocate_tls
+                0x0000000000011740                _dl_update_slotinfo
+                0x00000000000119d0                __GI___tls_get_addr
+                0x00000000000119d0                ___tls_get_addr
+                0x0000000000011a10                _dl_tls_get_addr_soft
+                0x0000000000011a90                _dl_add_to_slotinfo
+                0x0000000000011b70                __tls_get_addr_slow
+                0x0000000000011ba0                _dl_get_origin
+                0x0000000000011d20                _dl_scope_free
+                0x0000000000011df0                _dl_make_stack_executable
+                0x0000000000011df0                __GI__dl_make_stack_executable
+                0x0000000000011e80                _dl_check_caller
+                0x00000000000122b0                __GI__dl_find_dso_for_object
+                0x00000000000122b0                _dl_find_dso_for_object
+                0x0000000000012370                _dl_open
+                0x0000000000012780                _dl_show_scope
+                0x0000000000013340                _dl_close_worker
+                0x00000000000142a0                _dl_close
+                0x0000000000014310                _dl_runtime_resolve_avx512
+                0x0000000000014480                _dl_runtime_profile_avx512
+                0x0000000000014900                _dl_runtime_resolve_avx_slow
+                0x0000000000014940                _dl_runtime_resolve_avx_opt
+                0x0000000000014960                _dl_runtime_resolve_avx
+                0x0000000000014ac0                _dl_runtime_profile_avx
+                0x0000000000014f40                _dl_runtime_resolve_sse
+                0x0000000000015080                _dl_runtime_profile_sse
+                0x0000000000015280                _dl_runtime_resolve_avx512_opt
+                0x00000000000152b0                _dl_runtime_resolve_sse_vex
+                0x0000000000015400                _dl_cache_libcmp
+                0x00000000000154e0                _dl_load_cache_lookup
+                0x0000000000015b70                _dl_unload_cache
+                0x0000000000015c70                __tunable_set_val
+                0x0000000000015c90                __GI___tunables_init
+                0x0000000000016170                __tunable_get_val
+                0x0000000000016170                __GI___tunable_get_val
+                0x00000000000161f0                _dl_make_tlsdesc_dynamic
+                0x00000000000164c0                _dl_tlsdesc_resolve_rela_fixup
+                0x0000000000016680                _dl_tlsdesc_resolve_hold_fixup
+                0x00000000000166c0                _dl_unmap
+                0x0000000000016740                _dl_tlsdesc_return
+                0x0000000000016750                _dl_tlsdesc_undefweak
+                0x0000000000016760                _dl_tlsdesc_dynamic
+                0x0000000000016800                _dl_tlsdesc_resolve_rela
+                0x0000000000016870                _dl_tlsdesc_resolve_hold
+                0x00000000000168f0                __tls_get_addr
+                0x0000000000016930                __get_cpu_features
+                0x0000000000016940                _dl_tunable_set_hwcaps
+                0x0000000000017680                _dl_sysdep_start
+                0x0000000000017da0                _dl_sysdep_start_cleanup
+                0x0000000000017db0                _dl_show_auxv
+                0x0000000000017f60                _dl_discover_osversion
+                0x0000000000018130                _dl_next_ld_env_entry
+                0x0000000000018180                unsetenv
+                0x00000000000181f0                malloc
+                0x0000000000018300                calloc
+                0x0000000000018340                free
+                0x0000000000018370                __sigjmp_save
+                0x0000000000018380                __strerror_r
+                0x0000000000018460                __GI___libc_fatal
+                0x0000000000018460                __libc_fatal
+                0x0000000000018490                __GI___chk_fail
+                0x0000000000018490                __chk_fail
+                0x00000000000184a0                __GI___assert_fail
+                0x00000000000184a0                __assert_fail
+                0x00000000000184f0                realloc
+                0x0000000000018580                __GI___assert_perror_fail
+                0x0000000000018580                __assert_perror_fail
+                0x00000000000185f0                _itoa
+                0x0000000000018640                __strsep
+                0x0000000000018640                strsep
+                0x0000000000018640                __strsep_g
+                0x00000000000186d0                _dl_signal_error
+                0x0000000000018870                _dl_signal_cerror
+                0x0000000000018900                _dl_catch_error
+                0x00000000000189d0                _dl_receive_error
+                0x0000000000018a10                _dl_resolve_conflicts
+                0x0000000000018b90                __brk
+                0x0000000000018b90                brk
+                0x0000000000018be0                sbrk
+                0x0000000000018be0                __sbrk
+                0x0000000000018c70                __getcwd
+                0x0000000000018c70                getcwd
+                0x00000000000190d0                openat64
+                0x0000000000019140                __alloc_dir
+                0x0000000000019240                __opendir
+                0x0000000000019240                opendir
+                0x00000000000192f0                __fxstatat
+                0x00000000000192f0                __fxstatat64
+                0x00000000000192f0                __GI___fxstatat64
+ .text          0x0000000000019340       0xf2 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-check_fds.os)
+                0x0000000000019400                __libc_check_standard_fds
+ .text          0x0000000000019432        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-errno.os)
+ *fill*         0x0000000000019432        0xe 
+ .text          0x0000000000019440       0x50 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-closedir.os)
+                0x0000000000019440                __closedir
+                0x0000000000019440                closedir
+ .text          0x0000000000019490       0x85 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-readdir.os)
+                0x0000000000019490                readdir
+                0x0000000000019490                __readdir64
+                0x0000000000019490                __readdir
+                0x0000000000019490                readdir64
+ *fill*         0x0000000000019515        0xb 
+ .text          0x0000000000019520       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-rewinddir.os)
+                0x0000000000019520                rewinddir
+                0x0000000000019520                __rewinddir
+ .text          0x0000000000019550       0x89 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-getdents.os)
+                0x0000000000019550                __getdents
+                0x0000000000019550                __getdents64
+ *fill*         0x00000000000195d9        0x7 
+ .text          0x00000000000195e0       0x8e /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-fdopendir.os)
+                0x00000000000195e0                fdopendir
+                0x00000000000195e0                __fdopendir
+ *fill*         0x000000000001966e        0x2 
+ .text          0x0000000000019670       0x53 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+                0x0000000000019670                _dl_addr_inside_object
+ *fill*         0x00000000000196c3        0xd 
+ .text          0x00000000000196d0      0x110 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-profil.os)
+                0x0000000000019720                __profil
+                0x0000000000019720                profil
+ .text          0x00000000000197e0        0x7 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-prof-freq.os)
+                0x00000000000197e0                __profile_frequency
+ *fill*         0x00000000000197e7        0x9 
+ .text          0x00000000000197f0       0x40 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-xstat.os)
+                0x00000000000197f0                _xstat
+                0x00000000000197f0                __xstat64
+                0x00000000000197f0                __GI___xstat64
+                0x00000000000197f0                __GI___xstat
+                0x00000000000197f0                __xstat
+ .text          0x0000000000019830       0x40 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-fxstat.os)
+                0x0000000000019830                __GI___fxstat
+                0x0000000000019830                __GI___fxstat64
+                0x0000000000019830                __fxstat64
+                0x0000000000019830                _fxstat
+                0x0000000000019830                __fxstat
+ .text          0x0000000000019870       0x40 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-lxstat.os)
+                0x0000000000019870                __GI___lxstat
+                0x0000000000019870                _lxstat
+                0x0000000000019870                __lxstat
+                0x0000000000019870                __lxstat64
+                0x0000000000019870                __GI___lxstat64
+ .text          0x00000000000198b0       0x76 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-open64.os)
+                0x00000000000198b0                __open
+                0x00000000000198b0                __libc_open64
+                0x00000000000198b0                __libc_open
+                0x00000000000198b0                open64
+                0x00000000000198b0                open
+                0x00000000000198b0                __open64
+ *fill*         0x0000000000019926        0xa 
+ .text          0x0000000000019930       0x28 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-read.os)
+                0x0000000000019930                __read
+                0x0000000000019930                __libc_read
+                0x0000000000019930                read
+ *fill*         0x0000000000019958        0x8 
+ .text          0x0000000000019960       0x28 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-write.os)
+                0x0000000000019960                __write
+                0x0000000000019960                write
+                0x0000000000019960                __libc_write
+ *fill*         0x0000000000019988        0x8 
+ .text          0x0000000000019990       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-lseek64.os)
+                0x0000000000019990                __lseek64
+                0x0000000000019990                lseek
+                0x0000000000019990                __libc_lseek64
+                0x0000000000019990                llseek
+                0x0000000000019990                __lseek
+                0x0000000000019990                __libc_lseek
+                0x0000000000019990                lseek64
+ .text          0x00000000000199c0       0x26 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-access.os)
+                0x00000000000199c0                access
+                0x00000000000199c0                __access
+ *fill*         0x00000000000199e6        0xa 
+ .text          0x00000000000199f0       0x8e /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-fcntl.os)
+                0x00000000000199f0                __libc_fcntl
+                0x00000000000199f0                __fcntl
+                0x00000000000199f0                fcntl
+ *fill*         0x0000000000019a7e        0x2 
+ .text          0x0000000000019a80       0x26 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-close.os)
+                0x0000000000019a80                __libc_close
+                0x0000000000019a80                __close
+                0x0000000000019a80                close
+ *fill*         0x0000000000019aa6        0xa 
+ .text          0x0000000000019ab0       0xe1 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-mmap64.os)
+                0x0000000000019ab0                __mmap
+                0x0000000000019ab0                mmap
+                0x0000000000019ab0                __mmap64
+                0x0000000000019ab0                mmap64
+ *fill*         0x0000000000019b91        0xf 
+ .text          0x0000000000019ba0       0x20 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-munmap.os)
+                0x0000000000019ba0                munmap
+                0x0000000000019ba0                __GI___munmap
+                0x0000000000019ba0                __GI_munmap
+                0x0000000000019ba0                __munmap
+ .text          0x0000000000019bc0       0x20 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-mprotect.os)
+                0x0000000000019bc0                __mprotect
+                0x0000000000019bc0                __GI___mprotect
+                0x0000000000019bc0                __GI_mprotect
+                0x0000000000019bc0                mprotect
+ .text          0x0000000000019be0       0x20 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-uname.os)
+                0x0000000000019be0                uname
+                0x0000000000019be0                __GI_uname
+                0x0000000000019be0                __uname
+                0x0000000000019be0                __GI___uname
+ .text          0x0000000000019c00       0x4a /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-_exit.os)
+                0x0000000000019c00                _Exit
+                0x0000000000019c00                __GI__exit
+                0x0000000000019c00                _exit
+ *fill*         0x0000000000019c4a        0x6 
+ .text          0x0000000000019c50        0x8 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-getpid.os)
+                0x0000000000019c50                __getpid
+                0x0000000000019c50                getpid
+                0x0000000000019c50                __GI_getpid
+                0x0000000000019c50                __GI___getpid
+ .text          0x0000000000019c58        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-environ.os)
+ *fill*         0x0000000000019c58        0x8 
+ .text          0x0000000000019c60       0x4f /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-setjmp.os)
+                0x0000000000019c60                __sigsetjmp
+                0x0000000000019c60                __GI___sigsetjmp
+ *fill*         0x0000000000019caf        0x1 
+ .text          0x0000000000019cb0       0x4a /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-__longjmp.os)
+                0x0000000000019cb0                __longjmp
+ *fill*         0x0000000000019cfa        0x6 
+ .text          0x0000000000019d00      0x270 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-sigaction.os)
+                0x0000000000019d20                __libc_sigaction
+                0x0000000000019f50                sigaction
+                0x0000000000019f50                __sigaction
+ .text          0x0000000000019f70       0x41 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strdup.os)
+                0x0000000000019f70                __strdup
+                0x0000000000019f70                strdup
+ *fill*         0x0000000000019fb1        0xf 
+ .text          0x0000000000019fc0     0x1439 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strcmp-sse2.os)
+                0x0000000000019fc0                strcmp
+ *fill*         0x000000000001b3f9        0x7 
+ .text          0x000000000001b400      0x323 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-memchr-sse2.os)
+                0x000000000001b400                memchr
+                0x000000000001b400                __memchr
+ *fill*         0x000000000001b723        0xd 
+ .text          0x000000000001b730      0x1f9 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-rawmemchr-sse2.os)
+                0x000000000001b730                __rawmemchr
+                0x000000000001b730                rawmemchr
+ *fill*         0x000000000001b929        0x7 
+ .text          0x000000000001b930      0x400 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-memcmp-sse2.os)
+                0x000000000001b930                bcmp
+                0x000000000001b930                memcmp
+ .text          0x000000000001bd30      0x21a /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strchr-sse2.os)
+                0x000000000001bd30                index
+                0x000000000001bd30                strchr
+ *fill*         0x000000000001bf4a        0x6 
+ .text          0x000000000001bf50      0x19c /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strlen-sse2.os)
+                0x000000000001bf50                strlen
+ *fill*         0x000000000001c0ec        0x4 
+ .text          0x000000000001c0f0      0x218 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strnlen-sse2.os)
+                0x000000000001c0f0                __strnlen
+                0x000000000001c0f0                strnlen
+ *fill*         0x000000000001c308        0x8 
+ .text          0x000000000001c310       0xdc /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-stpcpy-sse2.os)
+                0x000000000001c310                stpcpy
+                0x000000000001c310                __stpcpy
+ *fill*         0x000000000001c3ec        0x4 
+ .text          0x000000000001c3f0       0x97 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strcspn-sse2.os)
+                0x000000000001c3f0                strcspn
+ *fill*         0x000000000001c487        0x9 
+ .text          0x000000000001c490      0x1ed /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-memmove-sse2-unaligned-erms.os)
+                0x000000000001c490                mempcpy
+                0x000000000001c490                __mempcpy
+                0x000000000001c4a0                memmove
+                0x000000000001c4a0                memcpy
+ *fill*         0x000000000001c67d        0x3 
+ .text          0x000000000001c680       0xda /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-memset-sse2-unaligned-erms.os)
+                0x000000000001c680                memset
+ *fill*         0x000000000001c75a        0x6 
+ .text          0x000000000001c760       0x20 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-setitimer.os)
+                0x000000000001c760                setitimer
+                0x000000000001c760                __setitimer
+                0x000000000001c760                __GI_setitimer
+                0x000000000001c760                __GI___setitimer
+ *(.gnu.warning)
+
+.text.unlikely  0x0000000000000000      0x169
+ .text.unlikely
+                0x0000000000000000      0x169 /home/sysprog/glibc/build/elf/dl-allobjs.os
+ .text.unlikely
+                0x0000000000000169        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-check_fds.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-closedir.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-readdir.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-rewinddir.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-getdents.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-fdopendir.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-profil.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-prof-freq.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-xstat.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-fxstat.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-lxstat.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-open64.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-read.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-write.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-lseek64.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-access.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-fcntl.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-close.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-mmap64.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-_exit.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-sigaction.os)
+ .text.unlikely
+                0x0000000000000169        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strdup.os)
+
+.fini
+ *(SORT(.fini))
+
+.rodata         0x0000000000000000      0xd88
+ *(.rodata)
+ .rodata        0x0000000000000000      0xd48 /home/sysprog/glibc/build/elf/dl-allobjs.os
+                0x0000000000000ca0                __GI__itoa_lower_digits
+                0x0000000000000ca0                _itoa_lower_digits
+ .rodata        0x0000000000000d48       0x40 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strcmp-sse2.os)
+
+.rodata.str1.1  0x0000000000000000     0x12e7
+ .rodata.str1.1
+                0x0000000000000000     0x12d3 /home/sysprog/glibc/build/elf/dl-allobjs.os
+ .rodata.str1.1
+                0x00000000000012d3       0x14 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-check_fds.os)
+
+.rodata.str1.8  0x0000000000000000     0x2309
+ .rodata.str1.8
+                0x0000000000000000     0x2309 /home/sysprog/glibc/build/elf/dl-allobjs.os
+
+.rodata.str1.16
+                0x0000000000000000      0x366
+ .rodata.str1.16
+                0x0000000000000000      0x366 /home/sysprog/glibc/build/elf/dl-allobjs.os
+
+.rodata.cst16   0x0000000000000000       0x20
+ .rodata.cst16  0x0000000000000000       0x20 /home/sysprog/glibc/build/elf/dl-allobjs.os
+
+.rodata.cst4    0x0000000000000000        0x4
+ .rodata.cst4   0x0000000000000000        0x4 /home/sysprog/glibc/build/elf/dl-allobjs.os
+
+.rodata.str1.32
+                0x0000000000000000       0x3b
+ .rodata.str1.32
+                0x0000000000000000       0x3b /home/sysprog/glibc/build/elf/dl-allobjs.os
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame       0x0000000000000000     0x2e10
+ *(.eh_frame)
+ .eh_frame      0x0000000000000000     0x2428 /home/sysprog/glibc/build/elf/dl-allobjs.os
+ .eh_frame      0x0000000000002428       0x68 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-check_fds.os)
+ .eh_frame      0x0000000000002490       0x40 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-closedir.os)
+ .eh_frame      0x00000000000024d0       0x48 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-readdir.os)
+ .eh_frame      0x0000000000002518       0x38 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-rewinddir.os)
+ .eh_frame      0x0000000000002550       0x68 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-getdents.os)
+ .eh_frame      0x00000000000025b8       0x50 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-fdopendir.os)
+ .eh_frame      0x0000000000002608       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+ .eh_frame      0x0000000000002638       0x50 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-profil.os)
+                                         0x48 (size before relaxing)
+ .eh_frame      0x0000000000002688       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-prof-freq.os)
+ .eh_frame      0x00000000000026b8       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-xstat.os)
+ .eh_frame      0x00000000000026e8       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-fxstat.os)
+ .eh_frame      0x0000000000002718       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-lxstat.os)
+ .eh_frame      0x0000000000002748       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-open64.os)
+ .eh_frame      0x0000000000002778       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-read.os)
+ .eh_frame      0x00000000000027a8       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-write.os)
+ .eh_frame      0x00000000000027d8       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-lseek64.os)
+ .eh_frame      0x0000000000002808       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-access.os)
+ .eh_frame      0x0000000000002838       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-fcntl.os)
+ .eh_frame      0x0000000000002868       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-close.os)
+ .eh_frame      0x0000000000002898       0x70 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-mmap64.os)
+ .eh_frame      0x0000000000002908       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-munmap.os)
+ .eh_frame      0x0000000000002938       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-mprotect.os)
+ .eh_frame      0x0000000000002968       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-uname.os)
+ .eh_frame      0x0000000000002998       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-_exit.os)
+ .eh_frame      0x00000000000029c8       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-getpid.os)
+ .eh_frame      0x00000000000029f8       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-setjmp.os)
+ .eh_frame      0x0000000000002a28       0x48 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-__longjmp.os)
+ .eh_frame      0x0000000000002a70       0xf0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-sigaction.os)
+                                         0xe8 (size before relaxing)
+ .eh_frame      0x0000000000002b60       0x50 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strdup.os)
+ .eh_frame      0x0000000000002bb0       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strcmp-sse2.os)
+ .eh_frame      0x0000000000002be0       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-memchr-sse2.os)
+ .eh_frame      0x0000000000002c10       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-rawmemchr-sse2.os)
+ .eh_frame      0x0000000000002c40       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-memcmp-sse2.os)
+ .eh_frame      0x0000000000002c70       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strchr-sse2.os)
+ .eh_frame      0x0000000000002ca0       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strlen-sse2.os)
+ .eh_frame      0x0000000000002cd0       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strnlen-sse2.os)
+ .eh_frame      0x0000000000002d00       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-stpcpy-sse2.os)
+ .eh_frame      0x0000000000002d30       0x38 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strcspn-sse2.os)
+ .eh_frame      0x0000000000002d68       0x48 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-memmove-sse2-unaligned-erms.os)
+                                         0x40 (size before relaxing)
+ .eh_frame      0x0000000000002db0       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-memset-sse2-unaligned-erms.os)
+ .eh_frame      0x0000000000002de0       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-setitimer.os)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.preinit_array
+ *(.preinit_array)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got)
+ *(.igot)
+
+.got.plt
+ *(.got.plt)
+ *(.igot.plt)
+
+.data           0x0000000000000000      0xf78
+ *(.data)
+ .data          0x0000000000000000      0xf78 /home/sysprog/glibc/build/elf/dl-allobjs.os
+                0x0000000000000000                _rtld_global
+                0x0000000000000000                _rtld_local
+ .data          0x0000000000000f78        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-check_fds.os)
+ .data          0x0000000000000f78        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-errno.os)
+ .data          0x0000000000000f78        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-closedir.os)
+ .data          0x0000000000000f78        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-readdir.os)
+ .data          0x0000000000000f78        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-rewinddir.os)
+ .data          0x0000000000000f78        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-getdents.os)
+ .data          0x0000000000000f78        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-fdopendir.os)
+ .data          0x0000000000000f78        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+ .data          0x0000000000000f78        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-profil.os)
+ .data          0x0000000000000f78        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-prof-freq.os)
+ .data          0x0000000000000f78        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-xstat.os)
+ .data          0x0000000000000f78        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-fxstat.os)
+ .data          0x0000000000000f78        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-lxstat.os)
+ .data          0x0000000000000f78        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-open64.os)
+ .data          0x0000000000000f78        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-read.os)
+ .data          0x0000000000000f78        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-write.os)
+ .data          0x0000000000000f78        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-lseek64.os)
+ .data          0x0000000000000f78        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-access.os)
+ .data          0x0000000000000f78        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-fcntl.os)
+ .data          0x0000000000000f78        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-close.os)
+ .data          0x0000000000000f78        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-mmap64.os)
+ .data          0x0000000000000f78        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-munmap.os)
+ .data          0x0000000000000f78        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-mprotect.os)
+ .data          0x0000000000000f78        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-uname.os)
+ .data          0x0000000000000f78        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-_exit.os)
+ .data          0x0000000000000f78        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-getpid.os)
+ .data          0x0000000000000f78        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-environ.os)
+ .data          0x0000000000000f78        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-setjmp.os)
+ .data          0x0000000000000f78        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-__longjmp.os)
+ .data          0x0000000000000f78        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-sigaction.os)
+ .data          0x0000000000000f78        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strdup.os)
+ .data          0x0000000000000f78        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strcmp-sse2.os)
+ .data          0x0000000000000f78        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-memchr-sse2.os)
+ .data          0x0000000000000f78        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-rawmemchr-sse2.os)
+ .data          0x0000000000000f78        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-memcmp-sse2.os)
+ .data          0x0000000000000f78        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strchr-sse2.os)
+ .data          0x0000000000000f78        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strlen-sse2.os)
+ .data          0x0000000000000f78        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strnlen-sse2.os)
+ .data          0x0000000000000f78        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-stpcpy-sse2.os)
+ .data          0x0000000000000f78        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strcspn-sse2.os)
+ .data          0x0000000000000f78        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-memmove-sse2-unaligned-erms.os)
+ .data          0x0000000000000f78        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-memset-sse2-unaligned-erms.os)
+ .data          0x0000000000000f78        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-setitimer.os)
+
+.data.rel.ro    0x0000000000000000      0x674
+ .data.rel.ro   0x0000000000000000      0x674 /home/sysprog/glibc/build/elf/dl-allobjs.os
+                0x00000000000000b0                __pointer_chk_guard_local
+                0x00000000000000b8                _dl_skip_args
+                0x00000000000000c0                __GI__dl_argv
+                0x00000000000000c0                _dl_argv
+                0x00000000000000c8                _dl_argc
+                0x00000000000000e0                _rtld_global_ro
+                0x00000000000000e0                _rtld_local_ro
+                0x00000000000002d0                __stack_prot
+                0x0000000000000660                _dl_random
+                0x0000000000000668                __libc_stack_end
+                0x0000000000000668                __GI___libc_stack_end
+                0x0000000000000670                __GI___libc_enable_secure
+                0x0000000000000670                __libc_enable_secure
+
+.data1
+ *(.data1)
+
+.bss            0x0000000000000000      0x140
+ *(.dynbss)
+ *(.bss)
+ .bss           0x0000000000000000      0x118 /home/sysprog/glibc/build/elf/dl-allobjs.os
+                0x00000000000000e0                __libc_multiple_libcs
+                0x0000000000000110                __curbrk
+ .bss           0x0000000000000118        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-check_fds.os)
+ .bss           0x0000000000000118        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-errno.os)
+ .bss           0x0000000000000118        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-closedir.os)
+ .bss           0x0000000000000118        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-readdir.os)
+ .bss           0x0000000000000118        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-rewinddir.os)
+ .bss           0x0000000000000118        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-getdents.os)
+ .bss           0x0000000000000118        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-fdopendir.os)
+ .bss           0x0000000000000118        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+ .bss           0x0000000000000118       0x20 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-profil.os)
+ .bss           0x0000000000000138        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-prof-freq.os)
+ .bss           0x0000000000000138        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-xstat.os)
+ .bss           0x0000000000000138        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-fxstat.os)
+ .bss           0x0000000000000138        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-lxstat.os)
+ .bss           0x0000000000000138        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-open64.os)
+ .bss           0x0000000000000138        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-read.os)
+ .bss           0x0000000000000138        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-write.os)
+ .bss           0x0000000000000138        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-lseek64.os)
+ .bss           0x0000000000000138        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-access.os)
+ .bss           0x0000000000000138        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-fcntl.os)
+ .bss           0x0000000000000138        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-close.os)
+ .bss           0x0000000000000138        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-mmap64.os)
+ .bss           0x0000000000000138        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-munmap.os)
+ .bss           0x0000000000000138        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-mprotect.os)
+ .bss           0x0000000000000138        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-uname.os)
+ .bss           0x0000000000000138        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-_exit.os)
+ .bss           0x0000000000000138        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-getpid.os)
+ .bss           0x0000000000000138        0x8 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-environ.os)
+                0x0000000000000138                _environ
+                0x0000000000000138                __environ
+                0x0000000000000138                environ
+ .bss           0x0000000000000140        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-setjmp.os)
+ .bss           0x0000000000000140        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-__longjmp.os)
+ .bss           0x0000000000000140        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-sigaction.os)
+ .bss           0x0000000000000140        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strdup.os)
+ .bss           0x0000000000000140        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strcmp-sse2.os)
+ .bss           0x0000000000000140        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-memchr-sse2.os)
+ .bss           0x0000000000000140        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-rawmemchr-sse2.os)
+ .bss           0x0000000000000140        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-memcmp-sse2.os)
+ .bss           0x0000000000000140        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strchr-sse2.os)
+ .bss           0x0000000000000140        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strlen-sse2.os)
+ .bss           0x0000000000000140        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strnlen-sse2.os)
+ .bss           0x0000000000000140        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-stpcpy-sse2.os)
+ .bss           0x0000000000000140        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strcspn-sse2.os)
+ .bss           0x0000000000000140        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-memmove-sse2-unaligned-erms.os)
+ .bss           0x0000000000000140        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-memset-sse2-unaligned-erms.os)
+ .bss           0x0000000000000140        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-setitimer.os)
+ *(COMMON)
+ COMMON         0x0000000000000140        0x0 /home/sysprog/glibc/build/elf/dl-allobjs.os
+ COMMON         0x0000000000000140        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-errno.os)
+
+.lbss
+ *(.dynlbss)
+ *(.lbss)
+ *(LARGE_COMMON)
+
+.lrodata
+ *(.lrodata)
+
+.ldata
+ *(.ldata)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000      0xca1
+ *(.comment)
+ .comment       0x0000000000000000      0x774 /home/sysprog/glibc/build/elf/dl-allobjs.os
+ .comment       0x0000000000000774       0x35 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-check_fds.os)
+ .comment       0x00000000000007a9       0x35 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-errno.os)
+ .comment       0x00000000000007de       0x35 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-closedir.os)
+ .comment       0x0000000000000813       0x35 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-readdir.os)
+ .comment       0x0000000000000848       0x35 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-rewinddir.os)
+ .comment       0x000000000000087d       0x35 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-getdents.os)
+ .comment       0x00000000000008b2       0x35 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-fdopendir.os)
+ .comment       0x00000000000008e7       0x35 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+ .comment       0x000000000000091c       0x35 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-profil.os)
+ .comment       0x0000000000000951       0x35 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-prof-freq.os)
+ .comment       0x0000000000000986       0x35 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-xstat.os)
+ .comment       0x00000000000009bb       0x35 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-fxstat.os)
+ .comment       0x00000000000009f0       0x35 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-lxstat.os)
+ .comment       0x0000000000000a25       0x35 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-open64.os)
+ .comment       0x0000000000000a5a       0x35 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-read.os)
+ .comment       0x0000000000000a8f       0x35 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-write.os)
+ .comment       0x0000000000000ac4       0x35 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-lseek64.os)
+ .comment       0x0000000000000af9       0x35 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-access.os)
+ .comment       0x0000000000000b2e       0x35 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-fcntl.os)
+ .comment       0x0000000000000b63       0x35 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-close.os)
+ .comment       0x0000000000000b98       0x35 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-mmap64.os)
+ .comment       0x0000000000000bcd       0x35 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-_exit.os)
+ .comment       0x0000000000000c02       0x35 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-environ.os)
+ .comment       0x0000000000000c37       0x35 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-sigaction.os)
+ .comment       0x0000000000000c6c       0x35 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strdup.os)
+
+.note.GNU-stack
+                0x0000000000000000        0x0
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/sysprog/glibc/build/elf/dl-allobjs.os
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-check_fds.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-errno.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-closedir.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-readdir.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-rewinddir.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-getdents.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-fdopendir.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-profil.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-prof-freq.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-xstat.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-fxstat.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-lxstat.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-open64.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-read.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-write.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-lseek64.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-access.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-fcntl.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-close.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-mmap64.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-munmap.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-mprotect.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-uname.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-_exit.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-getpid.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-environ.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-setjmp.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-__longjmp.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-sigaction.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strdup.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strcmp-sse2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-memchr-sse2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-rawmemchr-sse2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-memcmp-sse2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strchr-sse2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strlen-sse2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strnlen-sse2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-stpcpy-sse2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strcspn-sse2.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-memmove-sse2-unaligned-erms.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-memset-sse2-unaligned-erms.os)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-setitimer.os)
+
+.gnu.warning.llseek
+                0x0000000000000000       0x3f
+ .gnu.warning.llseek
+                0x0000000000000000       0x3f /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-lseek64.os)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0xf60
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000      0x770 /home/sysprog/glibc/build/elf/dl-allobjs.os
+ .debug_aranges
+                0x0000000000000770       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-check_fds.os)
+ .debug_aranges
+                0x00000000000007a0       0x20 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-errno.os)
+ .debug_aranges
+                0x00000000000007c0       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-closedir.os)
+ .debug_aranges
+                0x00000000000007f0       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-readdir.os)
+ .debug_aranges
+                0x0000000000000820       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-rewinddir.os)
+ .debug_aranges
+                0x0000000000000850       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-getdents.os)
+ .debug_aranges
+                0x0000000000000880       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-fdopendir.os)
+ .debug_aranges
+                0x00000000000008b0       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+ .debug_aranges
+                0x00000000000008e0       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-profil.os)
+ .debug_aranges
+                0x0000000000000910       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-prof-freq.os)
+ .debug_aranges
+                0x0000000000000940       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-xstat.os)
+ .debug_aranges
+                0x0000000000000970       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-fxstat.os)
+ .debug_aranges
+                0x00000000000009a0       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-lxstat.os)
+ .debug_aranges
+                0x00000000000009d0       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-open64.os)
+ .debug_aranges
+                0x0000000000000a00       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-read.os)
+ .debug_aranges
+                0x0000000000000a30       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-write.os)
+ .debug_aranges
+                0x0000000000000a60       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-lseek64.os)
+ .debug_aranges
+                0x0000000000000a90       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-access.os)
+ .debug_aranges
+                0x0000000000000ac0       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-fcntl.os)
+ .debug_aranges
+                0x0000000000000af0       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-close.os)
+ .debug_aranges
+                0x0000000000000b20       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-mmap64.os)
+ .debug_aranges
+                0x0000000000000b50       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-munmap.os)
+ .debug_aranges
+                0x0000000000000b80       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-mprotect.os)
+ .debug_aranges
+                0x0000000000000bb0       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-uname.os)
+ .debug_aranges
+                0x0000000000000be0       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-_exit.os)
+ .debug_aranges
+                0x0000000000000c10       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-getpid.os)
+ .debug_aranges
+                0x0000000000000c40       0x20 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-environ.os)
+ .debug_aranges
+                0x0000000000000c60       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-setjmp.os)
+ .debug_aranges
+                0x0000000000000c90       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-__longjmp.os)
+ .debug_aranges
+                0x0000000000000cc0       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-sigaction.os)
+ .debug_aranges
+                0x0000000000000cf0       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strdup.os)
+ .debug_aranges
+                0x0000000000000d20       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strcmp-sse2.os)
+ .debug_aranges
+                0x0000000000000d50       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-memchr-sse2.os)
+ .debug_aranges
+                0x0000000000000d80       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-rawmemchr-sse2.os)
+ .debug_aranges
+                0x0000000000000db0       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-memcmp-sse2.os)
+ .debug_aranges
+                0x0000000000000de0       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strchr-sse2.os)
+ .debug_aranges
+                0x0000000000000e10       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strlen-sse2.os)
+ .debug_aranges
+                0x0000000000000e40       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strnlen-sse2.os)
+ .debug_aranges
+                0x0000000000000e70       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-stpcpy-sse2.os)
+ .debug_aranges
+                0x0000000000000ea0       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strcspn-sse2.os)
+ .debug_aranges
+                0x0000000000000ed0       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-memmove-sse2-unaligned-erms.os)
+ .debug_aranges
+                0x0000000000000f00       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-memset-sse2-unaligned-erms.os)
+ .debug_aranges
+                0x0000000000000f30       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-setitimer.os)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x6423e
+ *(.debug_info)
+ .debug_info    0x0000000000000000    0x56810 /home/sysprog/glibc/build/elf/dl-allobjs.os
+ .debug_info    0x0000000000056810      0x87f /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-check_fds.os)
+ .debug_info    0x000000000005708f      0x474 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-errno.os)
+ .debug_info    0x0000000000057503      0x6df /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-closedir.os)
+ .debug_info    0x0000000000057be2      0x750 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-readdir.os)
+ .debug_info    0x0000000000058332      0x66e /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-rewinddir.os)
+ .debug_info    0x00000000000589a0      0x732 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-getdents.os)
+ .debug_info    0x00000000000590d2      0x85f /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-fdopendir.os)
+ .debug_info    0x0000000000059931      0xdc7 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+ .debug_info    0x000000000005a6f8      0xa69 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-profil.os)
+ .debug_info    0x000000000005b161     0x1990 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-prof-freq.os)
+ .debug_info    0x000000000005caf1      0x6b4 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-xstat.os)
+ .debug_info    0x000000000005d1a5      0x6ad /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-fxstat.os)
+ .debug_info    0x000000000005d852      0x6b4 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-lxstat.os)
+ .debug_info    0x000000000005df06      0x662 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-open64.os)
+ .debug_info    0x000000000005e568      0x631 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-read.os)
+ .debug_info    0x000000000005eb99      0x638 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-write.os)
+ .debug_info    0x000000000005f1d1      0x599 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-lseek64.os)
+ .debug_info    0x000000000005f76a      0x5df /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-access.os)
+ .debug_info    0x000000000005fd49      0x891 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-fcntl.os)
+ .debug_info    0x00000000000605da      0x5c2 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-close.os)
+ .debug_info    0x0000000000060b9c     0x1ceb /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-mmap64.os)
+ .debug_info    0x0000000000062887       0x6c /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-munmap.os)
+ .debug_info    0x00000000000628f3       0x6c /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-mprotect.os)
+ .debug_info    0x000000000006295f       0x6d /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-uname.os)
+ .debug_info    0x00000000000629cc      0x55c /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-_exit.os)
+ .debug_info    0x0000000000062f28       0x6d /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-getpid.os)
+ .debug_info    0x0000000000062f95       0xcc /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-environ.os)
+ .debug_info    0x0000000000063061       0x66 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-setjmp.os)
+ .debug_info    0x00000000000630c7       0x69 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-__longjmp.os)
+ .debug_info    0x0000000000063130      0xa59 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-sigaction.os)
+ .debug_info    0x0000000000063b89      0x167 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strdup.os)
+ .debug_info    0x0000000000063cf0       0x66 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strcmp-sse2.os)
+ .debug_info    0x0000000000063d56       0x73 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-memchr-sse2.os)
+ .debug_info    0x0000000000063dc9       0x76 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-rawmemchr-sse2.os)
+ .debug_info    0x0000000000063e3f       0x66 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-memcmp-sse2.os)
+ .debug_info    0x0000000000063ea5       0x73 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strchr-sse2.os)
+ .debug_info    0x0000000000063f18       0x73 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strlen-sse2.os)
+ .debug_info    0x0000000000063f8b       0x73 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strnlen-sse2.os)
+ .debug_info    0x0000000000063ffe       0x66 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-stpcpy-sse2.os)
+ .debug_info    0x0000000000064064       0x67 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strcspn-sse2.os)
+ .debug_info    0x00000000000640cb       0x84 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-memmove-sse2-unaligned-erms.os)
+ .debug_info    0x000000000006414f       0x83 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-memset-sse2-unaligned-erms.os)
+ .debug_info    0x00000000000641d2       0x6c /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-setitimer.os)
+
+.debug_abbrev   0x0000000000000000     0xb422
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000     0x8af0 /home/sysprog/glibc/build/elf/dl-allobjs.os
+ .debug_abbrev  0x0000000000008af0      0x212 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-check_fds.os)
+ .debug_abbrev  0x0000000000008d02       0xe6 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-errno.os)
+ .debug_abbrev  0x0000000000008de8      0x18e /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-closedir.os)
+ .debug_abbrev  0x0000000000008f76      0x183 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-readdir.os)
+ .debug_abbrev  0x00000000000090f9      0x14d /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-rewinddir.os)
+ .debug_abbrev  0x0000000000009246      0x1c0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-getdents.os)
+ .debug_abbrev  0x0000000000009406      0x18d /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-fdopendir.os)
+ .debug_abbrev  0x0000000000009593      0x203 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+ .debug_abbrev  0x0000000000009796      0x297 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-profil.os)
+ .debug_abbrev  0x0000000000009a2d      0x26d /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-prof-freq.os)
+ .debug_abbrev  0x0000000000009c9a      0x143 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-xstat.os)
+ .debug_abbrev  0x0000000000009ddd      0x152 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-fxstat.os)
+ .debug_abbrev  0x0000000000009f2f      0x143 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-lxstat.os)
+ .debug_abbrev  0x000000000000a072      0x187 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-open64.os)
+ .debug_abbrev  0x000000000000a1f9      0x18c /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-read.os)
+ .debug_abbrev  0x000000000000a385      0x191 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-write.os)
+ .debug_abbrev  0x000000000000a516      0x150 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-lseek64.os)
+ .debug_abbrev  0x000000000000a666      0x170 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-access.os)
+ .debug_abbrev  0x000000000000a7d6      0x22c /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-fcntl.os)
+ .debug_abbrev  0x000000000000aa02      0x16e /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-close.os)
+ .debug_abbrev  0x000000000000ab70      0x2ee /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-mmap64.os)
+ .debug_abbrev  0x000000000000ae5e       0x14 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-munmap.os)
+ .debug_abbrev  0x000000000000ae72       0x14 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-mprotect.os)
+ .debug_abbrev  0x000000000000ae86       0x14 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-uname.os)
+ .debug_abbrev  0x000000000000ae9a      0x14d /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-_exit.os)
+ .debug_abbrev  0x000000000000afe7       0x14 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-getpid.os)
+ .debug_abbrev  0x000000000000affb       0x53 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-environ.os)
+ .debug_abbrev  0x000000000000b04e       0x14 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-setjmp.os)
+ .debug_abbrev  0x000000000000b062       0x14 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-__longjmp.os)
+ .debug_abbrev  0x000000000000b076      0x1de /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-sigaction.os)
+ .debug_abbrev  0x000000000000b254       0xde /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strdup.os)
+ .debug_abbrev  0x000000000000b332       0x14 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strcmp-sse2.os)
+ .debug_abbrev  0x000000000000b346       0x14 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-memchr-sse2.os)
+ .debug_abbrev  0x000000000000b35a       0x14 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-rawmemchr-sse2.os)
+ .debug_abbrev  0x000000000000b36e       0x14 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-memcmp-sse2.os)
+ .debug_abbrev  0x000000000000b382       0x14 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strchr-sse2.os)
+ .debug_abbrev  0x000000000000b396       0x14 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strlen-sse2.os)
+ .debug_abbrev  0x000000000000b3aa       0x14 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strnlen-sse2.os)
+ .debug_abbrev  0x000000000000b3be       0x14 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-stpcpy-sse2.os)
+ .debug_abbrev  0x000000000000b3d2       0x14 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strcspn-sse2.os)
+ .debug_abbrev  0x000000000000b3e6       0x14 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-memmove-sse2-unaligned-erms.os)
+ .debug_abbrev  0x000000000000b3fa       0x14 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-memset-sse2-unaligned-erms.os)
+ .debug_abbrev  0x000000000000b40e       0x14 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-setitimer.os)
+
+.debug_line     0x0000000000000000    0x100e1
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000     0xc468 /home/sysprog/glibc/build/elf/dl-allobjs.os
+ .debug_line    0x000000000000c468      0x1ee /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-check_fds.os)
+ .debug_line    0x000000000000c656       0xe1 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-errno.os)
+ .debug_line    0x000000000000c737      0x22b /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-closedir.os)
+ .debug_line    0x000000000000c962      0x245 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-readdir.os)
+ .debug_line    0x000000000000cba7      0x207 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-rewinddir.os)
+ .debug_line    0x000000000000cdae      0x1fc /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-getdents.os)
+ .debug_line    0x000000000000cfaa      0x29e /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-fdopendir.os)
+ .debug_line    0x000000000000d248      0x1ef /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+ .debug_line    0x000000000000d437      0x2d0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-profil.os)
+ .debug_line    0x000000000000d707      0x260 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-prof-freq.os)
+ .debug_line    0x000000000000d967      0x195 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-xstat.os)
+ .debug_line    0x000000000000dafc      0x196 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-fxstat.os)
+ .debug_line    0x000000000000dc92      0x196 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-lxstat.os)
+ .debug_line    0x000000000000de28      0x1d4 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-open64.os)
+ .debug_line    0x000000000000dffc      0x1da /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-read.os)
+ .debug_line    0x000000000000e1d6      0x1dc /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-write.os)
+ .debug_line    0x000000000000e3b2      0x159 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-lseek64.os)
+ .debug_line    0x000000000000e50b      0x194 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-access.os)
+ .debug_line    0x000000000000e69f      0x1e2 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-fcntl.os)
+ .debug_line    0x000000000000e881      0x193 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-close.os)
+ .debug_line    0x000000000000ea14      0x2bb /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-mmap64.os)
+ .debug_line    0x000000000000eccf       0x59 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-munmap.os)
+ .debug_line    0x000000000000ed28       0x59 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-mprotect.os)
+ .debug_line    0x000000000000ed81       0x59 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-uname.os)
+ .debug_line    0x000000000000edda      0x14c /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-_exit.os)
+ .debug_line    0x000000000000ef26       0x58 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-getpid.os)
+ .debug_line    0x000000000000ef7e       0x41 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-environ.os)
+ .debug_line    0x000000000000efbf       0x5f /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-setjmp.os)
+ .debug_line    0x000000000000f01e       0x61 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-__longjmp.os)
+ .debug_line    0x000000000000f07f      0x2ae /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-sigaction.os)
+ .debug_line    0x000000000000f32d       0xa5 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strdup.os)
+ .debug_line    0x000000000000f3d2      0x48f /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strcmp-sse2.os)
+ .debug_line    0x000000000000f861      0x124 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-memchr-sse2.os)
+ .debug_line    0x000000000000f985       0xd3 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-rawmemchr-sse2.os)
+ .debug_line    0x000000000000fa58      0x14c /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-memcmp-sse2.os)
+ .debug_line    0x000000000000fba4       0xde /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strchr-sse2.os)
+ .debug_line    0x000000000000fc82       0xa5 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strlen-sse2.os)
+ .debug_line    0x000000000000fd27       0xa5 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strnlen-sse2.os)
+ .debug_line    0x000000000000fdcc       0x95 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-stpcpy-sse2.os)
+ .debug_line    0x000000000000fe61       0x80 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strcspn-sse2.os)
+ .debug_line    0x000000000000fee1       0xfc /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-memmove-sse2-unaligned-erms.os)
+ .debug_line    0x000000000000ffdd       0xab /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-memset-sse2-unaligned-erms.os)
+ .debug_line    0x0000000000010088       0x59 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-setitimer.os)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000    0x3a98d
+ *(.debug_str)
+ .debug_str     0x0000000000000000    0x30dbf /home/sysprog/glibc/build/elf/dl-allobjs.os
+ .debug_str     0x0000000000030dbf      0x5cf /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-check_fds.os)
+ .debug_str     0x000000000003138e      0x3df /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-errno.os)
+ .debug_str     0x000000000003176d      0x55a /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-closedir.os)
+ .debug_str     0x0000000000031cc7      0x5c8 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-readdir.os)
+ .debug_str     0x000000000003228f      0x543 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-rewinddir.os)
+ .debug_str     0x00000000000327d2      0x539 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-getdents.os)
+ .debug_str     0x0000000000032d0b      0x688 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-fdopendir.os)
+ .debug_str     0x0000000000033393      0xa64 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+ .debug_str     0x0000000000033df7      0x758 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-profil.os)
+ .debug_str     0x000000000003454f     0x1174 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-prof-freq.os)
+ .debug_str     0x00000000000356c3      0x548 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-xstat.os)
+ .debug_str     0x0000000000035c0b      0x546 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-fxstat.os)
+ .debug_str     0x0000000000036151      0x54b /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-lxstat.os)
+ .debug_str     0x000000000003669c      0x506 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-open64.os)
+ .debug_str     0x0000000000036ba2      0x506 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-read.os)
+ .debug_str     0x00000000000370a8      0x508 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-write.os)
+ .debug_str     0x00000000000375b0      0x48f /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-lseek64.os)
+ .debug_str     0x0000000000037a3f      0x4d4 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-access.os)
+ .debug_str     0x0000000000037f13      0x54e /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-fcntl.os)
+ .debug_str     0x0000000000038461      0x4c8 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-close.os)
+ .debug_str     0x0000000000038929     0x11f2 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-mmap64.os)
+ .debug_str     0x0000000000039b1b      0x454 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-_exit.os)
+ .debug_str     0x0000000000039f6f      0x1a4 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-environ.os)
+ .debug_str     0x000000000003a113      0x6cd /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-sigaction.os)
+ .debug_str     0x000000000003a7e0      0x1ad /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strdup.os)
+
+.debug_loc      0x0000000000000000    0x32af5
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000    0x3034d /home/sysprog/glibc/build/elf/dl-allobjs.os
+ .debug_loc     0x000000000003034d      0x1fb /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-check_fds.os)
+ .debug_loc     0x0000000000030548      0x141 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-closedir.os)
+ .debug_loc     0x0000000000030689      0x1d8 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-readdir.os)
+ .debug_loc     0x0000000000030861       0x4c /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-rewinddir.os)
+ .debug_loc     0x00000000000308ad      0x321 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-getdents.os)
+ .debug_loc     0x0000000000030bce       0xbe /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-fdopendir.os)
+ .debug_loc     0x0000000000030c8c       0x65 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-dl-addr-obj.os)
+ .debug_loc     0x0000000000030cf1      0x23a /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-profil.os)
+ .debug_loc     0x0000000000030f2b      0x182 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-xstat.os)
+ .debug_loc     0x00000000000310ad      0x177 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-fxstat.os)
+ .debug_loc     0x0000000000031224      0x182 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-lxstat.os)
+ .debug_loc     0x00000000000313a6      0x26d /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-open64.os)
+ .debug_loc     0x0000000000031613       0xac /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-read.os)
+ .debug_loc     0x00000000000316bf       0xac /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-write.os)
+ .debug_loc     0x000000000003176b       0xea /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-lseek64.os)
+ .debug_loc     0x0000000000031855       0xac /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-access.os)
+ .debug_loc     0x0000000000031901      0x3e1 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-fcntl.os)
+ .debug_loc     0x0000000000031ce2       0xac /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-close.os)
+ .debug_loc     0x0000000000031d8e      0x78e /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-mmap64.os)
+ .debug_loc     0x000000000003251c      0x158 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-_exit.os)
+ .debug_loc     0x0000000000032674      0x37a /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-sigaction.os)
+ .debug_loc     0x00000000000329ee      0x107 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-strdup.os)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000     0x7f40
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000     0x78f0 /home/sysprog/glibc/build/elf/dl-allobjs.os
+ .debug_ranges  0x00000000000078f0       0x70 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-check_fds.os)
+ .debug_ranges  0x0000000000007960       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-closedir.os)
+ .debug_ranges  0x0000000000007990       0xa0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-readdir.os)
+ .debug_ranges  0x0000000000007a30       0xd0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-getdents.os)
+ .debug_ranges  0x0000000000007b00       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-xstat.os)
+ .debug_ranges  0x0000000000007b30       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-fxstat.os)
+ .debug_ranges  0x0000000000007b60       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-lxstat.os)
+ .debug_ranges  0x0000000000007b90       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-open64.os)
+ .debug_ranges  0x0000000000007bc0       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-read.os)
+ .debug_ranges  0x0000000000007bf0       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-write.os)
+ .debug_ranges  0x0000000000007c20       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-lseek64.os)
+ .debug_ranges  0x0000000000007c50       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-access.os)
+ .debug_ranges  0x0000000000007c80       0x60 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-fcntl.os)
+ .debug_ranges  0x0000000000007ce0       0x30 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-close.os)
+ .debug_ranges  0x0000000000007d10       0xe0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-mmap64.os)
+ .debug_ranges  0x0000000000007df0       0x90 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-_exit.os)
+ .debug_ranges  0x0000000000007e80       0xc0 /home/sysprog/glibc/build/elf/rtld-libc.a(rtld-sigaction.os)
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+OUTPUT(/home/sysprog/glibc/build/elf/librtld.os elf64-x86-64)

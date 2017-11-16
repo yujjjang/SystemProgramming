@@ -1,0 +1,33 @@
+[LeeDoYuJae]Test: feclearexcept (FE_ALL_EXCEPT) clears all exceptions
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is not set
+[LeeDoYuJae]  Pass: Exception "INVALID" is not set
+[LeeDoYuJae]  Pass: Exception "INEXACT" is not set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is not set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is not set
+[LeeDoYuJae]Test: feraiseexcept (FE_ALL_EXCEPT) raises all exceptions
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is set
+[LeeDoYuJae]  Pass: Exception "INVALID" is set
+[LeeDoYuJae]  Pass: Exception "INEXACT" is set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is set
+[LeeDoYuJae]Test: feclearexcept ((double)FE_ALL_EXCEPT) clears all exceptions
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is not set
+[LeeDoYuJae]  Pass: Exception "INVALID" is not set
+[LeeDoYuJae]  Pass: Exception "INEXACT" is not set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is not set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is not set
+[LeeDoYuJae]Test: feraiseexcept ((double)FE_ALL_EXCEPT) raises all exceptions
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is set
+[LeeDoYuJae]  Pass: Exception "INVALID" is set
+[LeeDoYuJae]  Pass: Exception "INEXACT" is set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is set
+[LeeDoYuJae]Test: fegetexceptionflag (FE_ALL_EXCEPT)
+[LeeDoYuJae]  Pass: Exception "INVALID (int)" is set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW (int)" is not set
+[LeeDoYuJae]  Pass: Exception "INEXACT (int)" is not set
+[LeeDoYuJae]  Pass: Exception "INVALID (double)" is set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW (double)" is not set
+[LeeDoYuJae]  Pass: Exception "INEXACT (double)" is not set
+[LeeDoYuJae]Tests for fesetround
+[LeeDoYuJae]Tests for feenableexcepts/fedisableexcept

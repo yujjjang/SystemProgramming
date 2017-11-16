@@ -1,0 +1,6 @@
+[LeeDoYuJae]rwlock_init succeeded
+[LeeDoYuJae]rwlock_trywrlock on unlocked rwlock succeeded
+[LeeDoYuJae]rwlock_rdlock on rwlock with writer failed with EDEADLK
+[LeeDoYuJae]rwlock_wrlock on rwlock with writer failed with EDEADLK
+[LeeDoYuJae]rwlock_unlock succeeded
+[LeeDoYuJae]rwlock_destroy succeeded

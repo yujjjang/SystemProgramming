@@ -1,0 +1,12 @@
+PASS: intl/check-installed-headers-c
+PASS: intl/check-installed-headers-cxx
+PASS: intl/mtrace-tst-gettext
+PASS: intl/tst-codeset
+PASS: intl/tst-gettext
+FAIL: intl/tst-gettext2
+PASS: intl/tst-gettext3
+PASS: intl/tst-gettext4
+PASS: intl/tst-gettext5
+PASS: intl/tst-gettext6
+PASS: intl/tst-ngettext
+PASS: intl/tst-translit

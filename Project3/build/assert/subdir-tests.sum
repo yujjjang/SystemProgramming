@@ -1,0 +1,6 @@
+PASS: assert/check-installed-headers-c
+PASS: assert/check-installed-headers-cxx
+PASS: assert/test-assert
+PASS: assert/test-assert-perr
+PASS: assert/tst-assert-c++
+PASS: assert/tst-assert-g++

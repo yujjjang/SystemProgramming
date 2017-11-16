@@ -1,0 +1,15 @@
+[LeeDoYuJae]rwlockattr_init succeeded
+[LeeDoYuJae]rwlockattr_setkind succeeded
+[LeeDoYuJae]rwlock_init succeeded
+[LeeDoYuJae]rwlockattr_destroy succeeded
+[LeeDoYuJae]1st rwlock_wrlock succeeded
+[LeeDoYuJae]rwlock_tryrdlock on rwlock with writer failed with EBUSY
+[LeeDoYuJae]rwlock_trywrlock on rwlock with writer failed with EBUSY
+[LeeDoYuJae]1st rwlock_unlock succeeded
+[LeeDoYuJae]rwlock_tryrdlock on unlocked rwlock succeeded
+[LeeDoYuJae]rwlock_trywrlock on rwlock with reader failed with EBUSY
+[LeeDoYuJae]2nd rwlock_unlock succeeded
+[LeeDoYuJae]rwlock_trywrlock on unlocked rwlock succeeded
+[LeeDoYuJae]rwlock_tryrdlock on rwlock with writer failed with EBUSY
+[LeeDoYuJae]3rd rwlock_unlock succeeded
+[LeeDoYuJae]rwlock_destroy succeeded

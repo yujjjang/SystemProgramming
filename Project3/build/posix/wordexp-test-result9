@@ -1,0 +1,4 @@
+[LeeDoYuJae]wordexp returned 0
+[LeeDoYuJae]we_wordv[0] = "a "a $@ b""
+[LeeDoYuJae]we_wordv[1] = "c"
+[LeeDoYuJae]we_wordv[2] = "d b"

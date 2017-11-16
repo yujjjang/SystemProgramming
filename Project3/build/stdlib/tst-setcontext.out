@@ -1,0 +1,9 @@
+[LeeDoYuJae]making contexts
+[LeeDoYuJae]swapping contexts
+[LeeDoYuJae]start f2
+[LeeDoYuJae]&on_stack=0x60a0bf
+[LeeDoYuJae]start f1(a0=1,a1=2,a2=3,a3=fffffffc)
+[LeeDoYuJae]finish f2
+[LeeDoYuJae]finish f1
+[LeeDoYuJae]back at main program
+[LeeDoYuJae]test succeeded

@@ -1,0 +1,33 @@
+[LeeDoYuJae]t1: count=5
+[LeeDoYuJae]sscanf ("12345", "%ld", &x) => 1, x = 12345
+[LeeDoYuJae]sscanf ("12345", "%llllld", &x) => 0, x = -1
+[LeeDoYuJae]sscanf ("12345", "%LLLLLd", &x) => 0, x = -1
+[LeeDoYuJae]sscanf ("test ", "%*s%n", &x) => 0, x = 4
+[LeeDoYuJae]sscanf ("test ", "%2*s%n", &x) => 0, x = -1
+[LeeDoYuJae]sscanf ("12 ", "%l2d", &x) => 0, x = -1
+[LeeDoYuJae]sscanf ("12 ", "%2ld", &x) => 1, x = 12
+[LeeDoYuJae]sscanf ("1 1", "%d %Z", &n, &N) => 1, n = 1, N = -1
+[LeeDoYuJae]expected "nan NAN nan NAN nan NAN nan NAN", got "nan NAN nan NAN nan NAN nan NAN"
+[LeeDoYuJae]expected "-nan -NAN -nan -NAN -nan -NAN -nan -NAN", got "-nan -NAN -nan -NAN -nan -NAN -nan -NAN"
+[LeeDoYuJae]expected "nan NAN nan NAN nan NAN nan NAN", got "nan NAN nan NAN nan NAN nan NAN"
+[LeeDoYuJae]expected "-nan -NAN -nan -NAN -nan -NAN -nan -NAN", got "-nan -NAN -nan -NAN -nan -NAN -nan -NAN"
+[LeeDoYuJae]expected "inf INF inf INF inf INF inf INF", got "inf INF inf INF inf INF inf INF"
+[LeeDoYuJae]expected "-inf -INF -inf -INF -inf -INF -inf -INF", got "-inf -INF -inf -INF -inf -INF -inf -INF"
+[LeeDoYuJae]expected L"nan NAN nan NAN nan NAN nan NAN", got L"nan NAN nan NAN nan NAN nan NAN"
+[LeeDoYuJae]expected L"-nan -NAN -nan -NAN -nan -NAN -nan -NAN", got L"-nan -NAN -nan -NAN -nan -NAN -nan -NAN"
+[LeeDoYuJae]expected L"nan NAN nan NAN nan NAN nan NAN", got L"nan NAN nan NAN nan NAN nan NAN"
+[LeeDoYuJae]expected L"-nan -NAN -nan -NAN -nan -NAN -nan -NAN", got L"-nan -NAN -nan -NAN -nan -NAN -nan -NAN"
+[LeeDoYuJae]expected L"inf INF inf INF inf INF inf INF", got L"inf INF inf INF inf INF inf INF"
+[LeeDoYuJae]expected L"-inf -INF -inf -INF -inf -INF -inf -INF", got L"-inf -INF -inf -INF -inf -INF -inf -INF"
+[LeeDoYuJae]expected "nan NAN nan NAN nan NAN nan NAN", got "nan NAN nan NAN nan NAN nan NAN"
+[LeeDoYuJae]expected "-nan -NAN -nan -NAN -nan -NAN -nan -NAN", got "-nan -NAN -nan -NAN -nan -NAN -nan -NAN"
+[LeeDoYuJae]expected "nan NAN nan NAN nan NAN nan NAN", got "nan NAN nan NAN nan NAN nan NAN"
+[LeeDoYuJae]expected "-nan -NAN -nan -NAN -nan -NAN -nan -NAN", got "-nan -NAN -nan -NAN -nan -NAN -nan -NAN"
+[LeeDoYuJae]expected "inf INF inf INF inf INF inf INF", got "inf INF inf INF inf INF inf INF"
+[LeeDoYuJae]expected "-inf -INF -inf -INF -inf -INF -inf -INF", got "-inf -INF -inf -INF -inf -INF -inf -INF"
+[LeeDoYuJae]expected L"nan NAN nan NAN nan NAN nan NAN", got L"nan NAN nan NAN nan NAN nan NAN"
+[LeeDoYuJae]expected L"-nan -NAN -nan -NAN -nan -NAN -nan -NAN", got L"-nan -NAN -nan -NAN -nan -NAN -nan -NAN"
+[LeeDoYuJae]expected L"nan NAN nan NAN nan NAN nan NAN", got L"nan NAN nan NAN nan NAN nan NAN"
+[LeeDoYuJae]expected L"-nan -NAN -nan -NAN -nan -NAN -nan -NAN", got L"-nan -NAN -nan -NAN -nan -NAN -nan -NAN"
+[LeeDoYuJae]expected L"inf INF inf INF inf INF inf INF", got L"inf INF inf INF inf INF inf INF"
+[LeeDoYuJae]expected L"-inf -INF -inf -INF -inf -INF -inf -INF", got L"-inf -INF -inf -INF -inf -INF -inf -INF"

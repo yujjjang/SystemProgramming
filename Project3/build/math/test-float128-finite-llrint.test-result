@@ -1,0 +1,2 @@
+PASS: math/test-float128-finite-llrint
+original exit status 0

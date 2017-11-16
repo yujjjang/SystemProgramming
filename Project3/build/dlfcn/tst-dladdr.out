@@ -1,0 +1,5 @@
+[LeeDoYuJae]ret = 1
+[LeeDoYuJae]info.dli_fname = 0x7f26a48c6260 ("/home/sysprog/glibc/build/dlfcn/glreflib1.so")
+[LeeDoYuJae]info.dli_fbase = 0x7f26a3319000
+[LeeDoYuJae]info.dli_sname = 0x7f26a33193fd ("ref1")
+[LeeDoYuJae]info.dli_saddr = 0x7f26a3319670

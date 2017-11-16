@@ -1,0 +1,4 @@
+[LeeDoYuJae]towctrans (L'A', t) = B
+[LeeDoYuJae]towctrans (L'B', t) = C
+[LeeDoYuJae]len = 10, wbuf = L"bcdefghija"
+[LeeDoYuJae]len = 10, buf = "bcdefghija"

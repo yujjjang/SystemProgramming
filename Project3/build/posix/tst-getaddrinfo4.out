@@ -1,0 +1,8 @@
+[LeeDoYuJae]SUCCESS getaddrinfo(service=NULL, family=0, flags=0): Unknown error: Network is unreachable
+[LeeDoYuJae]SUCCESS getaddrinfo(service=NULL, family=0, flags=32): Unknown error: Network is unreachable
+[LeeDoYuJae]SUCCESS getaddrinfo(service=NULL, family=2, flags=0): Unknown error: Success
+[LeeDoYuJae]SUCCESS getaddrinfo(service=NULL, family=10, flags=0): Unknown error: Success
+[LeeDoYuJae]SUCCESS getaddrinfo(service=http, family=0, flags=0): Unknown error: Network is unreachable
+[LeeDoYuJae]SUCCESS getaddrinfo(service=http, family=0, flags=32): Unknown error: Network is unreachable
+[LeeDoYuJae]SUCCESS getaddrinfo(service=http, family=2, flags=0): Unknown error: Success
+[LeeDoYuJae]SUCCESS getaddrinfo(service=http, family=10, flags=0): Unknown error: Success

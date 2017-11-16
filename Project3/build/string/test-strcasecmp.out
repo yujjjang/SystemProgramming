@@ -1,0 +1,5 @@
+[LeeDoYuJae]C                      [LeeDoYuJae]	simple_strcasecmp[LeeDoYuJae]	stupid_strcasecmp[LeeDoYuJae]	__strcasecmp_avx[LeeDoYuJae]	__strcasecmp_sse42[LeeDoYuJae]	__strcasecmp_ssse3[LeeDoYuJae]	__strcasecmp_sse2
+[LeeDoYuJae]en_US.ISO-8859-1       [LeeDoYuJae]	simple_strcasecmp[LeeDoYuJae]	stupid_strcasecmp[LeeDoYuJae]	__strcasecmp_avx[LeeDoYuJae]	__strcasecmp_sse42[LeeDoYuJae]	__strcasecmp_ssse3[LeeDoYuJae]	__strcasecmp_sse2
+[LeeDoYuJae]en_US.UTF-8            [LeeDoYuJae]	simple_strcasecmp[LeeDoYuJae]	stupid_strcasecmp[LeeDoYuJae]	__strcasecmp_avx[LeeDoYuJae]	__strcasecmp_sse42[LeeDoYuJae]	__strcasecmp_ssse3[LeeDoYuJae]	__strcasecmp_sse2
+[LeeDoYuJae]tr_TR.ISO-8859-9       [LeeDoYuJae]	simple_strcasecmp[LeeDoYuJae]	stupid_strcasecmp[LeeDoYuJae]	__strcasecmp_avx[LeeDoYuJae]	__strcasecmp_sse42[LeeDoYuJae]	__strcasecmp_ssse3[LeeDoYuJae]	__strcasecmp_sse2
+[LeeDoYuJae]tr_TR.UTF-8            [LeeDoYuJae]	simple_strcasecmp[LeeDoYuJae]	stupid_strcasecmp[LeeDoYuJae]	__strcasecmp_avx[LeeDoYuJae]	__strcasecmp_sse42[LeeDoYuJae]	__strcasecmp_ssse3[LeeDoYuJae]	__strcasecmp_sse2

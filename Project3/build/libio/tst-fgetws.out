@@ -1,0 +1,15 @@
+[LeeDoYuJae]This program runs on de_DE.UTF-8 locale.
+[LeeDoYuJae]--
+[LeeDoYuJae]Read a byte sequence which is invalid as a wide character string.
+[LeeDoYuJae] bytes: 0xe3, 0x81, '\0'
+[LeeDoYuJae]Return Value: NULL
+[LeeDoYuJae]errno = EILSEQ
+[LeeDoYuJae]--
+[LeeDoYuJae]Read a byte sequence which is invalid as a wide character string.
+[LeeDoYuJae] bytes: '0', '\n', 'A', 'B', 0xe3, 0x81, 'c', '\0'
+[LeeDoYuJae]Return Value: 0x7ffeee12e550
+[LeeDoYuJae] wcs[0] = 0x0030[LeeDoYuJae] wcs[1] = 0x000a[LeeDoYuJae] wcs[2] = 0x0000
+[LeeDoYuJae]
+second line
+[LeeDoYuJae]Return Value: NULL
+[LeeDoYuJae]errno = EILSEQ

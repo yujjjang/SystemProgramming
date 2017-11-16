@@ -1,0 +1,11 @@
+PASS: crypt/badsalttest
+PASS: crypt/cert
+PASS: crypt/check-abi-libcrypt
+PASS: crypt/check-installed-headers-c
+PASS: crypt/check-installed-headers-cxx
+PASS: crypt/md5c-test
+PASS: crypt/md5test
+PASS: crypt/sha256c-test
+PASS: crypt/sha256test
+PASS: crypt/sha512c-test
+PASS: crypt/sha512test

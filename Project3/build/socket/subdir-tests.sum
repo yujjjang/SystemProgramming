@@ -1,0 +1,3 @@
+PASS: socket/check-installed-headers-c
+PASS: socket/check-installed-headers-cxx
+PASS: socket/tst-accept4

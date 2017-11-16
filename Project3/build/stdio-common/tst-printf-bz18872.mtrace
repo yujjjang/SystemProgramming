@@ -1,0 +1,23 @@
+= Start
+@ /home/sysprog/glibc/build/libc.so.6:(__libc_scratch_buffer_grow_preserve+0x80)[0x7f3c711605b0] + 0x7f3c71c2b6a0 0x800
+@ /home/sysprog/glibc/build/libc.so.6:(__libc_scratch_buffer_grow_preserve+0x30)[0x7f3c71160560] < 0x7f3c71c2b6a0
+@ /home/sysprog/glibc/build/libc.so.6:(__libc_scratch_buffer_grow_preserve+0x30)[0x7f3c71160560] > 0x7f3c71c2b6a0 0x1000
+@ /home/sysprog/glibc/build/libc.so.6:(__libc_scratch_buffer_grow_preserve+0x30)[0x7f3c71160560] < 0x7f3c71c2b6a0
+@ /home/sysprog/glibc/build/libc.so.6:(__libc_scratch_buffer_grow_preserve+0x30)[0x7f3c71160560] > 0x7f3c71c2b6a0 0x2000
+@ /home/sysprog/glibc/build/libc.so.6:(__libc_scratch_buffer_grow_preserve+0x30)[0x7f3c71160560] < 0x7f3c71c2b6a0
+@ /home/sysprog/glibc/build/libc.so.6:(__libc_scratch_buffer_grow_preserve+0x30)[0x7f3c71160560] > 0x7f3c71c2b6a0 0x4000
+@ /home/sysprog/glibc/build/libc.so.6:(__libc_scratch_buffer_grow_preserve+0x30)[0x7f3c71160560] < 0x7f3c71c2b6a0
+@ /home/sysprog/glibc/build/libc.so.6:(__libc_scratch_buffer_grow_preserve+0x30)[0x7f3c71160560] > 0x7f3c71c2b6a0 0x8000
+@ /home/sysprog/glibc/build/libc.so.6:(__libc_scratch_buffer_grow_preserve+0x30)[0x7f3c71160560] < 0x7f3c71c2b6a0
+@ /home/sysprog/glibc/build/libc.so.6:(__libc_scratch_buffer_grow_preserve+0x30)[0x7f3c71160560] > 0x7f3c71c2b6a0 0x10000
+@ /home/sysprog/glibc/build/libc.so.6:(__libc_scratch_buffer_grow_preserve+0x30)[0x7f3c71160560] < 0x7f3c71c2b6a0
+@ /home/sysprog/glibc/build/libc.so.6:(__libc_scratch_buffer_grow_preserve+0x30)[0x7f3c71160560] > 0x7f3c71c2b6a0 0x20000
+@ /home/sysprog/glibc/build/libc.so.6:(__libc_scratch_buffer_grow_preserve+0x30)[0x7f3c71160560] < 0x7f3c71c2b6a0
+@ /home/sysprog/glibc/build/libc.so.6:(__libc_scratch_buffer_grow_preserve+0x30)[0x7f3c71160560] > 0x7f3c7166e010 0x40000
+@ /home/sysprog/glibc/build/libc.so.6:(__libc_scratch_buffer_grow_preserve+0x30)[0x7f3c71160560] < 0x7f3c7166e010
+@ /home/sysprog/glibc/build/libc.so.6:(__libc_scratch_buffer_grow_preserve+0x30)[0x7f3c71160560] > 0x7f3c715ed010 0x80000
+@ /home/sysprog/glibc/build/libc.so.6:(__libc_scratch_buffer_grow_preserve+0x30)[0x7f3c71160560] < 0x7f3c715ed010
+@ /home/sysprog/glibc/build/libc.so.6:(__libc_scratch_buffer_grow_preserve+0x30)[0x7f3c71160560] > 0x7f3c714ec010 0x100000
+@ /home/sysprog/glibc/build/libc.so.6:(__libc_scratch_buffer_set_array_size+0x8c)[0x7f3c7116066c] + 0x7f3c71674010 0x3a998
+@ /home/sysprog/glibc/build/libc.so.6:[0x7f3c711265ce] - 0x7f3c71674010
+@ /home/sysprog/glibc/build/libc.so.6:[0x7f3c711265ea] - 0x7f3c714ec010

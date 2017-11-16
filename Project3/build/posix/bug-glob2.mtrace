@@ -1,0 +1,32 @@
+= Start
+@ /home/sysprog/glibc/build/posix/bug-glob2:[0x40171e] + 0x7f3ba0e4d6a0 0x318
+@ /home/sysprog/glibc/build/libc.so.6:(__strdup+0x1a)[0x7f3b9eb53d4a] + 0x7f3ba0e4d9c0 0x9
+@ /home/sysprog/glibc/build/libc.so.6:(__strdup+0x1a)[0x7f3b9eb53d4a] + 0x7f3ba0e4d9e0 0xb
+@ /home/sysprog/glibc/build/libc.so.6:(__strdup+0x1a)[0x7f3b9eb53d4a] + 0x7f3ba0e4da00 0xc
+@ /home/sysprog/glibc/build/libc.so.6:[0x7f3b9eb92566] + 0x7f3ba0e4da20 0x20
+@ /home/sysprog/glibc/build/libc.so.6:[0x7f3b9eb927b9] - 0x7f3ba0e4d6a0
+@ /home/sysprog/glibc/build/libc.so.6:[0x7f3b9eb91ed4] + 0x7f3ba0e4da50 0xd
+@ /home/sysprog/glibc/build/libc.so.6:[0x7f3b9eb91eac] - 0x7f3ba0e4d9c0
+@ /home/sysprog/glibc/build/libc.so.6:[0x7f3b9eb91ed4] + 0x7f3ba0e4d9c0 0xf
+@ /home/sysprog/glibc/build/libc.so.6:[0x7f3b9eb91eac] - 0x7f3ba0e4d9e0
+@ /home/sysprog/glibc/build/libc.so.6:[0x7f3b9eb91ed4] + 0x7f3ba0e4d9e0 0x10
+@ /home/sysprog/glibc/build/libc.so.6:[0x7f3b9eb91eac] - 0x7f3ba0e4da00
+@ /home/sysprog/glibc/build/posix/bug-glob2:[0x40171e] + 0x7f3ba0e4d6a0 0x318
+@ /home/sysprog/glibc/build/libc.so.6:(__strdup+0x1a)[0x7f3b9eb53d4a] + 0x7f3ba0e4da00 0x2
+@ /home/sysprog/glibc/build/libc.so.6:(__strdup+0x1a)[0x7f3b9eb53d4a] + 0x7f3ba0e4da70 0x1f5
+@ /home/sysprog/glibc/build/libc.so.6:[0x7f3b9eb92566] + 0x7f3ba0e4dc70 0x18
+@ /home/sysprog/glibc/build/libc.so.6:[0x7f3b9eb927b9] - 0x7f3ba0e4d6a0
+@ /home/sysprog/glibc/build/libc.so.6:[0x7f3b9eb91ed4] + 0x7f3ba0e4dc90 0xf
+@ /home/sysprog/glibc/build/libc.so.6:[0x7f3b9eb91eac] - 0x7f3ba0e4da00
+@ /home/sysprog/glibc/build/libc.so.6:[0x7f3b9eb91ed4] + 0x7f3ba0e4dcb0 0x202
+@ /home/sysprog/glibc/build/libc.so.6:[0x7f3b9eb91eac] - 0x7f3ba0e4da70
+@ /home/sysprog/glibc/build/libc.so.6:(globfree64+0x34)[0x7f3b9eb94604] - 0x7f3ba0e4da50
+@ /home/sysprog/glibc/build/libc.so.6:(globfree64+0x34)[0x7f3b9eb94604] - 0x7f3ba0e4d9c0
+@ /home/sysprog/glibc/build/libc.so.6:(globfree64+0x34)[0x7f3b9eb94604] - 0x7f3ba0e4d9e0
+@ /home/sysprog/glibc/build/libc.so.6:(globfree64+0x43)[0x7f3b9eb94613] - 0x7f3ba0e4da20
+@ /home/sysprog/glibc/build/libc.so.6:(globfree64+0x34)[0x7f3b9eb94604] - 0x7f3ba0e4dc90
+@ /home/sysprog/glibc/build/libc.so.6:(globfree64+0x34)[0x7f3b9eb94604] - 0x7f3ba0e4dcb0
+@ /home/sysprog/glibc/build/libc.so.6:(globfree64+0x43)[0x7f3b9eb94613] - 0x7f3ba0e4dc70
+@ /home/sysprog/glibc/build/libc.so.6:(glob64+0x4a0)[0x7f3b9eb92d30] + 0x7f3ba0e4da20 0x20
+@ /home/sysprog/glibc/build/libc.so.6:(globfree64+0x43)[0x7f3b9eb94613] - 0x7f3ba0e4da20
+= End

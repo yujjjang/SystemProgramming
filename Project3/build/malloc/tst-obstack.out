@@ -1,0 +1,154 @@
+[LeeDoYuJae]
+ Alignment mask: 1
+[LeeDoYuJae]malloc (4064) => 0x7f55087d5260
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d5270 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d5658 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d5a40 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d5e28 	
+[LeeDoYuJae]malloc (4064) => 0x7f55087d6250
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d6260 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d6648 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d6a30 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d6e18 	
+[LeeDoYuJae]malloc (4064) => 0x7f55087d7240
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d7250 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d7638 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d7a20 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d7e08 	
+[LeeDoYuJae]malloc (4064) => 0x7f55087d8230
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d8240 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d8628 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d8a10 	
+[LeeDoYuJae]free (0x7f55087d8230)
+[LeeDoYuJae]free (0x7f55087d7240)
+[LeeDoYuJae]free (0x7f55087d6250)
+[LeeDoYuJae]free (0x7f55087d5260)
+[LeeDoYuJae]
+ Alignment mask: 3
+[LeeDoYuJae]malloc (4064) => 0x7f55087d5260
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d5270 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d5658 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d5a40 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d5e28 	
+[LeeDoYuJae]malloc (4064) => 0x7f55087d6250
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d6260 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d6648 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d6a30 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d6e18 	
+[LeeDoYuJae]malloc (4064) => 0x7f55087d7240
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d7250 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d7638 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d7a20 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d7e08 	
+[LeeDoYuJae]malloc (4064) => 0x7f55087d8230
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d8240 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d8628 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d8a10 	
+[LeeDoYuJae]free (0x7f55087d8230)
+[LeeDoYuJae]free (0x7f55087d7240)
+[LeeDoYuJae]free (0x7f55087d6250)
+[LeeDoYuJae]free (0x7f55087d5260)
+[LeeDoYuJae]
+ Alignment mask: 7
+[LeeDoYuJae]malloc (4064) => 0x7f55087d5260
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d5270 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d5658 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d5a40 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d5e28 	
+[LeeDoYuJae]malloc (4064) => 0x7f55087d6250
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d6260 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d6648 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d6a30 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d6e18 	
+[LeeDoYuJae]malloc (4064) => 0x7f55087d7240
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d7250 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d7638 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d7a20 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d7e08 	
+[LeeDoYuJae]malloc (4064) => 0x7f55087d8230
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d8240 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d8628 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d8a10 	
+[LeeDoYuJae]free (0x7f55087d8230)
+[LeeDoYuJae]free (0x7f55087d7240)
+[LeeDoYuJae]free (0x7f55087d6250)
+[LeeDoYuJae]free (0x7f55087d5260)
+[LeeDoYuJae]
+ Alignment mask: 15
+[LeeDoYuJae]malloc (4064) => 0x7f55087d5260
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d5270 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d5660 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d5a50 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d5e40 	
+[LeeDoYuJae]malloc (4064) => 0x7f55087d6250
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d6260 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d6650 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d6a40 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d6e30 	
+[LeeDoYuJae]malloc (4064) => 0x7f55087d7240
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d7250 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d7640 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d7a30 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d7e20 	
+[LeeDoYuJae]malloc (4064) => 0x7f55087d8230
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d8240 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d8630 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d8a20 	
+[LeeDoYuJae]free (0x7f55087d8230)
+[LeeDoYuJae]free (0x7f55087d7240)
+[LeeDoYuJae]free (0x7f55087d6250)
+[LeeDoYuJae]free (0x7f55087d5260)
+[LeeDoYuJae]
+ Alignment mask: 31
+[LeeDoYuJae]malloc (4064) => 0x7f55087d5260
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d5280 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d5680 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d5a80 	
+[LeeDoYuJae]malloc (4064) => 0x7f55087d6250
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d6260 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d6660 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d6a60 	
+[LeeDoYuJae]malloc (4064) => 0x7f55087d7240
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d7260 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d7660 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d7a60 	
+[LeeDoYuJae]malloc (4064) => 0x7f55087d8230
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d8240 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d8640 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d8a40 	
+[LeeDoYuJae]malloc (4064) => 0x7f55087d9220
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d9240 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d9640 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d9a40 	
+[LeeDoYuJae]free (0x7f55087d9220)
+[LeeDoYuJae]free (0x7f55087d8230)
+[LeeDoYuJae]free (0x7f55087d7240)
+[LeeDoYuJae]free (0x7f55087d6250)
+[LeeDoYuJae]free (0x7f55087d5260)
+[LeeDoYuJae]
+ Alignment mask: 63
+[LeeDoYuJae]malloc (4064) => 0x7f55087d5260
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d5280 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d5680 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d5a80 	
+[LeeDoYuJae]malloc (4064) => 0x7f55087d6250
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d6280 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d6680 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d6a80 	
+[LeeDoYuJae]malloc (4064) => 0x7f55087d7240
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d7280 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d7680 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d7a80 	
+[LeeDoYuJae]malloc (4064) => 0x7f55087d8230
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d8240 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d8640 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d8a40 	
+[LeeDoYuJae]malloc (4064) => 0x7f55087d9220
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d9240 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d9640 	
+[LeeDoYuJae]obstack_alloc (1000) => 0x7f55087d9a40 	
+[LeeDoYuJae]free (0x7f55087d9220)
+[LeeDoYuJae]free (0x7f55087d8230)
+[LeeDoYuJae]free (0x7f55087d7240)
+[LeeDoYuJae]free (0x7f55087d6250)
+[LeeDoYuJae]free (0x7f55087d5260)

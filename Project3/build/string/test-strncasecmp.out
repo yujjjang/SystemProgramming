@@ -1,0 +1,5 @@
+[LeeDoYuJae]                      C[LeeDoYuJae]	simple_strncasecmp[LeeDoYuJae]	stupid_strncasecmp[LeeDoYuJae]	__strncasecmp_avx[LeeDoYuJae]	__strncasecmp_sse42[LeeDoYuJae]	__strncasecmp_ssse3[LeeDoYuJae]	__strncasecmp_sse2
+[LeeDoYuJae]       en_US.ISO-8859-1[LeeDoYuJae]	simple_strncasecmp[LeeDoYuJae]	stupid_strncasecmp[LeeDoYuJae]	__strncasecmp_avx[LeeDoYuJae]	__strncasecmp_sse42[LeeDoYuJae]	__strncasecmp_ssse3[LeeDoYuJae]	__strncasecmp_sse2
+[LeeDoYuJae]            en_US.UTF-8[LeeDoYuJae]	simple_strncasecmp[LeeDoYuJae]	stupid_strncasecmp[LeeDoYuJae]	__strncasecmp_avx[LeeDoYuJae]	__strncasecmp_sse42[LeeDoYuJae]	__strncasecmp_ssse3[LeeDoYuJae]	__strncasecmp_sse2
+[LeeDoYuJae]       tr_TR.ISO-8859-9[LeeDoYuJae]	simple_strncasecmp[LeeDoYuJae]	stupid_strncasecmp[LeeDoYuJae]	__strncasecmp_avx[LeeDoYuJae]	__strncasecmp_sse42[LeeDoYuJae]	__strncasecmp_ssse3[LeeDoYuJae]	__strncasecmp_sse2
+[LeeDoYuJae]            tr_TR.UTF-8[LeeDoYuJae]	simple_strncasecmp[LeeDoYuJae]	stupid_strncasecmp[LeeDoYuJae]	__strncasecmp_avx[LeeDoYuJae]	__strncasecmp_sse42[LeeDoYuJae]	__strncasecmp_ssse3[LeeDoYuJae]	__strncasecmp_sse2

@@ -1,0 +1,4 @@
+[LeeDoYuJae]ai_family=2, ai_addrlen=16, ai_socktype=1[LeeDoYuJae], port=583[LeeDoYuJae]
+[LeeDoYuJae]ai_family=2, ai_addrlen=16, ai_socktype=2[LeeDoYuJae], port=583[LeeDoYuJae]
+[LeeDoYuJae]ai_family=2, ai_addrlen=16, ai_socktype=3[LeeDoYuJae], port=583[LeeDoYuJae]
+[LeeDoYuJae]SUCCESS getaddrinfo IPv4 socktype 0,513

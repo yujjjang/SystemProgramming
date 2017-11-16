@@ -1,0 +1,147 @@
+[LeeDoYuJae]Test 1 (one): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 2 (one two): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 3 (one two three): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 4 ( 	foo		bar ): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 5 (red , white blue): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 6 (one two three): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 7 (one "two three"): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 8 (one "two three"): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 9 (one "$var"): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 10 (one $var): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 11 (one "$var"): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 12 (one $var): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 13 ($var): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 14 ($(echo :abc:)): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 15 ($(echo :abc:\ )): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 16 ($(echo :abc\ )): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 17 ($(echo $var)): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 18 (:abc:): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 19 ($(echo :abc:)def): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 20 ($(echo abc:de)f): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 21 ($(echo abc:de)f:ghi): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 22 (abc:d$(echo ef:ghi)): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 23 ($var$(echo def:ghi)): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 24 ($var$(echo ef:ghi)): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 25 ($(echo abc:)$var): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 26 ($(echo abc:d)$var): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 27 (${var}): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 28 ($var): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 29 (\"$var\"): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 30 (%$var%): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 31 (-$var-): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 32 ("quoted"): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 33 ("$var""$var"): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 34 ('singly-quoted'): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 35 (contin\
+uation): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 36 (explicit ''): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 37 (explicit ""): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 38 (explicit ``): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 39 ($(echo hello)): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 40 ($( (echo hello) )): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 41 ($((echo hello);(echo there))): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 42 (`echo one two`): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 43 ($(echo ')')): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 44 ($(echo hello; echo)): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 45 (a$(echo b)c): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 46 ($((1 + 1))): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 47 ($((2-3))): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 48 ($((-1))): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 49 ($[50+20]): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 50 ($(((2+3)*(4+5)))): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 51 ($((010))): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 52 ($((0x10))): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 53 ($((010+0x10))): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 54 ($((-010+0x10))): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 55 ($((-0x10+010))): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 56 (${var:-bar}): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 57 (${var-bar}): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 58 (${var:-bar}): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 59 (${var:-bar}): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 60 (${var-bar}): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 61 (${var:=bar}): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 62 (${var=bar}): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 63 (${var:=bar}): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 64 (${var:=bar}): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 65 (${var=bar}): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 66 (${var:?bar}): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 67 (${var:+bar}): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 68 (${var+bar}): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 69 (${var:+bar}): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 70 (${var:+bar}): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 71 (${var+bar}): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 72 (${#var}): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 73 (${var:-'}'}): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 74 (${var-}): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 75 (${var#${var}}): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 76 (${var%$(echo oni)}): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 77 (${var#$((6))}): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 78 (${var##b*}): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 79 (${var##"b*"}): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 80 (${var%na*}): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 81 (${var%%na*}): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 82 (${var#*bora}): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 83 (${var##*bora}): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 84 (${var##\*co}): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 85 (${var%0%}): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 86 (???): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 87 ([ot]??): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 88 (t*): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 89 ("t"*): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 90 ($var): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 91 ($var): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 92 ($var): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 93 ($var): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 94 ("$var"): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 95 ("$(echo hello there)"): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 96 ("$(echo "hello there")"): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 97 (${var=one two} "$var"): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 98 ($(( $(echo 3)+$var ))): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 99 ("$(echo "*")"): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 100 ("a
+
+$(echo)b"): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 101 (*$var*): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 102 (*$var*): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 103 ($var): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 104 ($var): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 105 ($var): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 106 (\*"|&;<>"\(\)\{\}): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 107 ($var): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 108 ($var): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 109 ("\n"): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 110 (): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 111 (one two): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 112 (appended): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 113 (appended): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 114 (new
+line): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 115 (pipe|symbol): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 116 (&ampersand): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 117 (semi;colon): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 118 (<greater): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 119 (less>): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 120 ((open-paren): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 121 (close-paren)): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 122 ({open-brace): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 123 (close-brace}): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 124 ($(ls)): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 125 ($var): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 126 ($9): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 127 ($[50+20))): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 128 (${%%noparam}): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 129 (${missing-brace): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 130 ($(for i in)): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 131 ($((2+))): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 132 (`): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 133 ($((010+4+))): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 134 ($((`echo 1`))): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 135 ($((1+`echo 1`))): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 136 ($((1+$((`echo 1`))))): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 137 (`\): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 138 (${): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 139 (L${a:): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 140 ($[1/0]): [LeeDoYuJae]OK
+[LeeDoYuJae]Test 141 (~ ~/foo): [LeeDoYuJae]OK
+[LeeDoYuJae]tests completed, now cleaning up
+[LeeDoYuJae]tests failed: 0

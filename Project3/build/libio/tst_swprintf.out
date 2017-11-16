@@ -1,0 +1,6 @@
+[LeeDoYuJae]test 1
+[LeeDoYuJae]test 2
+[LeeDoYuJae]swprintf (buf, 100, L"%s", "hello world") OK
+[LeeDoYuJae]swprintf (buf, 0, L"%s", "hello world") OK
+[LeeDoYuJae]swprintf (buf, 0, L"%s", "") OK
+[LeeDoYuJae]swprintf (buf, 100, L"%s", "") OK

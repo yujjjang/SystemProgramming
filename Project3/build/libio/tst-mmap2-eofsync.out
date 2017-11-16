@@ -1,0 +1,4 @@
+[LeeDoYuJae]feof = 0, ferror = 0 immediately after fread
+[LeeDoYuJae]fgetc -> EOF (feof = 1, ferror = 0)
+[LeeDoYuJae]wrote more to file
+[LeeDoYuJae]after truncate fgetc -> EOF (feof = 1, ferror = 0)

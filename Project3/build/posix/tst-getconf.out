@@ -1,0 +1,187 @@
+getconf AIO_LISTIO_MAX: [LeeDoYuJae]undefined
+getconf AIO_MAX: [LeeDoYuJae]undefined
+getconf AIO_PRIO_DELTA_MAX: [LeeDoYuJae]20
+getconf ARG_MAX: [LeeDoYuJae]2097152
+getconf ATEXIT_MAX: [LeeDoYuJae]2147483647
+getconf BC_BASE_MAX: [LeeDoYuJae]99
+getconf BC_DIM_MAX: [LeeDoYuJae]2048
+getconf BC_SCALE_MAX: [LeeDoYuJae]99
+getconf BC_STRING_MAX: [LeeDoYuJae]1000
+getconf CHILD_MAX: [LeeDoYuJae]15614
+getconf COLL_WEIGHTS_MAX: [LeeDoYuJae]255
+getconf DELAYTIMER_MAX: [LeeDoYuJae]2147483647
+getconf EXPR_NEST_MAX: [LeeDoYuJae]32
+getconf HOST_NAME_MAX: [LeeDoYuJae]64
+getconf IOV_MAX: [LeeDoYuJae]1024
+getconf LINE_MAX: [LeeDoYuJae]2048
+getconf LOGIN_NAME_MAX: [LeeDoYuJae]256
+getconf NGROUPS_MAX: [LeeDoYuJae]65536
+getconf MQ_OPEN_MAX: [LeeDoYuJae]undefined
+getconf MQ_PRIO_MAX: [LeeDoYuJae]32768
+getconf OPEN_MAX: [LeeDoYuJae]1024
+getconf _POSIX_ADVISORY_INFO: [LeeDoYuJae]200809
+getconf _POSIX_BARRIERS: [LeeDoYuJae]200809
+getconf _POSIX_ASYNCHRONOUS_IO: [LeeDoYuJae]200809
+getconf _POSIX_BASE: [LeeDoYuJae]undefined
+getconf _POSIX_C_LANG_SUPPORT: [LeeDoYuJae]undefined
+getconf _POSIX_C_LANG_SUPPORT_R: [LeeDoYuJae]undefined
+getconf _POSIX_CLOCK_SELECTION: [LeeDoYuJae]200809
+getconf _POSIX_CPUTIME: [LeeDoYuJae]200809
+getconf _POSIX_DEVICE_IO: [LeeDoYuJae]undefined
+getconf _POSIX_DEVICE_SPECIFIC: [LeeDoYuJae]undefined
+getconf _POSIX_DEVICE_SPECIFIC_R: [LeeDoYuJae]undefined
+getconf _POSIX_FD_MGMT: [LeeDoYuJae]undefined
+getconf _POSIX_FIFO: [LeeDoYuJae]undefined
+getconf _POSIX_FILE_ATTRIBUTES: [LeeDoYuJae]undefined
+getconf _POSIX_FILE_LOCKING: [LeeDoYuJae]undefined
+getconf _POSIX_FILE_SYSTEM: [LeeDoYuJae]undefined
+getconf _POSIX_FSYNC: [LeeDoYuJae]200809
+getconf _POSIX_JOB_CONTROL: [LeeDoYuJae]1
+getconf _POSIX_MAPPED_FILES: [LeeDoYuJae]200809
+getconf _POSIX_MEMLOCK: [LeeDoYuJae]200809
+getconf _POSIX_MEMLOCK_RANGE: [LeeDoYuJae]200809
+getconf _POSIX_MEMORY_PROTECTION: [LeeDoYuJae]200809
+getconf _POSIX_MESSAGE_PASSING: [LeeDoYuJae]200809
+getconf _POSIX_MONOTONIC_CLOCK: [LeeDoYuJae]200809
+getconf _POSIX_MULTI_PROCESS: [LeeDoYuJae]undefined
+getconf _POSIX_NETWORKING: [LeeDoYuJae]undefined
+getconf _POSIX_PIPE: [LeeDoYuJae]undefined
+getconf _POSIX_PRIORITIZED_IO: [LeeDoYuJae]200809
+getconf _POSIX_PRIORITY_SCHEDULING: [LeeDoYuJae]200809
+getconf _POSIX_READER_WRITER_LOCKS: [LeeDoYuJae]200809
+getconf _POSIX_REALTIME_SIGNALS: [LeeDoYuJae]200809
+getconf _POSIX_REGEXP: [LeeDoYuJae]1
+getconf _POSIX_SAVED_IDS: [LeeDoYuJae]1
+getconf _POSIX_SEMAPHORES: [LeeDoYuJae]200809
+getconf _POSIX_SHARED_MEMORY_OBJECTS: [LeeDoYuJae]200809
+getconf _POSIX_SHELL: [LeeDoYuJae]1
+getconf _POSIX_SIGNALS: [LeeDoYuJae]undefined
+getconf _POSIX_SINGLE_PROCESS: [LeeDoYuJae]undefined
+getconf _POSIX_SPAWN: [LeeDoYuJae]200809
+getconf _POSIX_SPIN_LOCKS: [LeeDoYuJae]200809
+getconf _POSIX_SPORADIC_SERVER: [LeeDoYuJae]undefined
+getconf _POSIX_SYNCHRONIZED_IO: [LeeDoYuJae]200809
+getconf _POSIX_SYSTEM_DATABASE: [LeeDoYuJae]undefined
+getconf _POSIX_SYSTEM_DATABASE_R: [LeeDoYuJae]undefined
+getconf _POSIX_THREAD_ATTR_STACKADDR: [LeeDoYuJae]200809
+getconf _POSIX_THREAD_ATTR_STACKSIZE: [LeeDoYuJae]200809
+getconf _POSIX_THREAD_CPUTIME: [LeeDoYuJae]200809
+getconf _POSIX_THREAD_PRIO_INHERIT: [LeeDoYuJae]200809
+getconf _POSIX_THREAD_PRIO_PROTECT: [LeeDoYuJae]200809
+getconf _POSIX_THREAD_PRIORITY_SCHEDULING: [LeeDoYuJae]200809
+getconf _POSIX_THREAD_PROCESS_SHARED: [LeeDoYuJae]200809
+getconf _POSIX_THREAD_SAFE_FUNCTIONS: [LeeDoYuJae]200809
+getconf _POSIX_THREAD_SPORADIC_SERVER: [LeeDoYuJae]undefined
+getconf _POSIX_THREADS: [LeeDoYuJae]200809
+getconf _POSIX_TIMEOUTS: [LeeDoYuJae]200809
+getconf _POSIX_TIMERS: [LeeDoYuJae]200809
+getconf _POSIX_TRACE: [LeeDoYuJae]undefined
+getconf _POSIX_TRACE_EVENT_FILTER: [LeeDoYuJae]undefined
+getconf _POSIX_TRACE_INHERIT: [LeeDoYuJae]undefined
+getconf _POSIX_TRACE_LOG: [LeeDoYuJae]undefined
+getconf _POSIX_TYPED_MEMORY_OBJECTS: [LeeDoYuJae]undefined
+getconf _POSIX_USER_GROUPS: [LeeDoYuJae]undefined
+getconf _POSIX_USER_GROUPS_R: [LeeDoYuJae]undefined
+getconf _POSIX_VERSION: [LeeDoYuJae]200809
+getconf _POSIX_V6_ILP32_OFF32: [LeeDoYuJae]undefined
+getconf _POSIX_V6_ILP32_OFFBIG: [LeeDoYuJae]undefined
+getconf _POSIX_V6_LP64_OFF64: [LeeDoYuJae]1
+getconf _POSIX_V6_LPBIG_OFFBIG: [LeeDoYuJae]undefined
+getconf _POSIX_V6_WIDTH_RESTRICTED_ENVS: [LeeDoYuJae]POSIX_V6_LP64_OFF64
+getconf POSIX2_C_BIND: [LeeDoYuJae]200809
+getconf POSIX2_C_DEV: [LeeDoYuJae]200809
+getconf POSIX2_C_VERSION: [LeeDoYuJae]200809
+getconf POSIX2_CHAR_TERM: [LeeDoYuJae]200809
+getconf POSIX2_FORT_DEV: [LeeDoYuJae]undefined
+getconf POSIX2_FORT_RUN: [LeeDoYuJae]undefined
+getconf POSIX2_LOCALEDEF: [LeeDoYuJae]200809
+getconf POSIX2_PBS: [LeeDoYuJae]undefined
+getconf POSIX2_PBS_ACCOUNTING: [LeeDoYuJae]undefined
+getconf POSIX2_PBS_LOCATE: [LeeDoYuJae]undefined
+getconf POSIX2_PBS_MESSAGE: [LeeDoYuJae]undefined
+getconf POSIX2_PBS_TRACK: [LeeDoYuJae]undefined
+getconf POSIX2_SW_DEV: [LeeDoYuJae]200809
+getconf POSIX2_UPE: [LeeDoYuJae]undefined
+getconf POSIX2_VERSION: [LeeDoYuJae]200809
+getconf _REGEX_VERSION: [LeeDoYuJae]undefined
+getconf PAGE_SIZE: [LeeDoYuJae]4096
+getconf PAGESIZE: [LeeDoYuJae]4096
+getconf PTHREAD_DESTRUCTOR_ITERATIONS: [LeeDoYuJae]4
+getconf PTHREAD_KEYS_MAX: [LeeDoYuJae]1024
+getconf PTHREAD_STACK_MIN: [LeeDoYuJae]16384
+getconf PTHREAD_THREADS_MAX: [LeeDoYuJae]undefined
+getconf RE_DUP_MAX: [LeeDoYuJae]32767
+getconf RTSIG_MAX: [LeeDoYuJae]32
+getconf SEM_NSEMS_MAX: [LeeDoYuJae]undefined
+getconf SEM_VALUE_MAX: [LeeDoYuJae]2147483647
+getconf SIGQUEUE_MAX: [LeeDoYuJae]15614
+getconf STREAM_MAX: [LeeDoYuJae]16
+getconf SYMLOOP_MAX: [LeeDoYuJae]undefined
+getconf TIMER_MAX: [LeeDoYuJae]undefined
+getconf TTY_NAME_MAX: [LeeDoYuJae]32
+getconf TZNAME_MAX: [LeeDoYuJae]undefined
+getconf _XBS5_ILP32_OFF32: [LeeDoYuJae]undefined
+getconf _XBS5_ILP32_OFFBIG: [LeeDoYuJae]undefined
+getconf _XBS5_LP64_OFF64: [LeeDoYuJae]1
+getconf _XBS5_LPBIG_OFFBIG: [LeeDoYuJae]undefined
+getconf _XOPEN_CRYPT: [LeeDoYuJae]1
+getconf _XOPEN_ENH_I18N: [LeeDoYuJae]1
+getconf _XOPEN_LEGACY: [LeeDoYuJae]1
+getconf _XOPEN_REALTIME: [LeeDoYuJae]1
+getconf _XOPEN_REALTIME_THREADS: [LeeDoYuJae]1
+getconf _XOPEN_SHM: [LeeDoYuJae]1
+getconf _XOPEN_UNIX: [LeeDoYuJae]1
+getconf _XOPEN_VERSION: [LeeDoYuJae]700
+getconf _XOPEN_XCU_VERSION: [LeeDoYuJae]4
+getconf PATH: [LeeDoYuJae]/bin:/usr/bin
+getconf POSIX_V6_ILP32_OFF32_CFLAGS: [LeeDoYuJae]
+getconf POSIX_V6_ILP32_OFF32_LDFLAGS: [LeeDoYuJae]
+getconf POSIX_V6_ILP32_OFF32_LIBS: [LeeDoYuJae]
+getconf POSIX_V6_ILP32_OFF32_LINTFLAGS: [LeeDoYuJae]
+getconf POSIX_V6_ILP32_OFFBIG_CFLAGS: [LeeDoYuJae]
+getconf POSIX_V6_ILP32_OFFBIG_LDFLAGS: [LeeDoYuJae]
+getconf POSIX_V6_ILP32_OFFBIG_LIBS: [LeeDoYuJae]
+getconf POSIX_V6_ILP32_OFFBIG_LINTFLAGS: [LeeDoYuJae]
+getconf POSIX_V6_LP64_OFF64_CFLAGS: [LeeDoYuJae]-m64
+getconf POSIX_V6_LP64_OFF64_LDFLAGS: [LeeDoYuJae]-m64
+getconf POSIX_V6_LP64_OFF64_LIBS: [LeeDoYuJae]
+getconf POSIX_V6_LP64_OFF64_LINTFLAGS: [LeeDoYuJae]
+getconf POSIX_V6_LPBIG_OFFBIG_CFLAGS: [LeeDoYuJae]
+getconf POSIX_V6_LPBIG_OFFBIG_LDFLAGS: [LeeDoYuJae]
+getconf POSIX_V6_LPBIG_OFFBIG_LIBS: [LeeDoYuJae]
+getconf POSIX_V6_LPBIG_OFFBIG_LINTFLAGS: [LeeDoYuJae]
+getconf XBS5_ILP32_OFF32_CFLAGS: [LeeDoYuJae]
+getconf XBS5_ILP32_OFF32_LDFLAGS: [LeeDoYuJae]
+getconf XBS5_ILP32_OFF32_LIBS: [LeeDoYuJae]
+getconf XBS5_ILP32_OFF32_LINTFLAGS: [LeeDoYuJae]
+getconf XBS5_ILP32_OFFBIG_CFLAGS: [LeeDoYuJae]
+getconf XBS5_ILP32_OFFBIG_LDFLAGS: [LeeDoYuJae]
+getconf XBS5_ILP32_OFFBIG_LIBS: [LeeDoYuJae]
+getconf XBS5_ILP32_OFFBIG_LINTFLAGS: [LeeDoYuJae]
+getconf XBS5_LP64_OFF64_CFLAGS: [LeeDoYuJae]-m64
+getconf XBS5_LP64_OFF64_LDFLAGS: [LeeDoYuJae]-m64
+getconf XBS5_LP64_OFF64_LIBS: [LeeDoYuJae]
+getconf XBS5_LP64_OFF64_LINTFLAGS: [LeeDoYuJae]
+getconf XBS5_LPBIG_OFFBIG_CFLAGS: [LeeDoYuJae]
+getconf XBS5_LPBIG_OFFBIG_LDFLAGS: [LeeDoYuJae]
+getconf XBS5_LPBIG_OFFBIG_LIBS: [LeeDoYuJae]
+getconf XBS5_LPBIG_OFFBIG_LINTFLAGS: [LeeDoYuJae]
+getconf FILESIZEBITS /: [LeeDoYuJae]64
+getconf LINK_MAX /: [LeeDoYuJae]65000
+getconf MAX_CANON /: [LeeDoYuJae]255
+getconf MAX_INPUT /: [LeeDoYuJae]255
+getconf NAME_MAX /: [LeeDoYuJae]255
+getconf PATH_MAX /: [LeeDoYuJae]4096
+getconf PIPE_BUF /: [LeeDoYuJae]4096
+getconf POSIX_ALLOC_SIZE_MIN /: [LeeDoYuJae]4096
+getconf POSIX_REC_INCR_XFER_SIZE /: [LeeDoYuJae]undefined
+getconf POSIX_REC_MAX_XFER_SIZE /: [LeeDoYuJae]undefined
+getconf POSIX_REC_MIN_XFER_SIZE /: [LeeDoYuJae]4096
+getconf POSIX_REC_XFER_ALIGN /: [LeeDoYuJae]4096
+getconf SYMLINK_MAX /: [LeeDoYuJae]undefined
+getconf _POSIX_CHOWN_RESTRICTED /: [LeeDoYuJae]1
+getconf _POSIX_NO_TRUNC /: [LeeDoYuJae]1
+getconf _POSIX_VDISABLE /: [LeeDoYuJae]0
+getconf _POSIX_ASYNC_IO /: [LeeDoYuJae]undefined
+getconf _POSIX_PRIO_IO /: [LeeDoYuJae]undefined
+getconf _POSIX_SYNC_IO /: [LeeDoYuJae]undefined

@@ -1,0 +1,512 @@
+--- -	2017-10-30 20:37:44.782113136 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:44.779051497 +0900
+@@ -1,15 +1,15 @@
+-`*file6'
+-`-file3'
+-`\file9b\'
+-`\{file8\}'
+-`\{file9\,file9b\}'
+-`dir1'
+-`dir2'
+-`file1'
+-`file2'
+-`filea,'
+-`fileb}c'
+-`link1'
+-`noread'
+-`{file7,}'
+-`~file4'
++[LeeDoYuJae]`*file6'
++[LeeDoYuJae]`-file3'
++[LeeDoYuJae]`\file9b\'
++[LeeDoYuJae]`\{file8\}'
++[LeeDoYuJae]`\{file9\,file9b\}'
++[LeeDoYuJae]`dir1'
++[LeeDoYuJae]`dir2'
++[LeeDoYuJae]`file1'
++[LeeDoYuJae]`file2'
++[LeeDoYuJae]`filea,'
++[LeeDoYuJae]`fileb}c'
++[LeeDoYuJae]`link1'
++[LeeDoYuJae]`noread'
++[LeeDoYuJae]`{file7,}'
++[LeeDoYuJae]`~file4'
+Normal test failed
+--- -	2017-10-30 20:37:44.792445365 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:44.787055497 +0900
+@@ -1,15 +1,15 @@
+-`*file6'
+-`-file3'
+-`\file9b\'
+-`\{file8\}'
+-`\{file9\,file9b\}'
+-`dir1'
+-`dir2'
+-`file1'
+-`file2'
+-`filea,'
+-`fileb}c'
+-`link1'
+-`noread'
+-`{file7,}'
+-`~file4'
++[LeeDoYuJae]`*file6'
++[LeeDoYuJae]`-file3'
++[LeeDoYuJae]`\file9b\'
++[LeeDoYuJae]`\{file8\}'
++[LeeDoYuJae]`\{file9\,file9b\}'
++[LeeDoYuJae]`dir1'
++[LeeDoYuJae]`dir2'
++[LeeDoYuJae]`file1'
++[LeeDoYuJae]`file2'
++[LeeDoYuJae]`filea,'
++[LeeDoYuJae]`fileb}c'
++[LeeDoYuJae]`link1'
++[LeeDoYuJae]`noread'
++[LeeDoYuJae]`{file7,}'
++[LeeDoYuJae]`~file4'
+No sort test failed
+--- -	2017-10-30 20:37:44.800303906 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:44.795059497 +0900
+@@ -1,15 +1,15 @@
+-`*file6'
+-`-file3'
+-`\file9b\'
+-`\{file8\}'
+-`\{file9\,file9b\}'
+-`dir1/'
+-`dir2/'
+-`file1'
+-`file2'
+-`filea,'
+-`fileb}c'
+-`link1/'
+-`noread/'
+-`{file7,}'
+-`~file4'
++[LeeDoYuJae]`*file6'
++[LeeDoYuJae]`-file3'
++[LeeDoYuJae]`\file9b\'
++[LeeDoYuJae]`\{file8\}'
++[LeeDoYuJae]`\{file9\,file9b\}'
++[LeeDoYuJae]`dir1/'
++[LeeDoYuJae]`dir2/'
++[LeeDoYuJae]`file1'
++[LeeDoYuJae]`file2'
++[LeeDoYuJae]`filea,'
++[LeeDoYuJae]`fileb}c'
++[LeeDoYuJae]`link1/'
++[LeeDoYuJae]`noread/'
++[LeeDoYuJae]`{file7,}'
++[LeeDoYuJae]`~file4'
+Mark directories test failed
+--- -	2017-10-30 20:37:44.807676317 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:44.803063497 +0900
+@@ -1,18 +1,18 @@
+-`*file6'
+-`-file3'
+-`.'
+-`..'
+-`.file5'
+-`\file9b\'
+-`\{file8\}'
+-`\{file9\,file9b\}'
+-`dir1'
+-`dir2'
+-`file1'
+-`file2'
+-`filea,'
+-`fileb}c'
+-`link1'
+-`noread'
+-`{file7,}'
+-`~file4'
++[LeeDoYuJae]`*file6'
++[LeeDoYuJae]`-file3'
++[LeeDoYuJae]`.'
++[LeeDoYuJae]`..'
++[LeeDoYuJae]`.file5'
++[LeeDoYuJae]`\file9b\'
++[LeeDoYuJae]`\{file8\}'
++[LeeDoYuJae]`\{file9\,file9b\}'
++[LeeDoYuJae]`dir1'
++[LeeDoYuJae]`dir2'
++[LeeDoYuJae]`file1'
++[LeeDoYuJae]`file2'
++[LeeDoYuJae]`filea,'
++[LeeDoYuJae]`fileb}c'
++[LeeDoYuJae]`link1'
++[LeeDoYuJae]`noread'
++[LeeDoYuJae]`{file7,}'
++[LeeDoYuJae]`~file4'
+Leading period test failed
+--- -	2017-10-30 20:37:44.810520590 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:44.803063497 +0900
+@@ -1,2 +1,2 @@
+-`file1'
+-`file2'
++[LeeDoYuJae]`file1'
++[LeeDoYuJae]`file2'
+Braces test failed
+--- -	2017-10-30 20:37:44.815715435 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:44.811067497 +0900
+@@ -1,3 +1,3 @@
+-`-file3'
+-`file1'
+-`file2'
++[LeeDoYuJae]`-file3'
++[LeeDoYuJae]`file1'
++[LeeDoYuJae]`file2'
+Braces test 2 failed
+--- -	2017-10-30 20:37:44.819635019 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:44.815069497 +0900
+@@ -1 +1 @@
+-GLOB_NOMATCH
++[LeeDoYuJae]GLOB_NOMATCH
+Braces test 3 failed
+--- -	2017-10-30 20:37:44.825140932 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:44.819071497 +0900
+@@ -1 +1 @@
+-`abc'
++[LeeDoYuJae]`abc'
+No check test failed
+--- -	2017-10-30 20:37:44.831764845 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:44.827075497 +0900
+@@ -1 +1 @@
+-`abc'
++[LeeDoYuJae]`abc'
+No magic test failed
+--- -	2017-10-30 20:37:44.835674635 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:44.831077497 +0900
+@@ -1 +1 @@
+-GLOB_NOMATCH
++[LeeDoYuJae]GLOB_NOMATCH
+No magic w/ magic chars test failed
+--- -	2017-10-30 20:37:44.842222960 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:44.835079497 +0900
+@@ -1 +1 @@
+-GLOB_NOMATCH
++[LeeDoYuJae]GLOB_NOMATCH
+No magic in subdir test failed
+--- -	2017-10-30 20:37:44.844859493 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:44.839081497 +0900
+@@ -1,4 +1,4 @@
+-`dir1/file1_1'
+-`dir1/file1_2'
+-`link1/file1_1'
+-`link1/file1_2'
++[LeeDoYuJae]`dir1/file1_1'
++[LeeDoYuJae]`dir1/file1_2'
++[LeeDoYuJae]`link1/file1_1'
++[LeeDoYuJae]`link1/file1_2'
+Subdirs test failed
+--- -	2017-10-30 20:37:44.847612011 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:44.839081497 +0900
+@@ -1 +1 @@
+-GLOB_NOMATCH
++[LeeDoYuJae]GLOB_NOMATCH
+Invalid subdir test failed
+--- -	2017-10-30 20:37:44.850369560 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:44.843083498 +0900
+@@ -1,2 +1,2 @@
+-`dir1/file1_1'
+-`link1/file1_1'
++[LeeDoYuJae]`dir1/file1_1'
++[LeeDoYuJae]`link1/file1_1'
+Wildcard subdir test failed
+--- -	2017-10-30 20:37:44.852955541 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:44.847085497 +0900
+@@ -1,4 +1,4 @@
+-`dir1/file1_1'
+-`dir1/file1_2'
+-`link1/file1_1'
+-`link1/file1_2'
++[LeeDoYuJae]`dir1/file1_1'
++[LeeDoYuJae]`dir1/file1_2'
++[LeeDoYuJae]`link1/file1_1'
++[LeeDoYuJae]`link1/file1_2'
+Wildcard2 subdir test failed
+--- -	2017-10-30 20:37:44.856462879 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:44.851087497 +0900
+@@ -1,2 +1,2 @@
+-`dir1/file1_1'
+-`link1/file1_1'
++[LeeDoYuJae]`dir1/file1_1'
++[LeeDoYuJae]`link1/file1_1'
+Wildcard3 subdir test failed
+--- -	2017-10-30 20:37:44.862612310 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:44.855089497 +0900
+@@ -1 +1 @@
+-GLOB_NOMATCH
++[LeeDoYuJae]GLOB_NOMATCH
+Wildcard4 subdir test failed
+--- -	2017-10-30 20:37:44.866242367 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:44.863093497 +0900
+@@ -1 +1 @@
+-GLOB_NOMATCH
++[LeeDoYuJae]GLOB_NOMATCH
+Wildcard5 subdir test failed
+--- -	2017-10-30 20:37:44.868784405 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:44.863093497 +0900
+@@ -1,4 +1,4 @@
+-`dir1/file1_1'
+-`dir1/file1_2'
+-`link1/file1_1'
+-`link1/file1_2'
++[LeeDoYuJae]`dir1/file1_1'
++[LeeDoYuJae]`dir1/file1_2'
++[LeeDoYuJae]`link1/file1_1'
++[LeeDoYuJae]`link1/file1_2'
+Wildcard6 subdir test failed
+--- -	2017-10-30 20:37:44.871517145 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:44.863093497 +0900
+@@ -1,4 +1,4 @@
+-`dir1/file1_1'
+-`dir1/file1_2'
+-`link1/file1_1'
+-`link1/file1_2'
++[LeeDoYuJae]`dir1/file1_1'
++[LeeDoYuJae]`dir1/file1_2'
++[LeeDoYuJae]`link1/file1_1'
++[LeeDoYuJae]`link1/file1_2'
+Brackets test failed
+--- -	2017-10-30 20:37:44.918412330 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:44.911117497 +0900
+@@ -1,2 +1,2 @@
+-`dir1/file1_1'
+-`dir1/file1_2'
++[LeeDoYuJae]`dir1/file1_1'
++[LeeDoYuJae]`dir1/file1_2'
+Brackets2 test failed
+--- -	2017-10-30 20:37:44.921370640 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:44.915119497 +0900
+@@ -1 +1 @@
+-/home/sysprog
++[LeeDoYuJae]/home/sysprog
+Tilde test failed
+--- -	2017-10-30 20:37:44.924976092 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:44.919121497 +0900
+@@ -1 +1 @@
+-/home/sysprog/
++[LeeDoYuJae]/home/sysprog/
+Tilde2 test failed
+--- -	2017-10-30 20:37:44.930507562 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:44.923123497 +0900
+@@ -1 +1 @@
+-/home/sysprog
++[LeeDoYuJae]GLOB_NOMATCH
+Tilde3 test failed
+--- -	2017-10-30 20:37:44.937958257 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:44.935129497 +0900
+@@ -1 +1 @@
+-GLOB_NOMATCH
++[LeeDoYuJae]GLOB_NOMATCH
+Tilde4 test failed
+--- -	2017-10-30 20:37:44.944682285 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:44.939131497 +0900
+@@ -1 +1 @@
+-`*file6'
++[LeeDoYuJae]`*file6'
+Star test failed
+--- -	2017-10-30 20:37:44.959561146 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:44.947135497 +0900
+@@ -1,3 +1,3 @@
+-`\file9b\'
+-`\{file8\}'
+-`\{file9\,file9b\}'
++[LeeDoYuJae]`\file9b\'
++[LeeDoYuJae]`\{file8\}'
++[LeeDoYuJae]`\{file9\,file9b\}'
+Star2 test failed
+--- -	2017-10-30 20:37:44.968349859 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:44.963143497 +0900
+@@ -1 +1 @@
+-`*file6'
++[LeeDoYuJae]`*file6'
+Star3 test failed
+--- -	2017-10-30 20:37:44.976379333 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:44.975149497 +0900
+@@ -1 +1 @@
+-`{file7,}'
++[LeeDoYuJae]`{file7,}'
+Brace4 test failed
+--- -	2017-10-30 20:37:44.984195582 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:44.979151497 +0900
+@@ -1 +1 @@
+-`\file9b\'
++[LeeDoYuJae]`\file9b\'
+Brace5 test failed
+--- -	2017-10-30 20:37:44.988927873 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:44.979151497 +0900
+@@ -1 +1 @@
+-`filea,'
++[LeeDoYuJae]`filea,'
+Brace6 test failed
+--- -	2017-10-30 20:37:44.994947609 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:44.987155497 +0900
+@@ -1 +1 @@
+-`fileb}c'
++[LeeDoYuJae]`fileb}c'
+Brace7 test failed
+--- -	2017-10-30 20:37:45.005645621 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:44.999161498 +0900
+@@ -1 +1 @@
+-GLOB_NOMATCH
++[LeeDoYuJae]GLOB_NOMATCH
+Star4 test failed
+--- -	2017-10-30 20:37:45.010242953 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:45.007165497 +0900
+@@ -1 +1 @@
+-GLOB_NOMATCH
++[LeeDoYuJae]GLOB_NOMATCH
+Star5 test failed
+--- -	2017-10-30 20:37:45.015536589 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:45.007165497 +0900
+@@ -1 +1 @@
+-GLOB_NOMATCH
++[LeeDoYuJae]GLOB_NOMATCH
+Star6 test failed
+--- -	2017-10-30 20:37:45.018120353 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:45.011167497 +0900
+@@ -1 +1 @@
+-GLOB_NOMATCH
++[LeeDoYuJae]GLOB_NOMATCH
+Star6 test failed
+--- -	2017-10-30 20:37:45.022052752 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:45.015169498 +0900
+@@ -1 +1 @@
+-GLOB_ABORTED
++[LeeDoYuJae]GLOB_ABORTED
+--- -	2017-10-30 20:37:45.024845669 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:45.019171497 +0900
+@@ -1 +1 @@
+-GLOB_ABORTED
++[LeeDoYuJae]GLOB_ABORTED
+GLOB_ERR test failed
+--- -	2017-10-30 20:37:45.027454042 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:45.019171497 +0900
+@@ -1,5 +1,5 @@
+-`dir1/file1_1'
+-`dir1/file1_2'
+-`file1'
+-`link1/file1_1'
+-`link1/file1_2'
++[LeeDoYuJae]`dir1/file1_1'
++[LeeDoYuJae]`dir1/file1_2'
++[LeeDoYuJae]`file1'
++[LeeDoYuJae]`link1/file1_1'
++[LeeDoYuJae]`link1/file1_2'
+GLOB_APPEND test failed
+--- -	2017-10-30 20:37:45.030129364 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:45.023173497 +0900
+@@ -1,6 +1,6 @@
+-`abc'
+-`dir1/file1_1'
+-`dir1/file1_2'
+-`file1'
+-`link1/file1_1'
+-`link1/file1_2'
++[LeeDoYuJae]`abc'
++[LeeDoYuJae]`dir1/file1_1'
++[LeeDoYuJae]`dir1/file1_2'
++[LeeDoYuJae]`file1'
++[LeeDoYuJae]`link1/file1_1'
++[LeeDoYuJae]`link1/file1_2'
+GLOB_APPEND2 test failed
+--- -	2017-10-30 20:37:45.032734751 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:45.027175497 +0900
+@@ -1 +1 @@
+-`*/blahblah'
++[LeeDoYuJae]`*/blahblah'
+No check2 test failed
+--- -	2017-10-30 20:37:45.035356058 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:45.027175497 +0900
+@@ -1,7 +1,7 @@
+-`*file6'
+-`-file3'
+-`\file9b\'
+-`\{file8\}'
+-`\{file9\,file9b\}'
+-`{file7,}'
+-`~file4'
++[LeeDoYuJae]`*file6'
++[LeeDoYuJae]`-file3'
++[LeeDoYuJae]`\file9b\'
++[LeeDoYuJae]`\{file8\}'
++[LeeDoYuJae]`\{file9\,file9b\}'
++[LeeDoYuJae]`{file7,}'
++[LeeDoYuJae]`~file4'
+Punct test failed
+[LeeDoYuJae]GLOB_NOMATCH
+--- -	2017-10-30 20:37:45.041936493 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:45.035179497 +0900
+@@ -1,15 +1,15 @@
+-`dir*6/file1[ab]'
+-`dir1/file1_1'
+-`dir1/file\1_9'
+-`dir2/'
+-`dir3*/file1'
+-`dir3\*/file2'
+-`dir4[a/file1'
+-`dir4[a/file2'
+-`dir5[ab]/file[12]'
+-`dir6/fi*l[ab]'
+-`dir6/file1[a'
+-`dir6/file1[a'
+-`dir6/file1[a'
+-`dir6/file1[ab]'
+-`nondir\/'
++[LeeDoYuJae]`dir*6/file1[ab]'
++[LeeDoYuJae]`dir1/file1_1'
++[LeeDoYuJae]`dir1/file\1_9'
++[LeeDoYuJae]`dir2/'
++[LeeDoYuJae]`dir3*/file1'
++[LeeDoYuJae]`dir3\*/file2'
++[LeeDoYuJae]`dir4[a/file1'
++[LeeDoYuJae]`dir4[a/file2'
++[LeeDoYuJae]`dir5[ab]/file[12]'
++[LeeDoYuJae]`dir6/fi*l[ab]'
++[LeeDoYuJae]`dir6/file1[a'
++[LeeDoYuJae]`dir6/file1[a'
++[LeeDoYuJae]`dir6/file1[a'
++[LeeDoYuJae]`dir6/file1[ab]'
++[LeeDoYuJae]`nondir\/'
+--- -	2017-10-30 20:37:45.044685580 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:45.039181497 +0900
+@@ -1,5 +1,5 @@
+-`/home/sysprog/glibc/build/posix/globtest-dir/dir1/file1_1'
+-`/home/sysprog/glibc/build/posix/globtest-dir/dir1/file1_2'
+-`/home/sysprog/glibc/build/posix/globtest-dir/dir3*/file1'
+-`~/dir1/file1_9'
+-`~/dir3\*/file2'
++[LeeDoYuJae]`/home/sysprog/glibc/build/posix/globtest-dir/dir1/file1_1'
++[LeeDoYuJae]`/home/sysprog/glibc/build/posix/globtest-dir/dir1/file1_2'
++[LeeDoYuJae]`/home/sysprog/glibc/build/posix/globtest-dir/dir3*/file1'
++[LeeDoYuJae]`~/dir1/file1_9'
++[LeeDoYuJae]`~/dir3\*/file2'
+--- -	2017-10-30 20:37:45.048702567 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:45.043183497 +0900
+@@ -1 +1 @@
+-/home/sysprog/
++[LeeDoYuJae]~s\ysprog/
+--- -	2017-10-30 20:37:45.051354836 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:45.043183497 +0900
+@@ -1 +1 @@
+-/home/sysprog/
++[LeeDoYuJae]~s\ysprog\/
+--- -	2017-10-30 20:37:45.053782481 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:45.047185497 +0900
+@@ -1 +1 @@
+-/home/sysprog
++[LeeDoYuJae]~s\ysprog
+Escape tests failed
+--- -	2017-10-30 20:37:45.055652950 +0900
++++ /home/sysprog/glibc/build/posix/globtest-out	2017-10-30 20:37:45.051187497 +0900
+@@ -1,3 +1,3 @@
+-`abc'
+-`file1'
+-`file2'
++[LeeDoYuJae]`abc'
++[LeeDoYuJae]`file1'
++[LeeDoYuJae]`file2'
+GLOB_BRACE+GLOB_DOOFFS test failed

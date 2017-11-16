@@ -1,0 +1,5 @@
+PASS: sysvipc/check-installed-headers-c
+PASS: sysvipc/check-installed-headers-cxx
+PASS: sysvipc/test-sysvmsg
+PASS: sysvipc/test-sysvsem
+PASS: sysvipc/test-sysvshm

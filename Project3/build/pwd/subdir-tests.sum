@@ -1,0 +1,4 @@
+PASS: pwd/check-installed-headers-c
+PASS: pwd/check-installed-headers-cxx
+FAIL: pwd/tst-getpw
+PASS: pwd/tst-putpwent

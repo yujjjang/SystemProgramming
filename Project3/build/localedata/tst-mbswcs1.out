@@ -1,0 +1,7 @@
+[LeeDoYuJae]used locale: "de_DE.UTF-8"
+[LeeDoYuJae]mbrtowc (&wc, (const char *) buf + 0, 1, &state) -> 1[LeeDoYuJae], wc = 37
+[LeeDoYuJae]mbrtowc (&wc, (const char *) buf + 1, 1, &state) -> 18446744073709551614[LeeDoYuJae], wc = 37
+[LeeDoYuJae]mbrtowc (&wc, (const char *) buf + 2, 3, &state) -> 2[LeeDoYuJae], wc = 8364
+[LeeDoYuJae]mbrtowc (&wc, (const char *) buf + 4, 1, &state) -> 18446744073709551614[LeeDoYuJae], wc = 8364
+[LeeDoYuJae]mbrtowc (&wc, (const char *) buf + 5, 1, &state) -> 1[LeeDoYuJae], wc = 955
+[LeeDoYuJae]mbrtowc (&wc, (const char *) buf + 5, 1, &state) -> 18446744073709551615[LeeDoYuJae], wc = 955

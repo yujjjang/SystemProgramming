@@ -1,0 +1,7 @@
+[LeeDoYuJae]iconv: ASCII <-> ASCII: ok
+[LeeDoYuJae]iconv: ASCII <-> UTF-8: ok
+[LeeDoYuJae]iconv: ASCII <-> UCS-2BE: ok
+[LeeDoYuJae]iconv: ASCII <-> UCS-2LE: ok
+[LeeDoYuJae]iconv: ASCII <-> UCS-4BE: ok
+[LeeDoYuJae]iconv: ASCII <-> UCS-4LE: ok
+[LeeDoYuJae]Succeeded.

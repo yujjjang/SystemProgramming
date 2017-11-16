@@ -1,0 +1,2 @@
+FAIL: nptl/tst-eintr1
+original exit status 1

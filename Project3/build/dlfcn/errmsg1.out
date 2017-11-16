@@ -1,0 +1,2 @@
+[LeeDoYuJae]dlerror() without prior dl*() call returned: (null)
+[LeeDoYuJae]/home/sysprog/glibc/build/dlfcn/errmsg1mod.so: undefined symbol: bar

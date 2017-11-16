@@ -1,0 +1,19 @@
+[LeeDoYuJae]Checking HAS_ARCH_FEATURE (AVX_Usable):
+[LeeDoYuJae]  init-arch 1
+[LeeDoYuJae]  cpuinfo (avx) 1
+[LeeDoYuJae]Checking HAS_ARCH_FEATURE (FMA4_Usable):
+[LeeDoYuJae]  init-arch 0
+[LeeDoYuJae]  cpuinfo (fma4) 0
+[LeeDoYuJae]Checking HAS_CPU_FEATURE (SSE4_2):
+[LeeDoYuJae]  init-arch 1
+[LeeDoYuJae]  cpuinfo (sse4_2) 1
+[LeeDoYuJae]Checking HAS_CPU_FEATURE (SSE4_1):
+[LeeDoYuJae]  init-arch 1
+[LeeDoYuJae]  cpuinfo (sse4_1) 1
+[LeeDoYuJae]Checking HAS_CPU_FEATURE (SSSE3):
+[LeeDoYuJae]  init-arch 1
+[LeeDoYuJae]  cpuinfo (ssse3) 1
+[LeeDoYuJae]Checking HAS_CPU_FEATURE (POPCOUNT):
+[LeeDoYuJae]  init-arch 1
+[LeeDoYuJae]  cpuinfo (popcnt) 1
+[LeeDoYuJae]0 differences between /proc/cpuinfo and glibc code.

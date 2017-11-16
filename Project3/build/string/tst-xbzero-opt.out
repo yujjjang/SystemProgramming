@@ -1,0 +1,6 @@
+[LeeDoYuJae]PASS: no clear/prepare: expected 32 got 32
+[LeeDoYuJae]PASS: no clear/test: expected some got 32
+[LeeDoYuJae]PASS: ordinary clear/prepare: expected 32 got 32
+[LeeDoYuJae]INFO: ordinary clear/test: found 32 patterns
+[LeeDoYuJae]PASS: explicit clear/prepare: expected 32 got 32
+[LeeDoYuJae]PASS: explicit clear/test: expected 0 got 0

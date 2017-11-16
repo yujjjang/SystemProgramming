@@ -1,0 +1,6 @@
+[LeeDoYuJae]Begining random package test using 3 sequences of length 50.
+[LeeDoYuJae]Generating random sequences.
+[LeeDoYuJae]Regenerating and checking sequences.
+[LeeDoYuJae]Creating and checking state vector for each sequence.
+[LeeDoYuJae]Regenerating and checking sequences in interleaved order.
+[LeeDoYuJae]All tests passed!

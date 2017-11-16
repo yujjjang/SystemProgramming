@@ -1,0 +1,392 @@
+[LeeDoYuJae]a		&	a	a
+[LeeDoYuJae]abc		&	abc	abc
+[LeeDoYuJae]abc|de		-	abc	abc
+[LeeDoYuJae]a|b|c		-	abc	a
+[LeeDoYuJae]a(b)c		-	abc	abc
+[LeeDoYuJae]a\(b\)c		b	abc	abc
+[LeeDoYuJae]a(		C	EPAREN
+[LeeDoYuJae]a(		b	a(	a(
+[LeeDoYuJae]a\(		-	a(	a(
+[LeeDoYuJae]a\(		bC	EPAREN
+[LeeDoYuJae]a\(b		bC	EPAREN
+[LeeDoYuJae]a(b		C	EPAREN
+[LeeDoYuJae]a(b		b	a(b	a(b
+[LeeDoYuJae]a)		-	a)	a)
+[LeeDoYuJae])		-	)	)
+[LeeDoYuJae]a)		b	a)	a)
+[LeeDoYuJae]a\)		bC	EPAREN
+[LeeDoYuJae]\)		bC	EPAREN
+[LeeDoYuJae]a()b		-	ab	ab
+[LeeDoYuJae]a\(\)b		b	ab	ab
+[LeeDoYuJae]^abc$		&	abc	abc
+[LeeDoYuJae]a^b		-	a^b
+[LeeDoYuJae]a^b		b	a^b	a^b
+[LeeDoYuJae]a$b		-	a$b
+[LeeDoYuJae]a$b		b	a$b	a$b
+[LeeDoYuJae]^		&	abc	@abc
+[LeeDoYuJae]$		&	abc	@
+[LeeDoYuJae]^$		&	""	@
+[LeeDoYuJae]$^		-	""	@
+[LeeDoYuJae]\($\)\(^\)	b	""	@
+[LeeDoYuJae]^^		-	""	@
+[LeeDoYuJae]$$		-	""	@
+[LeeDoYuJae]b$		&	abNc
+[LeeDoYuJae]b$		&n	abNc	b
+[LeeDoYuJae]^b$		&	aNbNc
+[LeeDoYuJae]^b$		&n	aNbNc	b
+[LeeDoYuJae]^$		&n	aNNb	@Nb
+[LeeDoYuJae]^$		n	abc
+[LeeDoYuJae]^$		n	abcN	@
+[LeeDoYuJae]$^		n	aNNb	@Nb
+[LeeDoYuJae]\($\)\(^\)	bn	aNNb	@Nb
+[LeeDoYuJae]^^		n^	aNNb	@Nb
+[LeeDoYuJae]$$		n	aNNb	@NN
+[LeeDoYuJae]^a		^	a
+[LeeDoYuJae]a$		$	a
+[LeeDoYuJae]^a		^n	aNb
+[LeeDoYuJae]^b		^n	aNb	b
+[LeeDoYuJae]a$		$n	bNa
+[LeeDoYuJae]b$		$n	bNa	b
+[LeeDoYuJae]a*(^b$)c*	-	b	b
+[LeeDoYuJae]a*\(^b$\)c*	b	b	b
+[LeeDoYuJae]|		C	EMPTY
+[LeeDoYuJae]|		b	|	|
+[LeeDoYuJae]*		C	BADRPT
+[LeeDoYuJae]*		b	*	*
+[LeeDoYuJae]+		C	BADRPT
+[LeeDoYuJae]?		C	BADRPT
+[LeeDoYuJae]""		&C	EMPTY
+[LeeDoYuJae]()		-	abc	@abc
+[LeeDoYuJae]\(\)		b	abc	@abc
+[LeeDoYuJae]a||b		C	EMPTY
+[LeeDoYuJae]|ab		C	EMPTY
+[LeeDoYuJae]ab|		C	EMPTY
+[LeeDoYuJae](|a)b		C	EMPTY
+[LeeDoYuJae](a|)b		C	EMPTY
+[LeeDoYuJae](*a)		C	BADRPT
+[LeeDoYuJae](+a)		C	BADRPT
+[LeeDoYuJae](?a)		C	BADRPT
+[LeeDoYuJae]({1}a)		C	BADRPT
+[LeeDoYuJae]\(\{1\}a\)	bC	BADRPT
+[LeeDoYuJae](a|*b)		C	BADRPT
+[LeeDoYuJae](a|+b)		C	BADRPT
+[LeeDoYuJae](a|?b)		C	BADRPT
+[LeeDoYuJae](a|{1}b)	C	BADRPT
+[LeeDoYuJae]^*		C	BADRPT
+[LeeDoYuJae]^*		b	*	*
+[LeeDoYuJae]^+		C	BADRPT
+[LeeDoYuJae]^?		C	BADRPT
+[LeeDoYuJae]^{1}		C	BADRPT
+[LeeDoYuJae]^\{1\}		bC	BADRPT
+[LeeDoYuJae]a.c		&	abc	abc
+[LeeDoYuJae]a[bc]d		&	abd	abd
+[LeeDoYuJae]a\*c		&	a*c	a*c
+[LeeDoYuJae]a\\b		&	a\b	a\b
+[LeeDoYuJae]a\\\*b		&	a\*b	a\*b
+[LeeDoYuJae]a\		&C	EESCAPE
+[LeeDoYuJae]a\\bc		&	a\bc	a\bc
+[LeeDoYuJae]\{		bC	BADRPT
+[LeeDoYuJae]a\[b		&	a[b	a[b
+[LeeDoYuJae]a[b		&C	EBRACK
+[LeeDoYuJae]a$		&	a	a
+[LeeDoYuJae]a$		&	a$
+[LeeDoYuJae]a\$		&	a
+[LeeDoYuJae]a\$		&	a$	a$
+[LeeDoYuJae]a\\$		&	a
+[LeeDoYuJae]a\\$		&	a$
+[LeeDoYuJae]a\\$		&	a\$
+[LeeDoYuJae]a\\$		&	a\	a\
+[LeeDoYuJae]a\(b\)\2c	bC	ESUBREG
+[LeeDoYuJae]a\(b\1\)c	bC	ESUBREG
+[LeeDoYuJae]a\(b*\)c\1d	b	abbcbbd	abbcbbd	bb
+[LeeDoYuJae]a\(b*\)c\1d	b	abbcbd
+[LeeDoYuJae]a\(b*\)c\1d	b	abbcbbbd
+[LeeDoYuJae]^\(.\)\1	b	abc
+[LeeDoYuJae]a\([bc]\)\1d	b	abcdabbd	abbd	b
+[LeeDoYuJae]a\(\([bc]\)\2\)*d	b	abbccd	abbccd
+[LeeDoYuJae]a\(\([bc]\)\2\)*d	b	abbcbd
+[LeeDoYuJae]a\(\(b\)*\2\)*d		b	abbbd	abbbd
+[LeeDoYuJae]\(ab*\)[ab]*\1	b	ababaaa	ababaaa	a
+[LeeDoYuJae]\(a\)\1bcd	b	aabcd	aabcd
+[LeeDoYuJae]\(a\)\1bc*d	b	aabcd	aabcd
+[LeeDoYuJae]\(a\)\1bc*d	b	aabd	aabd
+[LeeDoYuJae]\(a\)\1bc*d	b	aabcccd	aabcccd
+[LeeDoYuJae]\(a\)\1bc*[ce]d	b	aabcccd	aabcccd
+[LeeDoYuJae]^\(a\)\1b\(c\)*cd$	b	aabcccd	aabcccd
+[LeeDoYuJae]ab*c		&	abc	abc
+[LeeDoYuJae]ab+c		-	abc	abc
+[LeeDoYuJae]ab?c		-	abc	abc
+[LeeDoYuJae]a\(*\)b		b	a*b	a*b
+[LeeDoYuJae]a\(**\)b	b	ab	ab
+[LeeDoYuJae]a\(***\)b	bC	BADRPT
+[LeeDoYuJae]*a		b	*a	*a
+[LeeDoYuJae]**a		b	a	a
+[LeeDoYuJae]***a		bC	BADRPT
+[LeeDoYuJae]{		b	{	{
+[LeeDoYuJae]{abc		b	{abc	{abc
+[LeeDoYuJae]{1		C	BADRPT
+[LeeDoYuJae]{1}		C	BADRPT
+[LeeDoYuJae]a{b		b	a{b	a{b
+[LeeDoYuJae]a{1}b		-	ab	ab
+[LeeDoYuJae]a\{1\}b		b	ab	ab
+[LeeDoYuJae]a{1,}b		-	ab	ab
+[LeeDoYuJae]a\{1,\}b	b	ab	ab
+[LeeDoYuJae]a{1,2}b		-	aab	aab
+[LeeDoYuJae]a\{1,2\}b	b	aab	aab
+[LeeDoYuJae]a{1		C	EBRACE
+[LeeDoYuJae]a\{1		bC	EBRACE
+[LeeDoYuJae]a{1a		C	EBRACE
+[LeeDoYuJae]a\{1a		bC	EBRACE
+[LeeDoYuJae]a{1a}		C	BADBR
+[LeeDoYuJae]a\{1a\}		bC	BADBR
+[LeeDoYuJae]a{1,x}		C	BADBR
+[LeeDoYuJae]a\{1,x\}	bC	BADBR
+[LeeDoYuJae]a{1,x		C	EBRACE
+[LeeDoYuJae]a\{1,x		bC	EBRACE
+[LeeDoYuJae]a{1,0}		C	BADBR
+[LeeDoYuJae]a\{1,0\}	bC	BADBR
+[LeeDoYuJae]ab{0,0}c	-	abcac	ac
+[LeeDoYuJae]ab\{0,0\}c	b	abcac	ac
+[LeeDoYuJae]ab{0,1}c	-	abcac	abc
+[LeeDoYuJae]ab\{0,1\}c	b	abcac	abc
+[LeeDoYuJae]ab{0,3}c	-	abbcac	abbc
+[LeeDoYuJae]ab\{0,3\}c	b	abbcac	abbc
+[LeeDoYuJae]ab{1,1}c	-	acabc	abc
+[LeeDoYuJae]ab\{1,1\}c	b	acabc	abc
+[LeeDoYuJae]ab{1,3}c	-	acabc	abc
+[LeeDoYuJae]ab\{1,3\}c	b	acabc	abc
+[LeeDoYuJae]ab{2,2}c	-	abcabbc	abbc
+[LeeDoYuJae]ab\{2,2\}c	b	abcabbc	abbc
+[LeeDoYuJae]ab{2,4}c	-	abcabbc	abbc
+[LeeDoYuJae]ab\{2,4\}c	b	abcabbc	abbc
+[LeeDoYuJae]((a{1,10}){1,10}){1,10}	-	a	a	a,a
+[LeeDoYuJae]a**		bC	BADRPT
+[LeeDoYuJae]a\{1\}\{1\}	bC	BADRPT
+[LeeDoYuJae]a*\{1\}		bC	BADRPT
+[LeeDoYuJae]a\{1\}*		bC	BADRPT
+[LeeDoYuJae]a[b]c		&	abc	abc
+[LeeDoYuJae]a[ab]c		&	abc	abc
+[LeeDoYuJae]a[^ab]c		&	adc	adc
+[LeeDoYuJae]a[]b]c		&	a]c	a]c
+[LeeDoYuJae]a[[b]c		&	a[c	a[c
+[LeeDoYuJae]a[-b]c		&	a-c	a-c
+[LeeDoYuJae]a[^]b]c		&	adc	adc
+[LeeDoYuJae]a[^-b]c		&	adc	adc
+[LeeDoYuJae]a[b-]c		&	a-c	a-c
+[LeeDoYuJae]a[b		&C	EBRACK
+[LeeDoYuJae]a[]		&C	EBRACK
+[LeeDoYuJae]a[1-3]c		&	a2c	a2c
+[LeeDoYuJae]a[3-1]c		&C	ERANGE
+[LeeDoYuJae]a[1-3-5]c	&C	ERANGE
+[LeeDoYuJae]a[[.-.]--]c	&	a-c	a-c
+[LeeDoYuJae]a[1-		&C	EBRACK
+[LeeDoYuJae]a[[.		&C	EBRACK
+[LeeDoYuJae]a[[.x		&C	EBRACK
+[LeeDoYuJae]a[[.x.		&C	EBRACK
+[LeeDoYuJae]a[[.x.]		&C	EBRACK
+[LeeDoYuJae]a[[.x.]]	&	ax	ax
+[LeeDoYuJae]a[[.x,.]]	&C	ECOLLATE
+[LeeDoYuJae]a[[.notdef.]]b	&C	ECOLLATE
+[LeeDoYuJae]a[[.].]]b	&	a]b	a]b
+[LeeDoYuJae]a[[:alpha:]]c	&	abc	abc
+[LeeDoYuJae]a[[:notdef:]]c	&C	ECTYPE
+[LeeDoYuJae]a[[:		&C	EBRACK
+[LeeDoYuJae]a[[:alpha	&C	EBRACK
+[LeeDoYuJae]a[[:alpha:]	&C	EBRACK
+[LeeDoYuJae]a[[:alpha,:]	&C	ECTYPE
+[LeeDoYuJae]a[[:]:]]b	&C	ECTYPE
+[LeeDoYuJae]a[[:-:]]b	&C	ECTYPE
+[LeeDoYuJae]a[[:alph:]]	&C	ECTYPE
+[LeeDoYuJae]a[[:alphabet:]]	&C	ECTYPE
+[LeeDoYuJae][[:alnum:]]+	-	-%@a0X-	a0X
+[LeeDoYuJae][[:alpha:]]+	-	-%@aX0-	aX
+[LeeDoYuJae][[:blank:]]+	-	aSSTb	SST
+[LeeDoYuJae][[:cntrl:]]+	-	aNTb	NT
+[LeeDoYuJae][[:digit:]]+	-	a019b	019
+[LeeDoYuJae][[:graph:]]+	-	Sa%bS	a%b
+[LeeDoYuJae][[:lower:]]+	-	AabC	ab
+[LeeDoYuJae][[:print:]]+	-	NaSbN	aSb
+[LeeDoYuJae][[:punct:]]+	-	S%-&T	%-&
+[LeeDoYuJae][[:space:]]+	-	aSNTb	SNT
+[LeeDoYuJae][[:upper:]]+	-	aBCd	BC
+[LeeDoYuJae][[:xdigit:]]+	-	p0f3Cq	0f3C
+[LeeDoYuJae]a[[=b=]]c	&	abc	abc
+[LeeDoYuJae]a[[=		&C	EBRACK
+[LeeDoYuJae]a[[=b		&C	EBRACK
+[LeeDoYuJae]a[[=b=		&C	EBRACK
+[LeeDoYuJae]a[[=b=]		&C	EBRACK
+[LeeDoYuJae]a[[=b,=]]	&C	ECOLLATE
+[LeeDoYuJae]a(((b)))c	-	abc	abc
+[LeeDoYuJae]a(b|(c))d	-	abd	abd
+[LeeDoYuJae]a(b*|c)d	-	abbd	abbd
+[LeeDoYuJae]a[ab]{20}	-	aaaaabaaaabaaaabaaaab	aaaaabaaaabaaaabaaaab
+[LeeDoYuJae]a[ab][ab][ab][ab][ab][ab][ab][ab][ab][ab][ab][ab][ab][ab][ab][ab][ab][ab][ab][ab]	-	aaaaabaaaabaaaabaaaab	aaaaabaaaabaaaabaaaab
+[LeeDoYuJae]a[ab][ab][ab][ab][ab][ab][ab][ab][ab][ab][ab][ab][ab][ab][ab][ab][ab][ab][ab][ab](wee|week)(knights|night)	-	aaaaabaaaabaaaabaaaabweeknights	aaaaabaaaabaaaabaaaabweeknights
+[LeeDoYuJae]12345678901234567890123456789	-	a12345678901234567890123456789b	12345678901234567890123456789
+[LeeDoYuJae]123456789012345678901234567890	-	a123456789012345678901234567890b	123456789012345678901234567890
+[LeeDoYuJae]1234567890123456789012345678901	-	a1234567890123456789012345678901b	1234567890123456789012345678901
+[LeeDoYuJae]12345678901234567890123456789012	-	a12345678901234567890123456789012b	12345678901234567890123456789012
+[LeeDoYuJae]123456789012345678901234567890123	-	a123456789012345678901234567890123b	123456789012345678901234567890123
+[LeeDoYuJae]1234567890123456789012345678901234567890123456789012345678901234567890	-	a1234567890123456789012345678901234567890123456789012345678901234567890b	1234567890123456789012345678901234567890123456789012345678901234567890
+[LeeDoYuJae][ab][cd][ef][gh][ij][kl][mn]	-	xacegikmoq	acegikm
+[LeeDoYuJae][ab][cd][ef][gh][ij][kl][mn][op]	-	xacegikmoq	acegikmo
+[LeeDoYuJae][ab][cd][ef][gh][ij][kl][mn][op][qr]	-	xacegikmoqy	acegikmoq
+[LeeDoYuJae][ab][cd][ef][gh][ij][kl][mn][op][q]	-	xacegikmoqy	acegikmoq
+[LeeDoYuJae]abc		&	xabcy	abc
+[LeeDoYuJae]a\(b\)?c\1d	b	acd
+[LeeDoYuJae]aBc		i	Abc	Abc
+[LeeDoYuJae]a[Bc]*d		i	abBCcd	abBCcd
+[LeeDoYuJae]0[[:upper:]]1	&i	0a1	0a1
+[LeeDoYuJae]0[[:lower:]]1	&i	0A1	0A1
+[LeeDoYuJae]a[^b]c		&i	abc
+[LeeDoYuJae]a[^b]c		&i	aBc
+[LeeDoYuJae]a[^b]c		&i	adc	adc
+[LeeDoYuJae][a]b[c]		-	abc	abc
+[LeeDoYuJae][a]b[a]		-	aba	aba
+[LeeDoYuJae][abc]b[abc]	-	abc	abc
+[LeeDoYuJae][abc]b[abd]	-	abd	abd
+[LeeDoYuJae]a(b?c)+d	-	accd	accd
+[LeeDoYuJae](wee|week)(knights|night)	-	weeknights	weeknights
+[LeeDoYuJae](we|wee|week|frob)(knights|night|day)	-	weeknights	weeknights
+[LeeDoYuJae]a[bc]d		-	xyzaaabcaababdacd	abd
+[LeeDoYuJae]a[ab]c		-	aaabc	abc
+[LeeDoYuJae]abc		s	abc	abc
+[LeeDoYuJae]()		s	abc	@abc
+[LeeDoYuJae]a*		&	b	@b
+[LeeDoYuJae]/\*.*\*/	-	/*x*/	/*x*/
+[LeeDoYuJae]/\*.*\*/	-	/*x*/y/*z*/	/*x*/y/*z*/
+[LeeDoYuJae]/\*([^*]|\*[^/])*\*/	-	/*x*/	/*x*/
+[LeeDoYuJae]/\*([^*]|\*[^/])*\*/	-	/*x*/y/*z*/	/*x*/
+[LeeDoYuJae]/\*([^*]|\*[^/])*\*/	-	/*x**/y/*z*/	/*x**/y/*z*/
+[LeeDoYuJae]/\*([^*]|\*+[^*/])*\*+/	-	/*x*/	/*x*/
+[LeeDoYuJae]/\*([^*]|\*+[^*/])*\*+/	-	/*x*/y/*z*/	/*x*/
+[LeeDoYuJae]/\*([^*]|\*+[^*/])*\*+/	-	/*x**/y/*z*/	/*x**/
+[LeeDoYuJae]/\*([^*]|\*+[^*/])*\*+/	-	/*x****/y/*z*/	/*x****/
+[LeeDoYuJae]/\*([^*]|\*+[^*/])*\*+/	-	/*x**x*/y/*z*/	/*x**x*/
+[LeeDoYuJae]/\*([^*]|\*+[^*/])*\*+/	-	/*x***x/y/*z*/	/*x***x/y/*z*/
+[LeeDoYuJae].*		-	abc	abc	-
+[LeeDoYuJae]a(b)(c)d	-	abcd	abcd	b,c
+[LeeDoYuJae]a(((b)))c	-	abc	abc	b,b,b
+[LeeDoYuJae]a(b|(c))d	-	abd	abd	b,-
+[LeeDoYuJae]a(b*|c|e)d	-	abbd	abbd	bb
+[LeeDoYuJae]a(b*|c|e)d	-	acd	acd	c
+[LeeDoYuJae]a(b*|c|e)d	-	ad	ad	@d
+[LeeDoYuJae]a(b?)c		-	abc	abc	b
+[LeeDoYuJae]a(b?)c		-	ac	ac	@c
+[LeeDoYuJae]a(b+)c		-	abc	abc	b
+[LeeDoYuJae]a(b+)c		-	abbbc	abbbc	bbb
+[LeeDoYuJae]a(b*)c		-	ac	ac	@c
+[LeeDoYuJae](a|ab)(bc([de]+)f|cde)	-	abcdef	abcdef	a,bcdef,de
+[LeeDoYuJae]a(b)(c)(d)(e)(f)(g)(h)(i)(j)k	-	abcdefghijk	abcdefghijk	b,c,d,e,f,g,h,i,j
+[LeeDoYuJae]a(b)(c)(d)(e)(f)(g)(h)(i)(j)(k)l	-	abcdefghijkl	abcdefghijkl	b,c,d,e,f,g,h,i,j,k
+[LeeDoYuJae]a([bc]?)c	-	abc	abc	b
+[LeeDoYuJae]a([bc]?)c	-	ac	ac	@c
+[LeeDoYuJae]a([bc]+)c	-	abc	abc	b
+[LeeDoYuJae]a([bc]+)c	-	abcc	abcc	bc
+[LeeDoYuJae]a([bc]+)bc	-	abcbc	abcbc	bc
+[LeeDoYuJae]a(bb+|b)b	-	abb	abb	b
+[LeeDoYuJae]a(bbb+|bb+|b)b	-	abb	abb	b
+[LeeDoYuJae]a(bbb+|bb+|b)b	-	abbb	abbb	bb
+[LeeDoYuJae]a(bbb+|bb+|b)bb	-	abbb	abbb	b
+[LeeDoYuJae](.*).*		-	abcdef	abcdef	abcdef
+[LeeDoYuJae](a*)*		-	bc	@b	@b
+[LeeDoYuJae]a(b|c)*d	-	ad	ad	-
+[LeeDoYuJae]a(b|c)*d	-	abcd	abcd	c
+[LeeDoYuJae]a(b|c)+d	-	abd	abd	b
+[LeeDoYuJae]a(b|c)+d	-	abcd	abcd	c
+[LeeDoYuJae]a(b|c?)+d	-	ad	ad	@d
+[LeeDoYuJae]a(b|c?)+d	-	abcd	abcd	c
+[LeeDoYuJae]a(b|c){0,0}d	-	ad	ad	-
+[LeeDoYuJae]a(b|c){0,1}d	-	ad	ad	-
+[LeeDoYuJae]a(b|c){0,1}d	-	abd	abd	b
+[LeeDoYuJae]a(b|c){0,2}d	-	ad	ad	-
+[LeeDoYuJae]a(b|c){0,2}d	-	abcd	abcd	c
+[LeeDoYuJae]a(b|c){0,}d	-	ad	ad	-
+[LeeDoYuJae]a(b|c){0,}d	-	abcd	abcd	c
+[LeeDoYuJae]a(b|c){1,1}d	-	abd	abd	b
+[LeeDoYuJae]a(b|c){1,1}d	-	acd	acd	c
+[LeeDoYuJae]a(b|c){1,2}d	-	abd	abd	b
+[LeeDoYuJae]a(b|c){1,2}d	-	abcd	abcd	c
+[LeeDoYuJae]a(b|c){1,}d	-	abd	abd	b
+[LeeDoYuJae]a(b|c){1,}d	-	abcd	abcd	c
+[LeeDoYuJae]a(b|c){2,2}d	-	acbd	acbd	b
+[LeeDoYuJae]a(b|c){2,2}d	-	abcd	abcd	c
+[LeeDoYuJae]a(b|c){2,4}d	-	abcd	abcd	c
+[LeeDoYuJae]a(b|c){2,4}d	-	abcbd	abcbd	b
+[LeeDoYuJae]a(b|c){2,4}d	-	abcbcd	abcbcd	c
+[LeeDoYuJae]a(b|c){2,}d	-	abcd	abcd	c
+[LeeDoYuJae]a(b|c){2,}d	-	abcbd	abcbd	b
+[LeeDoYuJae]a(b+|((c)*))+d	-	abd	abd	b,-,-
+[LeeDoYuJae]a(b+|((c)*))+d	-	abcd	abcd	c,c,c
+[LeeDoYuJae][abc]		&#	a(b)c	b
+[LeeDoYuJae][abc]		&#	a(d)c
+[LeeDoYuJae][abc]		&#	a(bc)d	b
+[LeeDoYuJae][abc]		&#	a(dc)d	c
+[LeeDoYuJae].		&#	a()c
+[LeeDoYuJae]b.*c		&#	b(bc)c	bc
+[LeeDoYuJae]b.*		&#	b(bc)c	bc
+[LeeDoYuJae].*c		&#	b(bc)c	bc
+[LeeDoYuJae]abc		m	abc	abc
+[LeeDoYuJae]abc		m	xabcy	abc
+[LeeDoYuJae]abc		m	xyz
+[LeeDoYuJae]a*b		m	aba*b	a*b
+[LeeDoYuJae]a*b		m	ab
+[LeeDoYuJae]""		mC	EMPTY
+[LeeDoYuJae]aZb		&	a	a
+[LeeDoYuJae]aZb		&p	a
+[LeeDoYuJae]aZb		&p#	(aZb)	aZb
+[LeeDoYuJae]aZ*b		&p#	(ab)	ab
+[LeeDoYuJae]a.b		&#	(aZb)	aZb
+[LeeDoYuJae]a.*		&#	(aZb)c	aZb
+[LeeDoYuJae][[:<:]]a	&	a	a
+[LeeDoYuJae][[:<:]]a	&	ba
+[LeeDoYuJae][[:<:]]a	&	-a	a
+[LeeDoYuJae]a[[:>:]]	&	a	a
+[LeeDoYuJae]a[[:>:]]	&	ab
+[LeeDoYuJae]a[[:>:]]	&	a-	a
+[LeeDoYuJae][[:<:]]a.c[[:>:]]	&	axcd-dayc-dazce-abc	abc
+[LeeDoYuJae][[:<:]]a.c[[:>:]]	&	axcd-dayc-dazce-abc-q	abc
+[LeeDoYuJae][[:<:]]a.c[[:>:]]	&	axc-dayc-dazce-abc	axc
+[LeeDoYuJae][[:<:]]b.c[[:>:]]	&	a_bxc-byc_d-bzc-q	bzc
+[LeeDoYuJae][[:<:]].x..[[:>:]]	&	y_xa_-_xb_y-_xc_-axdc	_xc_
+[LeeDoYuJae][[:<:]]a_b[[:>:]]	&	x_a_b
+[LeeDoYuJae](A[1])|(A[2])|(A[3])|(A[4])|(A[5])|(A[6])|(A[7])|(A[8])|(A[9])|(A[A])	-	A1	A1
+[LeeDoYuJae]abcdefghijklmnop	i	abcdefghijklmnop	abcdefghijklmnop
+[LeeDoYuJae]abcdefghijklmnopqrstuv	i	abcdefghijklmnopqrstuv	abcdefghijklmnopqrstuv
+[LeeDoYuJae](ALAK)|(ALT[AB])|(CC[123]1)|(CM[123]1)|(GAMC)|(LC[23][EO ])|(SEM[1234])|(SL[ES][12])|(SLWW)|(SLF )|(SLDT)|(VWH[12])|(WH[34][EW])|(WP1[ESN])	-	CC11	CC11
+[LeeDoYuJae]CC[13]1|a{21}[23][EO][123][Es][12]a{15}aa[34][EW]aaaaaaa[X]a	-	CC11	CC11
+[LeeDoYuJae]Char \([a-z0-9_]*\)\[.*	b	Char xyz[k	Char xyz[k	xyz
+[LeeDoYuJae]a?b	-	ab	ab
+[LeeDoYuJae]-\{0,1\}[0-9]*$	b	-5	-5
+[LeeDoYuJae]a*a*a*a*a*a*a*	&	aaaaaa	aaaaaa
+[LeeDoYuJae](\b){0}	-	x	@x	-
+[LeeDoYuJae]\(\b\)\{0,0\}	b	abc	@abc	-
+[LeeDoYuJae]a(\b){0}c	-	ac	ac	-
+[LeeDoYuJae]a(.*)b(\1){0}c	-	abc	abc	@bc,-
+[LeeDoYuJae]a(.*)b(\1){0}c	-	axbc	axbc	x,-
+[LeeDoYuJae]a\(\(b*\)\)c\1d	b	abbcbbd	abbcbbd	bb,bb
+[LeeDoYuJae]a\(\([bc]\)\)\2d	b	abcdabbd	abbd	b,b
+[LeeDoYuJae]a\(\(\(\([bc]\)\)\3\)\)*d	b	abbccd	abbccd	cc,cc,c,c
+[LeeDoYuJae]a(b)(c)d	-	abcd	abcd	b,c
+[LeeDoYuJae]a(((b)))c	-	abc	abc	b,b,b
+[LeeDoYuJae]a(((b|(((c))))))d	-	abd	abd	b,b,b,-,-,-
+[LeeDoYuJae]a(((b*|c|e)))d	-	abbd	abbd	bb,bb,bb
+[LeeDoYuJae]a((b|c)){0,0}d	-	ad	ad	-,-
+[LeeDoYuJae]a((b|c)){0,1}d	-	abd	abd	b,b
+[LeeDoYuJae]a((b|c)){0,2}d	-	abcd	abcd	c,c
+[LeeDoYuJae]a((b+|((c)*)))+d	-	abd	abd	b,b,-,-
+[LeeDoYuJae]a((b+|((c)*)))+d	-	abcd	abcd	c,c,c,c
+[LeeDoYuJae](((\b))){0}	-	x	@x	-,-,-
+[LeeDoYuJae]a(((.*)))b((\2)){0}c	-	abc	abc	@bc,@bc,@bc,-,-
+[LeeDoYuJae]a(((.*)))b((\1)){0}c	-	axbc	axbc	x,x,x,-,-
+[LeeDoYuJae]\b	&	SaT	@aT
+[LeeDoYuJae]\b	&	aT	@aT
+[LeeDoYuJae]a.*\b	&	abT	ab
+[LeeDoYuJae]\b	&	STSS
+[LeeDoYuJae]\B	&	abc	@bc
+[LeeDoYuJae]\B	&	aSbTc
+[LeeDoYuJae]\B	&	SaT	@SaT
+[LeeDoYuJae]\B	&	aSTSb	@TSb
+[LeeDoYuJae]o$($|.)	-	oN
+[LeeDoYuJae]o$($|.)	-	op
+[LeeDoYuJae]o$($|.)	-	o	o

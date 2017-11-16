@@ -1,0 +1,19 @@
+= Start
+@ /home/sysprog/glibc/build/libc.so.6:(regcomp+0x45)[0x7ffa81ce3735] + 0x7ffa83b226a0 0x100
+@ /home/sysprog/glibc/build/libc.so.6:[0x7ffa81ce2cbc] + 0x7ffa83b227b0 0xe0
+@ /home/sysprog/glibc/build/libc.so.6:[0x7ffa81ce2087] + 0x7ffa83b228a0 0xf0
+@ /home/sysprog/glibc/build/libc.so.6:[0x7ffa81ce20b8] + 0x7ffa83b229a0 0x100
+@ /home/sysprog/glibc/build/libc.so.6:[0x7ffa81ce09d5] + 0x7ffa83b22ab0 0x20
+@ /home/sysprog/glibc/build/libc.so.6:[0x7ffa81ce09ec] + 0x7ffa83b22ae0 0x48
+@ /home/sysprog/glibc/build/libc.so.6:[0x7ffa81ce1936] - 0x7ffa83b22ae0
+@ /home/sysprog/glibc/build/libc.so.6:[0x7ffa81cd698d] + 0x7ffa83b22b30 0x3c8
+@ /home/sysprog/glibc/build/libc.so.6:[0x7ffa81ce09d5] + 0x7ffa83b22f00 0x20
+@ /home/sysprog/glibc/build/libc.so.6:[0x7ffa81ce09ec] + 0x7ffa83b22ae0 0x48
+@ /home/sysprog/glibc/build/libc.so.6:[0x7ffa81ce1936] - 0x7ffa83b22ae0
+@ /home/sysprog/glibc/build/libc.so.6:[0x7ffa81cd61fd] - 0x7ffa83b22f00
+@ /home/sysprog/glibc/build/libc.so.6:[0x7ffa81cd61fd] - 0x7ffa83b22ab0
+@ /home/sysprog/glibc/build/libc.so.6:[0x7ffa81ce22a0] - 0x7ffa83b22b30
+@ /home/sysprog/glibc/build/libc.so.6:[0x7ffa81cd636b] - 0x7ffa83b228a0
+@ /home/sysprog/glibc/build/libc.so.6:[0x7ffa81cd63d5] - 0x7ffa83b229a0
+@ /home/sysprog/glibc/build/libc.so.6:[0x7ffa81ce204f] - 0x7ffa83b227b0
+@ /home/sysprog/glibc/build/libc.so.6:(regcomp+0xfb)[0x7ffa81ce37eb] - 0x7ffa83b226a0

@@ -1,0 +1,6 @@
+[LeeDoYuJae]PASS: float
+[LeeDoYuJae]PASS: float sNaN
+[LeeDoYuJae]PASS: double
+[LeeDoYuJae]PASS: double sNaN
+[LeeDoYuJae]PASS: long double
+[LeeDoYuJae]PASS: long double sNaN

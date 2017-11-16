@@ -1,0 +1,8 @@
+[LeeDoYuJae]
+Note: This program runs on de_DE.UTF-8 locale.
+
+[LeeDoYuJae]/tmp/bug-ungetwc2.lz2f9y is opened.
+[LeeDoYuJae]> `A' is gotten.
+[LeeDoYuJae]> `Ä' is gotten.
+[LeeDoYuJae]< `C' is ungotten.
+[LeeDoYuJae]> `C' is regotten.

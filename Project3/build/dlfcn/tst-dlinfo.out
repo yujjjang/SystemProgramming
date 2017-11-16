@@ -1,0 +1,17 @@
+[LeeDoYuJae]origin: /home/sysprog/glibc/build/dlfcn
+[LeeDoYuJae]14 library directories
+[LeeDoYuJae]	00	.
+[LeeDoYuJae]	00	/home/sysprog/glibc/build
+[LeeDoYuJae]	00	/home/sysprog/glibc/build/math
+[LeeDoYuJae]	00	/home/sysprog/glibc/build/elf
+[LeeDoYuJae]	00	/home/sysprog/glibc/build/dlfcn
+[LeeDoYuJae]	00	/home/sysprog/glibc/build/nss
+[LeeDoYuJae]	00	/home/sysprog/glibc/build/nis
+[LeeDoYuJae]	00	/home/sysprog/glibc/build/rt
+[LeeDoYuJae]	00	/home/sysprog/glibc/build/resolv
+[LeeDoYuJae]	00	/home/sysprog/glibc/build/crypt
+[LeeDoYuJae]	00	/home/sysprog/glibc/build/mathvec
+[LeeDoYuJae]	00	/home/sysprog/glibc/build/support
+[LeeDoYuJae]	00	/home/sysprog/glibc/build/nptl
+[LeeDoYuJae]	00	/usr/local/lib
+[LeeDoYuJae]dlinfo RTLD_DI_LMID worked? 0

@@ -1,0 +1,294 @@
+[LeeDoYuJae]Testing 0
+[LeeDoYuJae]fegetexceptflag (0) succeeded
+[LeeDoYuJae]fegetexceptflag (FE_ALL_EXCEPT) succeeded
+[LeeDoYuJae]feraiseexcept (0) succeeded
+[LeeDoYuJae]fegetexceptflag (0) succeeded
+[LeeDoYuJae]fegetexceptflag (FE_ALL_EXCEPT) succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 0, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 0, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 3d, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 0, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 0, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 3d, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 0, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 0, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 3d, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 0, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 0, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 3d, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 0, expected 3d
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 0, expected 3d
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 3d, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 0, expected 3d
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 0, expected 3d
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 3d, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing FE_ALL_EXCEPT
+[LeeDoYuJae]fegetexceptflag (FE_ALL_EXCEPT) succeeded
+[LeeDoYuJae]fegetexceptflag (FE_ALL_EXCEPT) succeeded
+[LeeDoYuJae]feraiseexcept (FE_ALL_EXCEPT) succeeded
+[LeeDoYuJae]fegetexceptflag (FE_ALL_EXCEPT) succeeded
+[LeeDoYuJae]fegetexceptflag (FE_ALL_EXCEPT) succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 3d, expected 3d
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 3d, expected 3d
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 3d, expected 3d
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 3d, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 3d, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 3d, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 3d, expected 3d
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 3d, expected 3d
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 3d, expected 3d
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 3d, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 3d, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 3d, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 3d, expected 3d
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 3d, expected 3d
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 3d, expected 3d
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 3d, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 3d, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 3d, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing FE_DIVBYZERO
+[LeeDoYuJae]fegetexceptflag (FE_DIVBYZERO) succeeded
+[LeeDoYuJae]fegetexceptflag (FE_ALL_EXCEPT) succeeded
+[LeeDoYuJae]feraiseexcept (FE_DIVBYZERO) succeeded
+[LeeDoYuJae]fegetexceptflag (FE_DIVBYZERO) succeeded
+[LeeDoYuJae]fegetexceptflag (FE_ALL_EXCEPT) succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 4, expected 4
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 4, expected 4
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 3d, expected 4
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 4, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 4, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 3d, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 4, mask 4, expected 4
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 4, mask 4, expected 4
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 4, mask 3d, expected 4
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 4, mask 4, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 4, mask 4, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 4, mask 3d, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 4, expected 3d
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 4, expected 3d
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 3d, expected 4
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 4, expected 39
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 4, expected 39
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 3d, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing FE_INEXACT
+[LeeDoYuJae]fegetexceptflag (FE_INEXACT) succeeded
+[LeeDoYuJae]fegetexceptflag (FE_ALL_EXCEPT) succeeded
+[LeeDoYuJae]feraiseexcept (FE_INEXACT) succeeded
+[LeeDoYuJae]fegetexceptflag (FE_INEXACT) succeeded
+[LeeDoYuJae]fegetexceptflag (FE_ALL_EXCEPT) succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 20, expected 20
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 20, expected 20
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 3d, expected 20
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 20, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 20, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 3d, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 20, mask 20, expected 20
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 20, mask 20, expected 20
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 20, mask 3d, expected 20
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 20, mask 20, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 20, mask 20, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 20, mask 3d, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 20, expected 3d
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 20, expected 3d
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 3d, expected 20
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 20, expected 1d
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 20, expected 1d
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 3d, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing FE_INVALID
+[LeeDoYuJae]fegetexceptflag (FE_INVALID) succeeded
+[LeeDoYuJae]fegetexceptflag (FE_ALL_EXCEPT) succeeded
+[LeeDoYuJae]feraiseexcept (FE_INVALID) succeeded
+[LeeDoYuJae]fegetexceptflag (FE_INVALID) succeeded
+[LeeDoYuJae]fegetexceptflag (FE_ALL_EXCEPT) succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 1, expected 1
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 1, expected 1
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 3d, expected 1
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 1, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 1, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 3d, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 1, mask 1, expected 1
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 1, mask 1, expected 1
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 1, mask 3d, expected 1
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 1, mask 1, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 1, mask 1, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 1, mask 3d, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 1, expected 3d
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 1, expected 3d
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 3d, expected 1
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 1, expected 3c
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 1, expected 3c
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 3d, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing FE_OVERFLOW
+[LeeDoYuJae]fegetexceptflag (FE_OVERFLOW) succeeded
+[LeeDoYuJae]fegetexceptflag (FE_ALL_EXCEPT) succeeded
+[LeeDoYuJae]feraiseexcept (FE_OVERFLOW) succeeded
+[LeeDoYuJae]fegetexceptflag (FE_OVERFLOW) succeeded
+[LeeDoYuJae]fegetexceptflag (FE_ALL_EXCEPT) succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 8, expected 8
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 8, expected 8
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 3d, expected 8
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 8, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 8, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 3d, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 8, mask 8, expected 8
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 8, mask 8, expected 8
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 8, mask 3d, expected 8
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 8, mask 8, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 8, mask 8, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 8, mask 3d, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 8, expected 3d
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 8, expected 3d
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 3d, expected 8
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 8, expected 35
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 8, expected 35
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 3d, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing FE_UNDERFLOW
+[LeeDoYuJae]fegetexceptflag (FE_UNDERFLOW) succeeded
+[LeeDoYuJae]fegetexceptflag (FE_ALL_EXCEPT) succeeded
+[LeeDoYuJae]feraiseexcept (FE_UNDERFLOW) succeeded
+[LeeDoYuJae]fegetexceptflag (FE_UNDERFLOW) succeeded
+[LeeDoYuJae]fegetexceptflag (FE_ALL_EXCEPT) succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 10, expected 10
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 10, expected 10
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 3d, expected 10
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 10, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 10, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 0, mask 3d, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 10, mask 10, expected 10
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 10, mask 10, expected 10
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 10, mask 3d, expected 10
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 10, mask 10, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 10, mask 10, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 10, mask 3d, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 10, expected 3d
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 10, expected 3d
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 3d, expected 10
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 10, expected 2d
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 10, expected 2d
+[LeeDoYuJae]fesetexceptflag succeeded
+[LeeDoYuJae]Testing set: initial exceptions 3d, mask 3d, expected 0
+[LeeDoYuJae]fesetexceptflag succeeded

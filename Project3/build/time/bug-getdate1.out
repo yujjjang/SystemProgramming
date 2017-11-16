@@ -1,0 +1,182 @@
+[LeeDoYuJae]Success on getdate("1"), template is: %M
+
+[LeeDoYuJae]Result is
+[LeeDoYuJae]Seconds: 0
+[LeeDoYuJae]Minutes: 1
+[LeeDoYuJae]Hour: 0
+[LeeDoYuJae]Day of month: 31
+[LeeDoYuJae]Month of year: 9
+[LeeDoYuJae]Years since 1900: 117
+[LeeDoYuJae]Day of week: 2
+[LeeDoYuJae]Day of year: 303
+[LeeDoYuJae]Daylight Savings flag: 0
+
+[LeeDoYuJae]Success on getdate("1 2"), template is: %M %H
+
+[LeeDoYuJae]Result is
+[LeeDoYuJae]Seconds: 0
+[LeeDoYuJae]Minutes: 1
+[LeeDoYuJae]Hour: 2
+[LeeDoYuJae]Day of month: 31
+[LeeDoYuJae]Month of year: 9
+[LeeDoYuJae]Years since 1900: 117
+[LeeDoYuJae]Day of week: 2
+[LeeDoYuJae]Day of year: 303
+[LeeDoYuJae]Daylight Savings flag: 0
+
+[LeeDoYuJae]Success on getdate("1"), template is: %S
+
+[LeeDoYuJae]Result is
+[LeeDoYuJae]Seconds: 1
+[LeeDoYuJae]Minutes: 0
+[LeeDoYuJae]Hour: 0
+[LeeDoYuJae]Day of month: 31
+[LeeDoYuJae]Month of year: 9
+[LeeDoYuJae]Years since 1900: 117
+[LeeDoYuJae]Day of week: 2
+[LeeDoYuJae]Day of year: 303
+[LeeDoYuJae]Daylight Savings flag: 0
+
+[LeeDoYuJae]Success on getdate("1 2"), template is: %S %H
+
+[LeeDoYuJae]Result is
+[LeeDoYuJae]Seconds: 1
+[LeeDoYuJae]Minutes: 0
+[LeeDoYuJae]Hour: 2
+[LeeDoYuJae]Day of month: 31
+[LeeDoYuJae]Month of year: 9
+[LeeDoYuJae]Years since 1900: 117
+[LeeDoYuJae]Day of week: 2
+[LeeDoYuJae]Day of year: 303
+[LeeDoYuJae]Daylight Savings flag: 0
+
+[LeeDoYuJae]Success on getdate("2001"), template is: %Y
+
+[LeeDoYuJae]Result is
+[LeeDoYuJae]Seconds: 35
+[LeeDoYuJae]Minutes: 36
+[LeeDoYuJae]Hour: 11
+[LeeDoYuJae]Day of month: 30
+[LeeDoYuJae]Month of year: 9
+[LeeDoYuJae]Years since 1900: 101
+[LeeDoYuJae]Day of week: 2
+[LeeDoYuJae]Day of year: 302
+[LeeDoYuJae]Daylight Savings flag: 0
+
+[LeeDoYuJae]Success on getdate("2001 3"), template is: %Y %m
+
+[LeeDoYuJae]Result is
+[LeeDoYuJae]Seconds: 35
+[LeeDoYuJae]Minutes: 36
+[LeeDoYuJae]Hour: 11
+[LeeDoYuJae]Day of month: 5
+[LeeDoYuJae]Month of year: 2
+[LeeDoYuJae]Years since 1900: 101
+[LeeDoYuJae]Day of week: 1
+[LeeDoYuJae]Day of year: 63
+[LeeDoYuJae]Daylight Savings flag: 0
+
+[LeeDoYuJae]Success on getdate("70"), template is: %y
+
+[LeeDoYuJae]Result is
+[LeeDoYuJae]Seconds: 35
+[LeeDoYuJae]Minutes: 36
+[LeeDoYuJae]Hour: 11
+[LeeDoYuJae]Day of month: 30
+[LeeDoYuJae]Month of year: 9
+[LeeDoYuJae]Years since 1900: 70
+[LeeDoYuJae]Day of week: 5
+[LeeDoYuJae]Day of year: 302
+[LeeDoYuJae]Daylight Savings flag: 0
+
+[LeeDoYuJae]Success on getdate("70 3"), template is: %y %m
+
+[LeeDoYuJae]Result is
+[LeeDoYuJae]Seconds: 35
+[LeeDoYuJae]Minutes: 36
+[LeeDoYuJae]Hour: 11
+[LeeDoYuJae]Day of month: 5
+[LeeDoYuJae]Month of year: 2
+[LeeDoYuJae]Years since 1900: 70
+[LeeDoYuJae]Day of week: 4
+[LeeDoYuJae]Day of year: 63
+[LeeDoYuJae]Daylight Savings flag: 0
+
+[LeeDoYuJae]Success on getdate("06"), template is: %d
+
+[LeeDoYuJae]Result is
+[LeeDoYuJae]Seconds: 35
+[LeeDoYuJae]Minutes: 36
+[LeeDoYuJae]Hour: 11
+[LeeDoYuJae]Day of month: 6
+[LeeDoYuJae]Month of year: 9
+[LeeDoYuJae]Years since 1900: 117
+[LeeDoYuJae]Day of week: 5
+[LeeDoYuJae]Day of year: 278
+[LeeDoYuJae]Daylight Savings flag: 0
+
+[LeeDoYuJae]Success on getdate("25 3"), template is: %d %m
+
+[LeeDoYuJae]Result is
+[LeeDoYuJae]Seconds: 35
+[LeeDoYuJae]Minutes: 36
+[LeeDoYuJae]Hour: 11
+[LeeDoYuJae]Day of month: 25
+[LeeDoYuJae]Month of year: 2
+[LeeDoYuJae]Years since 1900: 117
+[LeeDoYuJae]Day of week: 6
+[LeeDoYuJae]Day of year: 83
+[LeeDoYuJae]Daylight Savings flag: 0
+
+[LeeDoYuJae]Success on getdate("20"), template is: %C
+
+[LeeDoYuJae]Result is
+[LeeDoYuJae]Seconds: 35
+[LeeDoYuJae]Minutes: 36
+[LeeDoYuJae]Hour: 11
+[LeeDoYuJae]Day of month: 30
+[LeeDoYuJae]Month of year: 9
+[LeeDoYuJae]Years since 1900: 100
+[LeeDoYuJae]Day of week: 1
+[LeeDoYuJae]Day of year: 303
+[LeeDoYuJae]Daylight Savings flag: 0
+
+[LeeDoYuJae]Success on getdate("20 3 2"), template is: %C %y %m
+
+[LeeDoYuJae]Result is
+[LeeDoYuJae]Seconds: 35
+[LeeDoYuJae]Minutes: 36
+[LeeDoYuJae]Hour: 11
+[LeeDoYuJae]Day of month: 5
+[LeeDoYuJae]Month of year: 1
+[LeeDoYuJae]Years since 1900: 103
+[LeeDoYuJae]Day of week: 3
+[LeeDoYuJae]Day of year: 35
+[LeeDoYuJae]Daylight Savings flag: 0
+
+[LeeDoYuJae]Success on getdate("20 5"), template is: %C %y
+
+[LeeDoYuJae]Result is
+[LeeDoYuJae]Seconds: 35
+[LeeDoYuJae]Minutes: 36
+[LeeDoYuJae]Hour: 11
+[LeeDoYuJae]Day of month: 30
+[LeeDoYuJae]Month of year: 9
+[LeeDoYuJae]Years since 1900: 105
+[LeeDoYuJae]Day of week: 0
+[LeeDoYuJae]Day of year: 302
+[LeeDoYuJae]Daylight Savings flag: 0
+
+[LeeDoYuJae]Success on getdate("2008 3"), template is: %Y %m
+
+[LeeDoYuJae]Result is
+[LeeDoYuJae]Seconds: 35
+[LeeDoYuJae]Minutes: 36
+[LeeDoYuJae]Hour: 11
+[LeeDoYuJae]Day of month: 5
+[LeeDoYuJae]Month of year: 2
+[LeeDoYuJae]Years since 1900: 108
+[LeeDoYuJae]Day of week: 3
+[LeeDoYuJae]Day of year: 64
+[LeeDoYuJae]Daylight Savings flag: 0
+

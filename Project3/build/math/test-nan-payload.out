@@ -1,0 +1,47 @@
+[LeeDoYuJae]PASS: float n123
+[LeeDoYuJae]PASS: float s123
+[LeeDoYuJae]PASS: float n456
+[LeeDoYuJae]PASS: float s456
+[LeeDoYuJae]PASS: float n123x
+[LeeDoYuJae]PASS: float nemp
+[LeeDoYuJae]PASS: float semp
+[LeeDoYuJae]PASS: float sx
+[LeeDoYuJae]PASS: float n123 = s123
+[LeeDoYuJae]PASS: float n456 = s456
+[LeeDoYuJae]PASS: float nemp = semp
+[LeeDoYuJae]PASS: float n123x = sx
+[LeeDoYuJae]PASS: float n123 != n456
+[LeeDoYuJae]PASS: float n123 != nemp
+[LeeDoYuJae]PASS: float n123 != n123x
+[LeeDoYuJae]PASS: float n456 != nemp
+[LeeDoYuJae]PASS: float n456 != n123x
+[LeeDoYuJae]PASS: double n123
+[LeeDoYuJae]PASS: double s123
+[LeeDoYuJae]PASS: double n456
+[LeeDoYuJae]PASS: double s456
+[LeeDoYuJae]PASS: double n123x
+[LeeDoYuJae]PASS: double nemp
+[LeeDoYuJae]PASS: double semp
+[LeeDoYuJae]PASS: double sx
+[LeeDoYuJae]PASS: double n123 = s123
+[LeeDoYuJae]PASS: double n456 = s456
+[LeeDoYuJae]PASS: double nemp = semp
+[LeeDoYuJae]PASS: double n123x = sx
+[LeeDoYuJae]PASS: double n123 != n456
+[LeeDoYuJae]PASS: double n123 != nemp
+[LeeDoYuJae]PASS: double n123 != n123x
+[LeeDoYuJae]PASS: double n456 != nemp
+[LeeDoYuJae]PASS: double n456 != n123x
+[LeeDoYuJae]PASS: long double n123
+[LeeDoYuJae]PASS: long double s123
+[LeeDoYuJae]PASS: long double n456
+[LeeDoYuJae]PASS: long double s456
+[LeeDoYuJae]PASS: long double n123x
+[LeeDoYuJae]PASS: long double nemp
+[LeeDoYuJae]PASS: long double semp
+[LeeDoYuJae]PASS: long double sx
+[LeeDoYuJae]PASS: long double n123 != n456
+[LeeDoYuJae]PASS: long double n123 != nemp
+[LeeDoYuJae]PASS: long double n123 != n123x
+[LeeDoYuJae]PASS: long double n456 != nemp
+[LeeDoYuJae]PASS: long double n456 != n123x

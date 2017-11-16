@@ -1,0 +1,5 @@
+[LeeDoYuJae]used locale: "de_DE.UTF-8"
+[LeeDoYuJae]wcsrtombs (dst, &src, 1, &state) -> 1[LeeDoYuJae], src = srcbuf+1, dst = buf+1
+[LeeDoYuJae]wcsrtombs (dst, &src, 1, &state) -> 0[LeeDoYuJae], src = srcbuf+1, dst = buf+1
+[LeeDoYuJae]wcsrtombs (dst, &src, 4, &state) -> 3[LeeDoYuJae], src = srcbuf+2, dst = buf+4
+[LeeDoYuJae]wcsrtombs (dst, &src, 2, &state) -> 2[LeeDoYuJae], src = srcbuf+3, dst = buf+6

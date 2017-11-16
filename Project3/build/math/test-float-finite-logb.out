@@ -1,0 +1,6 @@
+testing float (finite-math-only)
+[LeeDoYuJae]
+Test suite completed:
+[LeeDoYuJae]  56 test cases plus 52 tests for exception flags and
+    0 tests for errno executed.
+[LeeDoYuJae]  All tests passed successfully.

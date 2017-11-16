@@ -1,0 +1,4 @@
+[LeeDoYuJae]&cond = 0x6031a0
+&mut = 0x603140
+[LeeDoYuJae]creating thread
+[LeeDoYuJae]Didn't expect signal from child: got `Aborted'

@@ -1,0 +1,97 @@
+[LeeDoYuJae]We use this date: Fri May 15 01:02:16 1998
+
+[LeeDoYuJae]Checking timezone Europe/Amsterdam
+[LeeDoYuJae]tzname[0]: CET
+[LeeDoYuJae]tzname[1]: CEST
+[LeeDoYuJae]daylight: 1
+[LeeDoYuJae]timezone: -3600
+[LeeDoYuJae]tzname[0]: CET
+[LeeDoYuJae]tzname[1]: CEST
+[LeeDoYuJae]daylight: 1
+[LeeDoYuJae]timezone: -3600
+[LeeDoYuJae]Checking timezone Europe/Berlin
+[LeeDoYuJae]tzname[0]: CET
+[LeeDoYuJae]tzname[1]: CEST
+[LeeDoYuJae]daylight: 1
+[LeeDoYuJae]timezone: -3600
+[LeeDoYuJae]tzname[0]: CET
+[LeeDoYuJae]tzname[1]: CEST
+[LeeDoYuJae]daylight: 1
+[LeeDoYuJae]timezone: -3600
+[LeeDoYuJae]Checking timezone Europe/London
+[LeeDoYuJae]tzname[0]: GMT
+[LeeDoYuJae]tzname[1]: BST
+[LeeDoYuJae]daylight: 1
+[LeeDoYuJae]timezone: 0
+[LeeDoYuJae]tzname[0]: GMT
+[LeeDoYuJae]tzname[1]: BST
+[LeeDoYuJae]daylight: 1
+[LeeDoYuJae]timezone: 0
+[LeeDoYuJae]Checking timezone Universal
+[LeeDoYuJae]tzname[0]: UTC
+[LeeDoYuJae]tzname[1]: UTC
+[LeeDoYuJae]daylight: 0
+[LeeDoYuJae]timezone: 0
+[LeeDoYuJae]tzname[0]: UTC
+[LeeDoYuJae]tzname[1]: UTC
+[LeeDoYuJae]daylight: 0
+[LeeDoYuJae]timezone: 0
+[LeeDoYuJae]Checking timezone Australia/Melbourne
+[LeeDoYuJae]tzname[0]: EST
+[LeeDoYuJae]tzname[1]: EST
+[LeeDoYuJae]daylight: 1
+[LeeDoYuJae]timezone: -36000
+[LeeDoYuJae]tzname[0]: EST
+[LeeDoYuJae]tzname[1]: EST
+[LeeDoYuJae]daylight: 1
+[LeeDoYuJae]timezone: -36000
+[LeeDoYuJae]Checking timezone America/Sao_Paulo
+[LeeDoYuJae]tzname[0]: BRT
+[LeeDoYuJae]tzname[1]: BRST
+[LeeDoYuJae]daylight: 1
+[LeeDoYuJae]timezone: 10800
+[LeeDoYuJae]tzname[0]: BRT
+[LeeDoYuJae]tzname[1]: BRST
+[LeeDoYuJae]daylight: 1
+[LeeDoYuJae]timezone: 10800
+[LeeDoYuJae]Checking timezone America/Chicago
+[LeeDoYuJae]tzname[0]: CST
+[LeeDoYuJae]tzname[1]: CDT
+[LeeDoYuJae]daylight: 1
+[LeeDoYuJae]timezone: 21600
+[LeeDoYuJae]tzname[0]: CST
+[LeeDoYuJae]tzname[1]: CDT
+[LeeDoYuJae]daylight: 1
+[LeeDoYuJae]timezone: 21600
+[LeeDoYuJae]Checking timezone America/Indiana/Indianapolis
+[LeeDoYuJae]tzname[0]: EST
+[LeeDoYuJae]tzname[1]: EDT
+[LeeDoYuJae]daylight: 1
+[LeeDoYuJae]timezone: 18000
+[LeeDoYuJae]tzname[0]: EST
+[LeeDoYuJae]tzname[1]: EDT
+[LeeDoYuJae]daylight: 1
+[LeeDoYuJae]timezone: 18000
+[LeeDoYuJae]Checking timezone America/Los_Angeles
+[LeeDoYuJae]tzname[0]: PST
+[LeeDoYuJae]tzname[1]: PDT
+[LeeDoYuJae]daylight: 1
+[LeeDoYuJae]timezone: 28800
+[LeeDoYuJae]tzname[0]: PST
+[LeeDoYuJae]tzname[1]: PDT
+[LeeDoYuJae]daylight: 1
+[LeeDoYuJae]timezone: 28800
+[LeeDoYuJae]Checking timezone Pacific/Auckland
+[LeeDoYuJae]tzname[0]: NZST
+[LeeDoYuJae]tzname[1]: NZDT
+[LeeDoYuJae]daylight: 1
+[LeeDoYuJae]timezone: -43200
+[LeeDoYuJae]tzname[0]: NZST
+[LeeDoYuJae]tzname[1]: NZDT
+[LeeDoYuJae]daylight: 1
+[LeeDoYuJae]timezone: -43200
+TZ=Europe/London 892162800 0 0 0 10 3 98 5 99 1[LeeDoYuJae] should be
+[LeeDoYuJae]TZ=Europe/London 892162800 0 0 0 10 3 98 5 99 1
+
+TZ=GMT 892166400 0 0 0 10 3 98 5 99 0[LeeDoYuJae] should be
+[LeeDoYuJae]TZ=GMT 892166400 0 0 0 10 3 98 5 99 0

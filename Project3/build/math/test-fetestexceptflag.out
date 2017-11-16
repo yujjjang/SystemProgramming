@@ -1,0 +1,207 @@
+[LeeDoYuJae]Testing 0
+[LeeDoYuJae]Individual test: 0 0 0
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]Individual test: 0 0 3d
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]fetestexceptflag (FE_ALL_EXCEPT) result correct
+[LeeDoYuJae]Individual test: 0 0 0
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]Individual test: 0 0 3d
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]fetestexceptflag (FE_ALL_EXCEPT) result correct
+[LeeDoYuJae]Individual test: 0 3d 0
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]Individual test: 0 3d 3d
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]fetestexceptflag (FE_ALL_EXCEPT) result correct
+[LeeDoYuJae]Individual test: 0 3d 0
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]Individual test: 0 3d 3d
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]fetestexceptflag (FE_ALL_EXCEPT) result correct
+[LeeDoYuJae]Testing FE_ALL_EXCEPT
+[LeeDoYuJae]Individual test: 3d 0 3d
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]fetestexceptflag (FE_ALL_EXCEPT) result correct
+[LeeDoYuJae]Individual test: 3d 0 3d
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]fetestexceptflag (FE_ALL_EXCEPT) result correct
+[LeeDoYuJae]Individual test: 3d 3d 3d
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]fetestexceptflag (FE_ALL_EXCEPT) result correct
+[LeeDoYuJae]Individual test: 3d 3d 3d
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]fetestexceptflag (FE_ALL_EXCEPT) result correct
+[LeeDoYuJae]Individual test: 3d 0 3d
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]fetestexceptflag (FE_ALL_EXCEPT) result correct
+[LeeDoYuJae]Individual test: 3d 0 3d
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]fetestexceptflag (FE_ALL_EXCEPT) result correct
+[LeeDoYuJae]Individual test: 3d 3d 3d
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]fetestexceptflag (FE_ALL_EXCEPT) result correct
+[LeeDoYuJae]Individual test: 3d 3d 3d
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]fetestexceptflag (FE_ALL_EXCEPT) result correct
+[LeeDoYuJae]Testing FE_DIVBYZERO
+[LeeDoYuJae]Individual test: 4 0 4
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]Individual test: 4 0 3d
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]fetestexceptflag (FE_ALL_EXCEPT) result correct
+[LeeDoYuJae]Individual test: 4 4 4
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]Individual test: 4 4 3d
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]fetestexceptflag (FE_ALL_EXCEPT) result correct
+[LeeDoYuJae]Individual test: 4 39 4
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]Individual test: 4 39 3d
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]fetestexceptflag (FE_ALL_EXCEPT) result correct
+[LeeDoYuJae]Individual test: 4 3d 4
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]Individual test: 4 3d 3d
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]fetestexceptflag (FE_ALL_EXCEPT) result correct
+[LeeDoYuJae]Testing FE_INEXACT
+[LeeDoYuJae]Individual test: 20 0 20
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]Individual test: 20 0 3d
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]fetestexceptflag (FE_ALL_EXCEPT) result correct
+[LeeDoYuJae]Individual test: 20 20 20
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]Individual test: 20 20 3d
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]fetestexceptflag (FE_ALL_EXCEPT) result correct
+[LeeDoYuJae]Individual test: 20 1d 20
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]Individual test: 20 1d 3d
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]fetestexceptflag (FE_ALL_EXCEPT) result correct
+[LeeDoYuJae]Individual test: 20 3d 20
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]Individual test: 20 3d 3d
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]fetestexceptflag (FE_ALL_EXCEPT) result correct
+[LeeDoYuJae]Testing FE_INVALID
+[LeeDoYuJae]Individual test: 1 0 1
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]Individual test: 1 0 3d
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]fetestexceptflag (FE_ALL_EXCEPT) result correct
+[LeeDoYuJae]Individual test: 1 1 1
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]Individual test: 1 1 3d
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]fetestexceptflag (FE_ALL_EXCEPT) result correct
+[LeeDoYuJae]Individual test: 1 3c 1
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]Individual test: 1 3c 3d
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]fetestexceptflag (FE_ALL_EXCEPT) result correct
+[LeeDoYuJae]Individual test: 1 3d 1
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]Individual test: 1 3d 3d
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]fetestexceptflag (FE_ALL_EXCEPT) result correct
+[LeeDoYuJae]Testing FE_OVERFLOW
+[LeeDoYuJae]Individual test: 8 0 8
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]Individual test: 8 0 3d
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]fetestexceptflag (FE_ALL_EXCEPT) result correct
+[LeeDoYuJae]Individual test: 8 8 8
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]Individual test: 8 8 3d
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]fetestexceptflag (FE_ALL_EXCEPT) result correct
+[LeeDoYuJae]Individual test: 8 35 8
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]Individual test: 8 35 3d
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]fetestexceptflag (FE_ALL_EXCEPT) result correct
+[LeeDoYuJae]Individual test: 8 3d 8
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]Individual test: 8 3d 3d
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]fetestexceptflag (FE_ALL_EXCEPT) result correct
+[LeeDoYuJae]Testing FE_UNDERFLOW
+[LeeDoYuJae]Individual test: 10 0 10
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]Individual test: 10 0 3d
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]fetestexceptflag (FE_ALL_EXCEPT) result correct
+[LeeDoYuJae]Individual test: 10 10 10
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]Individual test: 10 10 3d
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]fetestexceptflag (FE_ALL_EXCEPT) result correct
+[LeeDoYuJae]Individual test: 10 2d 10
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]Individual test: 10 2d 3d
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]fetestexceptflag (FE_ALL_EXCEPT) result correct
+[LeeDoYuJae]Individual test: 10 3d 10
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]Individual test: 10 3d 3d
+[LeeDoYuJae]fegetexceptflag succeeded
+[LeeDoYuJae]fetestexceptflag result correct
+[LeeDoYuJae]fetestexceptflag (FE_ALL_EXCEPT) result correct

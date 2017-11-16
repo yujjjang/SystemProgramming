@@ -1,0 +1,6 @@
+testing _Float128 (finite-math-only)
+[LeeDoYuJae]
+Test suite completed:
+[LeeDoYuJae]  144 test cases plus 140 tests for exception flags and
+    0 tests for errno executed.
+[LeeDoYuJae]  All tests passed successfully.

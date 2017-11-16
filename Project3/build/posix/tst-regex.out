@@ -1,0 +1,444 @@
+[LeeDoYuJae]
+Test "[äáàâéèêíìîñöóòôüúùû]" with 8-bit locale
+[LeeDoYuJae]match 1: "	Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 2: "	typo. Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]elapsed time: 0.000456237 sec
+[LeeDoYuJae]
+Test "[äáàâéèêíìîñöóòôüúùû]" with 8-bit locale, case insensitive
+[LeeDoYuJae]match 1: "	Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 2: "	typo. Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]elapsed time: 0.000410864 sec
+[LeeDoYuJae]
+Test "[äáàâéèêíìîñöóòôüúùû]" backwards with 8-bit locale
+[LeeDoYuJae]match 1: "	typo. Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 2: "	Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]elapsed time: 0.000599827 sec
+[LeeDoYuJae]
+Test "[äáàâéèêíìîñöóòôüúùû]" backwards with 8-bit locale, case insensitive
+[LeeDoYuJae]match 1: "	typo. Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 2: "	Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]elapsed time: 0.000623503 sec
+[LeeDoYuJae]
+Test "[äáàâéèêíìîñöóòôüúùû]" with multi-byte locale
+[LeeDoYuJae]match 1: "	Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 2: "	typo. Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]elapsed time: 0.000780340 sec
+[LeeDoYuJae]
+Test "[äáàâéèêíìîñöóòôüúùû]" with multi-byte locale, case insensitive
+[LeeDoYuJae]match 1: "	Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 2: "	typo. Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]elapsed time: 0.002727997 sec
+[LeeDoYuJae]
+Test "[äáàâéèêíìîñöóòôüúùû]" backwards with multi-byte locale
+[LeeDoYuJae]match 1: "	typo. Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 2: "	Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]elapsed time: 0.000639536 sec
+[LeeDoYuJae]
+Test "[äáàâéèêíìîñöóòôüúùû]" backwards with multi-byte locale, case insensitive
+[LeeDoYuJae]match 1: "	typo. Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 2: "	Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]elapsed time: 0.013283949 sec
+[LeeDoYuJae]
+Test "G.ran" with 8-bit locale
+[LeeDoYuJae]match 1: "	Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 2: "	typo. Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]elapsed time: 0.000511837 sec
+[LeeDoYuJae]
+Test "G.ran" with 8-bit locale, case insensitive
+[LeeDoYuJae]match 1: "	* locale/programs/stringtrans.c: Likewise."
+[LeeDoYuJae]match 2: "	Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 3: "	typo. Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]elapsed time: 0.000989213 sec
+[LeeDoYuJae]
+Test "G.ran" backwards with 8-bit locale
+[LeeDoYuJae]match 1: "	typo. Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 2: "	Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]elapsed time: 0.000613194 sec
+[LeeDoYuJae]
+Test "G.ran" backwards with 8-bit locale, case insensitive
+[LeeDoYuJae]match 1: "	typo. Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 2: "	Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 3: "	* locale/programs/stringtrans.c: Likewise."
+[LeeDoYuJae]elapsed time: 0.001060699 sec
+[LeeDoYuJae]
+Test "G.ran" with multi-byte locale
+[LeeDoYuJae]match 1: "	Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 2: "	typo. Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]elapsed time: 0.000483138 sec
+[LeeDoYuJae]
+Test "G.ran" with multi-byte locale, case insensitive
+[LeeDoYuJae]match 1: "	* locale/programs/stringtrans.c: Likewise."
+[LeeDoYuJae]match 2: "	Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 3: "	typo. Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]elapsed time: 0.002913171 sec
+[LeeDoYuJae]
+Test "G.ran" backwards with multi-byte locale
+[LeeDoYuJae]match 1: "	typo. Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 2: "	Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]elapsed time: 0.000643485 sec
+[LeeDoYuJae]
+Test "G.ran" backwards with multi-byte locale, case insensitive
+[LeeDoYuJae]match 1: "	typo. Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 2: "	Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 3: "	* locale/programs/stringtrans.c: Likewise."
+[LeeDoYuJae]elapsed time: 0.015072562 sec
+[LeeDoYuJae]
+Test "G.\{1\}ran" with 8-bit locale
+[LeeDoYuJae]match 1: "	Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 2: "	typo. Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]elapsed time: 0.000520107 sec
+[LeeDoYuJae]
+Test "G.\{1\}ran" with 8-bit locale, case insensitive
+[LeeDoYuJae]match 1: "	* locale/programs/stringtrans.c: Likewise."
+[LeeDoYuJae]match 2: "	Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 3: "	typo. Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]elapsed time: 0.000880658 sec
+[LeeDoYuJae]
+Test "G.\{1\}ran" backwards with 8-bit locale
+[LeeDoYuJae]match 1: "	typo. Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 2: "	Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]elapsed time: 0.000583692 sec
+[LeeDoYuJae]
+Test "G.\{1\}ran" backwards with 8-bit locale, case insensitive
+[LeeDoYuJae]match 1: "	typo. Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 2: "	Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 3: "	* locale/programs/stringtrans.c: Likewise."
+[LeeDoYuJae]elapsed time: 0.001100326 sec
+[LeeDoYuJae]
+Test "G.\{1\}ran" with multi-byte locale
+[LeeDoYuJae]match 1: "	Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 2: "	typo. Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]elapsed time: 0.000484268 sec
+[LeeDoYuJae]
+Test "G.\{1\}ran" with multi-byte locale, case insensitive
+[LeeDoYuJae]match 1: "	* locale/programs/stringtrans.c: Likewise."
+[LeeDoYuJae]match 2: "	Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 3: "	typo. Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]elapsed time: 0.003183391 sec
+[LeeDoYuJae]
+Test "G.\{1\}ran" backwards with multi-byte locale
+[LeeDoYuJae]match 1: "	typo. Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 2: "	Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]elapsed time: 0.000620454 sec
+[LeeDoYuJae]
+Test "G.\{1\}ran" backwards with multi-byte locale, case insensitive
+[LeeDoYuJae]match 1: "	typo. Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 2: "	Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 3: "	* locale/programs/stringtrans.c: Likewise."
+[LeeDoYuJae]elapsed time: 0.014853673 sec
+[LeeDoYuJae]
+Test "G.*ran" with 8-bit locale
+[LeeDoYuJae]match 1: "	Generalized by allowing file name transformation.  Do not"
+[LeeDoYuJae]match 2: "	Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 3: "	typo. Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]elapsed time: 0.000510425 sec
+[LeeDoYuJae]
+Test "G.*ran" with 8-bit locale, case insensitive
+[LeeDoYuJae]match 1: "	* sysdeps/unix/grantpt.c: Likewise."
+[LeeDoYuJae]match 2: "	* manual/terminal.texi: Document ttyname_r, getpt, grantpt,"
+[LeeDoYuJae]match 3: "	* manual/message.texi (Message Translation): Likewise."
+[LeeDoYuJae]match 4: "	* manual/lang.texi (Range of Type): Change @end table->@end vtable."
+[LeeDoYuJae]match 5: "	* stdlib/gmp-impl.h: Support strange mixed-endian double format"
+[LeeDoYuJae]match 6: "	* locale/programs/stringtrans.c: Likewise."
+[LeeDoYuJae]match 7: "	* Makerules: Change occurances of `cd dir; cmd' to `cd dir && cmd'."
+[LeeDoYuJae]match 8: "	* iconv/gconv_builtin.c (__gconv_builtin_trans): Initialize stateful"
+[LeeDoYuJae]match 9: "	* iconv/gconv_simple.c (__gconv_transform_internal_ascii): Don't use"
+[LeeDoYuJae]match 10: "	(__gconv_transform_internal_utf8): Specify MAX_NEEDED_TO."
+[LeeDoYuJae]match 11: "	(__gconv_transform_utf8_internal): Specify MAX_NEEDED_FROM."
+[LeeDoYuJae]match 12: "	allowing file name transformation."
+[LeeDoYuJae]match 13: "	Generalized by allowing file name transformation.  Do not"
+[LeeDoYuJae]match 14: "	* iconv/gconv_simple.c (__gconv_transform_ucs4_ascii): Fix typo in"
+[LeeDoYuJae]match 15: "	* iconv/gconv_builtin.c (__gconv_get_builtin_trans): Initialize"
+[LeeDoYuJae]match 16: "	* iconv/gconv_simple.c (__gconv_transform_ucs4_ascii): Correct loop"
+[LeeDoYuJae]match 17: "	(__gconv_transform_ucs4_utf8): Likewise.  Remove unnecessary variable"
+[LeeDoYuJae]match 18: "	(__gconv_transform_utf8_ucs4): Correct test for empty input."
+[LeeDoYuJae]match 19: "	* iconv/gconv-simple.c (__gconv_transform_ascii_ucs4): Compute"
+[LeeDoYuJae]match 20: "	(__gconv_transform_ucs4_ascii): Count used input bytes correctly."
+[LeeDoYuJae]match 21: "	Based on suggestions by Francesco Potorti` <F.Potorti@cnuce.cnr.it>."
+[LeeDoYuJae]match 22: "	* sysdeps/unix/grantpt.c (grantpt): Change check of return value"
+[LeeDoYuJae]match 23: "	* iconv/gconv_db.c (__gconv_find_transform): Fix typo."
+[LeeDoYuJae]match 24: "	* iconv/gconv_simple.c (__gconv_transform_ucs4_utf8): Compute"
+[LeeDoYuJae]match 25: "	* nss/getXXent_r.c (REENTRANT_GETNAME): Avoid endless loop."
+[LeeDoYuJae]match 26: "	clobbered registers don't appear as operands."
+[LeeDoYuJae]match 27: "	* sysdeps/unix/grantpt.c (grantpt): Use __ptsname_r and not"
+[LeeDoYuJae]match 28: "	__builtin_ffs, which is not guaranteed to be namespace clean."
+[LeeDoYuJae]match 29: "	missing return to SYSCALL_ERROR_HANDLER for (!_LIBC_REENTRANT &&"
+[LeeDoYuJae]match 30: "	* sysdeps/unix/grantpt.c (argv): Fix consts."
+[LeeDoYuJae]match 31: "	Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 32: "	typo. Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 33: "	* sysdeps/unix/sysv/linux/alpha/getitimer.S: Fix ENOSYS branch."
+[LeeDoYuJae]match 34: "	* sysdeps/unix/sysv/linux/sigaction.c: Translate between struct"
+[LeeDoYuJae]match 35: "	* locale/programs/ld-ctype.c (CHAR_CLASS32_TRANS): Likewise."
+[LeeDoYuJae]match 36: "	* sysdeps/unix/grantpt.c (argv): Move const to toplevel."
+[LeeDoYuJae]match 37: "	(grantpt): Delete superfluous cast."
+[LeeDoYuJae]match 38: "	(routines): Add getpt, grantpt, unlockpt, ptsname."
+[LeeDoYuJae]match 39: "	* libc.map: Add getpt, grantpt, unlockpt, ptsname, ptsname_r."
+[LeeDoYuJae]match 40: "	* sysdeps/generic/grantpt.c: Likewise."
+[LeeDoYuJae]match 41: "	* sysdeps/unix/grantpt.c: New file."
+[LeeDoYuJae]match 42: "	* sysdeps/generic/bits/siginfo.h: Define sigval_t.  Arrange to work"
+[LeeDoYuJae]match 43: "	* sysdeps/posix/getcwd.c: Recognize EOF from readdir and translate"
+[LeeDoYuJae]match 44: "	* iconv/gconv.c: Correctly call transformation function."
+[LeeDoYuJae]elapsed time: 0.003096913 sec
+[LeeDoYuJae]
+Test "G.*ran" backwards with 8-bit locale
+[LeeDoYuJae]match 1: "	typo. Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 2: "	Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 3: "	Generalized by allowing file name transformation.  Do not"
+[LeeDoYuJae]elapsed time: 0.000818719 sec
+[LeeDoYuJae]
+Test "G.*ran" backwards with 8-bit locale, case insensitive
+[LeeDoYuJae]match 1: "	* iconv/gconv.c: Correctly call transformation function."
+[LeeDoYuJae]match 2: "	* sysdeps/posix/getcwd.c: Recognize EOF from readdir and translate"
+[LeeDoYuJae]match 3: "	* sysdeps/generic/bits/siginfo.h: Define sigval_t.  Arrange to work"
+[LeeDoYuJae]match 4: "	* sysdeps/unix/grantpt.c: New file."
+[LeeDoYuJae]match 5: "	* sysdeps/generic/grantpt.c: Likewise."
+[LeeDoYuJae]match 6: "	* libc.map: Add getpt, grantpt, unlockpt, ptsname, ptsname_r."
+[LeeDoYuJae]match 7: "	(routines): Add getpt, grantpt, unlockpt, ptsname."
+[LeeDoYuJae]match 8: "	(grantpt): Delete superfluous cast."
+[LeeDoYuJae]match 9: "	* sysdeps/unix/grantpt.c (argv): Move const to toplevel."
+[LeeDoYuJae]match 10: "	* locale/programs/ld-ctype.c (CHAR_CLASS32_TRANS): Likewise."
+[LeeDoYuJae]match 11: "	* sysdeps/unix/sysv/linux/sigaction.c: Translate between struct"
+[LeeDoYuJae]match 12: "	* sysdeps/unix/sysv/linux/alpha/getitimer.S: Fix ENOSYS branch."
+[LeeDoYuJae]match 13: "	typo. Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 14: "	Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 15: "	* sysdeps/unix/grantpt.c (argv): Fix consts."
+[LeeDoYuJae]match 16: "	missing return to SYSCALL_ERROR_HANDLER for (!_LIBC_REENTRANT &&"
+[LeeDoYuJae]match 17: "	__builtin_ffs, which is not guaranteed to be namespace clean."
+[LeeDoYuJae]match 18: "	* sysdeps/unix/grantpt.c (grantpt): Use __ptsname_r and not"
+[LeeDoYuJae]match 19: "	clobbered registers don't appear as operands."
+[LeeDoYuJae]match 20: "	* nss/getXXent_r.c (REENTRANT_GETNAME): Avoid endless loop."
+[LeeDoYuJae]match 21: "	* iconv/gconv_simple.c (__gconv_transform_ucs4_utf8): Compute"
+[LeeDoYuJae]match 22: "	* iconv/gconv_db.c (__gconv_find_transform): Fix typo."
+[LeeDoYuJae]match 23: "	* sysdeps/unix/grantpt.c (grantpt): Change check of return value"
+[LeeDoYuJae]match 24: "	Based on suggestions by Francesco Potorti` <F.Potorti@cnuce.cnr.it>."
+[LeeDoYuJae]match 25: "	(__gconv_transform_ucs4_ascii): Count used input bytes correctly."
+[LeeDoYuJae]match 26: "	* iconv/gconv-simple.c (__gconv_transform_ascii_ucs4): Compute"
+[LeeDoYuJae]match 27: "	(__gconv_transform_utf8_ucs4): Correct test for empty input."
+[LeeDoYuJae]match 28: "	(__gconv_transform_ucs4_utf8): Likewise.  Remove unnecessary variable"
+[LeeDoYuJae]match 29: "	* iconv/gconv_simple.c (__gconv_transform_ucs4_ascii): Correct loop"
+[LeeDoYuJae]match 30: "	* iconv/gconv_builtin.c (__gconv_get_builtin_trans): Initialize"
+[LeeDoYuJae]match 31: "	* iconv/gconv_simple.c (__gconv_transform_ucs4_ascii): Fix typo in"
+[LeeDoYuJae]match 32: "	Generalized by allowing file name transformation.  Do not"
+[LeeDoYuJae]match 33: "	allowing file name transformation."
+[LeeDoYuJae]match 34: "	(__gconv_transform_utf8_internal): Specify MAX_NEEDED_FROM."
+[LeeDoYuJae]match 35: "	(__gconv_transform_internal_utf8): Specify MAX_NEEDED_TO."
+[LeeDoYuJae]match 36: "	* iconv/gconv_simple.c (__gconv_transform_internal_ascii): Don't use"
+[LeeDoYuJae]match 37: "	* iconv/gconv_builtin.c (__gconv_builtin_trans): Initialize stateful"
+[LeeDoYuJae]match 38: "	* Makerules: Change occurances of `cd dir; cmd' to `cd dir && cmd'."
+[LeeDoYuJae]match 39: "	* locale/programs/stringtrans.c: Likewise."
+[LeeDoYuJae]match 40: "	* stdlib/gmp-impl.h: Support strange mixed-endian double format"
+[LeeDoYuJae]match 41: "	* manual/lang.texi (Range of Type): Change @end table->@end vtable."
+[LeeDoYuJae]match 42: "	* manual/message.texi (Message Translation): Likewise."
+[LeeDoYuJae]match 43: "	* manual/terminal.texi: Document ttyname_r, getpt, grantpt,"
+[LeeDoYuJae]match 44: "	* sysdeps/unix/grantpt.c: Likewise."
+[LeeDoYuJae]elapsed time: 0.004431937 sec
+[LeeDoYuJae]
+Test "G.*ran" with multi-byte locale
+[LeeDoYuJae]match 1: "	Generalized by allowing file name transformation.  Do not"
+[LeeDoYuJae]match 2: "	Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 3: "	typo. Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]elapsed time: 0.000644891 sec
+[LeeDoYuJae]
+Test "G.*ran" with multi-byte locale, case insensitive
+[LeeDoYuJae]match 1: "	* sysdeps/unix/grantpt.c: Likewise."
+[LeeDoYuJae]match 2: "	* manual/terminal.texi: Document ttyname_r, getpt, grantpt,"
+[LeeDoYuJae]match 3: "	* manual/message.texi (Message Translation): Likewise."
+[LeeDoYuJae]match 4: "	* manual/lang.texi (Range of Type): Change @end table->@end vtable."
+[LeeDoYuJae]match 5: "	* stdlib/gmp-impl.h: Support strange mixed-endian double format"
+[LeeDoYuJae]match 6: "	* locale/programs/stringtrans.c: Likewise."
+[LeeDoYuJae]match 7: "	* Makerules: Change occurances of `cd dir; cmd' to `cd dir && cmd'."
+[LeeDoYuJae]match 8: "	* iconv/gconv_builtin.c (__gconv_builtin_trans): Initialize stateful"
+[LeeDoYuJae]match 9: "	* iconv/gconv_simple.c (__gconv_transform_internal_ascii): Don't use"
+[LeeDoYuJae]match 10: "	(__gconv_transform_internal_utf8): Specify MAX_NEEDED_TO."
+[LeeDoYuJae]match 11: "	(__gconv_transform_utf8_internal): Specify MAX_NEEDED_FROM."
+[LeeDoYuJae]match 12: "	allowing file name transformation."
+[LeeDoYuJae]match 13: "	Generalized by allowing file name transformation.  Do not"
+[LeeDoYuJae]match 14: "	* iconv/gconv_simple.c (__gconv_transform_ucs4_ascii): Fix typo in"
+[LeeDoYuJae]match 15: "	* iconv/gconv_builtin.c (__gconv_get_builtin_trans): Initialize"
+[LeeDoYuJae]match 16: "	* iconv/gconv_simple.c (__gconv_transform_ucs4_ascii): Correct loop"
+[LeeDoYuJae]match 17: "	(__gconv_transform_ucs4_utf8): Likewise.  Remove unnecessary variable"
+[LeeDoYuJae]match 18: "	(__gconv_transform_utf8_ucs4): Correct test for empty input."
+[LeeDoYuJae]match 19: "	* iconv/gconv-simple.c (__gconv_transform_ascii_ucs4): Compute"
+[LeeDoYuJae]match 20: "	(__gconv_transform_ucs4_ascii): Count used input bytes correctly."
+[LeeDoYuJae]match 21: "	Based on suggestions by Francesco Potorti` <F.Potorti@cnuce.cnr.it>."
+[LeeDoYuJae]match 22: "	* sysdeps/unix/grantpt.c (grantpt): Change check of return value"
+[LeeDoYuJae]match 23: "	* iconv/gconv_db.c (__gconv_find_transform): Fix typo."
+[LeeDoYuJae]match 24: "	* iconv/gconv_simple.c (__gconv_transform_ucs4_utf8): Compute"
+[LeeDoYuJae]match 25: "	* nss/getXXent_r.c (REENTRANT_GETNAME): Avoid endless loop."
+[LeeDoYuJae]match 26: "	clobbered registers don't appear as operands."
+[LeeDoYuJae]match 27: "	* sysdeps/unix/grantpt.c (grantpt): Use __ptsname_r and not"
+[LeeDoYuJae]match 28: "	__builtin_ffs, which is not guaranteed to be namespace clean."
+[LeeDoYuJae]match 29: "	missing return to SYSCALL_ERROR_HANDLER for (!_LIBC_REENTRANT &&"
+[LeeDoYuJae]match 30: "	* sysdeps/unix/grantpt.c (argv): Fix consts."
+[LeeDoYuJae]match 31: "	Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 32: "	typo. Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 33: "	* sysdeps/unix/sysv/linux/alpha/getitimer.S: Fix ENOSYS branch."
+[LeeDoYuJae]match 34: "	* sysdeps/unix/sysv/linux/sigaction.c: Translate between struct"
+[LeeDoYuJae]match 35: "	* locale/programs/ld-ctype.c (CHAR_CLASS32_TRANS): Likewise."
+[LeeDoYuJae]match 36: "	* sysdeps/unix/grantpt.c (argv): Move const to toplevel."
+[LeeDoYuJae]match 37: "	(grantpt): Delete superfluous cast."
+[LeeDoYuJae]match 38: "	(routines): Add getpt, grantpt, unlockpt, ptsname."
+[LeeDoYuJae]match 39: "	* libc.map: Add getpt, grantpt, unlockpt, ptsname, ptsname_r."
+[LeeDoYuJae]match 40: "	* sysdeps/generic/grantpt.c: Likewise."
+[LeeDoYuJae]match 41: "	* sysdeps/unix/grantpt.c: New file."
+[LeeDoYuJae]match 42: "	* sysdeps/generic/bits/siginfo.h: Define sigval_t.  Arrange to work"
+[LeeDoYuJae]match 43: "	* sysdeps/posix/getcwd.c: Recognize EOF from readdir and translate"
+[LeeDoYuJae]match 44: "	* iconv/gconv.c: Correctly call transformation function."
+[LeeDoYuJae]elapsed time: 0.005258690 sec
+[LeeDoYuJae]
+Test "G.*ran" backwards with multi-byte locale
+[LeeDoYuJae]match 1: "	typo. Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 2: "	Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 3: "	Generalized by allowing file name transformation.  Do not"
+[LeeDoYuJae]elapsed time: 0.000785511 sec
+[LeeDoYuJae]
+Test "G.*ran" backwards with multi-byte locale, case insensitive
+[LeeDoYuJae]match 1: "	* iconv/gconv.c: Correctly call transformation function."
+[LeeDoYuJae]match 2: "	* sysdeps/posix/getcwd.c: Recognize EOF from readdir and translate"
+[LeeDoYuJae]match 3: "	* sysdeps/generic/bits/siginfo.h: Define sigval_t.  Arrange to work"
+[LeeDoYuJae]match 4: "	* sysdeps/unix/grantpt.c: New file."
+[LeeDoYuJae]match 5: "	* sysdeps/generic/grantpt.c: Likewise."
+[LeeDoYuJae]match 6: "	* libc.map: Add getpt, grantpt, unlockpt, ptsname, ptsname_r."
+[LeeDoYuJae]match 7: "	(routines): Add getpt, grantpt, unlockpt, ptsname."
+[LeeDoYuJae]match 8: "	(grantpt): Delete superfluous cast."
+[LeeDoYuJae]match 9: "	* sysdeps/unix/grantpt.c (argv): Move const to toplevel."
+[LeeDoYuJae]match 10: "	* locale/programs/ld-ctype.c (CHAR_CLASS32_TRANS): Likewise."
+[LeeDoYuJae]match 11: "	* sysdeps/unix/sysv/linux/sigaction.c: Translate between struct"
+[LeeDoYuJae]match 12: "	* sysdeps/unix/sysv/linux/alpha/getitimer.S: Fix ENOSYS branch."
+[LeeDoYuJae]match 13: "	typo. Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 14: "	Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 15: "	* sysdeps/unix/grantpt.c (argv): Fix consts."
+[LeeDoYuJae]match 16: "	missing return to SYSCALL_ERROR_HANDLER for (!_LIBC_REENTRANT &&"
+[LeeDoYuJae]match 17: "	__builtin_ffs, which is not guaranteed to be namespace clean."
+[LeeDoYuJae]match 18: "	* sysdeps/unix/grantpt.c (grantpt): Use __ptsname_r and not"
+[LeeDoYuJae]match 19: "	clobbered registers don't appear as operands."
+[LeeDoYuJae]match 20: "	* nss/getXXent_r.c (REENTRANT_GETNAME): Avoid endless loop."
+[LeeDoYuJae]match 21: "	* iconv/gconv_simple.c (__gconv_transform_ucs4_utf8): Compute"
+[LeeDoYuJae]match 22: "	* iconv/gconv_db.c (__gconv_find_transform): Fix typo."
+[LeeDoYuJae]match 23: "	* sysdeps/unix/grantpt.c (grantpt): Change check of return value"
+[LeeDoYuJae]match 24: "	Based on suggestions by Francesco Potorti` <F.Potorti@cnuce.cnr.it>."
+[LeeDoYuJae]match 25: "	(__gconv_transform_ucs4_ascii): Count used input bytes correctly."
+[LeeDoYuJae]match 26: "	* iconv/gconv-simple.c (__gconv_transform_ascii_ucs4): Compute"
+[LeeDoYuJae]match 27: "	(__gconv_transform_utf8_ucs4): Correct test for empty input."
+[LeeDoYuJae]match 28: "	(__gconv_transform_ucs4_utf8): Likewise.  Remove unnecessary variable"
+[LeeDoYuJae]match 29: "	* iconv/gconv_simple.c (__gconv_transform_ucs4_ascii): Correct loop"
+[LeeDoYuJae]match 30: "	* iconv/gconv_builtin.c (__gconv_get_builtin_trans): Initialize"
+[LeeDoYuJae]match 31: "	* iconv/gconv_simple.c (__gconv_transform_ucs4_ascii): Fix typo in"
+[LeeDoYuJae]match 32: "	Generalized by allowing file name transformation.  Do not"
+[LeeDoYuJae]match 33: "	allowing file name transformation."
+[LeeDoYuJae]match 34: "	(__gconv_transform_utf8_internal): Specify MAX_NEEDED_FROM."
+[LeeDoYuJae]match 35: "	(__gconv_transform_internal_utf8): Specify MAX_NEEDED_TO."
+[LeeDoYuJae]match 36: "	* iconv/gconv_simple.c (__gconv_transform_internal_ascii): Don't use"
+[LeeDoYuJae]match 37: "	* iconv/gconv_builtin.c (__gconv_builtin_trans): Initialize stateful"
+[LeeDoYuJae]match 38: "	* Makerules: Change occurances of `cd dir; cmd' to `cd dir && cmd'."
+[LeeDoYuJae]match 39: "	* locale/programs/stringtrans.c: Likewise."
+[LeeDoYuJae]match 40: "	* stdlib/gmp-impl.h: Support strange mixed-endian double format"
+[LeeDoYuJae]match 41: "	* manual/lang.texi (Range of Type): Change @end table->@end vtable."
+[LeeDoYuJae]match 42: "	* manual/message.texi (Message Translation): Likewise."
+[LeeDoYuJae]match 43: "	* manual/terminal.texi: Document ttyname_r, getpt, grantpt,"
+[LeeDoYuJae]match 44: "	* sysdeps/unix/grantpt.c: Likewise."
+[LeeDoYuJae]elapsed time: 0.113307226 sec
+[LeeDoYuJae]
+Test "[äáàâ]" with 8-bit locale
+[LeeDoYuJae]elapsed time: 0.000478590 sec
+[LeeDoYuJae]
+Test "[äáàâ]" with 8-bit locale, case insensitive
+[LeeDoYuJae]elapsed time: 0.000442906 sec
+[LeeDoYuJae]
+Test "[äáàâ]" backwards with 8-bit locale
+[LeeDoYuJae]elapsed time: 0.000566968 sec
+[LeeDoYuJae]
+Test "[äáàâ]" backwards with 8-bit locale, case insensitive
+[LeeDoYuJae]elapsed time: 0.000570169 sec
+[LeeDoYuJae]
+Test "[äáàâ]" with multi-byte locale
+[LeeDoYuJae]elapsed time: 0.000436245 sec
+[LeeDoYuJae]
+Test "[äáàâ]" with multi-byte locale, case insensitive
+[LeeDoYuJae]elapsed time: 0.002595067 sec
+[LeeDoYuJae]
+Test "[äáàâ]" backwards with multi-byte locale
+[LeeDoYuJae]elapsed time: 0.000569325 sec
+[LeeDoYuJae]
+Test "[äáàâ]" backwards with multi-byte locale, case insensitive
+[LeeDoYuJae]elapsed time: 0.012881175 sec
+[LeeDoYuJae]
+Test "Uddeborg" with 8-bit locale
+[LeeDoYuJae]match 1: "	Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 2: "	typo. Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]elapsed time: 0.000484143 sec
+[LeeDoYuJae]
+Test "Uddeborg" with 8-bit locale, case insensitive
+[LeeDoYuJae]match 1: "	Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 2: "	typo. Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]elapsed time: 0.001158367 sec
+[LeeDoYuJae]
+Test "Uddeborg" backwards with 8-bit locale
+[LeeDoYuJae]match 1: "	typo. Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 2: "	Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]elapsed time: 0.000718526 sec
+[LeeDoYuJae]
+Test "Uddeborg" backwards with 8-bit locale, case insensitive
+[LeeDoYuJae]match 1: "	typo. Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 2: "	Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]elapsed time: 0.001412775 sec
+[LeeDoYuJae]
+Test "Uddeborg" with multi-byte locale
+[LeeDoYuJae]match 1: "	Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 2: "	typo. Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]elapsed time: 0.000464348 sec
+[LeeDoYuJae]
+Test "Uddeborg" with multi-byte locale, case insensitive
+[LeeDoYuJae]match 1: "	Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 2: "	typo. Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]elapsed time: 0.002707112 sec
+[LeeDoYuJae]
+Test "Uddeborg" backwards with multi-byte locale
+[LeeDoYuJae]match 1: "	typo. Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 2: "	Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]elapsed time: 0.000626428 sec
+[LeeDoYuJae]
+Test "Uddeborg" backwards with multi-byte locale, case insensitive
+[LeeDoYuJae]match 1: "	typo. Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 2: "	Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]elapsed time: 0.017870316 sec
+[LeeDoYuJae]
+Test ".Uddeborg" with 8-bit locale
+[LeeDoYuJae]match 1: "	Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 2: "	typo. Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]elapsed time: 0.009799698 sec
+[LeeDoYuJae]
+Test ".Uddeborg" with 8-bit locale, case insensitive
+[LeeDoYuJae]match 1: "	Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 2: "	typo. Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]elapsed time: 0.016459165 sec
+[LeeDoYuJae]
+Test ".Uddeborg" backwards with 8-bit locale
+[LeeDoYuJae]match 1: "	typo. Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 2: "	Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]elapsed time: 0.011263868 sec
+[LeeDoYuJae]
+Test ".Uddeborg" backwards with 8-bit locale, case insensitive
+[LeeDoYuJae]match 1: "	typo. Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 2: "	Reported by Göran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]elapsed time: 0.032367692 sec
+[LeeDoYuJae]
+Test ".Uddeborg" with multi-byte locale
+[LeeDoYuJae]match 1: "	Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 2: "	typo. Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]elapsed time: 0.016345727 sec
+[LeeDoYuJae]
+Test ".Uddeborg" with multi-byte locale, case insensitive
+[LeeDoYuJae]match 1: "	Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 2: "	typo. Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]elapsed time: 0.022242752 sec
+[LeeDoYuJae]
+Test ".Uddeborg" backwards with multi-byte locale
+[LeeDoYuJae]match 1: "	typo. Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 2: "	Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]elapsed time: 0.017767363 sec
+[LeeDoYuJae]
+Test ".Uddeborg" backwards with multi-byte locale, case insensitive
+[LeeDoYuJae]match 1: "	typo. Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]match 2: "	Reported by GÃ¶ran Uddeborg <goeran@uddeborg.pp.se>."
+[LeeDoYuJae]elapsed time: 0.034706467 sec

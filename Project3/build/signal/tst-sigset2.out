@@ -1,0 +1,15 @@
+[LeeDoYuJae]===== TEST 1 =====
+[LeeDoYuJae]Blocking signal with sighold()
+[LeeDoYuJae]Signal mask after sighold()
+[LeeDoYuJae]		2 (Interrupt)
+[LeeDoYuJae]About to use sigset() to establish handler
+[LeeDoYuJae]Previous disposition: [LeeDoYuJae]SIG_HOLD[LeeDoYuJae] (should be SIG_HOLD)
+[LeeDoYuJae]
+===== TEST 2 =====
+[LeeDoYuJae]About to use sigset() to set SIG_HOLD
+[LeeDoYuJae]Previous disposition: [LeeDoYuJae]SIG_DFL[LeeDoYuJae] (should be SIG_DFL)
+[LeeDoYuJae]
+===== TEST 3 =====
+[LeeDoYuJae]About to use sigset() to set SIG_HOLD
+[LeeDoYuJae]About to use sigset() to set SIG_HOLD (again)
+[LeeDoYuJae]Previous disposition: [LeeDoYuJae]SIG_HOLD[LeeDoYuJae] (should be SIG_HOLD)

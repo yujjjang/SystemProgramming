@@ -1,0 +1,590 @@
+[LeeDoYuJae]Test: Initially all exceptions should be cleared
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is not set
+[LeeDoYuJae]  Pass: Exception "INVALID" is not set
+[LeeDoYuJae]  Pass: Exception "INEXACT" is not set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is not set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is not set
+[LeeDoYuJae]Test: Rounding direction should be initalized to nearest
+[LeeDoYuJae]  Pass: Rounding mode is [LeeDoYuJae]TONEAREST[LeeDoYuJae].
+[LeeDoYuJae]Test: feclearexcept (FE_ALL_EXCEPT) clears all exceptions
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is not set
+[LeeDoYuJae]  Pass: Exception "INVALID" is not set
+[LeeDoYuJae]  Pass: Exception "INEXACT" is not set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is not set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is not set
+[LeeDoYuJae]Test: feraiseexcept (FE_ALL_EXCEPT) raises all exceptions
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is set
+[LeeDoYuJae]  Pass: Exception "INVALID" is set
+[LeeDoYuJae]  Pass: Exception "INEXACT" is set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is set
+[LeeDoYuJae]Test: Set/Clear FE_DIVBYZERO: set flag, with rest not set
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is set
+[LeeDoYuJae]  Pass: Exception "INVALID" is not set
+[LeeDoYuJae]  Pass: Exception "INEXACT" is not set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is not set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is not set
+[LeeDoYuJae]Test: Set/Clear FE_DIVBYZERO: clear flag, rest also unset
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is not set
+[LeeDoYuJae]  Pass: Exception "INVALID" is not set
+[LeeDoYuJae]  Pass: Exception "INEXACT" is not set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is not set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is not set
+[LeeDoYuJae]Test: Set/Clear FE_DIVBYZERO: set flag, with rest set
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is set
+[LeeDoYuJae]  Pass: Exception "INVALID" is set
+[LeeDoYuJae]  Pass: Exception "INEXACT" is set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is set
+[LeeDoYuJae]Test: Set/Clear FE_DIVBYZERO: clear flag, leave rest set
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is not set
+[LeeDoYuJae]  Pass: Exception "INVALID" is set
+[LeeDoYuJae]  Pass: Exception "INEXACT" is set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is set
+[LeeDoYuJae]Test: Set/Clear FE_INVALID: set flag, with rest not set
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is not set
+[LeeDoYuJae]  Pass: Exception "INVALID" is set
+[LeeDoYuJae]  Pass: Exception "INEXACT" is not set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is not set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is not set
+[LeeDoYuJae]Test: Set/Clear FE_INVALID: clear flag, rest also unset
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is not set
+[LeeDoYuJae]  Pass: Exception "INVALID" is not set
+[LeeDoYuJae]  Pass: Exception "INEXACT" is not set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is not set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is not set
+[LeeDoYuJae]Test: Set/Clear FE_INVALID: set flag, with rest set
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is set
+[LeeDoYuJae]  Pass: Exception "INVALID" is set
+[LeeDoYuJae]  Pass: Exception "INEXACT" is set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is set
+[LeeDoYuJae]Test: Set/Clear FE_INVALID: clear flag, leave rest set
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is set
+[LeeDoYuJae]  Pass: Exception "INVALID" is not set
+[LeeDoYuJae]  Pass: Exception "INEXACT" is set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is set
+[LeeDoYuJae]Test: Set/Clear FE_INEXACT: set flag, with rest not set
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is not set
+[LeeDoYuJae]  Pass: Exception "INVALID" is not set
+[LeeDoYuJae]  Pass: Exception "INEXACT" is set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is not set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is not set
+[LeeDoYuJae]Test: Set/Clear FE_INEXACT: clear flag, rest also unset
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is not set
+[LeeDoYuJae]  Pass: Exception "INVALID" is not set
+[LeeDoYuJae]  Pass: Exception "INEXACT" is not set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is not set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is not set
+[LeeDoYuJae]Test: Set/Clear FE_INEXACT: set flag, with rest set
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is set
+[LeeDoYuJae]  Pass: Exception "INVALID" is set
+[LeeDoYuJae]  Pass: Exception "INEXACT" is set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is set
+[LeeDoYuJae]Test: Set/Clear FE_INEXACT: clear flag, leave rest set
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is set
+[LeeDoYuJae]  Pass: Exception "INVALID" is set
+[LeeDoYuJae]  Pass: Exception "INEXACT" is not set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is set
+[LeeDoYuJae]Test: Set/Clear FE_UNDERFLOW: set flag, with rest not set
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is not set
+[LeeDoYuJae]  Pass: Exception "INVALID" is not set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is not set
+[LeeDoYuJae]Test: Set/Clear FE_UNDERFLOW: clear flag, rest also unset
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is not set
+[LeeDoYuJae]  Pass: Exception "INVALID" is not set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is not set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is not set
+[LeeDoYuJae]Test: Set/Clear FE_UNDERFLOW: set flag, with rest set
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is set
+[LeeDoYuJae]  Pass: Exception "INVALID" is set
+[LeeDoYuJae]  Pass: Exception "INEXACT" is set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is set
+[LeeDoYuJae]Test: Set/Clear FE_UNDERFLOW: clear flag, leave rest set
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is set
+[LeeDoYuJae]  Pass: Exception "INVALID" is set
+[LeeDoYuJae]  Pass: Exception "INEXACT" is set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is not set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is set
+[LeeDoYuJae]Test: Set/Clear FE_OVERFLOW: set flag, with rest not set
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is not set
+[LeeDoYuJae]  Pass: Exception "INVALID" is not set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is not set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is set
+[LeeDoYuJae]Test: Set/Clear FE_OVERFLOW: clear flag, rest also unset
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is not set
+[LeeDoYuJae]  Pass: Exception "INVALID" is not set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is not set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is not set
+[LeeDoYuJae]Test: Set/Clear FE_OVERFLOW: set flag, with rest set
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is set
+[LeeDoYuJae]  Pass: Exception "INVALID" is set
+[LeeDoYuJae]  Pass: Exception "INEXACT" is set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is set
+[LeeDoYuJae]Test: Set/Clear FE_OVERFLOW: clear flag, leave rest set
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is set
+[LeeDoYuJae]  Pass: Exception "INVALID" is set
+[LeeDoYuJae]  Pass: Exception "INEXACT" is set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is not set
+[LeeDoYuJae]Test: after fesetenv (FE_NOMASK_ENV) processes will abort
+[LeeDoYuJae]      when feraiseexcept (FE_DIVBYZERO) is called.
+[LeeDoYuJae]  Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fesetenv (FE_DFL_ENV) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_DIVBYZERO) is called.
+uJae]  Pass: Exception "INVALID" is not set
+[LeeDoYuJae]  Pass: Exception "INEXACT" is not set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is not set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is not set
+[LeeDoYuJae]Test: Set/Clear FE_INEXACT: set flag, with rest set
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is set
+[LeeDoYuJae]  Pass: Exception "INVALID" is set
+[LeeDoYuJae]  Pass: Exception "INEXACT" is set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is set
+[LeeDoYuJae]Test: Set/Clear FE_INEXACT: clear flag, leave rest set
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is set
+[LeeDoYuJae]  Pass: Exception "INVALID" is set
+[LeeDoYuJae]  Pass: Exception "INEXACT" is not set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is set
+[LeeDoYuJae]Test: Set/Clear FE_UNDERFLOW: set flag, with rest not set
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is not set
+[LeeDoYuJae]  Pass: Exception "INVALID" is not set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is not set
+[LeeDoYuJae]Test: Set/Clear FE_UNDERFLOW: clear flag, rest also unset
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is not set
+[LeeDoYuJae]  Pass: Exception "INVALID" is not set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is not set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is not set
+[LeeDoYuJae]Test: Set/Clear FE_UNDERFLOW: set flag, with rest set
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is set
+[LeeDoYuJae]  Pass: Exception "INVALID" is set
+[LeeDoYuJae]  Pass: Exception "INEXACT" is set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is set
+[LeeDoYuJae]Test: Set/Clear FE_UNDERFLOW: clear flag, leave rest set
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is set
+[LeeDoYuJae]  Pass: Exception "INVALID" is set
+[LeeDoYuJae]  Pass: Exception "INEXACT" is set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is not set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is set
+[LeeDoYuJae]Test: Set/Clear FE_OVERFLOW: set flag, with rest not set
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is not set
+[LeeDoYuJae]  Pass: Exception "INVALID" is not set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is not set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is set
+[LeeDoYuJae]Test: Set/Clear FE_OVERFLOW: clear flag, rest also unset
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is not set
+[LeeDoYuJae]  Pass: Exception "INVALID" is not set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is not set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is not set
+[LeeDoYuJae]Test: Set/Clear FE_OVERFLOW: set flag, with rest set
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is set
+[LeeDoYuJae]  Pass: Exception "INVALID" is set
+[LeeDoYuJae]  Pass: Exception "INEXACT" is set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is set
+[LeeDoYuJae]Test: Set/Clear FE_OVERFLOW: clear flag, leave rest set
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is set
+[LeeDoYuJae]  Pass: Exception "INVALID" is set
+[LeeDoYuJae]  Pass: Exception "INEXACT" is set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is not set
+[LeeDoYuJae]Test: after fesetenv (FE_NOMASK_ENV) processes will abort
+[LeeDoYuJae]      when feraiseexcept (FE_DIVBYZERO) is called.
+[LeeDoYuJae]  Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fesetenv (FE_DFL_ENV) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_DIVBYZERO) is called.
+[LeeDoYuJae]  Pass: Process exited normally.
+[LeeDoYuJae]Tests for feenableexcepts etc. with flag FE_DIVBYZERO
+[LeeDoYuJae]Test: after feenableexcept (FE_DIVBYZERO) processes will abort
+[LeeDoYuJae]      when feraiseexcept (FE_DIVBYZERO) is called.
+[LeeDoYuJae]  Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fedisableexcept (FE_DIVBYZERO) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_DIVBYZERO) is called.
+uJae]  Pass: Exception "INVALID" is not set
+[LeeDoYuJae]  Pass: Exception "INEXACT" is not set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is not set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is not set
+[LeeDoYuJae]Test: Set/Clear FE_INEXACT: set flag, with rest set
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is set
+[LeeDoYuJae]  Pass: Exception "INVALID" is set
+[LeeDoYuJae]  Pass: Exception "INEXACT" is set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is set
+[LeeDoYuJae]Test: Set/Clear FE_INEXACT: clear flag, leave rest set
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is set
+[LeeDoYuJae]  Pass: Exception "INVALID" is set
+[LeeDoYuJae]  Pass: Exception "INEXACT" is not set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is set
+[LeeDoYuJae]Test: Set/Clear FE_UNDERFLOW: set flag, with rest not set
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is not set
+[LeeDoYuJae]  Pass: Exception "INVALID" is not set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is not set
+[LeeDoYuJae]Test: Set/Clear FE_UNDERFLOW: clear flag, rest also unset
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is not set
+[LeeDoYuJae]  Pass: Exception "INVALID" is not set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is not set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is not set
+[LeeDoYuJae]Test: Set/Clear FE_UNDERFLOW: set flag, with rest set
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is set
+[LeeDoYuJae]  Pass: Exception "INVALID" is set
+[LeeDoYuJae]  Pass: Exception "INEXACT" is set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is set
+[LeeDoYuJae]Test: Set/Clear FE_UNDERFLOW: clear flag, leave rest set
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is set
+[LeeDoYuJae]  Pass: Exception "INVALID" is set
+[LeeDoYuJae]  Pass: Exception "INEXACT" is set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is not set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is set
+[LeeDoYuJae]Test: Set/Clear FE_OVERFLOW: set flag, with rest not set
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is not set
+[LeeDoYuJae]  Pass: Exception "INVALID" is not set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is not set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is set
+[LeeDoYuJae]Test: Set/Clear FE_OVERFLOW: clear flag, rest also unset
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is not set
+[LeeDoYuJae]  Pass: Exception "INVALID" is not set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is not set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is not set
+[LeeDoYuJae]Test: Set/Clear FE_OVERFLOW: set flag, with rest set
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is set
+[LeeDoYuJae]  Pass: Exception "INVALID" is set
+[LeeDoYuJae]  Pass: Exception "INEXACT" is set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is set
+[LeeDoYuJae]Test: Set/Clear FE_OVERFLOW: clear flag, leave rest set
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is set
+[LeeDoYuJae]  Pass: Exception "INVALID" is set
+[LeeDoYuJae]  Pass: Exception "INEXACT" is set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is not set
+[LeeDoYuJae]Test: after fesetenv (FE_NOMASK_ENV) processes will abort
+[LeeDoYuJae]      when feraiseexcept (FE_DIVBYZERO) is called.
+[LeeDoYuJae]  Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fesetenv (FE_DFL_ENV) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_DIVBYZERO) is called.
+[LeeDoYuJae]  Pass: Process exited normally.
+[LeeDoYuJae]Tests for feenableexcepts etc. with flag FE_DIVBYZERO
+[LeeDoYuJae]Test: after feenableexcept (FE_DIVBYZERO) processes will abort
+[LeeDoYuJae]      when feraiseexcept (FE_DIVBYZERO) is called.
+[LeeDoYuJae]  Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fedisableexcept (FE_DIVBYZERO) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_DIVBYZERO) is called.
+[LeeDoYuJae]  Pass: Process exited normally.
+[LeeDoYuJae]Test: after fesetenv (FE_NOMASK_ENV) processes will abort
+[LeeDoYuJae]      when feraiseexcept (FE_INVALID) is called.
+[LeeDoYuJae]  Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fesetenv (FE_DFL_ENV) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_INVALID) is called.
+Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fesetenv (FE_DFL_ENV) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_INVALID) is called.
+[LeeDoYuJae]  Pass: Process exited normally.
+[LeeDoYuJae]Tests for feenableexcepts etc. with flag FE_INVALID
+[LeeDoYuJae]Test: after feenableexcept (FE_INVALID) processes will abort
+[LeeDoYuJae]      when feraiseexcept (FE_INVALID) is called.
+[LeeDoYuJae]  Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fedisableexcept (FE_INVALID) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_INVALID) is called.
+Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fesetenv (FE_DFL_ENV) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_INVALID) is called.
+[LeeDoYuJae]  Pass: Process exited normally.
+[LeeDoYuJae]Tests for feenableexcepts etc. with flag FE_INVALID
+[LeeDoYuJae]Test: after feenableexcept (FE_INVALID) processes will abort
+[LeeDoYuJae]      when feraiseexcept (FE_INVALID) is called.
+[LeeDoYuJae]  Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fedisableexcept (FE_INVALID) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_INVALID) is called.
+[LeeDoYuJae]  Pass: Process exited normally.
+[LeeDoYuJae]Test: after fesetenv (FE_NOMASK_ENV) processes will abort
+[LeeDoYuJae]      when feraiseexcept (FE_INEXACT) is called.
+[LeeDoYuJae]  Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fesetenv (FE_DFL_ENV) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_INEXACT) is called.
+Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fesetenv (FE_DFL_ENV) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_INVALID) is called.
+[LeeDoYuJae]  Pass: Process exited normally.
+[LeeDoYuJae]Tests for feenableexcepts etc. with flag FE_INVALID
+[LeeDoYuJae]Test: after feenableexcept (FE_INVALID) processes will abort
+[LeeDoYuJae]      when feraiseexcept (FE_INVALID) is called.
+[LeeDoYuJae]  Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fedisableexcept (FE_INVALID) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_INVALID) is called.
+[LeeDoYuJae]  Pass: Process exited normally.
+[LeeDoYuJae]Test: after fesetenv (FE_NOMASK_ENV) processes will abort
+[LeeDoYuJae]      when feraiseexcept (FE_INEXACT) is called.
+[LeeDoYuJae]  Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fesetenv (FE_DFL_ENV) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_INEXACT) is called.
+[LeeDoYuJae]  Pass: Process exited normally.
+[LeeDoYuJae]Tests for feenableexcepts etc. with flag FE_INEXACT
+[LeeDoYuJae]Test: after feenableexcept (FE_INEXACT) processes will abort
+[LeeDoYuJae]      when feraiseexcept (FE_INEXACT) is called.
+[LeeDoYuJae]  Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fedisableexcept (FE_INEXACT) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_INEXACT) is called.
+Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fesetenv (FE_DFL_ENV) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_INVALID) is called.
+[LeeDoYuJae]  Pass: Process exited normally.
+[LeeDoYuJae]Tests for feenableexcepts etc. with flag FE_INVALID
+[LeeDoYuJae]Test: after feenableexcept (FE_INVALID) processes will abort
+[LeeDoYuJae]      when feraiseexcept (FE_INVALID) is called.
+[LeeDoYuJae]  Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fedisableexcept (FE_INVALID) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_INVALID) is called.
+[LeeDoYuJae]  Pass: Process exited normally.
+[LeeDoYuJae]Test: after fesetenv (FE_NOMASK_ENV) processes will abort
+[LeeDoYuJae]      when feraiseexcept (FE_INEXACT) is called.
+[LeeDoYuJae]  Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fesetenv (FE_DFL_ENV) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_INEXACT) is called.
+[LeeDoYuJae]  Pass: Process exited normally.
+[LeeDoYuJae]Tests for feenableexcepts etc. with flag FE_INEXACT
+[LeeDoYuJae]Test: after feenableexcept (FE_INEXACT) processes will abort
+[LeeDoYuJae]      when feraiseexcept (FE_INEXACT) is called.
+[LeeDoYuJae]  Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fedisableexcept (FE_INEXACT) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_INEXACT) is called.
+[LeeDoYuJae]  Pass: Process exited normally.
+[LeeDoYuJae]Test: after fesetenv (FE_NOMASK_ENV) processes will abort
+[LeeDoYuJae]      when feraiseexcept (FE_UNDERFLOW) is called.
+[LeeDoYuJae]  Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fesetenv (FE_DFL_ENV) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_UNDERFLOW) is called.
+Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fesetenv (FE_DFL_ENV) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_INVALID) is called.
+[LeeDoYuJae]  Pass: Process exited normally.
+[LeeDoYuJae]Tests for feenableexcepts etc. with flag FE_INVALID
+[LeeDoYuJae]Test: after feenableexcept (FE_INVALID) processes will abort
+[LeeDoYuJae]      when feraiseexcept (FE_INVALID) is called.
+[LeeDoYuJae]  Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fedisableexcept (FE_INVALID) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_INVALID) is called.
+[LeeDoYuJae]  Pass: Process exited normally.
+[LeeDoYuJae]Test: after fesetenv (FE_NOMASK_ENV) processes will abort
+[LeeDoYuJae]      when feraiseexcept (FE_INEXACT) is called.
+[LeeDoYuJae]  Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fesetenv (FE_DFL_ENV) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_INEXACT) is called.
+[LeeDoYuJae]  Pass: Process exited normally.
+[LeeDoYuJae]Tests for feenableexcepts etc. with flag FE_INEXACT
+[LeeDoYuJae]Test: after feenableexcept (FE_INEXACT) processes will abort
+[LeeDoYuJae]      when feraiseexcept (FE_INEXACT) is called.
+[LeeDoYuJae]  Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fedisableexcept (FE_INEXACT) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_INEXACT) is called.
+[LeeDoYuJae]  Pass: Process exited normally.
+[LeeDoYuJae]Test: after fesetenv (FE_NOMASK_ENV) processes will abort
+[LeeDoYuJae]      when feraiseexcept (FE_UNDERFLOW) is called.
+[LeeDoYuJae]  Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fesetenv (FE_DFL_ENV) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_UNDERFLOW) is called.
+[LeeDoYuJae]  Pass: Process exited normally.
+[LeeDoYuJae]Tests for feenableexcepts etc. with flag FE_UNDERFLOW
+[LeeDoYuJae]Test: after feenableexcept (FE_UNDERFLOW) processes will abort
+[LeeDoYuJae]      when feraiseexcept (FE_UNDERFLOW) is called.
+[LeeDoYuJae]  Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fedisableexcept (FE_UNDERFLOW) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_UNDERFLOW) is called.
+Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fesetenv (FE_DFL_ENV) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_INVALID) is called.
+[LeeDoYuJae]  Pass: Process exited normally.
+[LeeDoYuJae]Tests for feenableexcepts etc. with flag FE_INVALID
+[LeeDoYuJae]Test: after feenableexcept (FE_INVALID) processes will abort
+[LeeDoYuJae]      when feraiseexcept (FE_INVALID) is called.
+[LeeDoYuJae]  Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fedisableexcept (FE_INVALID) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_INVALID) is called.
+[LeeDoYuJae]  Pass: Process exited normally.
+[LeeDoYuJae]Test: after fesetenv (FE_NOMASK_ENV) processes will abort
+[LeeDoYuJae]      when feraiseexcept (FE_INEXACT) is called.
+[LeeDoYuJae]  Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fesetenv (FE_DFL_ENV) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_INEXACT) is called.
+[LeeDoYuJae]  Pass: Process exited normally.
+[LeeDoYuJae]Tests for feenableexcepts etc. with flag FE_INEXACT
+[LeeDoYuJae]Test: after feenableexcept (FE_INEXACT) processes will abort
+[LeeDoYuJae]      when feraiseexcept (FE_INEXACT) is called.
+[LeeDoYuJae]  Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fedisableexcept (FE_INEXACT) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_INEXACT) is called.
+[LeeDoYuJae]  Pass: Process exited normally.
+[LeeDoYuJae]Test: after fesetenv (FE_NOMASK_ENV) processes will abort
+[LeeDoYuJae]      when feraiseexcept (FE_UNDERFLOW) is called.
+[LeeDoYuJae]  Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fesetenv (FE_DFL_ENV) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_UNDERFLOW) is called.
+[LeeDoYuJae]  Pass: Process exited normally.
+[LeeDoYuJae]Tests for feenableexcepts etc. with flag FE_UNDERFLOW
+[LeeDoYuJae]Test: after feenableexcept (FE_UNDERFLOW) processes will abort
+[LeeDoYuJae]      when feraiseexcept (FE_UNDERFLOW) is called.
+[LeeDoYuJae]  Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fedisableexcept (FE_UNDERFLOW) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_UNDERFLOW) is called.
+[LeeDoYuJae]  Pass: Process exited normally.
+[LeeDoYuJae]Test: after fesetenv (FE_NOMASK_ENV) processes will abort
+[LeeDoYuJae]      when feraiseexcept (FE_OVERFLOW) is called.
+[LeeDoYuJae]  Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fesetenv (FE_DFL_ENV) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_OVERFLOW) is called.
+Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fesetenv (FE_DFL_ENV) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_INVALID) is called.
+[LeeDoYuJae]  Pass: Process exited normally.
+[LeeDoYuJae]Tests for feenableexcepts etc. with flag FE_INVALID
+[LeeDoYuJae]Test: after feenableexcept (FE_INVALID) processes will abort
+[LeeDoYuJae]      when feraiseexcept (FE_INVALID) is called.
+[LeeDoYuJae]  Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fedisableexcept (FE_INVALID) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_INVALID) is called.
+[LeeDoYuJae]  Pass: Process exited normally.
+[LeeDoYuJae]Test: after fesetenv (FE_NOMASK_ENV) processes will abort
+[LeeDoYuJae]      when feraiseexcept (FE_INEXACT) is called.
+[LeeDoYuJae]  Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fesetenv (FE_DFL_ENV) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_INEXACT) is called.
+[LeeDoYuJae]  Pass: Process exited normally.
+[LeeDoYuJae]Tests for feenableexcepts etc. with flag FE_INEXACT
+[LeeDoYuJae]Test: after feenableexcept (FE_INEXACT) processes will abort
+[LeeDoYuJae]      when feraiseexcept (FE_INEXACT) is called.
+[LeeDoYuJae]  Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fedisableexcept (FE_INEXACT) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_INEXACT) is called.
+[LeeDoYuJae]  Pass: Process exited normally.
+[LeeDoYuJae]Test: after fesetenv (FE_NOMASK_ENV) processes will abort
+[LeeDoYuJae]      when feraiseexcept (FE_UNDERFLOW) is called.
+[LeeDoYuJae]  Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fesetenv (FE_DFL_ENV) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_UNDERFLOW) is called.
+[LeeDoYuJae]  Pass: Process exited normally.
+[LeeDoYuJae]Tests for feenableexcepts etc. with flag FE_UNDERFLOW
+[LeeDoYuJae]Test: after feenableexcept (FE_UNDERFLOW) processes will abort
+[LeeDoYuJae]      when feraiseexcept (FE_UNDERFLOW) is called.
+[LeeDoYuJae]  Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fedisableexcept (FE_UNDERFLOW) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_UNDERFLOW) is called.
+[LeeDoYuJae]  Pass: Process exited normally.
+[LeeDoYuJae]Test: after fesetenv (FE_NOMASK_ENV) processes will abort
+[LeeDoYuJae]      when feraiseexcept (FE_OVERFLOW) is called.
+[LeeDoYuJae]  Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fesetenv (FE_DFL_ENV) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_OVERFLOW) is called.
+[LeeDoYuJae]  Pass: Process exited normally.
+[LeeDoYuJae]Tests for feenableexcepts etc. with flag FE_OVERFLOW
+[LeeDoYuJae]Test: after feenableexcept (FE_OVERFLOW) processes will abort
+[LeeDoYuJae]      when feraiseexcept (FE_OVERFLOW) is called.
+[LeeDoYuJae]  Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fedisableexcept (FE_OVERFLOW) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_OVERFLOW) is called.
+Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fesetenv (FE_DFL_ENV) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_INVALID) is called.
+[LeeDoYuJae]  Pass: Process exited normally.
+[LeeDoYuJae]Tests for feenableexcepts etc. with flag FE_INVALID
+[LeeDoYuJae]Test: after feenableexcept (FE_INVALID) processes will abort
+[LeeDoYuJae]      when feraiseexcept (FE_INVALID) is called.
+[LeeDoYuJae]  Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fedisableexcept (FE_INVALID) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_INVALID) is called.
+[LeeDoYuJae]  Pass: Process exited normally.
+[LeeDoYuJae]Test: after fesetenv (FE_NOMASK_ENV) processes will abort
+[LeeDoYuJae]      when feraiseexcept (FE_INEXACT) is called.
+[LeeDoYuJae]  Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fesetenv (FE_DFL_ENV) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_INEXACT) is called.
+[LeeDoYuJae]  Pass: Process exited normally.
+[LeeDoYuJae]Tests for feenableexcepts etc. with flag FE_INEXACT
+[LeeDoYuJae]Test: after feenableexcept (FE_INEXACT) processes will abort
+[LeeDoYuJae]      when feraiseexcept (FE_INEXACT) is called.
+[LeeDoYuJae]  Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fedisableexcept (FE_INEXACT) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_INEXACT) is called.
+[LeeDoYuJae]  Pass: Process exited normally.
+[LeeDoYuJae]Test: after fesetenv (FE_NOMASK_ENV) processes will abort
+[LeeDoYuJae]      when feraiseexcept (FE_UNDERFLOW) is called.
+[LeeDoYuJae]  Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fesetenv (FE_DFL_ENV) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_UNDERFLOW) is called.
+[LeeDoYuJae]  Pass: Process exited normally.
+[LeeDoYuJae]Tests for feenableexcepts etc. with flag FE_UNDERFLOW
+[LeeDoYuJae]Test: after feenableexcept (FE_UNDERFLOW) processes will abort
+[LeeDoYuJae]      when feraiseexcept (FE_UNDERFLOW) is called.
+[LeeDoYuJae]  Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fedisableexcept (FE_UNDERFLOW) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_UNDERFLOW) is called.
+[LeeDoYuJae]  Pass: Process exited normally.
+[LeeDoYuJae]Test: after fesetenv (FE_NOMASK_ENV) processes will abort
+[LeeDoYuJae]      when feraiseexcept (FE_OVERFLOW) is called.
+[LeeDoYuJae]  Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fesetenv (FE_DFL_ENV) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_OVERFLOW) is called.
+[LeeDoYuJae]  Pass: Process exited normally.
+[LeeDoYuJae]Tests for feenableexcepts etc. with flag FE_OVERFLOW
+[LeeDoYuJae]Test: after feenableexcept (FE_OVERFLOW) processes will abort
+[LeeDoYuJae]      when feraiseexcept (FE_OVERFLOW) is called.
+[LeeDoYuJae]  Pass: Process received SIGFPE.
+[LeeDoYuJae]Test: after fedisableexcept (FE_OVERFLOW) processes will not abort
+[LeeDoYuJae]      when feraiseexcept (FE_OVERFLOW) is called.
+[LeeDoYuJae]  Pass: Process exited normally.
+[LeeDoYuJae]Test: feholdexcept_tests FE_DIVBYZERO test
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is set
+[LeeDoYuJae]  Pass: Exception "INVALID" is not set
+[LeeDoYuJae]  Pass: Exception "INEXACT" is not set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is not set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is not set
+[LeeDoYuJae]Test: feholdexcept_tests 0 test
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is not set
+[LeeDoYuJae]  Pass: Exception "INVALID" is not set
+[LeeDoYuJae]  Pass: Exception "INEXACT" is not set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is not set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is not set
+[LeeDoYuJae]Test: feholdexcept_tests FE_INVALID test
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is not set
+[LeeDoYuJae]  Pass: Exception "INVALID" is set
+[LeeDoYuJae]  Pass: Exception "INEXACT" is not set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is not set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is not set
+[LeeDoYuJae]Test: feholdexcept_tests FE_DIVBYZERO|FE_INVALID test
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is set
+[LeeDoYuJae]  Pass: Exception "INVALID" is set
+[LeeDoYuJae]  Pass: Exception "INEXACT" is not set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is not set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is not set
+[LeeDoYuJae]Test: feholdexcept_tests 0 2nd test
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is not set
+[LeeDoYuJae]  Pass: Exception "INVALID" is not set
+[LeeDoYuJae]  Pass: Exception "INEXACT" is not set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is not set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is not set
+[LeeDoYuJae]Test: feholdexcept_tests FE_INEXACT test
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is not set
+[LeeDoYuJae]  Pass: Exception "INVALID" is not set
+[LeeDoYuJae]  Pass: Exception "INEXACT" is set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is not set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is not set
+[LeeDoYuJae]Test: feholdexcept_tests FE_INEXACT|FE_INVALID test
+[LeeDoYuJae]  Pass: Exception "DIVBYZERO" is not set
+[LeeDoYuJae]  Pass: Exception "INVALID" is set
+[LeeDoYuJae]  Pass: Exception "INEXACT" is set
+[LeeDoYuJae]  Pass: Exception "UNDERFLOW" is not set
+[LeeDoYuJae]  Pass: Exception "OVERFLOW" is not set
+[LeeDoYuJae]
+ All tests passed successfully.

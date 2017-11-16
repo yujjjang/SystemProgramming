@@ -1,0 +1,3 @@
+[LeeDoYuJae](fileno (stdin) = 0) == 0
+[LeeDoYuJae](fileno (stdout) = 1) == 1
+[LeeDoYuJae](fileno (stderr) = 2) == 2

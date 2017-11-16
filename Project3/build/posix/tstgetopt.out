@@ -1,0 +1,5 @@
+[LeeDoYuJae]--required foobar
+[LeeDoYuJae]--optional bazbug
+[LeeDoYuJae]--none
+[LeeDoYuJae]aflag = 1, bflag = 1, cvalue = foobar, Cflags = 3, nflag = 1
+[LeeDoYuJae]Non-option argument random

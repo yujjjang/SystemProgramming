@@ -1,0 +1,8 @@
+PASS: setjmp/bug269-setjmp
+PASS: setjmp/check-installed-headers-c
+PASS: setjmp/check-installed-headers-cxx
+PASS: setjmp/jmpbug
+PASS: setjmp/tst-setjmp
+PASS: setjmp/tst-setjmp-fp
+PASS: setjmp/tst-setjmp-static
+PASS: setjmp/tst-sigsetjmp

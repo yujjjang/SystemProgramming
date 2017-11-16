@@ -1,0 +1,6 @@
+[LeeDoYuJae]Called dummy2()
+[LeeDoYuJae]Called dummy2()
+[LeeDoYuJae]Called dummy2()
+[LeeDoYuJae]Called dummy1()
+[LeeDoYuJae]Returned result is 1
+[LeeDoYuJae]PASS: Function call_func() called more than once.

@@ -1,0 +1,4 @@
+[LeeDoYuJae]&cond = 0x6031a0
+&mut = 0x6031e0
+[LeeDoYuJae]create thread 0
+[LeeDoYuJae]Didn't expect signal from child: got `Segmentation fault'

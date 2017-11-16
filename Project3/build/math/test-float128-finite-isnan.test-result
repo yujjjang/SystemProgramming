@@ -1,0 +1,2 @@
+PASS: math/test-float128-finite-isnan
+original exit status 0

@@ -1,0 +1,45 @@
+[LeeDoYuJae]strptime ("2000-01-01", "%Y-%m-%d", ...)
+	should be: wday = 6, yday =   0, mon =  0, mday =  1
+	       is: wday = 6, yday =   0, mon =  0, mday =  1
+[LeeDoYuJae]strptime ("03/03/00", "%D", ...)
+	should be: wday = 5, yday =  62, mon =  2, mday =  3
+	       is: wday = 5, yday =  62, mon =  2, mday =  3
+[LeeDoYuJae]strptime ("9/9/99", "%x", ...)
+	should be: wday = 4, yday = 251, mon =  8, mday =  9
+	       is: wday = 4, yday = 251, mon =  8, mday =  9
+[LeeDoYuJae]strptime ("19990502123412", "%Y%m%d%H%M%S", ...)
+	should be: wday = 0, yday = 121, mon =  4, mday =  2
+	       is: wday = 0, yday = 121, mon =  4, mday =  2
+[LeeDoYuJae]strptime ("2001 20 Mon", "%Y %U %a", ...)
+	should be: wday = 1, yday = 140, mon =  4, mday = 21
+	       is: wday = 1, yday = 140, mon =  4, mday = 21
+[LeeDoYuJae]strptime ("2001 21 Mon", "%Y %W %a", ...)
+	should be: wday = 1, yday = 140, mon =  4, mday = 21
+	       is: wday = 1, yday = 140, mon =  4, mday = 21
+[LeeDoYuJae]strptime ("2001 21 Mon", "%2000Y %W %a", ...)
+	should be: wday = 1, yday = 140, mon =  4, mday = 21
+	       is: wday = 1, yday = 140, mon =  4, mday = 21
+[LeeDoYuJae]strptime ("2001 21 Mon", "%^Y %W %a", ...)
+	should be: wday = 1, yday = 140, mon =  4, mday = 21
+	       is: wday = 1, yday = 140, mon =  4, mday = 21
+[LeeDoYuJae]strptime ("2001 EST 21 Mon", "%Y %Z %W %a", ...)
+	should be: wday = 1, yday = 140, mon =  4, mday = 21
+	       is: wday = 1, yday = 140, mon =  4, mday = 21
+[LeeDoYuJae]strptime ("2012 00 Sun", "%Y %W %a", ...)
+	should be: wday = 0, yday =   0, mon =  0, mday =  1
+	       is: wday = 0, yday =   0, mon =  0, mday =  1
+[LeeDoYuJae]strptime ("2000-01-01 08:12:21 AM", "%Y-%m-%d %I:%M:%S %p", ...)
+	should be: wday = 6, yday =   0, mon =  0, mday =  1
+	       is: wday = 6, yday =   0, mon =  0, mday =  1
+[LeeDoYuJae]strptime ("2000-01-01 08:12:21 PM", "%Y-%m-%d %I:%M:%S %p", ...)
+	should be: wday = 6, yday =   0, mon =  0, mday =  1
+	       is: wday = 6, yday =   0, mon =  0, mday =  1
+[LeeDoYuJae]strptime ("2001 20 ·î", "%Y %U %a", ...)
+	should be: wday = 1, yday = 140, mon =  4, mday = 21
+	       is: wday = 1, yday = 140, mon =  4, mday = 21
+[LeeDoYuJae]strptime ("2001 21 ·î", "%Y %W %a", ...)
+	should be: wday = 1, yday = 140, mon =  4, mday = 21
+	       is: wday = 1, yday = 140, mon =  4, mday = 21
+[LeeDoYuJae]strptime ("17410105012000", "%H%M%S%d%m%Y", ...)
+	should be: 2000-01-05 17:41:01, wday = 3, yday =   4
+	       is: 2000-01-05 17:41:01, wday = 3, yday =   4

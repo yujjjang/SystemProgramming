@@ -1,0 +1,2 @@
+FAIL: stdlib/tst-thread-quick_exit
+original exit status 127

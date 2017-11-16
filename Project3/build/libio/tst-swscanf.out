@@ -1,0 +1,40 @@
+[LeeDoYuJae]
+new locale: "C"
+[LeeDoYuJae]swscanf ("aabbccddaabb", "%[abc]", ...) OK
+[LeeDoYuJae]swscanf ("aabbccddaabb", "%l[abc]", ...) OK
+[LeeDoYuJae]swscanf ("aabbccddaabb", "%[^def]", ...) OK
+[LeeDoYuJae]swscanf ("aabbccddaabb", "%l[^def]", ...) OK
+[LeeDoYuJae]swscanf ("aabbccddaabb", "%[^abc]", ...) OK
+[LeeDoYuJae]swscanf ("aabbccddaabb", "%l[^abc]", ...) OK
+[LeeDoYuJae]swscanf ("aabbccddaabb", "%[a-c]", ...) OK
+[LeeDoYuJae]swscanf ("aabbccddaabb", "%l[a-c]", ...) OK
+[LeeDoYuJae]swscanf ("aabbccddaabb", "%[^d-f]", ...) OK
+[LeeDoYuJae]swscanf ("aabbccddaabb", "%l[^d-f]", ...) OK
+[LeeDoYuJae]swscanf ("aabbccddaabb", "%[^a-c]", ...) OK
+[LeeDoYuJae]swscanf ("aabbccddaabb", "%l[^a-c]", ...) OK
+[LeeDoYuJae]swscanf ("bbccddaabb", "%[^a-c]", ...) OK
+[LeeDoYuJae]swscanf ("bbccddaabb", "%l[^a-c]", ...) OK
+[LeeDoYuJae]
+new locale: "de_DE.ISO-8859-1"
+[LeeDoYuJae]swscanf ("aabbccddaabb", "%[abc]", ...) OK
+[LeeDoYuJae]swscanf ("aabbccddaabb", "%l[abc]", ...) OK
+[LeeDoYuJae]swscanf ("aabbccddaabb", "%[^def]", ...) OK
+[LeeDoYuJae]swscanf ("aabbccddaabb", "%l[^def]", ...) OK
+[LeeDoYuJae]swscanf ("aabbccddaabb", "%[^abc]", ...) OK
+[LeeDoYuJae]swscanf ("aabbccddaabb", "%l[^abc]", ...) OK
+[LeeDoYuJae]
+new locale: "de_DE.UTF-8"
+[LeeDoYuJae]swscanf ("aabbccddaabb", "%[abc]", ...) OK
+[LeeDoYuJae]swscanf ("aabbccddaabb", "%l[abc]", ...) OK
+[LeeDoYuJae]swscanf ("aabbccddaabb", "%[^def]", ...) OK
+[LeeDoYuJae]swscanf ("aabbccddaabb", "%l[^def]", ...) OK
+[LeeDoYuJae]swscanf ("aabbccddaabb", "%[^abc]", ...) OK
+[LeeDoYuJae]swscanf ("aabbccddaabb", "%l[^abc]", ...) OK
+[LeeDoYuJae]
+new locale: "ja_JP.EUC-JP"
+[LeeDoYuJae]swscanf ("aabbccddaabb", "%[abc]", ...) OK
+[LeeDoYuJae]swscanf ("aabbccddaabb", "%l[abc]", ...) OK
+[LeeDoYuJae]swscanf ("aabbccddaabb", "%[^def]", ...) OK
+[LeeDoYuJae]swscanf ("aabbccddaabb", "%l[^def]", ...) OK
+[LeeDoYuJae]swscanf ("aabbccddaabb", "%[^abc]", ...) OK
+[LeeDoYuJae]swscanf ("aabbccddaabb", "%l[^abc]", ...) OK

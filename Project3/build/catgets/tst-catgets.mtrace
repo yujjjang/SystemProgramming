@@ -1,0 +1,67 @@
+= Start
+@ /home/sysprog/glibc/build/libc.so.6:(catopen+0xee)[0x7fb0240ad38e] + 0x7fb0256346a0 0xbd
+@ /home/sysprog/glibc/build/libc.so.6:(catopen+0x2f)[0x7fb0240ad2cf] + 0x7fb025634770 0x38
+@ /home/sysprog/glibc/build/libc.so.6:(__open_catalog+0x27e)[0x7fb0240ad7ce] + 0x7fb0256347b0 0x101
+@ /home/sysprog/glibc/build/libc.so.6:(__open_catalog+0x18e)[0x7fb0240ad6de] - 0x7fb0256347b0
+@ /home/sysprog/glibc/build/libc.so.6:(catopen+0x58)[0x7fb0240ad2f8] - 0x7fb0256346a0
+@ /home/sysprog/glibc/build/libc.so.6:(catclose+0x26)[0x7fb0240ad516] - 0x7fb025634770
+@ /home/sysprog/glibc/build/libc.so.6:(catopen+0xee)[0x7fb0240ad38e] + 0x7fb0256346a0 0xbd
+@ /home/sysprog/glibc/build/libc.so.6:(catopen+0x2f)[0x7fb0240ad2cf] + 0x7fb025634770 0x38
+@ /home/sysprog/glibc/build/libc.so.6:(__open_catalog+0x27e)[0x7fb0240ad7ce] + 0x7fb0256347b0 0x101
+@ /home/sysprog/glibc/build/libc.so.6:(__open_catalog+0x18e)[0x7fb0240ad6de] - 0x7fb0256347b0
+@ /home/sysprog/glibc/build/libc.so.6:(catopen+0x58)[0x7fb0240ad2f8] - 0x7fb0256346a0
+@ /home/sysprog/glibc/build/libc.so.6:(catclose+0x26)[0x7fb0240ad516] - 0x7fb025634770
+@ /home/sysprog/glibc/build/libc.so.6:(catopen+0xee)[0x7fb0240ad38e] + 0x7fb0256346a0 0xbd
+@ /home/sysprog/glibc/build/libc.so.6:(catopen+0x2f)[0x7fb0240ad2cf] + 0x7fb025634770 0x38
+@ /home/sysprog/glibc/build/libc.so.6:(__open_catalog+0x27e)[0x7fb0240ad7ce] + 0x7fb0256347b0 0x101
+@ /home/sysprog/glibc/build/libc.so.6:(__open_catalog+0x18e)[0x7fb0240ad6de] - 0x7fb0256347b0
+@ /home/sysprog/glibc/build/libc.so.6:(catopen+0x58)[0x7fb0240ad2f8] - 0x7fb0256346a0
+@ /home/sysprog/glibc/build/libc.so.6:(catclose+0x26)[0x7fb0240ad516] - 0x7fb025634770
+@ /home/sysprog/glibc/build/libc.so.6:(catopen+0xee)[0x7fb0240ad38e] + 0x7fb0256346a0 0xbd
+@ /home/sysprog/glibc/build/libc.so.6:(catopen+0x2f)[0x7fb0240ad2cf] + 0x7fb025634770 0x38
+@ /home/sysprog/glibc/build/libc.so.6:(__open_catalog+0x27e)[0x7fb0240ad7ce] + 0x7fb0256347b0 0x101
+@ /home/sysprog/glibc/build/libc.so.6:(__open_catalog+0x18e)[0x7fb0240ad6de] - 0x7fb0256347b0
+@ /home/sysprog/glibc/build/libc.so.6:(catopen+0x58)[0x7fb0240ad2f8] - 0x7fb0256346a0
+@ /home/sysprog/glibc/build/libc.so.6:(catclose+0x26)[0x7fb0240ad516] - 0x7fb025634770
+@ /home/sysprog/glibc/build/libc.so.6:(catopen+0xee)[0x7fb0240ad38e] + 0x7fb0256346a0 0xbd
+@ /home/sysprog/glibc/build/libc.so.6:(catopen+0x2f)[0x7fb0240ad2cf] + 0x7fb025634770 0x38
+@ /home/sysprog/glibc/build/libc.so.6:(__open_catalog+0x27e)[0x7fb0240ad7ce] + 0x7fb0256347b0 0x101
+@ /home/sysprog/glibc/build/libc.so.6:(__open_catalog+0x18e)[0x7fb0240ad6de] - 0x7fb0256347b0
+@ /home/sysprog/glibc/build/libc.so.6:(catopen+0x58)[0x7fb0240ad2f8] - 0x7fb0256346a0
+@ /home/sysprog/glibc/build/libc.so.6:(catclose+0x26)[0x7fb0240ad516] - 0x7fb025634770
+@ /home/sysprog/glibc/build/catgets/tst-catgets:[0x40141e] + 0x7fb02454c010 0x100001
+@ /home/sysprog/glibc/build/libc.so.6:[0x7fb0240b165e] + 0x7fb023f7a010 0x100009
+@ /home/sysprog/glibc/build/libc.so.6:(tsearch+0xdf)[0x7fb0241678cf] + 0x7fb0256348c0 0x18
+@ /home/sysprog/glibc/build/libc.so.6:(catopen+0xee)[0x7fb0240ad38e] + 0x7fb023e79010 0x100092
+@ /home/sysprog/glibc/build/libc.so.6:(catopen+0x2f)[0x7fb0240ad2cf] + 0x7fb025634770 0x38
+@ /home/sysprog/glibc/build/libc.so.6:(__open_catalog+0x27e)[0x7fb0240ad7ce] + 0x7fb0256347b0 0x101
+@ /home/sysprog/glibc/build/libc.so.6:(__open_catalog+0x27e)[0x7fb0240ad7ce] < 0x7fb0256347b0
+@ /home/sysprog/glibc/build/libc.so.6:(__open_catalog+0x27e)[0x7fb0240ad7ce] > 0x7fb0256348e0 0x202
+@ /home/sysprog/glibc/build/libc.so.6:(__open_catalog+0x27e)[0x7fb0240ad7ce] < 0x7fb0256348e0
+@ /home/sysprog/glibc/build/libc.so.6:(__open_catalog+0x27e)[0x7fb0240ad7ce] > 0x7fb0256348e0 0x404
+@ /home/sysprog/glibc/build/libc.so.6:(__open_catalog+0x27e)[0x7fb0240ad7ce] < 0x7fb0256348e0
+@ /home/sysprog/glibc/build/libc.so.6:(__open_catalog+0x27e)[0x7fb0240ad7ce] > 0x7fb0256348e0 0x808
+@ /home/sysprog/glibc/build/libc.so.6:(__open_catalog+0x27e)[0x7fb0240ad7ce] < 0x7fb0256348e0
+@ /home/sysprog/glibc/build/libc.so.6:(__open_catalog+0x27e)[0x7fb0240ad7ce] > 0x7fb0256348e0 0x1010
+@ /home/sysprog/glibc/build/libc.so.6:(__open_catalog+0x27e)[0x7fb0240ad7ce] < 0x7fb0256348e0
+@ /home/sysprog/glibc/build/libc.so.6:(__open_catalog+0x27e)[0x7fb0240ad7ce] > 0x7fb0256348e0 0x2020
+@ /home/sysprog/glibc/build/libc.so.6:(__open_catalog+0x27e)[0x7fb0240ad7ce] < 0x7fb0256348e0
+@ /home/sysprog/glibc/build/libc.so.6:(__open_catalog+0x27e)[0x7fb0240ad7ce] > 0x7fb0256348e0 0x4040
+@ /home/sysprog/glibc/build/libc.so.6:(__open_catalog+0x27e)[0x7fb0240ad7ce] < 0x7fb0256348e0
+@ /home/sysprog/glibc/build/libc.so.6:(__open_catalog+0x27e)[0x7fb0240ad7ce] > 0x7fb0256348e0 0x8080
+@ /home/sysprog/glibc/build/libc.so.6:(__open_catalog+0x27e)[0x7fb0240ad7ce] < 0x7fb0256348e0
+@ /home/sysprog/glibc/build/libc.so.6:(__open_catalog+0x27e)[0x7fb0240ad7ce] > 0x7fb0256348e0 0x10100
+@ /home/sysprog/glibc/build/libc.so.6:(__open_catalog+0x27e)[0x7fb0240ad7ce] < 0x7fb0256348e0
+@ /home/sysprog/glibc/build/libc.so.6:(__open_catalog+0x27e)[0x7fb0240ad7ce] > 0x7fb0256348e0 0x20200
+@ /home/sysprog/glibc/build/libc.so.6:(__open_catalog+0x27e)[0x7fb0240ad7ce] < 0x7fb0256348e0
+@ /home/sysprog/glibc/build/libc.so.6:(__open_catalog+0x27e)[0x7fb0240ad7ce] > 0x7fb02450b010 0x40400
+@ /home/sysprog/glibc/build/libc.so.6:(__open_catalog+0x27e)[0x7fb0240ad7ce] < 0x7fb02450b010
+@ /home/sysprog/glibc/build/libc.so.6:(__open_catalog+0x27e)[0x7fb0240ad7ce] > 0x7fb02448a010 0x80800
+@ /home/sysprog/glibc/build/libc.so.6:(__open_catalog+0x27e)[0x7fb0240ad7ce] < 0x7fb02448a010
+@ /home/sysprog/glibc/build/libc.so.6:(__open_catalog+0x27e)[0x7fb0240ad7ce] > 0x7fb023d77010 0x101000
+@ /home/sysprog/glibc/build/libc.so.6:(__open_catalog+0xf8)[0x7fb0240ad648] - 0x7fb023d77010
+@ /home/sysprog/glibc/build/libc.so.6:(catopen+0x77)[0x7fb0240ad317] - 0x7fb025634770
+@ /home/sysprog/glibc/build/libc.so.6:(catopen+0x58)[0x7fb0240ad2f8] - 0x7fb023e79010
+@ /home/sysprog/glibc/build/catgets/tst-catgets:[0x401467] - 0x7fb02454c010
+@ /home/sysprog/glibc/build/libc.so.6:[0x7fb024167671] - 0x7fb023f7a010
+@ /home/sysprog/glibc/build/libc.so.6:[0x7fb0241d46dc] - 0x7fb0256348c0

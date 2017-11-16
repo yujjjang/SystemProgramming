@@ -1,0 +1,656 @@
+[LeeDoYuJae]  1: fnmatch ("!#%+,-./01234567889", "!#%+,-./01234567889", 0) = 0
+[LeeDoYuJae]  2: fnmatch (":;=@ABCDEFGHIJKLMNO", ":;=@ABCDEFGHIJKLMNO", 0) = 0
+[LeeDoYuJae]  3: fnmatch ("PQRSTUVWXYZ]abcdefg", "PQRSTUVWXYZ]abcdefg", 0) = 0
+[LeeDoYuJae]  4: fnmatch ("hijklmnopqrstuvwxyz", "hijklmnopqrstuvwxyz", 0) = 0
+[LeeDoYuJae]  5: fnmatch ("^_{}~", "^_{}~", 0) = 0
+[LeeDoYuJae]  6: fnmatch ("\\\"\\$\\&\\'\\(\\)", "\"$&'()", 0) = 0
+[LeeDoYuJae]  7: fnmatch ("\\*\\?\\[\\\\\\`\\|", "*?[\\`|", 0) = 0
+[LeeDoYuJae]  8: fnmatch ("\\<\\>", "<>", 0) = 0
+[LeeDoYuJae]  9: fnmatch ("[?*[][?*[][?*[]", "?*[", 0) = 0
+[LeeDoYuJae] 10: fnmatch ("?/b", "a/b", 0) = 0
+[LeeDoYuJae] 11: fnmatch ("a?b", "a/b", 0) = 0
+[LeeDoYuJae] 12: fnmatch ("a/?", "a/b", 0) = 0
+[LeeDoYuJae] 13: fnmatch ("?/b", "aa/b", 0) = FNM_NOMATCH
+[LeeDoYuJae] 14: fnmatch ("a?b", "aa/b", 0) = FNM_NOMATCH
+[LeeDoYuJae] 15: fnmatch ("a/?", "a/bb", 0) = FNM_NOMATCH
+[LeeDoYuJae] 16: fnmatch ("[abc]", "abc", 0) = FNM_NOMATCH
+[LeeDoYuJae] 17: fnmatch ("[abc]", "x", 0) = FNM_NOMATCH
+[LeeDoYuJae] 18: fnmatch ("[abc]", "a", 0) = 0
+[LeeDoYuJae] 19: fnmatch ("[[abc]", "[", 0) = 0
+[LeeDoYuJae] 20: fnmatch ("[][abc]", "a", 0) = 0
+[LeeDoYuJae] 21: fnmatch ("[]a]]", "a]", 0) = 0
+[LeeDoYuJae] 22: fnmatch ("[!abc]", "xyz", 0) = FNM_NOMATCH
+[LeeDoYuJae] 23: fnmatch ("[!abc]", "x", 0) = 0
+[LeeDoYuJae] 24: fnmatch ("[!abc]", "a", 0) = FNM_NOMATCH
+[LeeDoYuJae] 25: fnmatch ("[][abc]", "]", 0) = 0
+[LeeDoYuJae] 26: fnmatch ("[][abc]", "abc]", 0) = FNM_NOMATCH
+[LeeDoYuJae] 27: fnmatch ("[][]abc", "[]abc", 0) = FNM_NOMATCH
+[LeeDoYuJae] 28: fnmatch ("[!]]", "]", 0) = FNM_NOMATCH
+[LeeDoYuJae] 29: fnmatch ("[!]a]", "aa]", 0) = FNM_NOMATCH
+[LeeDoYuJae] 30: fnmatch ("[!a]", "]", 0) = 0
+[LeeDoYuJae] 31: fnmatch ("[!a]]", "]]", 0) = 0
+[LeeDoYuJae] 32: fnmatch ("[[.a.]]", "a", 0) = 0
+[LeeDoYuJae] 33: fnmatch ("[[.-.]]", "-", 0) = 0
+[LeeDoYuJae] 34: fnmatch ("[[.-.][.].]]", "-", 0) = 0
+[LeeDoYuJae] 35: fnmatch ("[[.].][.-.]]", "-", 0) = 0
+[LeeDoYuJae] 36: fnmatch ("[[.-.][=u=]]", "-", 0) = 0
+[LeeDoYuJae] 37: fnmatch ("[[.-.][:alpha:]]", "-", 0) = 0
+[LeeDoYuJae] 38: fnmatch ("[![.a.]]", "a", 0) = FNM_NOMATCH
+[LeeDoYuJae] 39: fnmatch ("[[.b.]]", "a", 0) = FNM_NOMATCH
+[LeeDoYuJae] 40: fnmatch ("[[.b.][.c.]]", "a", 0) = FNM_NOMATCH
+[LeeDoYuJae] 41: fnmatch ("[[.b.][=b=]]", "a", 0) = FNM_NOMATCH
+[LeeDoYuJae] 42: fnmatch ("[[=a=]]", "a", 0) = 0
+[LeeDoYuJae] 43: fnmatch ("[[=a=]b]", "b", 0) = 0
+[LeeDoYuJae] 44: fnmatch ("[[=a=][=b=]]", "b", 0) = 0
+[LeeDoYuJae] 45: fnmatch ("[[=a=][=b=]]", "a", 0) = 0
+[LeeDoYuJae] 46: fnmatch ("[[=a=][.b.]]", "a", 0) = 0
+[LeeDoYuJae] 47: fnmatch ("[[=a=][:digit:]]", "a", 0) = 0
+[LeeDoYuJae] 48: fnmatch ("[[=a=]b]", "=", 0) = FNM_NOMATCH
+[LeeDoYuJae] 49: fnmatch ("[[=a=]b]", "]", 0) = FNM_NOMATCH
+[LeeDoYuJae] 50: fnmatch ("[[=b=][=c=]]", "a", 0) = FNM_NOMATCH
+[LeeDoYuJae] 51: fnmatch ("[[=b=][.].]]", "a", 0) = FNM_NOMATCH
+[LeeDoYuJae] 52: fnmatch ("[[=b=][:digit:]]", "a", 0) = FNM_NOMATCH
+[LeeDoYuJae] 53: fnmatch ("[[:alnum:]]", "a", 0) = 0
+[LeeDoYuJae] 54: fnmatch ("[![:alnum:]]", "a", 0) = FNM_NOMATCH
+[LeeDoYuJae] 55: fnmatch ("[[:alnum:]]", "-", 0) = FNM_NOMATCH
+[LeeDoYuJae] 56: fnmatch ("[[:alnum:]]a", "a]a", 0) = FNM_NOMATCH
+[LeeDoYuJae] 57: fnmatch ("[[:alnum:]-]", "-", 0) = 0
+[LeeDoYuJae] 58: fnmatch ("[[:alnum:]]a", "aa", 0) = 0
+[LeeDoYuJae] 59: fnmatch ("[![:alnum:]]", "-", 0) = 0
+[LeeDoYuJae] 60: fnmatch ("[!][:alnum:]]", "]", 0) = FNM_NOMATCH
+[LeeDoYuJae] 61: fnmatch ("[![:alnum:][]", "[", 0) = FNM_NOMATCH
+[LeeDoYuJae] 62: fnmatch ("[[:alnum:]]", "a", 0) = 0
+[LeeDoYuJae] 63: fnmatch ("[[:alnum:]]", "b", 0) = 0
+[LeeDoYuJae] 64: fnmatch ("[[:alnum:]]", "c", 0) = 0
+[LeeDoYuJae] 65: fnmatch ("[[:alnum:]]", "d", 0) = 0
+[LeeDoYuJae] 66: fnmatch ("[[:alnum:]]", "e", 0) = 0
+[LeeDoYuJae] 67: fnmatch ("[[:alnum:]]", "f", 0) = 0
+[LeeDoYuJae] 68: fnmatch ("[[:alnum:]]", "g", 0) = 0
+[LeeDoYuJae] 69: fnmatch ("[[:alnum:]]", "h", 0) = 0
+[LeeDoYuJae] 70: fnmatch ("[[:alnum:]]", "i", 0) = 0
+[LeeDoYuJae] 71: fnmatch ("[[:alnum:]]", "j", 0) = 0
+[LeeDoYuJae] 72: fnmatch ("[[:alnum:]]", "k", 0) = 0
+[LeeDoYuJae] 73: fnmatch ("[[:alnum:]]", "l", 0) = 0
+[LeeDoYuJae] 74: fnmatch ("[[:alnum:]]", "m", 0) = 0
+[LeeDoYuJae] 75: fnmatch ("[[:alnum:]]", "n", 0) = 0
+[LeeDoYuJae] 76: fnmatch ("[[:alnum:]]", "o", 0) = 0
+[LeeDoYuJae] 77: fnmatch ("[[:alnum:]]", "p", 0) = 0
+[LeeDoYuJae] 78: fnmatch ("[[:alnum:]]", "q", 0) = 0
+[LeeDoYuJae] 79: fnmatch ("[[:alnum:]]", "r", 0) = 0
+[LeeDoYuJae] 80: fnmatch ("[[:alnum:]]", "s", 0) = 0
+[LeeDoYuJae] 81: fnmatch ("[[:alnum:]]", "t", 0) = 0
+[LeeDoYuJae] 82: fnmatch ("[[:alnum:]]", "u", 0) = 0
+[LeeDoYuJae] 83: fnmatch ("[[:alnum:]]", "v", 0) = 0
+[LeeDoYuJae] 84: fnmatch ("[[:alnum:]]", "w", 0) = 0
+[LeeDoYuJae] 85: fnmatch ("[[:alnum:]]", "x", 0) = 0
+[LeeDoYuJae] 86: fnmatch ("[[:alnum:]]", "y", 0) = 0
+[LeeDoYuJae] 87: fnmatch ("[[:alnum:]]", "z", 0) = 0
+[LeeDoYuJae] 88: fnmatch ("[[:alnum:]]", "A", 0) = 0
+[LeeDoYuJae] 89: fnmatch ("[[:alnum:]]", "B", 0) = 0
+[LeeDoYuJae] 90: fnmatch ("[[:alnum:]]", "C", 0) = 0
+[LeeDoYuJae] 91: fnmatch ("[[:alnum:]]", "D", 0) = 0
+[LeeDoYuJae] 92: fnmatch ("[[:alnum:]]", "E", 0) = 0
+[LeeDoYuJae] 93: fnmatch ("[[:alnum:]]", "F", 0) = 0
+[LeeDoYuJae] 94: fnmatch ("[[:alnum:]]", "G", 0) = 0
+[LeeDoYuJae] 95: fnmatch ("[[:alnum:]]", "H", 0) = 0
+[LeeDoYuJae] 96: fnmatch ("[[:alnum:]]", "I", 0) = 0
+[LeeDoYuJae] 97: fnmatch ("[[:alnum:]]", "J", 0) = 0
+[LeeDoYuJae] 98: fnmatch ("[[:alnum:]]", "K", 0) = 0
+[LeeDoYuJae] 99: fnmatch ("[[:alnum:]]", "L", 0) = 0
+[LeeDoYuJae]100: fnmatch ("[[:alnum:]]", "M", 0) = 0
+[LeeDoYuJae]101: fnmatch ("[[:alnum:]]", "N", 0) = 0
+[LeeDoYuJae]102: fnmatch ("[[:alnum:]]", "O", 0) = 0
+[LeeDoYuJae]103: fnmatch ("[[:alnum:]]", "P", 0) = 0
+[LeeDoYuJae]104: fnmatch ("[[:alnum:]]", "Q", 0) = 0
+[LeeDoYuJae]105: fnmatch ("[[:alnum:]]", "R", 0) = 0
+[LeeDoYuJae]106: fnmatch ("[[:alnum:]]", "S", 0) = 0
+[LeeDoYuJae]107: fnmatch ("[[:alnum:]]", "T", 0) = 0
+[LeeDoYuJae]108: fnmatch ("[[:alnum:]]", "U", 0) = 0
+[LeeDoYuJae]109: fnmatch ("[[:alnum:]]", "V", 0) = 0
+[LeeDoYuJae]110: fnmatch ("[[:alnum:]]", "W", 0) = 0
+[LeeDoYuJae]111: fnmatch ("[[:alnum:]]", "X", 0) = 0
+[LeeDoYuJae]112: fnmatch ("[[:alnum:]]", "Y", 0) = 0
+[LeeDoYuJae]113: fnmatch ("[[:alnum:]]", "Z", 0) = 0
+[LeeDoYuJae]114: fnmatch ("[[:alnum:]]", "0", 0) = 0
+[LeeDoYuJae]115: fnmatch ("[[:alnum:]]", "1", 0) = 0
+[LeeDoYuJae]116: fnmatch ("[[:alnum:]]", "2", 0) = 0
+[LeeDoYuJae]117: fnmatch ("[[:alnum:]]", "3", 0) = 0
+[LeeDoYuJae]118: fnmatch ("[[:alnum:]]", "4", 0) = 0
+[LeeDoYuJae]119: fnmatch ("[[:alnum:]]", "5", 0) = 0
+[LeeDoYuJae]120: fnmatch ("[[:alnum:]]", "6", 0) = 0
+[LeeDoYuJae]121: fnmatch ("[[:alnum:]]", "7", 0) = 0
+[LeeDoYuJae]122: fnmatch ("[[:alnum:]]", "8", 0) = 0
+[LeeDoYuJae]123: fnmatch ("[[:alnum:]]", "9", 0) = 0
+[LeeDoYuJae]124: fnmatch ("[[:alnum:]]", "!", 0) = FNM_NOMATCH
+[LeeDoYuJae]125: fnmatch ("[[:alnum:]]", "#", 0) = FNM_NOMATCH
+[LeeDoYuJae]126: fnmatch ("[[:alnum:]]", "%", 0) = FNM_NOMATCH
+[LeeDoYuJae]127: fnmatch ("[[:alnum:]]", "+", 0) = FNM_NOMATCH
+[LeeDoYuJae]128: fnmatch ("[[:alnum:]]", ",", 0) = FNM_NOMATCH
+[LeeDoYuJae]129: fnmatch ("[[:alnum:]]", "-", 0) = FNM_NOMATCH
+[LeeDoYuJae]130: fnmatch ("[[:alnum:]]", ".", 0) = FNM_NOMATCH
+[LeeDoYuJae]131: fnmatch ("[[:alnum:]]", "/", 0) = FNM_NOMATCH
+[LeeDoYuJae]132: fnmatch ("[[:alnum:]]", ":", 0) = FNM_NOMATCH
+[LeeDoYuJae]133: fnmatch ("[[:alnum:]]", ";", 0) = FNM_NOMATCH
+[LeeDoYuJae]134: fnmatch ("[[:alnum:]]", "=", 0) = FNM_NOMATCH
+[LeeDoYuJae]135: fnmatch ("[[:alnum:]]", "@", 0) = FNM_NOMATCH
+[LeeDoYuJae]136: fnmatch ("[[:alnum:]]", "[", 0) = FNM_NOMATCH
+[LeeDoYuJae]137: fnmatch ("[[:alnum:]]", "\\", 0) = FNM_NOMATCH
+[LeeDoYuJae]138: fnmatch ("[[:alnum:]]", "]", 0) = FNM_NOMATCH
+[LeeDoYuJae]139: fnmatch ("[[:alnum:]]", "^", 0) = FNM_NOMATCH
+[LeeDoYuJae]140: fnmatch ("[[:alnum:]]", "_", 0) = FNM_NOMATCH
+[LeeDoYuJae]141: fnmatch ("[[:alnum:]]", "{", 0) = FNM_NOMATCH
+[LeeDoYuJae]142: fnmatch ("[[:alnum:]]", "}", 0) = FNM_NOMATCH
+[LeeDoYuJae]143: fnmatch ("[[:alnum:]]", "~", 0) = FNM_NOMATCH
+[LeeDoYuJae]144: fnmatch ("[[:alnum:]]", "\"", 0) = FNM_NOMATCH
+[LeeDoYuJae]145: fnmatch ("[[:alnum:]]", "$", 0) = FNM_NOMATCH
+[LeeDoYuJae]146: fnmatch ("[[:alnum:]]", "&", 0) = FNM_NOMATCH
+[LeeDoYuJae]147: fnmatch ("[[:alnum:]]", "'", 0) = FNM_NOMATCH
+[LeeDoYuJae]148: fnmatch ("[[:alnum:]]", "(", 0) = FNM_NOMATCH
+[LeeDoYuJae]149: fnmatch ("[[:alnum:]]", ")", 0) = FNM_NOMATCH
+[LeeDoYuJae]150: fnmatch ("[[:alnum:]]", "*", 0) = FNM_NOMATCH
+[LeeDoYuJae]151: fnmatch ("[[:alnum:]]", "?", 0) = FNM_NOMATCH
+[LeeDoYuJae]152: fnmatch ("[[:alnum:]]", "`", 0) = FNM_NOMATCH
+[LeeDoYuJae]153: fnmatch ("[[:alnum:]]", "|", 0) = FNM_NOMATCH
+[LeeDoYuJae]154: fnmatch ("[[:alnum:]]", "<", 0) = FNM_NOMATCH
+[LeeDoYuJae]155: fnmatch ("[[:alnum:]]", ">", 0) = FNM_NOMATCH
+[LeeDoYuJae]156: fnmatch ("[[:cntrl:]]", "\t", 0) = 0
+[LeeDoYuJae]157: fnmatch ("[[:cntrl:]]", "t", 0) = FNM_NOMATCH
+[LeeDoYuJae]158: fnmatch ("[[:lower:]]", "t", 0) = 0
+[LeeDoYuJae]159: fnmatch ("[[:lower:]]", "\t", 0) = FNM_NOMATCH
+[LeeDoYuJae]160: fnmatch ("[[:lower:]]", "T", 0) = FNM_NOMATCH
+[LeeDoYuJae]161: fnmatch ("[[:space:]]", "\t", 0) = 0
+[LeeDoYuJae]162: fnmatch ("[[:space:]]", "t", 0) = FNM_NOMATCH
+[LeeDoYuJae]163: fnmatch ("[[:alpha:]]", "t", 0) = 0
+[LeeDoYuJae]164: fnmatch ("[[:alpha:]]", "\t", 0) = FNM_NOMATCH
+[LeeDoYuJae]165: fnmatch ("[[:digit:]]", "0", 0) = 0
+[LeeDoYuJae]166: fnmatch ("[[:digit:]]", "\t", 0) = FNM_NOMATCH
+[LeeDoYuJae]167: fnmatch ("[[:digit:]]", "t", 0) = FNM_NOMATCH
+[LeeDoYuJae]168: fnmatch ("[[:print:]]", "\t", 0) = FNM_NOMATCH
+[LeeDoYuJae]169: fnmatch ("[[:print:]]", "t", 0) = 0
+[LeeDoYuJae]170: fnmatch ("[[:upper:]]", "T", 0) = 0
+[LeeDoYuJae]171: fnmatch ("[[:upper:]]", "\t", 0) = FNM_NOMATCH
+[LeeDoYuJae]172: fnmatch ("[[:upper:]]", "t", 0) = FNM_NOMATCH
+[LeeDoYuJae]173: fnmatch ("[[:blank:]]", "\t", 0) = 0
+[LeeDoYuJae]174: fnmatch ("[[:blank:]]", "t", 0) = FNM_NOMATCH
+[LeeDoYuJae]175: fnmatch ("[[:graph:]]", "\t", 0) = FNM_NOMATCH
+[LeeDoYuJae]176: fnmatch ("[[:graph:]]", "t", 0) = 0
+[LeeDoYuJae]177: fnmatch ("[[:punct:]]", ".", 0) = 0
+[LeeDoYuJae]178: fnmatch ("[[:punct:]]", "t", 0) = FNM_NOMATCH
+[LeeDoYuJae]179: fnmatch ("[[:punct:]]", "\t", 0) = FNM_NOMATCH
+[LeeDoYuJae]180: fnmatch ("[[:xdigit:]]", "0", 0) = 0
+[LeeDoYuJae]181: fnmatch ("[[:xdigit:]]", "\t", 0) = FNM_NOMATCH
+[LeeDoYuJae]182: fnmatch ("[[:xdigit:]]", "a", 0) = 0
+[LeeDoYuJae]183: fnmatch ("[[:xdigit:]]", "A", 0) = 0
+[LeeDoYuJae]184: fnmatch ("[[:xdigit:]]", "t", 0) = FNM_NOMATCH
+[LeeDoYuJae]185: fnmatch ("[[alpha]]", "a", 0) = FNM_NOMATCH
+[LeeDoYuJae]186: fnmatch ("[[alpha:]]", "a", 0) = FNM_NOMATCH
+[LeeDoYuJae]187: fnmatch ("[[alpha]]", "a]", 0) = 0
+[LeeDoYuJae]188: fnmatch ("[[alpha:]]", "a]", 0) = 0
+[LeeDoYuJae]189: fnmatch ("[[:alpha:][.b.]]", "a", 0) = 0
+[LeeDoYuJae]190: fnmatch ("[[:alpha:][=b=]]", "a", 0) = 0
+[LeeDoYuJae]191: fnmatch ("[[:alpha:][:digit:]]", "a", 0) = 0
+[LeeDoYuJae]192: fnmatch ("[[:digit:][:alpha:]]", "a", 0) = 0
+[LeeDoYuJae]193: fnmatch ("[a-c]", "a", 0) = 0
+[LeeDoYuJae]194: fnmatch ("[a-c]", "b", 0) = 0
+[LeeDoYuJae]195: fnmatch ("[a-c]", "c", 0) = 0
+[LeeDoYuJae]196: fnmatch ("[b-c]", "a", 0) = FNM_NOMATCH
+[LeeDoYuJae]197: fnmatch ("[b-c]", "d", 0) = FNM_NOMATCH
+[LeeDoYuJae]198: fnmatch ("[a-c]", "B", 0) = FNM_NOMATCH
+[LeeDoYuJae]199: fnmatch ("[A-C]", "b", 0) = FNM_NOMATCH
+[LeeDoYuJae]200: fnmatch ("[a-c]", "", 0) = FNM_NOMATCH
+[LeeDoYuJae]201: fnmatch ("[a-ca-z]", "as", 0) = FNM_NOMATCH
+[LeeDoYuJae]202: fnmatch ("[[.a.]-c]", "a", 0) = 0
+[LeeDoYuJae]203: fnmatch ("[a-[.c.]]", "a", 0) = 0
+[LeeDoYuJae]204: fnmatch ("[[.a.]-[.c.]]", "a", 0) = 0
+[LeeDoYuJae]205: fnmatch ("[[.a.]-c]", "b", 0) = 0
+[LeeDoYuJae]206: fnmatch ("[a-[.c.]]", "b", 0) = 0
+[LeeDoYuJae]207: fnmatch ("[[.a.]-[.c.]]", "b", 0) = 0
+[LeeDoYuJae]208: fnmatch ("[[.a.]-c]", "c", 0) = 0
+[LeeDoYuJae]209: fnmatch ("[a-[.c.]]", "c", 0) = 0
+[LeeDoYuJae]210: fnmatch ("[[.a.]-[.c.]]", "c", 0) = 0
+[LeeDoYuJae]211: fnmatch ("[[.a.]-c]", "d", 0) = FNM_NOMATCH
+[LeeDoYuJae]212: fnmatch ("[a-[.c.]]", "d", 0) = FNM_NOMATCH
+[LeeDoYuJae]213: fnmatch ("[[.a.]-[.c.]]", "d", 0) = FNM_NOMATCH
+[LeeDoYuJae]214: fnmatch ("[c-a]", "a", 0) = FNM_NOMATCH
+[LeeDoYuJae]215: fnmatch ("[[.c.]-a]", "a", 0) = FNM_NOMATCH
+[LeeDoYuJae]216: fnmatch ("[c-[.a.]]", "a", 0) = FNM_NOMATCH
+[LeeDoYuJae]217: fnmatch ("[[.c.]-[.a.]]", "a", 0) = FNM_NOMATCH
+[LeeDoYuJae]218: fnmatch ("[c-a]", "c", 0) = FNM_NOMATCH
+[LeeDoYuJae]219: fnmatch ("[[.c.]-a]", "c", 0) = FNM_NOMATCH
+[LeeDoYuJae]220: fnmatch ("[c-[.a.]]", "c", 0) = FNM_NOMATCH
+[LeeDoYuJae]221: fnmatch ("[[.c.]-[.a.]]", "c", 0) = FNM_NOMATCH
+[LeeDoYuJae]222: fnmatch ("[a-c0-9]", "a", 0) = 0
+[LeeDoYuJae]223: fnmatch ("[a-c0-9]", "d", 0) = FNM_NOMATCH
+[LeeDoYuJae]224: fnmatch ("[a-c0-9]", "B", 0) = FNM_NOMATCH
+[LeeDoYuJae]225: fnmatch ("[-a]", "-", 0) = 0
+[LeeDoYuJae]226: fnmatch ("[-b]", "a", 0) = FNM_NOMATCH
+[LeeDoYuJae]227: fnmatch ("[!-a]", "-", 0) = FNM_NOMATCH
+[LeeDoYuJae]228: fnmatch ("[!-b]", "a", 0) = 0
+[LeeDoYuJae]229: fnmatch ("[a-c-0-9]", "-", 0) = 0
+[LeeDoYuJae]230: fnmatch ("[a-c-0-9]", "b", 0) = 0
+[LeeDoYuJae]231: fnmatch ("a[0-9-a]", "a:", 0) = FNM_NOMATCH
+[LeeDoYuJae]232: fnmatch ("a[09-a]", "a:", 0) = 0
+[LeeDoYuJae]233: fnmatch ("*", "", 0) = 0
+[LeeDoYuJae]234: fnmatch ("*", "asd/sdf", 0) = 0
+[LeeDoYuJae]235: fnmatch ("[a-c][a-z]", "as", 0) = 0
+[LeeDoYuJae]236: fnmatch ("??", "as", 0) = 0
+[LeeDoYuJae]237: fnmatch ("as*df", "asd/sdf", 0) = 0
+[LeeDoYuJae]238: fnmatch ("as*", "asd/sdf", 0) = 0
+[LeeDoYuJae]239: fnmatch ("*df", "asd/sdf", 0) = 0
+[LeeDoYuJae]240: fnmatch ("as*dg", "asd/sdf", 0) = FNM_NOMATCH
+[LeeDoYuJae]241: fnmatch ("as*df", "asdf", 0) = 0
+[LeeDoYuJae]242: fnmatch ("as*df?", "asdf", 0) = FNM_NOMATCH
+[LeeDoYuJae]243: fnmatch ("as*??", "asdf", 0) = 0
+[LeeDoYuJae]244: fnmatch ("a*???", "asdf", 0) = 0
+[LeeDoYuJae]245: fnmatch ("*????", "asdf", 0) = 0
+[LeeDoYuJae]246: fnmatch ("????*", "asdf", 0) = 0
+[LeeDoYuJae]247: fnmatch ("??*?", "asdf", 0) = 0
+[LeeDoYuJae]248: fnmatch ("/", "/", 0) = 0
+[LeeDoYuJae]249: fnmatch ("/*", "/", 0) = 0
+[LeeDoYuJae]250: fnmatch ("*/", "/", 0) = 0
+[LeeDoYuJae]251: fnmatch ("/?", "/", 0) = FNM_NOMATCH
+[LeeDoYuJae]252: fnmatch ("?/", "/", 0) = FNM_NOMATCH
+[LeeDoYuJae]253: fnmatch ("?", "/", 0) = 0
+[LeeDoYuJae]254: fnmatch ("?", ".", 0) = 0
+[LeeDoYuJae]255: fnmatch ("??", "/.", 0) = 0
+[LeeDoYuJae]256: fnmatch ("[!a-c]", "/", 0) = 0
+[LeeDoYuJae]257: fnmatch ("[!a-c]", ".", 0) = 0
+[LeeDoYuJae]258: fnmatch ("/", "/", FNM_PATHNAME) = 0
+[LeeDoYuJae]259: fnmatch ("//", "//", FNM_PATHNAME) = 0
+[LeeDoYuJae]260: fnmatch ("/*", "/.a", FNM_PATHNAME) = 0
+[LeeDoYuJae]261: fnmatch ("/?a", "/.a", FNM_PATHNAME) = 0
+[LeeDoYuJae]262: fnmatch ("/[!a-z]a", "/.a", FNM_PATHNAME) = 0
+[LeeDoYuJae]263: fnmatch ("/*/?b", "/.a/.b", FNM_PATHNAME) = 0
+[LeeDoYuJae]264: fnmatch ("?", "/", FNM_PATHNAME) = FNM_NOMATCH
+[LeeDoYuJae]265: fnmatch ("*", "/", FNM_PATHNAME) = FNM_NOMATCH
+[LeeDoYuJae]266: fnmatch ("a?b", "a/b", FNM_PATHNAME) = FNM_NOMATCH
+[LeeDoYuJae]267: fnmatch ("/*b", "/.a/.b", FNM_PATHNAME) = FNM_NOMATCH
+[LeeDoYuJae]268: fnmatch ("\\/\\$", "/$", 0) = 0
+[LeeDoYuJae]269: fnmatch ("\\/\\[", "/[", 0) = 0
+[LeeDoYuJae]270: fnmatch ("\\/[", "/[", 0) = 0
+[LeeDoYuJae]271: fnmatch ("\\/\\[]", "/[]", 0) = 0
+[LeeDoYuJae]272: fnmatch ("\\/\\$", "/$", FNM_NOESCAPE) = FNM_NOMATCH
+[LeeDoYuJae]273: fnmatch ("\\/\\$", "/\\$", FNM_NOESCAPE) = FNM_NOMATCH
+[LeeDoYuJae]274: fnmatch ("\\/\\$", "\\/\\$", FNM_NOESCAPE) = 0
+[LeeDoYuJae]275: fnmatch (".*", ".asd", FNM_PERIOD) = 0
+[LeeDoYuJae]276: fnmatch ("*", "/.asd", FNM_PERIOD) = 0
+[LeeDoYuJae]277: fnmatch ("*/?*f", "/as/.df", FNM_PERIOD) = 0
+[LeeDoYuJae]278: fnmatch (".[!a-z]*", "..asd", FNM_PERIOD) = 0
+[LeeDoYuJae]279: fnmatch ("*", ".asd", FNM_PERIOD) = FNM_NOMATCH
+[LeeDoYuJae]280: fnmatch ("?asd", ".asd", FNM_PERIOD) = FNM_NOMATCH
+[LeeDoYuJae]281: fnmatch ("[!a-z]*", ".asd", FNM_PERIOD) = FNM_NOMATCH
+[LeeDoYuJae]282: fnmatch ("/.", "/.", FNM_PATHNAME|FNM_PERIOD) = 0
+[LeeDoYuJae]283: fnmatch ("/.*/.*", "/.a./.b.", FNM_PATHNAME|FNM_PERIOD) = 0
+[LeeDoYuJae]284: fnmatch ("/.??/.??", "/.a./.b.", FNM_PATHNAME|FNM_PERIOD) = 0
+[LeeDoYuJae]285: fnmatch ("*", "/.", FNM_PATHNAME|FNM_PERIOD) = FNM_NOMATCH
+[LeeDoYuJae]286: fnmatch ("/*", "/.", FNM_PATHNAME|FNM_PERIOD) = FNM_NOMATCH
+[LeeDoYuJae]287: fnmatch ("/?", "/.", FNM_PATHNAME|FNM_PERIOD) = FNM_NOMATCH
+[LeeDoYuJae]288: fnmatch ("/[!a-z]", "/.", FNM_PATHNAME|FNM_PERIOD) = FNM_NOMATCH
+[LeeDoYuJae]289: fnmatch ("/*/*", "/a./.b.", FNM_PATHNAME|FNM_PERIOD) = FNM_NOMATCH
+[LeeDoYuJae]290: fnmatch ("/??/???", "/a./.b.", FNM_PATHNAME|FNM_PERIOD) = FNM_NOMATCH
+[LeeDoYuJae]291: fnmatch ("foo*[abc]z", "foobar", 0) = FNM_NOMATCH
+[LeeDoYuJae]292: fnmatch ("foo*[abc][xyz]", "foobaz", 0) = 0
+[LeeDoYuJae]293: fnmatch ("foo?*[abc][xyz]", "foobaz", 0) = 0
+[LeeDoYuJae]294: fnmatch ("foo?*[abc][x/yz]", "foobaz", 0) = 0
+[LeeDoYuJae]295: fnmatch ("foo?*[abc]/[xyz]", "foobaz", FNM_PATHNAME) = FNM_NOMATCH
+[LeeDoYuJae]296: fnmatch ("a/", "a", FNM_PATHNAME) = FNM_NOMATCH
+[LeeDoYuJae]297: fnmatch ("a", "a/", FNM_PATHNAME) = FNM_NOMATCH
+[LeeDoYuJae]298: fnmatch ("/a", "//a", FNM_PATHNAME) = FNM_NOMATCH
+[LeeDoYuJae]299: fnmatch ("//a", "/a", FNM_PATHNAME) = FNM_NOMATCH
+[LeeDoYuJae]300: fnmatch ("[a-]z", "az", 0) = 0
+[LeeDoYuJae]301: fnmatch ("[ab-]z", "bz", 0) = 0
+[LeeDoYuJae]302: fnmatch ("[ab-]z", "cz", 0) = FNM_NOMATCH
+[LeeDoYuJae]303: fnmatch ("[ab-]z", "-z", 0) = 0
+[LeeDoYuJae]304: fnmatch ("[-a]z", "az", 0) = 0
+[LeeDoYuJae]305: fnmatch ("[-ab]z", "bz", 0) = 0
+[LeeDoYuJae]306: fnmatch ("[-ab]z", "cz", 0) = FNM_NOMATCH
+[LeeDoYuJae]307: fnmatch ("[-ab]z", "-z", 0) = 0
+[LeeDoYuJae]308: fnmatch ("[\\\\-a]", "\\", 0) = 0
+[LeeDoYuJae]309: fnmatch ("[\\\\-a]", "_", 0) = 0
+[LeeDoYuJae]310: fnmatch ("[\\\\-a]", "a", 0) = 0
+[LeeDoYuJae]311: fnmatch ("[\\\\-a]", "-", 0) = FNM_NOMATCH
+[LeeDoYuJae]312: fnmatch ("[\\]-a]", "\\", 0) = FNM_NOMATCH
+[LeeDoYuJae]313: fnmatch ("[\\]-a]", "_", 0) = 0
+[LeeDoYuJae]314: fnmatch ("[\\]-a]", "a", 0) = 0
+[LeeDoYuJae]315: fnmatch ("[\\]-a]", "]", 0) = 0
+[LeeDoYuJae]316: fnmatch ("[\\]-a]", "-", 0) = FNM_NOMATCH
+[LeeDoYuJae]317: fnmatch ("[!\\\\-a]", "\\", 0) = FNM_NOMATCH
+[LeeDoYuJae]318: fnmatch ("[!\\\\-a]", "_", 0) = FNM_NOMATCH
+[LeeDoYuJae]319: fnmatch ("[!\\\\-a]", "a", 0) = FNM_NOMATCH
+[LeeDoYuJae]320: fnmatch ("[!\\\\-a]", "-", 0) = 0
+[LeeDoYuJae]321: fnmatch ("[\\!-]", "!", 0) = 0
+[LeeDoYuJae]322: fnmatch ("[\\!-]", "-", 0) = 0
+[LeeDoYuJae]323: fnmatch ("[\\!-]", "\\", 0) = FNM_NOMATCH
+[LeeDoYuJae]324: fnmatch ("[Z-\\\\]", "Z", 0) = 0
+[LeeDoYuJae]325: fnmatch ("[Z-\\\\]", "[", 0) = 0
+[LeeDoYuJae]326: fnmatch ("[Z-\\\\]", "\\", 0) = 0
+[LeeDoYuJae]327: fnmatch ("[Z-\\\\]", "-", 0) = FNM_NOMATCH
+[LeeDoYuJae]328: fnmatch ("[Z-\\]]", "Z", 0) = 0
+[LeeDoYuJae]329: fnmatch ("[Z-\\]]", "[", 0) = 0
+[LeeDoYuJae]330: fnmatch ("[Z-\\]]", "\\", 0) = 0
+[LeeDoYuJae]331: fnmatch ("[Z-\\]]", "]", 0) = 0
+[LeeDoYuJae]332: fnmatch ("[Z-\\]]", "-", 0) = FNM_NOMATCH
+[LeeDoYuJae]333: fnmatch ("[a-z]", "a", 0) = 0
+[LeeDoYuJae]334: fnmatch ("[a-z]", "z", 0) = 0
+[LeeDoYuJae]335: fnmatch ("[a-z]", "ä", 0) = 0
+[LeeDoYuJae]336: fnmatch ("[a-z]", "ö", 0) = 0
+[LeeDoYuJae]337: fnmatch ("[a-z]", "ü", 0) = 0
+[LeeDoYuJae]338: fnmatch ("[a-z]", "A", 0) = FNM_NOMATCH
+[LeeDoYuJae]339: fnmatch ("[a-z]", "Z", 0) = FNM_NOMATCH
+[LeeDoYuJae]340: fnmatch ("[a-z]", "Ä", 0) = FNM_NOMATCH
+[LeeDoYuJae]341: fnmatch ("[a-z]", "Ö", 0) = FNM_NOMATCH
+[LeeDoYuJae]342: fnmatch ("[a-z]", "Ü", 0) = FNM_NOMATCH
+[LeeDoYuJae]343: fnmatch ("[A-Z]", "a", 0) = FNM_NOMATCH
+[LeeDoYuJae]344: fnmatch ("[A-Z]", "z", 0) = FNM_NOMATCH
+[LeeDoYuJae]345: fnmatch ("[A-Z]", "ä", 0) = FNM_NOMATCH
+[LeeDoYuJae]346: fnmatch ("[A-Z]", "ö", 0) = FNM_NOMATCH
+[LeeDoYuJae]347: fnmatch ("[A-Z]", "ü", 0) = FNM_NOMATCH
+[LeeDoYuJae]348: fnmatch ("[A-Z]", "A", 0) = 0
+[LeeDoYuJae]349: fnmatch ("[A-Z]", "Z", 0) = 0
+[LeeDoYuJae]350: fnmatch ("[A-Z]", "Ä", 0) = 0
+[LeeDoYuJae]351: fnmatch ("[A-Z]", "Ö", 0) = 0
+[LeeDoYuJae]352: fnmatch ("[A-Z]", "Ü", 0) = 0
+[LeeDoYuJae]353: fnmatch ("[[:lower:]]", "a", 0) = 0
+[LeeDoYuJae]354: fnmatch ("[[:lower:]]", "z", 0) = 0
+[LeeDoYuJae]355: fnmatch ("[[:lower:]]", "ä", 0) = 0
+[LeeDoYuJae]356: fnmatch ("[[:lower:]]", "ö", 0) = 0
+[LeeDoYuJae]357: fnmatch ("[[:lower:]]", "ü", 0) = 0
+[LeeDoYuJae]358: fnmatch ("[[:lower:]]", "A", 0) = FNM_NOMATCH
+[LeeDoYuJae]359: fnmatch ("[[:lower:]]", "Z", 0) = FNM_NOMATCH
+[LeeDoYuJae]360: fnmatch ("[[:lower:]]", "Ä", 0) = FNM_NOMATCH
+[LeeDoYuJae]361: fnmatch ("[[:lower:]]", "Ö", 0) = FNM_NOMATCH
+[LeeDoYuJae]362: fnmatch ("[[:lower:]]", "Ü", 0) = FNM_NOMATCH
+[LeeDoYuJae]363: fnmatch ("[[:upper:]]", "a", 0) = FNM_NOMATCH
+[LeeDoYuJae]364: fnmatch ("[[:upper:]]", "z", 0) = FNM_NOMATCH
+[LeeDoYuJae]365: fnmatch ("[[:upper:]]", "ä", 0) = FNM_NOMATCH
+[LeeDoYuJae]366: fnmatch ("[[:upper:]]", "ö", 0) = FNM_NOMATCH
+[LeeDoYuJae]367: fnmatch ("[[:upper:]]", "ü", 0) = FNM_NOMATCH
+[LeeDoYuJae]368: fnmatch ("[[:upper:]]", "A", 0) = 0
+[LeeDoYuJae]369: fnmatch ("[[:upper:]]", "Z", 0) = 0
+[LeeDoYuJae]370: fnmatch ("[[:upper:]]", "Ä", 0) = 0
+[LeeDoYuJae]371: fnmatch ("[[:upper:]]", "Ö", 0) = 0
+[LeeDoYuJae]372: fnmatch ("[[:upper:]]", "Ü", 0) = 0
+[LeeDoYuJae]373: fnmatch ("[[:alpha:]]", "a", 0) = 0
+[LeeDoYuJae]374: fnmatch ("[[:alpha:]]", "z", 0) = 0
+[LeeDoYuJae]375: fnmatch ("[[:alpha:]]", "ä", 0) = 0
+[LeeDoYuJae]376: fnmatch ("[[:alpha:]]", "ö", 0) = 0
+[LeeDoYuJae]377: fnmatch ("[[:alpha:]]", "ü", 0) = 0
+[LeeDoYuJae]378: fnmatch ("[[:alpha:]]", "A", 0) = 0
+[LeeDoYuJae]379: fnmatch ("[[:alpha:]]", "Z", 0) = 0
+[LeeDoYuJae]380: fnmatch ("[[:alpha:]]", "Ä", 0) = 0
+[LeeDoYuJae]381: fnmatch ("[[:alpha:]]", "Ö", 0) = 0
+[LeeDoYuJae]382: fnmatch ("[[:alpha:]]", "Ü", 0) = 0
+[LeeDoYuJae]383: fnmatch ("[[=a=]b]", "a", 0) = 0
+[LeeDoYuJae]384: fnmatch ("[[=a=]b]", "â", 0) = 0
+[LeeDoYuJae]385: fnmatch ("[[=a=]b]", "à", 0) = 0
+[LeeDoYuJae]386: fnmatch ("[[=a=]b]", "á", 0) = 0
+[LeeDoYuJae]387: fnmatch ("[[=a=]b]", "ä", 0) = 0
+[LeeDoYuJae]388: fnmatch ("[[=a=]b]", "b", 0) = 0
+[LeeDoYuJae]389: fnmatch ("[[=a=]b]", "c", 0) = FNM_NOMATCH
+[LeeDoYuJae]390: fnmatch ("[[=â=]b]", "a", 0) = 0
+[LeeDoYuJae]391: fnmatch ("[[=â=]b]", "â", 0) = 0
+[LeeDoYuJae]392: fnmatch ("[[=â=]b]", "à", 0) = 0
+[LeeDoYuJae]393: fnmatch ("[[=â=]b]", "á", 0) = 0
+[LeeDoYuJae]394: fnmatch ("[[=â=]b]", "ä", 0) = 0
+[LeeDoYuJae]395: fnmatch ("[[=â=]b]", "b", 0) = 0
+[LeeDoYuJae]396: fnmatch ("[[=â=]b]", "c", 0) = FNM_NOMATCH
+[LeeDoYuJae]397: fnmatch ("[[=à=]b]", "a", 0) = 0
+[LeeDoYuJae]398: fnmatch ("[[=à=]b]", "â", 0) = 0
+[LeeDoYuJae]399: fnmatch ("[[=à=]b]", "à", 0) = 0
+[LeeDoYuJae]400: fnmatch ("[[=à=]b]", "á", 0) = 0
+[LeeDoYuJae]401: fnmatch ("[[=à=]b]", "ä", 0) = 0
+[LeeDoYuJae]402: fnmatch ("[[=à=]b]", "b", 0) = 0
+[LeeDoYuJae]403: fnmatch ("[[=à=]b]", "c", 0) = FNM_NOMATCH
+[LeeDoYuJae]404: fnmatch ("[[=á=]b]", "a", 0) = 0
+[LeeDoYuJae]405: fnmatch ("[[=á=]b]", "â", 0) = 0
+[LeeDoYuJae]406: fnmatch ("[[=á=]b]", "à", 0) = 0
+[LeeDoYuJae]407: fnmatch ("[[=á=]b]", "á", 0) = 0
+[LeeDoYuJae]408: fnmatch ("[[=á=]b]", "ä", 0) = 0
+[LeeDoYuJae]409: fnmatch ("[[=á=]b]", "b", 0) = 0
+[LeeDoYuJae]410: fnmatch ("[[=á=]b]", "c", 0) = FNM_NOMATCH
+[LeeDoYuJae]411: fnmatch ("[[=ä=]b]", "a", 0) = 0
+[LeeDoYuJae]412: fnmatch ("[[=ä=]b]", "â", 0) = 0
+[LeeDoYuJae]413: fnmatch ("[[=ä=]b]", "à", 0) = 0
+[LeeDoYuJae]414: fnmatch ("[[=ä=]b]", "á", 0) = 0
+[LeeDoYuJae]415: fnmatch ("[[=ä=]b]", "ä", 0) = 0
+[LeeDoYuJae]416: fnmatch ("[[=ä=]b]", "b", 0) = 0
+[LeeDoYuJae]417: fnmatch ("[[=ä=]b]", "c", 0) = FNM_NOMATCH
+[LeeDoYuJae]418: fnmatch ("[[.a.]]a", "aa", 0) = 0
+[LeeDoYuJae]419: fnmatch ("[[.a.]]a", "ba", 0) = FNM_NOMATCH
+[LeeDoYuJae]420: fnmatch ("[a-z]", "a", 0) = 0
+[LeeDoYuJae]421: fnmatch ("[a-z]", "z", 0) = 0
+[LeeDoYuJae]422: fnmatch ("[a-z]", "Ã¤", 0) = 0
+[LeeDoYuJae]423: fnmatch ("[a-z]", "Ã¶", 0) = 0
+[LeeDoYuJae]424: fnmatch ("[a-z]", "Ã¼", 0) = 0
+[LeeDoYuJae]425: fnmatch ("[a-z]", "A", 0) = FNM_NOMATCH
+[LeeDoYuJae]426: fnmatch ("[a-z]", "Z", 0) = FNM_NOMATCH
+[LeeDoYuJae]427: fnmatch ("[a-z]", "Ã„", 0) = FNM_NOMATCH
+[LeeDoYuJae]428: fnmatch ("[a-z]", "Ã–", 0) = FNM_NOMATCH
+[LeeDoYuJae]429: fnmatch ("[a-z]", "Ãœ", 0) = FNM_NOMATCH
+[LeeDoYuJae]430: fnmatch ("[A-Z]", "a", 0) = FNM_NOMATCH
+[LeeDoYuJae]431: fnmatch ("[A-Z]", "z", 0) = FNM_NOMATCH
+[LeeDoYuJae]432: fnmatch ("[A-Z]", "Ã¤", 0) = FNM_NOMATCH
+[LeeDoYuJae]433: fnmatch ("[A-Z]", "Ã¶", 0) = FNM_NOMATCH
+[LeeDoYuJae]434: fnmatch ("[A-Z]", "Ã¼", 0) = FNM_NOMATCH
+[LeeDoYuJae]435: fnmatch ("[A-Z]", "A", 0) = 0
+[LeeDoYuJae]436: fnmatch ("[A-Z]", "Z", 0) = 0
+[LeeDoYuJae]437: fnmatch ("[A-Z]", "Ã„", 0) = 0
+[LeeDoYuJae]438: fnmatch ("[A-Z]", "Ã–", 0) = 0
+[LeeDoYuJae]439: fnmatch ("[A-Z]", "Ãœ", 0) = 0
+[LeeDoYuJae]440: fnmatch ("[[:lower:]]", "a", 0) = 0
+[LeeDoYuJae]441: fnmatch ("[[:lower:]]", "z", 0) = 0
+[LeeDoYuJae]442: fnmatch ("[[:lower:]]", "Ã¤", 0) = 0
+[LeeDoYuJae]443: fnmatch ("[[:lower:]]", "Ã¶", 0) = 0
+[LeeDoYuJae]444: fnmatch ("[[:lower:]]", "Ã¼", 0) = 0
+[LeeDoYuJae]445: fnmatch ("[[:lower:]]", "A", 0) = FNM_NOMATCH
+[LeeDoYuJae]446: fnmatch ("[[:lower:]]", "Z", 0) = FNM_NOMATCH
+[LeeDoYuJae]447: fnmatch ("[[:lower:]]", "Ã„", 0) = FNM_NOMATCH
+[LeeDoYuJae]448: fnmatch ("[[:lower:]]", "Ã–", 0) = FNM_NOMATCH
+[LeeDoYuJae]449: fnmatch ("[[:lower:]]", "Ãœ", 0) = FNM_NOMATCH
+[LeeDoYuJae]450: fnmatch ("[[:upper:]]", "a", 0) = FNM_NOMATCH
+[LeeDoYuJae]451: fnmatch ("[[:upper:]]", "z", 0) = FNM_NOMATCH
+[LeeDoYuJae]452: fnmatch ("[[:upper:]]", "Ã¤", 0) = FNM_NOMATCH
+[LeeDoYuJae]453: fnmatch ("[[:upper:]]", "Ã¶", 0) = FNM_NOMATCH
+[LeeDoYuJae]454: fnmatch ("[[:upper:]]", "Ã¼", 0) = FNM_NOMATCH
+[LeeDoYuJae]455: fnmatch ("[[:upper:]]", "A", 0) = 0
+[LeeDoYuJae]456: fnmatch ("[[:upper:]]", "Z", 0) = 0
+[LeeDoYuJae]457: fnmatch ("[[:upper:]]", "Ã„", 0) = 0
+[LeeDoYuJae]458: fnmatch ("[[:upper:]]", "Ã–", 0) = 0
+[LeeDoYuJae]459: fnmatch ("[[:upper:]]", "Ãœ", 0) = 0
+[LeeDoYuJae]460: fnmatch ("[[:alpha:]]", "a", 0) = 0
+[LeeDoYuJae]461: fnmatch ("[[:alpha:]]", "z", 0) = 0
+[LeeDoYuJae]462: fnmatch ("[[:alpha:]]", "Ã¤", 0) = 0
+[LeeDoYuJae]463: fnmatch ("[[:alpha:]]", "Ã¶", 0) = 0
+[LeeDoYuJae]464: fnmatch ("[[:alpha:]]", "Ã¼", 0) = 0
+[LeeDoYuJae]465: fnmatch ("[[:alpha:]]", "A", 0) = 0
+[LeeDoYuJae]466: fnmatch ("[[:alpha:]]", "Z", 0) = 0
+[LeeDoYuJae]467: fnmatch ("[[:alpha:]]", "Ã„", 0) = 0
+[LeeDoYuJae]468: fnmatch ("[[:alpha:]]", "Ã–", 0) = 0
+[LeeDoYuJae]469: fnmatch ("[[:alpha:]]", "Ãœ", 0) = 0
+[LeeDoYuJae]470: fnmatch ("[[=a=]b]", "a", 0) = 0
+[LeeDoYuJae]471: fnmatch ("[[=a=]b]", "Ã¢", 0) = 0
+[LeeDoYuJae]472: fnmatch ("[[=a=]b]", "Ã ", 0) = 0
+[LeeDoYuJae]473: fnmatch ("[[=a=]b]", "Ã¡", 0) = 0
+[LeeDoYuJae]474: fnmatch ("[[=a=]b]", "Ã¤", 0) = 0
+[LeeDoYuJae]475: fnmatch ("[[=a=]b]", "b", 0) = 0
+[LeeDoYuJae]476: fnmatch ("[[=a=]b]", "c", 0) = FNM_NOMATCH
+[LeeDoYuJae]477: fnmatch ("[[=Ã¢=]b]", "a", 0) = 0
+[LeeDoYuJae]478: fnmatch ("[[=Ã¢=]b]", "Ã¢", 0) = 0
+[LeeDoYuJae]479: fnmatch ("[[=Ã¢=]b]", "Ã ", 0) = 0
+[LeeDoYuJae]480: fnmatch ("[[=Ã¢=]b]", "Ã¡", 0) = 0
+[LeeDoYuJae]481: fnmatch ("[[=Ã¢=]b]", "Ã¤", 0) = 0
+[LeeDoYuJae]482: fnmatch ("[[=Ã¢=]b]", "b", 0) = 0
+[LeeDoYuJae]483: fnmatch ("[[=Ã¢=]b]", "c", 0) = FNM_NOMATCH
+[LeeDoYuJae]484: fnmatch ("[[=Ã =]b]", "a", 0) = 0
+[LeeDoYuJae]485: fnmatch ("[[=Ã =]b]", "Ã¢", 0) = 0
+[LeeDoYuJae]486: fnmatch ("[[=Ã =]b]", "Ã ", 0) = 0
+[LeeDoYuJae]487: fnmatch ("[[=Ã =]b]", "Ã¡", 0) = 0
+[LeeDoYuJae]488: fnmatch ("[[=Ã =]b]", "Ã¤", 0) = 0
+[LeeDoYuJae]489: fnmatch ("[[=Ã =]b]", "b", 0) = 0
+[LeeDoYuJae]490: fnmatch ("[[=Ã =]b]", "c", 0) = FNM_NOMATCH
+[LeeDoYuJae]491: fnmatch ("[[=Ã¡=]b]", "a", 0) = 0
+[LeeDoYuJae]492: fnmatch ("[[=Ã¡=]b]", "Ã¢", 0) = 0
+[LeeDoYuJae]493: fnmatch ("[[=Ã¡=]b]", "Ã ", 0) = 0
+[LeeDoYuJae]494: fnmatch ("[[=Ã¡=]b]", "Ã¡", 0) = 0
+[LeeDoYuJae]495: fnmatch ("[[=Ã¡=]b]", "Ã¤", 0) = 0
+[LeeDoYuJae]496: fnmatch ("[[=Ã¡=]b]", "b", 0) = 0
+[LeeDoYuJae]497: fnmatch ("[[=Ã¡=]b]", "c", 0) = FNM_NOMATCH
+[LeeDoYuJae]498: fnmatch ("[[=Ã¤=]b]", "a", 0) = 0
+[LeeDoYuJae]499: fnmatch ("[[=Ã¤=]b]", "Ã¢", 0) = 0
+[LeeDoYuJae]500: fnmatch ("[[=Ã¤=]b]", "Ã ", 0) = 0
+[LeeDoYuJae]501: fnmatch ("[[=Ã¤=]b]", "Ã¡", 0) = 0
+[LeeDoYuJae]502: fnmatch ("[[=Ã¤=]b]", "Ã¤", 0) = 0
+[LeeDoYuJae]503: fnmatch ("[[=Ã¤=]b]", "b", 0) = 0
+[LeeDoYuJae]504: fnmatch ("[[=Ã¤=]b]", "c", 0) = FNM_NOMATCH
+[LeeDoYuJae]505: fnmatch ("[[.a.]]a", "aa", 0) = 0
+[LeeDoYuJae]506: fnmatch ("[[.a.]]a", "ba", 0) = FNM_NOMATCH
+[LeeDoYuJae]507: fnmatch ("x", "x", FNM_PATHNAME|FNM_LEADING_DIR) = 0
+[LeeDoYuJae]508: fnmatch ("x", "x/y", FNM_PATHNAME|FNM_LEADING_DIR) = 0
+[LeeDoYuJae]509: fnmatch ("x", "x/y/z", FNM_PATHNAME|FNM_LEADING_DIR) = 0
+[LeeDoYuJae]510: fnmatch ("*", "x", FNM_PATHNAME|FNM_LEADING_DIR) = 0
+[LeeDoYuJae]511: fnmatch ("*", "x/y", FNM_PATHNAME|FNM_LEADING_DIR) = 0
+[LeeDoYuJae]512: fnmatch ("*", "x/y/z", FNM_PATHNAME|FNM_LEADING_DIR) = 0
+[LeeDoYuJae]513: fnmatch ("*x", "x", FNM_PATHNAME|FNM_LEADING_DIR) = 0
+[LeeDoYuJae]514: fnmatch ("*x", "x/y", FNM_PATHNAME|FNM_LEADING_DIR) = 0
+[LeeDoYuJae]515: fnmatch ("*x", "x/y/z", FNM_PATHNAME|FNM_LEADING_DIR) = 0
+[LeeDoYuJae]516: fnmatch ("x*", "x", FNM_PATHNAME|FNM_LEADING_DIR) = 0
+[LeeDoYuJae]517: fnmatch ("x*", "x/y", FNM_PATHNAME|FNM_LEADING_DIR) = 0
+[LeeDoYuJae]518: fnmatch ("x*", "x/y/z", FNM_PATHNAME|FNM_LEADING_DIR) = 0
+[LeeDoYuJae]519: fnmatch ("a", "x", FNM_PATHNAME|FNM_LEADING_DIR) = FNM_NOMATCH
+[LeeDoYuJae]520: fnmatch ("a", "x/y", FNM_PATHNAME|FNM_LEADING_DIR) = FNM_NOMATCH
+[LeeDoYuJae]521: fnmatch ("a", "x/y/z", FNM_PATHNAME|FNM_LEADING_DIR) = FNM_NOMATCH
+[LeeDoYuJae]522: fnmatch ("x/y", "x", FNM_PATHNAME|FNM_LEADING_DIR) = FNM_NOMATCH
+[LeeDoYuJae]523: fnmatch ("x/y", "x/y", FNM_PATHNAME|FNM_LEADING_DIR) = 0
+[LeeDoYuJae]524: fnmatch ("x/y", "x/y/z", FNM_PATHNAME|FNM_LEADING_DIR) = 0
+[LeeDoYuJae]525: fnmatch ("x?y", "x", FNM_PATHNAME|FNM_LEADING_DIR) = FNM_NOMATCH
+[LeeDoYuJae]526: fnmatch ("x?y", "x/y", FNM_PATHNAME|FNM_LEADING_DIR) = FNM_NOMATCH
+[LeeDoYuJae]527: fnmatch ("x?y", "x/y/z", FNM_PATHNAME|FNM_LEADING_DIR) = FNM_NOMATCH
+[LeeDoYuJae]528: fnmatch ("?@(a|b)*@(c)d", "abcd", FNM_EXTMATCH) = 0
+[LeeDoYuJae]529: fnmatch ("/dev/@(tcp|udp)/*/*", "/dev/udp/129.22.8.102/45", FNM_PATHNAME|FNM_EXTMATCH) = 0
+[LeeDoYuJae]530: fnmatch ("[1-9]*([0-9])", "12", FNM_EXTMATCH) = 0
+[LeeDoYuJae]531: fnmatch ("[1-9]*([0-9])", "12abc", FNM_EXTMATCH) = FNM_NOMATCH
+[LeeDoYuJae]532: fnmatch ("[1-9]*([0-9])", "1", FNM_EXTMATCH) = 0
+[LeeDoYuJae]533: fnmatch ("+([0-7])", "07", FNM_EXTMATCH) = 0
+[LeeDoYuJae]534: fnmatch ("+([0-7])", "0377", FNM_EXTMATCH) = 0
+[LeeDoYuJae]535: fnmatch ("+([0-7])", "09", FNM_EXTMATCH) = FNM_NOMATCH
+[LeeDoYuJae]536: fnmatch ("para@(chute|graph)", "paragraph", FNM_EXTMATCH) = 0
+[LeeDoYuJae]537: fnmatch ("para@(chute|graph)", "paramour", FNM_EXTMATCH) = FNM_NOMATCH
+[LeeDoYuJae]538: fnmatch ("para?([345]|99)1", "para991", FNM_EXTMATCH) = 0
+[LeeDoYuJae]539: fnmatch ("para?([345]|99)1", "para381", FNM_EXTMATCH) = FNM_NOMATCH
+[LeeDoYuJae]540: fnmatch ("para*([0-9])", "paragraph", FNM_EXTMATCH) = FNM_NOMATCH
+[LeeDoYuJae]541: fnmatch ("para*([0-9])", "para", FNM_EXTMATCH) = 0
+[LeeDoYuJae]542: fnmatch ("para*([0-9])", "para13829383746592", FNM_EXTMATCH) = 0
+[LeeDoYuJae]543: fnmatch ("para+([0-9])", "paragraph", FNM_EXTMATCH) = FNM_NOMATCH
+[LeeDoYuJae]544: fnmatch ("para+([0-9])", "para", FNM_EXTMATCH) = FNM_NOMATCH
+[LeeDoYuJae]545: fnmatch ("para+([0-9])", "para987346523", FNM_EXTMATCH) = 0
+[LeeDoYuJae]546: fnmatch ("para!(*.[0-9])", "paragraph", FNM_EXTMATCH) = 0
+[LeeDoYuJae]547: fnmatch ("para!(*.[0-9])", "para.38", FNM_EXTMATCH) = 0
+[LeeDoYuJae]548: fnmatch ("para!(*.[0-9])", "para.graph", FNM_EXTMATCH) = 0
+[LeeDoYuJae]549: fnmatch ("para!(*.[0-9])", "para39", FNM_EXTMATCH) = 0
+[LeeDoYuJae]550: fnmatch ("*(0|1|3|5|7|9)", "", FNM_EXTMATCH) = 0
+[LeeDoYuJae]551: fnmatch ("*(0|1|3|5|7|9)", "137577991", FNM_EXTMATCH) = 0
+[LeeDoYuJae]552: fnmatch ("*(0|1|3|5|7|9)", "2468", FNM_EXTMATCH) = FNM_NOMATCH
+[LeeDoYuJae]553: fnmatch ("*(0|1|3|5|7|9)", "1358", FNM_EXTMATCH) = FNM_NOMATCH
+[LeeDoYuJae]554: fnmatch ("*.c?(c)", "file.c", FNM_EXTMATCH) = 0
+[LeeDoYuJae]555: fnmatch ("*.c?(c)", "file.C", FNM_EXTMATCH) = FNM_NOMATCH
+[LeeDoYuJae]556: fnmatch ("*.c?(c)", "file.cc", FNM_EXTMATCH) = 0
+[LeeDoYuJae]557: fnmatch ("*.c?(c)", "file.ccc", FNM_EXTMATCH) = FNM_NOMATCH
+[LeeDoYuJae]558: fnmatch ("!(*.c|*.h|Makefile.in|config*|README)", "parse.y", FNM_EXTMATCH) = 0
+[LeeDoYuJae]559: fnmatch ("!(*.c|*.h|Makefile.in|config*|README)", "shell.c", FNM_EXTMATCH) = FNM_NOMATCH
+[LeeDoYuJae]560: fnmatch ("!(*.c|*.h|Makefile.in|config*|README)", "Makefile", FNM_EXTMATCH) = 0
+[LeeDoYuJae]561: fnmatch ("*;[1-9]*([0-9])", "VMS.FILE;1", FNM_EXTMATCH) = 0
+[LeeDoYuJae]562: fnmatch ("*;[1-9]*([0-9])", "VMS.FILE;0", FNM_EXTMATCH) = FNM_NOMATCH
+[LeeDoYuJae]563: fnmatch ("*;[1-9]*([0-9])", "VMS.FILE;", FNM_EXTMATCH) = FNM_NOMATCH
+[LeeDoYuJae]564: fnmatch ("*;[1-9]*([0-9])", "VMS.FILE;139", FNM_EXTMATCH) = 0
+[LeeDoYuJae]565: fnmatch ("*;[1-9]*([0-9])", "VMS.FILE;1N", FNM_EXTMATCH) = FNM_NOMATCH
+[LeeDoYuJae]566: fnmatch ("ab**(e|f)", "abcfefg", FNM_EXTMATCH) = 0
+[LeeDoYuJae]567: fnmatch ("ab**(e|f)g", "abcfefg", FNM_EXTMATCH) = 0
+[LeeDoYuJae]568: fnmatch ("ab*+(e|f)", "ab", FNM_EXTMATCH) = FNM_NOMATCH
+[LeeDoYuJae]569: fnmatch ("ab***ef", "abef", FNM_EXTMATCH) = 0
+[LeeDoYuJae]570: fnmatch ("ab**", "abef", FNM_EXTMATCH) = 0
+[LeeDoYuJae]571: fnmatch ("*(f*(o))", "fofo", FNM_EXTMATCH) = 0
+[LeeDoYuJae]572: fnmatch ("*(f*(o))", "ffo", FNM_EXTMATCH) = 0
+[LeeDoYuJae]573: fnmatch ("*(f*(o))", "foooofo", FNM_EXTMATCH) = 0
+[LeeDoYuJae]574: fnmatch ("*(f*(o))", "foooofof", FNM_EXTMATCH) = 0
+[LeeDoYuJae]575: fnmatch ("*(f*(o))", "fooofoofofooo", FNM_EXTMATCH) = 0
+[LeeDoYuJae]576: fnmatch ("*(f+(o))", "foooofof", FNM_EXTMATCH) = FNM_NOMATCH
+[LeeDoYuJae]577: fnmatch ("*(f*(o))", "xfoooofof", FNM_EXTMATCH) = FNM_NOMATCH
+[LeeDoYuJae]578: fnmatch ("*(f*(o))", "foooofofx", FNM_EXTMATCH) = FNM_NOMATCH
+[LeeDoYuJae]579: fnmatch ("*(*(of*(o)x)o)", "ofxoofxo", FNM_EXTMATCH) = 0
+[LeeDoYuJae]580: fnmatch ("*(f*(o))", "ofooofoofofooo", FNM_EXTMATCH) = FNM_NOMATCH
+[LeeDoYuJae]581: fnmatch ("*(f*(o)x)", "foooxfooxfoxfooox", FNM_EXTMATCH) = 0
+[LeeDoYuJae]582: fnmatch ("*(f*(o)x)", "foooxfooxofoxfooox", FNM_EXTMATCH) = FNM_NOMATCH
+[LeeDoYuJae]583: fnmatch ("*(f*(o)x)", "foooxfooxfxfooox", FNM_EXTMATCH) = 0
+[LeeDoYuJae]584: fnmatch ("*(*(of*(o)x)o)", "ofxoofxo", FNM_EXTMATCH) = 0
+[LeeDoYuJae]585: fnmatch ("*(*(of*(o)x)o)", "ofoooxoofxo", FNM_EXTMATCH) = 0
+[LeeDoYuJae]586: fnmatch ("*(*(of*(o)x)o)", "ofoooxoofxoofoooxoofxo", FNM_EXTMATCH) = 0
+[LeeDoYuJae]587: fnmatch ("*(*(of*(o)x)o)", "ofoooxoofxoofoooxoofxoo", FNM_EXTMATCH) = 0
+[LeeDoYuJae]588: fnmatch ("*(*(of*(o)x)o)", "ofoooxoofxoofoooxoofxofo", FNM_EXTMATCH) = FNM_NOMATCH
+[LeeDoYuJae]589: fnmatch ("*(*(of*(o)x)o)", "ofoooxoofxoofoooxoofxooofxofxo", FNM_EXTMATCH) = 0
+[LeeDoYuJae]590: fnmatch ("*(@(a))a@(c)", "aac", FNM_EXTMATCH) = 0
+[LeeDoYuJae]591: fnmatch ("*(@(a))a@(c)", "ac", FNM_EXTMATCH) = 0
+[LeeDoYuJae]592: fnmatch ("*(@(a))a@(c)", "c", FNM_EXTMATCH) = FNM_NOMATCH
+[LeeDoYuJae]593: fnmatch ("*(@(a))a@(c)", "aaac", FNM_EXTMATCH) = 0
+[LeeDoYuJae]594: fnmatch ("*(@(a))a@(c)", "baaac", FNM_EXTMATCH) = FNM_NOMATCH
+[LeeDoYuJae]595: fnmatch ("?@(a|b)*@(c)d", "abcd", FNM_EXTMATCH) = 0
+[LeeDoYuJae]596: fnmatch ("@(ab|a*@(b))*(c)d", "abcd", FNM_EXTMATCH) = 0
+[LeeDoYuJae]597: fnmatch ("@(ab|a*(b))*(c)d", "acd", FNM_EXTMATCH) = 0
+[LeeDoYuJae]598: fnmatch ("@(ab|a*(b))*(c)d", "abbcd", FNM_EXTMATCH) = 0
+[LeeDoYuJae]599: fnmatch ("@(b+(c)d|e*(f)g?|?(h)i@(j|k))", "effgz", FNM_EXTMATCH) = 0
+[LeeDoYuJae]600: fnmatch ("@(b+(c)d|e*(f)g?|?(h)i@(j|k))", "efgz", FNM_EXTMATCH) = 0
+[LeeDoYuJae]601: fnmatch ("@(b+(c)d|e*(f)g?|?(h)i@(j|k))", "egz", FNM_EXTMATCH) = 0
+[LeeDoYuJae]602: fnmatch ("*(b+(c)d|e*(f)g?|?(h)i@(j|k))", "egzefffgzbcdij", FNM_EXTMATCH) = 0
+[LeeDoYuJae]603: fnmatch ("@(b+(c)d|e+(f)g?|?(h)i@(j|k))", "egz", FNM_EXTMATCH) = FNM_NOMATCH
+[LeeDoYuJae]604: fnmatch ("*(of+(o))", "ofoofo", FNM_EXTMATCH) = 0
+[LeeDoYuJae]605: fnmatch ("*(oxf+(ox))", "oxfoxoxfox", FNM_EXTMATCH) = 0
+[LeeDoYuJae]606: fnmatch ("*(oxf+(ox))", "oxfoxfox", FNM_EXTMATCH) = FNM_NOMATCH
+[LeeDoYuJae]607: fnmatch ("*(of+(o)|f)", "ofoofo", FNM_EXTMATCH) = 0
+[LeeDoYuJae]608: fnmatch ("@(foo|f|fo)*(f|of+(o))", "foofoofo", FNM_EXTMATCH) = 0
+[LeeDoYuJae]609: fnmatch ("*(of|oof+(o))", "oofooofo", FNM_EXTMATCH) = 0
+[LeeDoYuJae]610: fnmatch ("*(*(f)*(o))", "fffooofoooooffoofffooofff", FNM_EXTMATCH) = 0
+[LeeDoYuJae]611: fnmatch ("*(fo|foo)", "fofoofoofofoo", FNM_EXTMATCH) = 0
+[LeeDoYuJae]612: fnmatch ("!(x)", "foo", FNM_EXTMATCH) = 0
+[LeeDoYuJae]613: fnmatch ("!(x)*", "foo", FNM_EXTMATCH) = 0
+[LeeDoYuJae]614: fnmatch ("!(foo)", "foo", FNM_EXTMATCH) = FNM_NOMATCH
+[LeeDoYuJae]615: fnmatch ("!(foo)*", "foo", FNM_EXTMATCH) = 0
+[LeeDoYuJae]616: fnmatch ("!(foo)", "foobar", FNM_EXTMATCH) = 0
+[LeeDoYuJae]617: fnmatch ("!(foo)*", "foobar", FNM_EXTMATCH) = 0
+[LeeDoYuJae]618: fnmatch ("!(*.*).!(*.*)", "moo.cow", FNM_EXTMATCH) = 0
+[LeeDoYuJae]619: fnmatch ("!(*.*).!(*.*)", "mad.moo.cow", FNM_EXTMATCH) = FNM_NOMATCH
+[LeeDoYuJae]620: fnmatch ("mu!(*(c))?.pa!(*(z))?", "mucca.pazza", FNM_EXTMATCH) = FNM_NOMATCH
+[LeeDoYuJae]621: fnmatch ("!(f)", "fff", FNM_EXTMATCH) = 0
+[LeeDoYuJae]622: fnmatch ("*(!(f))", "fff", FNM_EXTMATCH) = 0
+[LeeDoYuJae]623: fnmatch ("+(!(f))", "fff", FNM_EXTMATCH) = 0
+[LeeDoYuJae]624: fnmatch ("!(f)", "ooo", FNM_EXTMATCH) = 0
+[LeeDoYuJae]625: fnmatch ("*(!(f))", "ooo", FNM_EXTMATCH) = 0
+[LeeDoYuJae]626: fnmatch ("+(!(f))", "ooo", FNM_EXTMATCH) = 0
+[LeeDoYuJae]627: fnmatch ("!(f)", "foo", FNM_EXTMATCH) = 0
+[LeeDoYuJae]628: fnmatch ("*(!(f))", "foo", FNM_EXTMATCH) = 0
+[LeeDoYuJae]629: fnmatch ("+(!(f))", "foo", FNM_EXTMATCH) = 0
+[LeeDoYuJae]630: fnmatch ("!(f)", "f", FNM_EXTMATCH) = FNM_NOMATCH
+[LeeDoYuJae]631: fnmatch ("*(!(f))", "f", FNM_EXTMATCH) = FNM_NOMATCH
+[LeeDoYuJae]632: fnmatch ("+(!(f))", "f", FNM_EXTMATCH) = FNM_NOMATCH
+[LeeDoYuJae]633: fnmatch ("@(!(z*)|*x)", "foot", FNM_EXTMATCH) = 0
+[LeeDoYuJae]634: fnmatch ("@(!(z*)|*x)", "zoot", FNM_EXTMATCH) = FNM_NOMATCH
+[LeeDoYuJae]635: fnmatch ("@(!(z*)|*x)", "foox", FNM_EXTMATCH) = 0
+[LeeDoYuJae]636: fnmatch ("@(!(z*)|*x)", "zoox", FNM_EXTMATCH) = 0
+[LeeDoYuJae]637: fnmatch ("!(foo)b*", "foob", FNM_EXTMATCH) = FNM_NOMATCH
+[LeeDoYuJae]638: fnmatch ("!(foo)b*", "foobb", FNM_EXTMATCH) = 0
+[LeeDoYuJae]639: fnmatch ("*([a[])", "[", FNM_EXTMATCH) = 0
+[LeeDoYuJae]640: fnmatch ("*([]a[])", "]", FNM_EXTMATCH) = 0
+[LeeDoYuJae]641: fnmatch ("*([]a[])", "a", FNM_EXTMATCH) = 0
+[LeeDoYuJae]642: fnmatch ("*([!]a[])", "b", FNM_EXTMATCH) = 0
+[LeeDoYuJae]643: fnmatch ("*([!]a[]|[[])", "[", FNM_EXTMATCH) = 0
+[LeeDoYuJae]644: fnmatch ("*([!]a[]|[]])", "]", FNM_EXTMATCH) = 0
+[LeeDoYuJae]645: fnmatch ("!([!]a[])", "[", FNM_EXTMATCH) = 0
+[LeeDoYuJae]646: fnmatch ("!([!]a[])", "]", FNM_EXTMATCH) = 0
+[LeeDoYuJae]647: fnmatch ("*([)])", ")", FNM_EXTMATCH) = 0
+[LeeDoYuJae]648: fnmatch ("*([*(])", "*", FNM_EXTMATCH) = 0
+[LeeDoYuJae]649: fnmatch ("*!(|a)cd", "abcd", FNM_EXTMATCH) = 0
+[LeeDoYuJae]650: fnmatch ("+([abc])/*", "ab/.a", FNM_PATHNAME|FNM_PERIOD|FNM_EXTMATCH) = FNM_NOMATCH
+[LeeDoYuJae]651: fnmatch ("", "", 0) = 0
+[LeeDoYuJae]652: fnmatch ("", "", FNM_EXTMATCH) = 0
+[LeeDoYuJae]653: fnmatch ("*([abc])", "", FNM_EXTMATCH) = 0
+[LeeDoYuJae]654: fnmatch ("?([abc])", "", FNM_EXTMATCH) = 0
+[LeeDoYuJae]=====================
+654 tests,   0 failed

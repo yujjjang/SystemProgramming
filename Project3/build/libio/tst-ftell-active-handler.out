@@ -1,0 +1,84 @@
+[LeeDoYuJae]Regular mode:
+[LeeDoYuJae]	ftell: fdopen (file, "w"): [LeeDoYuJae]old offset = 0, [LeeDoYuJae]new offset = 6[LeeDoYuJae], offset after EOF = 0
+[LeeDoYuJae]	ftell: fdopen (file, "w+"): [LeeDoYuJae]old offset = 0, [LeeDoYuJae]new offset = 6[LeeDoYuJae], offset after EOF = 12
+[LeeDoYuJae]	ftell: fdopen (file, "r+"): [LeeDoYuJae]old offset = 0, [LeeDoYuJae]new offset = 6[LeeDoYuJae], offset after EOF = 18
+[LeeDoYuJae]	ftell: fdopen (file, "a"): [LeeDoYuJae]old offset = 18, [LeeDoYuJae]new offset = 24
+[LeeDoYuJae]	ftell: fdopen (file, "a+"): [LeeDoYuJae]old offset = 0, [LeeDoYuJae]new offset = 30[LeeDoYuJae], offset after EOF = 36
+[LeeDoYuJae]	ftell: fopen (file, "w"): [LeeDoYuJae]old offset = 0, [LeeDoYuJae]new offset = 6[LeeDoYuJae], offset after EOF = 0
+[LeeDoYuJae]	ftell: fopen (file, "w+"): [LeeDoYuJae]old offset = 0, [LeeDoYuJae]new offset = 6[LeeDoYuJae], offset after EOF = 12
+[LeeDoYuJae]	ftell: fopen (file, "r+"): [LeeDoYuJae]old offset = 0, [LeeDoYuJae]new offset = 6[LeeDoYuJae], offset after EOF = 18
+[LeeDoYuJae]	ftell: fopen (file, "a"): [LeeDoYuJae]old offset = 18, [LeeDoYuJae]new offset = 24
+[LeeDoYuJae]	ftell: fopen (file, "a+"): [LeeDoYuJae]old offset = 0, [LeeDoYuJae]new offset = 30[LeeDoYuJae], offset after EOF = 36
+[LeeDoYuJae]	write: fopen (file, "w"): [LeeDoYuJae]offset = 11
+[LeeDoYuJae]	write: fopen (file, "w+"): [LeeDoYuJae]offset = 16
+[LeeDoYuJae]	write: fopen (file, "r+"): [LeeDoYuJae]offset = 21
+[LeeDoYuJae]	write: fdopen (file, "w"): [LeeDoYuJae]offset = 26
+[LeeDoYuJae]	write: fdopen (file, "w+"): [LeeDoYuJae]offset = 31
+[LeeDoYuJae]	write: fdopen (file, "r+"): [LeeDoYuJae]offset = 36
+[LeeDoYuJae]	append: fopen (file, "a"): [LeeDoYuJae]offset = 42
+[LeeDoYuJae]	append: fopen (file, "a+"): [LeeDoYuJae]offset = 48
+[LeeDoYuJae]	append: fdopen (file, "a"): [LeeDoYuJae]offset = 54
+[LeeDoYuJae]	append: fdopen (file, "a+"): [LeeDoYuJae]offset = 60
+[LeeDoYuJae]	append: fdopen (file, "a"): O_APPEND: [LeeDoYuJae]retained current file offset 59[LeeDoYuJae], ftello reported correct offset 59
+[LeeDoYuJae]	rewind: fdopen (file, "w"): [LeeDoYuJae]old offset = 0, [LeeDoYuJae]new offset = 6
+[LeeDoYuJae]	rewind: fdopen (file, "w+"): [LeeDoYuJae]old offset = 0, [LeeDoYuJae]new offset = 6
+[LeeDoYuJae]	rewind: fdopen (file, "r+"): [LeeDoYuJae]old offset = 0, [LeeDoYuJae]new offset = 6
+[LeeDoYuJae]	rewind: fdopen (file, "a"): [LeeDoYuJae]old offset = 0, [LeeDoYuJae]new offset = 18
+[LeeDoYuJae]	rewind: fdopen (file, "a+"): [LeeDoYuJae]old offset = 0, [LeeDoYuJae]new offset = 24
+[LeeDoYuJae]	rewind: fopen (file, "w"): [LeeDoYuJae]old offset = 0, [LeeDoYuJae]new offset = 6
+[LeeDoYuJae]	rewind: fopen (file, "w+"): [LeeDoYuJae]old offset = 0, [LeeDoYuJae]new offset = 6
+[LeeDoYuJae]	rewind: fopen (file, "r+"): [LeeDoYuJae]old offset = 0, [LeeDoYuJae]new offset = 6
+[LeeDoYuJae]	rewind: fopen (file, "a"): [LeeDoYuJae]old offset = 0, [LeeDoYuJae]new offset = 18
+[LeeDoYuJae]	rewind: fopen (file, "a+"): [LeeDoYuJae]old offset = 0, [LeeDoYuJae]new offset = 24
+[LeeDoYuJae]	ftruncate: fopen (file, "r+"): [LeeDoYuJae]offset = 6
+[LeeDoYuJae]	ftruncate: fopen (file, "w"): [LeeDoYuJae]offset = 6
+[LeeDoYuJae]	ftruncate: fopen (file, "w+"): [LeeDoYuJae]offset = 6
+[LeeDoYuJae]	ftruncate: fopen (file, "a"): [LeeDoYuJae]offset = 6
+[LeeDoYuJae]	ftruncate: fopen (file, "a+"): [LeeDoYuJae]offset = 6
+[LeeDoYuJae]	ftruncate: fdopen (file, "r+"): [LeeDoYuJae]offset = 6
+[LeeDoYuJae]	ftruncate: fdopen (file, "w"): [LeeDoYuJae]offset = 6
+[LeeDoYuJae]	ftruncate: fdopen (file, "w+"): [LeeDoYuJae]offset = 6
+[LeeDoYuJae]	ftruncate: fdopen (file, "a"): [LeeDoYuJae]offset = 6
+[LeeDoYuJae]	ftruncate: fdopen (file, "a+"): [LeeDoYuJae]offset = 6
+[LeeDoYuJae]Wide mode:
+[LeeDoYuJae]	ftell: fdopen (file, "w"): [LeeDoYuJae]old offset = 0, [LeeDoYuJae]new offset = 6[LeeDoYuJae], offset after EOF = 0
+[LeeDoYuJae]	ftell: fdopen (file, "w+"): [LeeDoYuJae]old offset = 0, [LeeDoYuJae]new offset = 6[LeeDoYuJae], offset after EOF = 12
+[LeeDoYuJae]	ftell: fdopen (file, "r+"): [LeeDoYuJae]old offset = 0, [LeeDoYuJae]new offset = 6[LeeDoYuJae], offset after EOF = 18
+[LeeDoYuJae]	ftell: fdopen (file, "a"): [LeeDoYuJae]old offset = 18, [LeeDoYuJae]new offset = 24
+[LeeDoYuJae]	ftell: fdopen (file, "a+"): [LeeDoYuJae]old offset = 0, [LeeDoYuJae]new offset = 30[LeeDoYuJae], offset after EOF = 36
+[LeeDoYuJae]	ftell: fopen (file, "w"): [LeeDoYuJae]old offset = 0, [LeeDoYuJae]new offset = 6[LeeDoYuJae], offset after EOF = 0
+[LeeDoYuJae]	ftell: fopen (file, "w+"): [LeeDoYuJae]old offset = 0, [LeeDoYuJae]new offset = 6[LeeDoYuJae], offset after EOF = 12
+[LeeDoYuJae]	ftell: fopen (file, "r+"): [LeeDoYuJae]old offset = 0, [LeeDoYuJae]new offset = 6[LeeDoYuJae], offset after EOF = 18
+[LeeDoYuJae]	ftell: fopen (file, "a"): [LeeDoYuJae]old offset = 18, [LeeDoYuJae]new offset = 24
+[LeeDoYuJae]	ftell: fopen (file, "a+"): [LeeDoYuJae]old offset = 0, [LeeDoYuJae]new offset = 30[LeeDoYuJae], offset after EOF = 36
+[LeeDoYuJae]	write: fopen (file, "w"): [LeeDoYuJae]offset = 65
+[LeeDoYuJae]	write: fopen (file, "w+"): [LeeDoYuJae]offset = 70
+[LeeDoYuJae]	write: fopen (file, "r+"): [LeeDoYuJae]offset = 75
+[LeeDoYuJae]	write: fdopen (file, "w"): [LeeDoYuJae]offset = 80
+[LeeDoYuJae]	write: fdopen (file, "w+"): [LeeDoYuJae]offset = 85
+[LeeDoYuJae]	write: fdopen (file, "r+"): [LeeDoYuJae]offset = 90
+[LeeDoYuJae]	append: fopen (file, "a"): [LeeDoYuJae]offset = 96
+[LeeDoYuJae]	append: fopen (file, "a+"): [LeeDoYuJae]offset = 102
+[LeeDoYuJae]	append: fdopen (file, "a"): [LeeDoYuJae]offset = 108
+[LeeDoYuJae]	append: fdopen (file, "a+"): [LeeDoYuJae]offset = 114
+[LeeDoYuJae]	append: fdopen (file, "a"): O_APPEND: [LeeDoYuJae]retained current file offset 113[LeeDoYuJae], ftello reported correct offset 113
+[LeeDoYuJae]	rewind: fdopen (file, "w"): [LeeDoYuJae]old offset = 0, [LeeDoYuJae]new offset = 6
+[LeeDoYuJae]	rewind: fdopen (file, "w+"): [LeeDoYuJae]old offset = 0, [LeeDoYuJae]new offset = 6
+[LeeDoYuJae]	rewind: fdopen (file, "r+"): [LeeDoYuJae]old offset = 0, [LeeDoYuJae]new offset = 6
+[LeeDoYuJae]	rewind: fdopen (file, "a"): [LeeDoYuJae]old offset = 0, [LeeDoYuJae]new offset = 18
+[LeeDoYuJae]	rewind: fdopen (file, "a+"): [LeeDoYuJae]old offset = 0, [LeeDoYuJae]new offset = 24
+[LeeDoYuJae]	rewind: fopen (file, "w"): [LeeDoYuJae]old offset = 0, [LeeDoYuJae]new offset = 6
+[LeeDoYuJae]	rewind: fopen (file, "w+"): [LeeDoYuJae]old offset = 0, [LeeDoYuJae]new offset = 6
+[LeeDoYuJae]	rewind: fopen (file, "r+"): [LeeDoYuJae]old offset = 0, [LeeDoYuJae]new offset = 6
+[LeeDoYuJae]	rewind: fopen (file, "a"): [LeeDoYuJae]old offset = 0, [LeeDoYuJae]new offset = 18
+[LeeDoYuJae]	rewind: fopen (file, "a+"): [LeeDoYuJae]old offset = 0, [LeeDoYuJae]new offset = 24
+[LeeDoYuJae]	ftruncate: fopen (file, "r+"): [LeeDoYuJae]offset = 6
+[LeeDoYuJae]	ftruncate: fopen (file, "w"): [LeeDoYuJae]offset = 6
+[LeeDoYuJae]	ftruncate: fopen (file, "w+"): [LeeDoYuJae]offset = 6
+[LeeDoYuJae]	ftruncate: fopen (file, "a"): [LeeDoYuJae]offset = 6
+[LeeDoYuJae]	ftruncate: fopen (file, "a+"): [LeeDoYuJae]offset = 6
+[LeeDoYuJae]	ftruncate: fdopen (file, "r+"): [LeeDoYuJae]offset = 6
+[LeeDoYuJae]	ftruncate: fdopen (file, "w"): [LeeDoYuJae]offset = 6
+[LeeDoYuJae]	ftruncate: fdopen (file, "w+"): [LeeDoYuJae]offset = 6
+[LeeDoYuJae]	ftruncate: fdopen (file, "a"): [LeeDoYuJae]offset = 6
+[LeeDoYuJae]	ftruncate: fdopen (file, "a+"): [LeeDoYuJae]offset = 6

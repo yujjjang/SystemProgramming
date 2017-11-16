@@ -1,0 +1,18 @@
+[LeeDoYuJae]new locale: C
+[LeeDoYuJae]n = -1, errno = 84 (Invalid or incomplete multibyte or wide character)
+
+[LeeDoYuJae]new locale: de_DE.ISO-8859-1
+[LeeDoYuJae]n = -1, errno = 84 (Invalid or incomplete multibyte or wide character)
+
+[LeeDoYuJae]new locale: de_DE.UTF-8
+[LeeDoYuJae]n = -1, errno = 84 (Invalid or incomplete multibyte or wide character)
+
+[LeeDoYuJae]new locale: en_US.ANSI_X3.4-1968
+[LeeDoYuJae]n = -1, errno = 84 (Invalid or incomplete multibyte or wide character)
+
+[LeeDoYuJae]new locale: ja_JP.EUC-JP
+[LeeDoYuJae]n = -1, errno = 84 (Invalid or incomplete multibyte or wide character)
+
+[LeeDoYuJae]new locale: hr_HR.ISO-8859-2
+[LeeDoYuJae]n = -1, errno = 84 (Invalid or incomplete multibyte or wide character)
+

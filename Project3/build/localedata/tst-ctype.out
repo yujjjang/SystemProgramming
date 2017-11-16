@@ -1,0 +1,124 @@
+[LeeDoYuJae]Testing the ctype data of the `C' locale
+[LeeDoYuJae]  Test of ASCII character range
+    special NUL byte handling
+[LeeDoYuJae]    islower()
+[LeeDoYuJae]    isupper()
+[LeeDoYuJae]    isalpha()
+[LeeDoYuJae]    isdigit()
+[LeeDoYuJae]    isxdigit()
+[LeeDoYuJae]    isspace()
+[LeeDoYuJae]    isprint()
+[LeeDoYuJae]    isgraph()
+[LeeDoYuJae]    isblank()
+[LeeDoYuJae]    iscntrl()
+[LeeDoYuJae]    ispunct()
+[LeeDoYuJae]    isalnum()
+[LeeDoYuJae]    tolower()
+[LeeDoYuJae]    toupper()
+[LeeDoYuJae]  No errors for `C' locale
+
+
+[LeeDoYuJae]Testing the ctype data of the `de_DE.ISO-8859-1' locale
+[LeeDoYuJae]  Test of ASCII character range
+    special NUL byte handling
+[LeeDoYuJae]    islower()
+[LeeDoYuJae]    isupper()
+[LeeDoYuJae]    isalpha()
+[LeeDoYuJae]    isdigit()
+[LeeDoYuJae]    isxdigit()
+[LeeDoYuJae]    isspace()
+[LeeDoYuJae]    isprint()
+[LeeDoYuJae]    isgraph()
+[LeeDoYuJae]    isblank()
+[LeeDoYuJae]    iscntrl()
+[LeeDoYuJae]    ispunct()
+[LeeDoYuJae]    isalnum()
+[LeeDoYuJae]    tolower()
+[LeeDoYuJae]    toupper()
+[LeeDoYuJae]  Locale-specific tests for `lower'
+[LeeDoYuJae]  Locale-specific tests for `lower'
+[LeeDoYuJae]  Locale-specific tests for `upper'
+[LeeDoYuJae]  Locale-specific tests for `upper'
+[LeeDoYuJae]  Locale-specific tests for `alpha'
+[LeeDoYuJae]  Locale-specific tests for `alpha'
+[LeeDoYuJae]  Locale-specific tests for `digit'
+[LeeDoYuJae]  Locale-specific tests for `digit'
+[LeeDoYuJae]  Locale-specific tests for `xdigit'
+[LeeDoYuJae]  Locale-specific tests for `xdigit'
+[LeeDoYuJae]  Locale-specific tests for `space'
+[LeeDoYuJae]  Locale-specific tests for `space'
+[LeeDoYuJae]  Locale-specific tests for `print'
+[LeeDoYuJae]  Locale-specific tests for `print'
+[LeeDoYuJae]  Locale-specific tests for `graph'
+[LeeDoYuJae]  Locale-specific tests for `graph'
+[LeeDoYuJae]  Locale-specific tests for `blank'
+[LeeDoYuJae]  Locale-specific tests for `blank'
+[LeeDoYuJae]  Locale-specific tests for `cntrl'
+[LeeDoYuJae]  Locale-specific tests for `cntrl'
+[LeeDoYuJae]  Locale-specific tests for `punct'
+[LeeDoYuJae]  Locale-specific tests for `punct'
+[LeeDoYuJae]  Locale-specific tests for `alnum'
+[LeeDoYuJae]  Locale-specific tests for `alnum'
+[LeeDoYuJae]  No errors for `de_DE.ISO-8859-1' locale
+
+
+[LeeDoYuJae]Testing the ctype data of the `de_DE.UTF-8' locale
+[LeeDoYuJae]  Test of ASCII character range
+    special NUL byte handling
+[LeeDoYuJae]    islower()
+[LeeDoYuJae]    isupper()
+[LeeDoYuJae]    isalpha()
+[LeeDoYuJae]    isdigit()
+[LeeDoYuJae]    isxdigit()
+[LeeDoYuJae]    isspace()
+[LeeDoYuJae]    isprint()
+[LeeDoYuJae]    isgraph()
+[LeeDoYuJae]    isblank()
+[LeeDoYuJae]    iscntrl()
+[LeeDoYuJae]    ispunct()
+[LeeDoYuJae]    isalnum()
+[LeeDoYuJae]    tolower()
+[LeeDoYuJae]    toupper()
+[LeeDoYuJae]  No errors for `de_DE.UTF-8' locale
+
+
+[LeeDoYuJae]Testing the ctype data of the `en_US.ANSI_X3.4-1968' locale
+[LeeDoYuJae]  Test of ASCII character range
+    special NUL byte handling
+[LeeDoYuJae]    islower()
+[LeeDoYuJae]    isupper()
+[LeeDoYuJae]    isalpha()
+[LeeDoYuJae]    isdigit()
+[LeeDoYuJae]    isxdigit()
+[LeeDoYuJae]    isspace()
+[LeeDoYuJae]    isprint()
+[LeeDoYuJae]    isgraph()
+[LeeDoYuJae]    isblank()
+[LeeDoYuJae]    iscntrl()
+[LeeDoYuJae]    ispunct()
+[LeeDoYuJae]    isalnum()
+[LeeDoYuJae]    tolower()
+[LeeDoYuJae]    toupper()
+[LeeDoYuJae]  No errors for `en_US.ANSI_X3.4-1968' locale
+
+
+[LeeDoYuJae]Testing the ctype data of the `ja_JP.EUC-JP' locale
+[LeeDoYuJae]  Test of ASCII character range
+    special NUL byte handling
+[LeeDoYuJae]    islower()
+[LeeDoYuJae]    isupper()
+[LeeDoYuJae]    isalpha()
+[LeeDoYuJae]    isdigit()
+[LeeDoYuJae]    isxdigit()
+[LeeDoYuJae]    isspace()
+[LeeDoYuJae]    isprint()
+[LeeDoYuJae]    isgraph()
+[LeeDoYuJae]    isblank()
+[LeeDoYuJae]    iscntrl()
+[LeeDoYuJae]    ispunct()
+[LeeDoYuJae]    isalnum()
+[LeeDoYuJae]    tolower()
+[LeeDoYuJae]    toupper()
+[LeeDoYuJae]  No errors for `ja_JP.EUC-JP' locale
+
+

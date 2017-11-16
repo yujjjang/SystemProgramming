@@ -1,0 +1,3 @@
+PASS: ctype/check-installed-headers-c
+PASS: ctype/check-installed-headers-cxx
+PASS: ctype/test_ctype

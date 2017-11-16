@@ -1,0 +1,16 @@
+= Start
+@ /home/sysprog/glibc/build/libc.so.6:[0x7f99e3a0a5a9] + 0x7f99e5096b60 0xc6
+@ /home/sysprog/glibc/build/libc.so.6:(tsearch+0xdf)[0x7f99e3ac08cf] + 0x7f99e5096c30 0x18
+@ /home/sysprog/glibc/build/libc.so.6:(clearenv+0x5d)[0x7f99e3a0a8cd] - 0x7f99e5096260
+@ /home/sysprog/glibc/build/libc.so.6:[0x7f99e3ac0671] - 0x7f99e5096b60
+@ /home/sysprog/glibc/build/libc.so.6:[0x7f99e3ac065b] - 0x7f99e5096c30
+@ /home/sysprog/glibc/build/libc.so.6:[0x7f99e3ac0671] - 0x7f99e50964e0
+@ /home/sysprog/glibc/build/libc.so.6:[0x7f99e3b2d6dc] - 0x7f99e5096510
+@ /home/sysprog/glibc/build/posix/tst-vfork3:[0x402a80] - 0x7f99e50966d0
+@ /home/sysprog/glibc/build/posix/tst-vfork3:[0x402a8c] - 0x7f99e50966b0
+@ /home/sysprog/glibc/build/posix/tst-vfork3:[0x402a80] - 0x7f99e5096660
+@ /home/sysprog/glibc/build/posix/tst-vfork3:[0x402a8c] - 0x7f99e5096640
+@ /home/sysprog/glibc/build/posix/tst-vfork3:[0x402a80] - 0x7f99e50965f0
+@ /home/sysprog/glibc/build/posix/tst-vfork3:[0x402a8c] - 0x7f99e50965d0
+@ /home/sysprog/glibc/build/posix/tst-vfork3:[0x402a80] - 0x7f99e5096590
+@ /home/sysprog/glibc/build/posix/tst-vfork3:[0x402a8c] - 0x7f99e5096570

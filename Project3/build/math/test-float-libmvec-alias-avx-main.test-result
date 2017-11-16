@@ -1,0 +1,2 @@
+PASS: math/test-float-libmvec-alias-avx-main
+original exit status 0

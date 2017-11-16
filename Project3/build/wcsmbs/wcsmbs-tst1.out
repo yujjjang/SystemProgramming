@@ -1,0 +1,15 @@
+[LeeDoYuJae]locale : de_DE.UTF-8
+[LeeDoYuJae]MB_CUR_MAX 6
+[LeeDoYuJae]---- test 1 ------
+[LeeDoYuJae]size of string by mbstowcs 5
+[LeeDoYuJae]orig string Hello
+[LeeDoYuJae]string by wctomb He
+[LeeDoYuJae]string by %C H[LeeDoYuJae]e
+[LeeDoYuJae]string by %S Hello
+[LeeDoYuJae]---- test 2 ------
+[LeeDoYuJae]wchar string World
+[LeeDoYuJae]wchar W
+[LeeDoYuJae]size of string by wcstombs 5
+[LeeDoYuJae]size of string by wcslen 5
+[LeeDoYuJae]char World
+[LeeDoYuJae]------------------

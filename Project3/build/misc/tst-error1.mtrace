@@ -1,0 +1,5 @@
+= Start
+@ /home/sysprog/glibc/build/libc.so.6:(_IO_file_doallocate+0x79)[0x7fbbf0d5f0b9] + 0x7fbbf2abe6a0 0x1000
+@ /home/sysprog/glibc/build/libc.so.6:[0x7fbbf0d605d7] + 0x7fbbf2abf6b0 0x4000
+@ /home/sysprog/glibc/build/libc.so.6:(_IO_wsetb+0x63)[0x7fbbf0d63e83] - 0x7fbbf2abf6b0
+@ /home/sysprog/glibc/build/libc.so.6:[0x7fbbf0e4d7b4] - 0x7fbbf2abe6a0

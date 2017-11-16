@@ -1,0 +1,5 @@
+PASS: grp/check-installed-headers-c
+PASS: grp/check-installed-headers-cxx
+FAIL: grp/testgrp
+PASS: grp/tst-putgrent
+PASS: grp/tst_fgetgrent
