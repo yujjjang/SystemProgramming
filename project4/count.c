@@ -15,6 +15,8 @@ void setting_file(char* pathname){
 		if (read_num == check)
 			return;
 		else {
+			close(fd);
+			fd = open(pathname, O_RDWR | O_TRUNC, 0666);
 			pwrite(fd,&check,sizeof(int),SEEK_SET);
 			return ;
 		}
