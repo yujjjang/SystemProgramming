@@ -99,7 +99,7 @@ int main(){
 	setting_file_B("B.txt");
 	
 	long long int SUM[40];
-	count_num = 5;
+	
 	while (count_num != count_end) {
 		memset(SUM, 0x00, sizeof(long long int) * 40);
 		long long int sum = 0;
