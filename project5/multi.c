@@ -5,11 +5,12 @@
 #include <fcntl.h>
 #include <time.h>
 #include <stdint.h>
+#include <memory.h>
 #define BILLION 1000000000L
 #define ROW 4000
 #define COL 4000
 int list[8] = {1,2,4,8,10,20,30,40};
-int A[ROW][COL], B[ROW][COL], C[ROW][COL];
+int A[ROW][COL], B[ROW][COL];
 // 쓰레드 함수에 2개의 인자를 넘기기 위해서
 struct threadData{
 	int row;
@@ -21,7 +22,6 @@ struct threadData threadDataArray[40];
 void setting_file_A(char* pathname) {
 	FILE* fp;
 	int val = 1;
-
 	int k;
 	if ((fp = fopen(pathname,"r")) != NULL) {
 		fseek(fp, 0, SEEK_SET);
@@ -68,67 +68,49 @@ void setting_file_B(char* pathname) {
 	}
 	fclose(fp);
 }
-
-long long int return_sum_of_C(){
-	long long int sum = 0;
-	int read_num, i, j;
-	for (i = 0; i < ROW; i++){
-		for (j = 0; j < COL; j++){
-			sum += C[i][j];
-		}
-	}
-	return sum;
-}
-
-// FORMAT : C[i][j] -> lseek(fd,(4000*4*i)+(4*j),SEEK_SET);
 // i : column, j : row
 
 void *multi (void * arg){
 	struct threadData *myData;
 	myData = (struct threadData*) arg;
-	int row, cnt;
-	row = myData->row;
-	cnt = myData->cnt;
-
-	int i, j, k, start_point = row * cnt * 4;
-	int sum = 0;
-
-	for (i = row * cnt; i < row * cnt + row; i++){	
-		for(j = 0; j < COL; j++){
-			sum = 0;
-			for(k = 0; k < COL; k++){
-				sum += A[i][k] + B[k][j];
+	int i, j, k;
+	long long int sum = 0;
+	for (i = myData -> row * myData -> cnt; i < myData -> row * myData -> cnt + myData -> row; i++){	
+		for(k = 0; k < COL; k++){
+			for(j = 0; j < COL; j++){
+				sum += A[i][j] * B[j][k];
 			}
-			// C[i][j], start_point -> 다음 쓰레드에서 적을 위치
-			C[i][j] = sum;
 		}
 	}
-	pthread_exit(NULL);
+	pthread_exit((void*)sum);
 }
 
 int main(){
 	
 	long timeDist = 0;
-	int count_num = 0, thread_num, thread_cnt, i, j;
+	int count_num = 0, thread_num, thread_cnt;
+	int i, j;
 	int count_end = sizeof (list) / sizeof (int);
 	double result;
 	uint64_t diff;
-	long long int sum;
 	pthread_t threads[40];
 	struct timespec tspec, etspec,tt;
-
 	setting_file_A("A.txt");
 	setting_file_B("B.txt");
+	
+	long long int SUM[40];
+	
 	while (count_num != count_end) {
-		clock_gettime(CLOCK_MONOTONIC, &tspec);
-		clock_gettime(CLOCK_REALTIME, &tt);
-		timeDist = tt.tv_sec;
-
+		memset(SUM, 0x00, sizeof(long long int) * 40);
+		long long int sum = 0;
 		thread_num = list[count_num];
-
 		int column = COL;
 		int row = ROW / thread_num;
 		int rc;
+		
+		clock_gettime(CLOCK_MONOTONIC, &tspec);
+		clock_gettime(CLOCK_REALTIME, &tt);
+		timeDist = tt.tv_sec;
 
 		for (i = 0; i < thread_num; i++){
 			threadDataArray[i].row = row;
@@ -138,21 +120,30 @@ int main(){
 			if (rc != 0)
 				printf("Creating thread error\n");
 		}
+
 		for (j = 0; j < thread_num; j++){
-			pthread_join(threads[j], NULL);
+			pthread_join(threads[j],(void*)&SUM[j]);
 		}
-
-		sum = return_sum_of_C();
-
+		if (thread_num == 30) {
+			for(int i = 3990; i < ROW; ++i) {
+				for(int k = 0; k < COL; ++k) {
+					for (int j = 0; j < COL; ++j){
+						sum += A[i][k] * B[k][j];
+					}
+				}
+			}
+		}
+		for (j = 0; j < thread_num; ++j) {
+			sum += SUM[j];
+		}
 		clock_gettime(CLOCK_MONOTONIC,&etspec);
 		clock_gettime(CLOCK_REALTIME, &tt);
 		diff = BILLION * (etspec.tv_sec - tspec.tv_sec) + (etspec.tv_nsec - tspec.tv_nsec);
-		printf("%d Threads, SUM : %lld, time : %llu\n", thread_num,sum, (long long unsigned int)diff);
+		printf("%d Threads, SUM : %lld, time : %llu\n", thread_num, sum, (long long unsigned int)diff);
 		timeDist = tt.tv_sec - timeDist;
-		printf("%d Threads, SUM : %lld, time : %ld\n",thread_num,sum,timeDist);
+		printf("%d Threads, SUM : %lld, time : %ld\n",thread_num, sum, timeDist);
 		count_num++;
 	}
-
 	return 0;
 }
 
