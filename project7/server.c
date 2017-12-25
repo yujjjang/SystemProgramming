@@ -29,7 +29,7 @@ typedef struct log {
 
 typedef struct ChatLog{
 	int num;
-	log chat[10];
+	log chat[100];
 } ChatLog;
 
 ChatLog* Chat;
